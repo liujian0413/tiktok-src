@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="20sp" android:textColor="#ffffff" android:id="@+id/a3i" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="12sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="s "/>
+    </LinearLayout>
+</RelativeLayout>

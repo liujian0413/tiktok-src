@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>অনলাইন শব্দের লাইব্রেরী</item>
+        <item>আমার শব্দ</item>
+    </array>
+    <array name="m">
+        <item>মুছে ফেলুন</item>
+        <item>খারিজ করুন</item>
+    </array>
+    <array name="n">
+        <item>ট্রেন্ডরত</item>
+        <item>সর্বশেষ</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+    </array>
+    <array name="y">
+        <item>সরলীকৃত চীনা ভাষা</item>
+        <item>ঐতিহ্যগত চীনা</item>
+        <item>ইংরাজি</item>
+        <item>জাপানী</item>
+        <item>কোরিয়ান</item>
+        <item>রাশিয়ান</item>
+        <item>ইন্দোনেশিয়ান</item>
+        <item>মালয়ী</item>
+        <item>পর্তুগীজ</item>
+        <item>থাই</item>
+        <item>ভিয়েতনামিজ</item>
+        <item>হিন্দী</item>
+    </array>
+    <array name="z">
+        <item>স্বাভাবিক</item>
+        <item>কালো/সাদা</item>
+        <item>কলা</item>
+        <item>প্রাচীন</item>
+        <item>রেট্রোলাক্স</item>
+        <item>সম্পৃক্ত</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>জানুয়ারি</item>
+        <item>ফেব্রুয়ারি</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগস্ট</item>
+        <item>সেপ্টেম্বর</item>
+        <item>অক্টোবর</item>
+        <item>নভেম্বর</item>
+        <item>ডিসেম্বর</item>
+    </array>
+    <array name="a4">
+        <item>প্রথমে ডেটা-সংরক্ষণ</item>
+        <item>প্রথমে উচ্চ-রেজোলিউশন</item>
+    </array>
+    <array name="a5">
+        <item>সবাই</item>
+        <item>শুধুমাত্র বন্ধুরা</item>
+    </array>
+    <array name="af">
+        <item>লাইব্রেরি থেকে নির্বাচন করুন</item>
+        <item>একটি ফটো তুলুন</item>
+        <item>বাতিল করুন</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>কোনোটিই নয়</item>
+        <item>ফুল</item>
+        <item>মিষ্টি</item>
+        <item>চা</item>
+        <item>বুদ্ধিমান</item>
+        <item>গোলাপময়</item>
+        <item>ব্রীজ্</item>
+        <item>স্বাভাবিক</item>
+        <item>সূর্যালোক</item>
+        <item>বেবি</item>
+        <item>স্মৃতিমেদুর</item>
+        <item>উজ্জ্বল</item>
+        <item>সুন্দর</item>
+        <item>পীচ</item>
+        <item>সূর্যাস্ত</item>
+    </array>
+    <array name="aq">
+        <item>রাউন্ড</item>
+        <item>সপ্তাহের</item>
+        <item>সার্বিক</item>
+        <item>Xigua র‍্যাঙ্কিং</item>
+    </array>
+    <array name="ar">
+        <item>জানুয়ারী</item>
+        <item>ফেব্রুয়ারী</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগস্ট</item>
+        <item>সেপ্টেম্বর</item>
+        <item>অক্টোবর</item>
+        <item>নভেম্বর</item>
+        <item>ডিসেম্বর</item>
+    </array>
+    <array name="au">
+        <item>কোনোটিই নয়</item>
+        <item>স্বাভাবিক</item>
+        <item>পরিষ্কার</item>
+        <item>日本語</item>
+        <item>টাচিং</item>
+    </array>
+    <array name="av">
+        <item>কোনোটিই নয়</item>
+        <item>স্বাভাবিক</item>
+        <item>উজ্জ্বল</item>
+        <item>প্রথম প্রেম</item>
+    </array>
+    <array name="aw">
+        <item>রিপোর্ট করুন</item>
+        <item>বাতিল করুন</item>
+    </array>
+    <array name="az">
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+        <item>রবিবার</item>
+    </array>
+</resources>

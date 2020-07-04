@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/agm" android:layout_width="match_parent" android:layout_height="50dp" android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@+id/rf"/>
+        <Button android:id="@+id/rf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/bn6" android:layout_width="match_parent" android:layout_height="match_parent" android:dividerHeight="0.5dp"/>
+</LinearLayout>

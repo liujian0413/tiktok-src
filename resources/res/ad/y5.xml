@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a1o" android:background="@drawable/um" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="255dp" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="61dp" android:layout_height="61dp" android:layout_marginLeft="10dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/a4l" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="5dp"/>
+            <ImageView android:id="@+id/a4p" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5w" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginRight="12dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:ellipsize="end" android:id="@+id/dkn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/u4"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:ellipsize="end" android:id="@+id/a2e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="1" style="@style/tw"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

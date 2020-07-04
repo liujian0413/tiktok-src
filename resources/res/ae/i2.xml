@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/ad1" android:layout_width="@dimen/c7" android:layout_height="@dimen/c7" app:roundedCornerRadius="4dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginLeft="12dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/mw" android:id="@+id/ad5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12dp" android:textColor="@color/auz" android:id="@+id/ad7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="23" android:singleLine="true" android:layout_below="@+id/ad5" android:layout_alignParentStart="true"/>
+        <View android:background="@color/mx" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

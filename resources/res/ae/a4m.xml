@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.android.livesdk.gift.effect.normal.view.NormalGiftView android:id="@+id/ku" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ym" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="17dp" android:layout_marginBottom="20dp" android:layout_marginStart="10dp">
+        <ImageView android:layout_width="9dp" android:layout_height="9dp" android:layout_marginTop="2dp" android:layout_marginRight="4dp" android:src="@drawable/c5g"/>
+        <com.bytedance.android.livesdk.gift.effect.normal.view.StrokeGradientTextView android:textSize="@dimen/pi" android:id="@+id/ys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/yk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="17dp" android:layout_marginBottom="20dp" android:layout_marginStart="10dp">
+        <TextView android:textSize="17dp" android:textColor="#00f2ff" android:gravity="center" android:id="@+id/yo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+        <TextView android:textSize="17dp" android:textColor="#ff000d" android:gravity="center" android:id="@+id/yp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+        <TextView android:textSize="17dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/yq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/yn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="17dp" android:layout_marginBottom="20dp" android:layout_marginStart="10dp">
+        <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginTop="2dp" android:src="@drawable/c5g"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24dp" android:textColor="@color/aj5" android:gravity="center_vertical" android:id="@+id/yt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/yl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="17dp" android:layout_marginBottom="20dp" android:layout_marginStart="10dp">
+        <TextView android:textSize="13dp" android:textStyle="normal|bold|italic" android:textColor="@color/az3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x"/>
+        <TextView android:textSize="20dp" android:textStyle="normal|bold|italic" android:textColor="@color/az3" android:id="@+id/yr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

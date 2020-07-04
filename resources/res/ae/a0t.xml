@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bw7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="18sp" android:textColor="@color/aq1" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ejp" android:maxLines="1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+    <View android:background="#e8e8e8" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <include android:id="@+id/b0f" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="5dp" layout="@layout/av3"/>
+    <TextView android:textSize="16sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/ds_" android:background="@drawable/bn6" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:text="@string/fav" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    <TextView android:textSize="12sp" android:textColor="#808080" android:gravity="end" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/ejq" android:lineSpacingExtra="4sp"/>
+</LinearLayout>

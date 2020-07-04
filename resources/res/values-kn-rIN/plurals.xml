@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">ಡ್ರಾಫ್ಟ್‌ ಅಳಿಸುವುದೇ?</item>
+        <item quantity="other">ಡ್ರಾಫ್ಟ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d ಸ್ವರ ವಿನ್ಯಾಸ</item>
+        <item quantity="other">%d ಸ್ವರ ವಿನ್ಯಾಸಗಳು</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d ಸಂಗೀತ</item>
+        <item quantity="other">%d ಸಂಗೀತ</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d ತುಣುಕು</item>
+        <item quantity="other">%d ತುಣುಕುಗಳ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d ಹಾಡು</item>
+        <item quantity="other">%d ಹಾಡುಗಳು</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ಧ್ವನಿ</item>
+        <item quantity="other">%d ಧ್ವನಿಗಳು</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ಟ್ಯೂನ್</item>
+        <item quantity="other">%d ಟ್ಯೂನ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d ವೀಡಿಯೊ</item>
+        <item quantity="other">%d ವೀಡಿಯೊಗಳು</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d ದಿನ ಹಿಂದೆ</item>
+        <item quantity="other">%d ದಿನ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">ಗಂಟೆ(ಗಳು)</item>
+        <item quantity="other">ಗಂಟೆ(ಗಳು)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%1$d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d ನಿಮಿಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%1$d ನಿಮಿಷಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">ದಿನಗಳು</item>
+        <item quantity="other">ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">ಗಂಟೆ(ಗಳು)</item>
+        <item quantity="other">ಗಂಟೆ(ಗಳು)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">ತಿಂಗಳುಗಳು</item>
+        <item quantity="other">ತಿಂಗಳುಗಳು</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">ಎಸ್</item>
+        <item quantity="other">ಎಸ್</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">ವಾರಗಳು</item>
+        <item quantity="other">ವಾರಗಳು</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="other">%1$d ವರ್ಷಗಳ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ದಿನಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+        <item quantity="other">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ದಿನಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ಗಂಟೆಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+        <item quantity="other">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ಗಂಟೆಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮನ್ನು ಪ್ರಸ್ತುತ ನಿಷೇಧಿಸಲಾಗಿದೆ. \10 ನೀವು ಮತ್ತೊಮ್ಮೆ ಇಷ್ಟು ಸಮಯದಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು: %1$d ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮನ್ನು ಪ್ರಸ್ತುತ ನಿಷೇಧಿಸಲಾಗಿದೆ. \10 ನೀವು ಮತ್ತೊಮ್ಮೆ ಇಷ್ಟು ಸಮಯದಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು: %1$d ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+        <item quantity="other">ಕ್ಷಮಿಸಿ! ನಿಮ್ಮನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ\10 ನೀವು ಮತ್ತೊಮ್ಮೆ %1$d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಬಹುದು</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d ಬಳಕೆದಾರರು ನಿಮ್ಮ ಬ್ರಾಡ್‌ಕಾಸ್ಟ್ ಅನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದಾರೆ, ನೀವು ಅದನ್ನು ಮುಚ್ಚಲು ಬಯಸುವಿರಾ?</item>
+        <item quantity="other">%d ಬಳಕೆದಾರರು ನಿಮ್ಮ ಬ್ರಾಡ್‌ಕಾಸ್ಟ್ ಅನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದಾರೆ, ನೀವು ಅದನ್ನು ಮುಚ್ಚಲು ಬಯಸುವಿರಾ?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d ನಿಮಿಷಗಳವರೆಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</item>
+        <item quantity="other">%1$d ನಿಮಿಷಗಳವರೆಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d ನಿಮಿಷಗಳವರೆಗೆ ನಿರೀಕ್ಷಿಸಿದೆ</item>
+        <item quantity="other">%1$d ನಿಮಿಷಗಳವರೆಗೆ ನಿರೀಕ್ಷಿಸಿದೆ</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">ಇನ್ನೂ %2$d ಪಡೆಯಲು %1$d ಡೈಮಂಡ್‌ ಅನ್ನು ಮೊದಲ ಬಾರಿ ರೀಚಾರ್ಜ್ ಮಾಡಿ!</item>
+        <item quantity="other">ಇನ್ನೂ %2$d ಪಡೆಯಲು %1$d ಡೈಮಂಡ್‌ಗಳನ್ನು ಮೊದಲ ಬಾರಿ ರೀಚಾರ್ಜ್ ಮಾಡಿ!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">ನಿಮಿಷಗಳು</item>
+        <item quantity="other">ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">%d ವೀಡಿಯೊ ಪೋಸ್ಟ್ ಮಾಡಿದ್ದಾರೆ</item>
+        <item quantity="other">%d ವೀಡಿಯೊಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿದ್ದಾರೆ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ไลบรารีเสียงออนไลน์</item>
+        <item>เสียงของฉัน</item>
+    </array>
+    <array name="m">
+        <item>ลบ</item>
+        <item>ยกเลิก</item>
+    </array>
+    <array name="n">
+        <item>ที่เป็นกระแส</item>
+        <item>ล่าสุด</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+    </array>
+    <array name="y">
+        <item>จีนตัวย่อ</item>
+        <item>จีนดั้งเดิม</item>
+        <item>อังกฤษ</item>
+        <item>ญี่ปุ่น</item>
+        <item>เกาหลี</item>
+        <item>รัสเซีย</item>
+        <item>อินโดนีเซีย</item>
+        <item>มลายู</item>
+        <item>โปรตุเกส</item>
+        <item>ไทย</item>
+        <item>เวียดนาม</item>
+        <item>ฮินดี</item>
+    </array>
+    <array name="z">
+        <item>ปกติ</item>
+        <item>ดำ/ขาว</item>
+        <item>ศิลปะ</item>
+        <item>วินเทจ</item>
+        <item>รีโทรลักซ์</item>
+        <item>อิ่มตัว</item>
+        <item>สีโครม</item>
+    </array>
+    <array name="a1">
+        <item>ม.ค.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </array>
+    <array name="a4">
+        <item>ประหยัดข้อมูลไว้ก่อน</item>
+        <item>ความละเอียดสูงไว้ก่อน</item>
+    </array>
+    <array name="a5">
+        <item>ทุกคน</item>
+        <item>เพื่อนเท่านั้น</item>
+    </array>
+    <array name="af">
+        <item>เลือกจากไลบรารี</item>
+        <item>ถ่ายรูป</item>
+        <item>ยกเลิก</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>ไม่มี</item>
+        <item>ดอกไม้</item>
+        <item>หวาน</item>
+        <item>ชา</item>
+        <item>ฉลาด</item>
+        <item>ร่าเริง</item>
+        <item>ลมโชย</item>
+        <item>ธรรมชาติ</item>
+        <item>แสงแดด</item>
+        <item>ทารก</item>
+        <item>ความคิดถึง</item>
+        <item>สดใส</item>
+        <item>น่ารัก</item>
+        <item>พีช</item>
+        <item>พระอาทิตย์ขึ้น</item>
+    </array>
+    <array name="aq">
+        <item>รอบ</item>
+        <item>รายสัปดาห์</item>
+        <item>โดยรวม</item>
+        <item>การจัดอันดับ Xigua</item>
+    </array>
+    <array name="ar">
+        <item>มกราคม</item>
+        <item>กุมภาพันธ์</item>
+        <item>มีนาคม</item>
+        <item>เมษายน</item>
+        <item>พฤษภาคม</item>
+        <item>มิถุนายน</item>
+        <item>กรกฎาคม</item>
+        <item>สิงหาคม</item>
+        <item>กันยายน</item>
+        <item>ตุลาคม</item>
+        <item>พฤศจิกายน</item>
+        <item>ธันวาคม</item>
+    </array>
+    <array name="au">
+        <item>ไม่มี</item>
+        <item>ธรรมชาติ</item>
+        <item>ล้าง</item>
+        <item>สไตล์ญี่ปุ่น</item>
+        <item>ประทับใจ</item>
+    </array>
+    <array name="av">
+        <item>ไม่มี</item>
+        <item>ธรรมชาติ</item>
+        <item>สดใส</item>
+        <item>รักแรก</item>
+    </array>
+    <array name="aw">
+        <item>รายงาน</item>
+        <item>ยกเลิก</item>
+    </array>
+    <array name="az">
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+        <item>วันอาทิตย์</item>
+    </array>
+</resources>

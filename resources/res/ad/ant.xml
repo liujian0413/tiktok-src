@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clipChildren="false" android:layout_width="80dp" android:layout_height="105dp">
+    <RelativeLayout android:background="@drawable/bq4" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="25dp" android:layout_alignParentTop="true">
+        <TextView android:textSize="11sp" android:textColor="@color/as5" android:id="@+id/c33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27dp" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="9sp" android:textColor="#99ffffff" android:id="@+id/a8j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/c33" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="11sp" android:textColor="@color/as5" android:gravity="center" android:id="@+id/a_6" android:background="@drawable/bq5" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/fc6" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/a4g" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:failureImage="@drawable/c49" app:placeholderImage="@drawable/c49"/>
+</merge>

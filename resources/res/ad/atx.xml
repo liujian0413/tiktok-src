@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="32dp">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="start" android:id="@+id/k_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/kb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.widget.Space android:id="@+id/ble" android:layout_width="44dp" android:layout_height="match_parent" android:layout_alignParentLeft="true"/>
+        <HorizontalScrollView android:id="@+id/kf" android:scrollbars="none" android:clickable="false" android:longClickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/cti" android:layout_toRightOf="@+id/ble" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/ke" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/ki" android:layout_width="30dp" android:layout_height="14dp" android:layout_marginRight="4dp"/>
+                <TextView android:textSize="14dp" android:textColor="@android:color/white" android:id="@+id/kh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <android.widget.Space android:id="@+id/cti" android:layout_width="26dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/x6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

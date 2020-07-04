@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="30dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="Please provide a detailed description of the issue you are experiencing. Once you submit the issue, we will create a Lark group to follow up with next steps."/>
+            <EditText android:id="@+id/a7m" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Your Bytedance Email Prefix:"/>
+            <EditText android:id="@+id/cs5" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <Button android:layout_gravity="center_horizontal" android:id="@+id/a_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:text="Submit"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Engineers &amp; QA could use Dev tool instead // 开发与QA请点击Dev Tab提交bug"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

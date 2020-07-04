@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dbt" android:background="@drawable/tu" android:paddingLeft="9dp" android:paddingTop="7.5dp" android:paddingRight="9dp" android:paddingBottom="7.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <FrameLayout android:id="@+id/clt" android:background="@drawable/tv" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/clv" android:layout_width="22dp" android:layout_height="22dp" app:roundedCornerRadius="11dp"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:textColor="@color/azd" android:gravity="center_horizontal" android:id="@+id/clw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/b0v" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/eg2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#14ffffff" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/v3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.5dp" android:layout_marginBottom="2.5dp" android:src="@drawable/b0v"/>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <View android:id="@+id/clu" android:visibility="gone" android:layout_width="0dp" android:layout_height="32dp"/>
+        <RelativeLayout android:id="@+id/bsx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17.5dp" android:layout_marginBottom="12.5dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/l9" android:id="@+id/e3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beu" android:drawableLeft="@drawable/av7" android:drawablePadding="7.5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:drawableStart="@drawable/av7" android:layout_alignParentStart="true" style="@style/u4"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ra" android:gravity="center_vertical" android:id="@+id/dvu" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bew" android:layout_centerVertical="true" android:layout_toStartOf="@+id/baa" style="@style/u4"/>
+            <ImageView android:id="@+id/baa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/av6" android:layout_centerVertical="true" android:layout_marginStart="5dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cxd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ddh" android:background="#161823" android:layout_width="match_parent" android:layout_height="232dp">
+    <com.p280ss.android.ugc.aweme.shortvideo.subtitle.SubtitleEditTypeLayout android:id="@+id/di_" android:background="#161823" android:layout_width="match_parent" android:layout_height="match_parent" app:iconStyle="1"/>
+</RelativeLayout>

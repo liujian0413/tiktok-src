@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>サウンドライブラリ</item>
+        <item>マイファイル</item>
+    </array>
+    <array name="m">
+        <item>削除</item>
+        <item>キャンセル</item>
+    </array>
+    <array name="n">
+        <item>人気上昇中</item>
+        <item>最新</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </array>
+    <array name="y">
+        <item>中国語 (簡体字)</item>
+        <item>中国語 (繁体字)</item>
+        <item>英語</item>
+        <item>日本語</item>
+        <item>韓国語</item>
+        <item>ロシア語</item>
+        <item>インドネシア語</item>
+        <item>マレー語</item>
+        <item>ポルトガル語</item>
+        <item>タイ語</item>
+        <item>ベトナム語</item>
+        <item>ヒンディー語</item>
+    </array>
+    <array name="z">
+        <item>普通</item>
+        <item>白黒</item>
+        <item>アート</item>
+        <item>ビンテージ</item>
+        <item>レトロラックス</item>
+        <item>高彩度</item>
+        <item>クローム</item>
+    </array>
+    <array name="a1">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </array>
+    <array name="a4">
+        <item>データ通信量節約優先</item>
+        <item>高画質優先</item>
+    </array>
+    <array name="a5">
+        <item>誰でも</item>
+        <item>友達のみ</item>
+    </array>
+    <array name="af">
+        <item>アルバムから選択</item>
+        <item>写真を撮る</item>
+        <item>取り消す</item>
+    </array>
+    <array name="an">
+        <item>フィルター_01</item>
+        <item>フィルター_02</item>
+        <item>フィルター_03</item>
+        <item>フィルター_04</item>
+        <item>フィルター_05</item>
+    </array>
+    <array name="ao">
+        <item>無し</item>
+        <item>花</item>
+        <item>ラブラブ</item>
+        <item>お茶</item>
+        <item>聡明</item>
+        <item>ロジー</item>
+        <item>ブリーズ</item>
+        <item>ナチュラル</item>
+        <item>日光</item>
+        <item>ベイビー</item>
+        <item>ノスタルジア</item>
+        <item>明るい</item>
+        <item>かわいい</item>
+        <item>ピーチ</item>
+        <item>サンセット</item>
+    </array>
+    <array name="aq">
+        <item>ラウンド</item>
+        <item>週間</item>
+        <item>全体</item>
+        <item>Xiguaのランキング</item>
+    </array>
+    <array name="ar">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </array>
+    <array name="au">
+        <item>無し</item>
+        <item>ナチュラル</item>
+        <item>クリア</item>
+        <item>日本語</item>
+        <item>感動</item>
+    </array>
+    <array name="av">
+        <item>無し</item>
+        <item>ナチュラル</item>
+        <item>明るい</item>
+        <item>ファーストラブ</item>
+    </array>
+    <array name="aw">
+        <item>報告</item>
+        <item>取り消す</item>
+    </array>
+    <array name="az">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </array>
+</resources>

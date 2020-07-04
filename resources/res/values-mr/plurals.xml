@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">%d दिवसांपूर्वी</item>
+        <item quantity="other">%d दिवसांपूर्वी</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">तास</item>
+        <item quantity="other">तास</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d तासांपूर्वी</item>
+        <item quantity="other">%1$d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">मिनिटे</item>
+        <item quantity="other">मिनिटे</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d मिनिटांपूर्वी</item>
+        <item quantity="other">%1$d मिनिटांपूर्वी</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">दिवस</item>
+        <item quantity="other">दिवस</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">तास</item>
+        <item quantity="other">तास</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">मिनिटे</item>
+        <item quantity="other">मिनिटे</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">महिने</item>
+        <item quantity="other">महिने</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">से</item>
+        <item quantity="other">से</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">आठवडे</item>
+        <item quantity="other">आठवडे</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d वर्षांपूर्वी</item>
+        <item quantity="other">%1$d वर्षांपूर्वी</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d दिवसांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+        <item quantity="other">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d दिवसांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d तासांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+        <item quantity="other">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d तासांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">क्षमस्व! तुमच्यावर सध्या बंदी घातली गेली आहे\10 तुम्ही %1$d मिनिटांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+        <item quantity="other">क्षमस्व! तुमच्यावर सध्या बंदी घातली गेली आहे\10 तुम्ही %1$d मिनिटांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d सेकंदांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+        <item quantity="other">क्षमस्व! तुमच्यावर बंदी घातली गेली आहे\10 तुम्ही %1$d सेकंदांत पुन्हा लाइव्ह स्ट्रीम करू शकता</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d वापरकर्ते तुमचे प्रसारण पाहत आहेत, तुम्ही हे बंद करू इच्छिता?</item>
+        <item quantity="other">%d वापरकर्ते तुमचे प्रसारण पाहत आहेत, तुम्ही हे बंद करू इच्छिता?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d मिनिटांसाठी कनेक्ट केले</item>
+        <item quantity="other">%1$d मिनिटांसाठी कनेक्ट केले</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d मिनिटे प्रतिक्षा केली</item>
+        <item quantity="other">%1$d मिनिटे प्रतिक्षा केली</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">आणखी %2$d मिळवण्यासाठी पहिल्या वेळी %1$d डायमंडने रिचार्ज करा!</item>
+        <item quantity="other">%2$d आणखी प्राप्त करण्यासाठी %1$d हिरे पहिल्या वेळी रिचार्ज करा!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">मिनिटे</item>
+        <item quantity="other">मिनिटे</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 सेकंद</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+</resources>

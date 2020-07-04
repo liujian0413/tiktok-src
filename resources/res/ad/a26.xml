@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.poi.p335ui.publish.SpeedRecommendPoiItemView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:background="@drawable/tf" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="27dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/cp_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120dp" android:singleLine="true" style="@style/u0"/>
+</com.p280ss.android.ugc.aweme.poi.p335ui.publish.SpeedRecommendPoiItemView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a82" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ax9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:src="@drawable/an1" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@string/pf" android:includeFontPadding="false" android:layout_toRightOf="@+id/ax9" android:layout_centerVertical="true" android:lineSpacingExtra="2dp" android:layout_marginStart="7dp" android:layout_toEndOf="@+id/ax9"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/a33" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

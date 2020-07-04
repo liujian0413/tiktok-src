@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dgm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="54dp" android:paddingStart="17dp" android:paddingEnd="0dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center_vertical" android:id="@+id/dgl" android:layout_width="20dp" android:layout_height="20dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="17dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/w7" android:ellipsize="end" android:id="@+id/dgn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.5dp" android:maxLines="1" android:lineSpacingExtra="3dp" style="@style/u2"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/dgk" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="2dp" style="@style/ty"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bjh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.p313im.sdk.widget.photodraweeview.PhotoDraweeView android:id="@+id/cbm" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/bjk" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+        <com.bytedance.ies.dmt.p262ui.widget.AutoRTLImageView android:layout_gravity="center" android:id="@+id/bbt" android:background="@drawable/pk" android:padding="4dp" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/b5d"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cbq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+    <FrameLayout android:id="@+id/cbs" android:layout_width="match_parent" android:layout_height="68dp">
+        <SeekBar android:layout_gravity="center" android:id="@+id/cbr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginRight="48dp" android:maxHeight="3dp" android:progressDrawable="@drawable/ds" android:minHeight="3dp" android:thumb="@drawable/dt"/>
+    </FrameLayout>
+    <View android:id="@+id/cbo" android:background="@color/g4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/cbs"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52dp" android:layout_below="@+id/cbo">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aza" android:gravity="center" android:id="@+id/cbp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ak8" android:layout_weight="1" android:lineSpacingExtra="3sp"/>
+        <View android:layout_gravity="center_vertical" android:background="@color/g4" android:layout_width="0.5dp" android:layout_height="16dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/cbt" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ak7" android:layout_weight="1" android:lineSpacingExtra="3sp"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>

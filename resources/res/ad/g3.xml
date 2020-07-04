@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwi" android:layout_width="match_parent" android:layout_height="60dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:gravity="center" android:layout_gravity="center" android:id="@+id/c41" android:layout_width="56dp" android:layout_height="56dp"/>
+</FrameLayout>

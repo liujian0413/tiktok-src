@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bn">
+    </style>
+    <style name="bu">
+    </style>
+    <style name="da">
+        <item name="is">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="db">
+        <item name="is">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="gg">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowEnterAnimation">@anim/ag</item>
+        <item name="android:windowExitAnimation">@anim/ah</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

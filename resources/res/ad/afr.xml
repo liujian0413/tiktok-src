@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" app:fsPanel="true">
+    <RelativeLayout android:id="@+id/app" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="52dp">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/ph" android:gravity="center" android:id="@+id/dr7" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52dp" android:text="@string/w_" android:layout_centerVertical="true" app:isChangeTextSize="false" style="@style/u9"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textStyle="bold" android:textColor="@color/ph" android:gravity="center" android:id="@+id/e15" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/di_" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:fontType="7" app:isChangeTextSize="false" style="@style/u9"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/a24" android:layout_width="match_parent" android:layout_height="224dp" android:layout_alignParentBottom="true">
+            <FrameLayout android:background="#161823" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="40dp"/>
+            <FrameLayout android:orientation="vertical" android:id="@+id/d21" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="46dp">
+                <com.p280ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView android:id="@+id/vx" android:layout_width="match_parent" android:layout_height="28dp" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp" app:frameHeight="28dp" app:frameWidth="28dp"/>
+            </FrameLayout>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13dp" android:textColor="@color/ph" android:gravity="center" android:id="@+id/dy4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="64dp" android:layout_marginRight="64dp" android:text="@string/akb" android:maxLines="2" android:layout_below="@+id/d21" style="@style/u9"/>
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/bw6" android:visibility="gone" android:layout_width="155dp" android:layout_height="28dp" android:layout_marginTop="12dp" android:layout_below="@+id/d21" android:layout_centerHorizontal="true"/>
+            <FrameLayout android:orientation="horizontal" android:id="@+id/k4" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_below="@+id/d21" android:layout_alignParentRight="true">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/abv" android:layout_width="wrap_content" android:layout_height="28dp">
+                    <ImageView android:padding="4dp" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="4.5dp" android:layout_marginTop="4dp" android:src="@drawable/a3c" android:scaleType="fitXY"/>
+                    <TextView android:textSize="13dp" android:textColor="#e5ffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="9dp" android:text="@string/az5"/>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/c0j" android:layout_width="44dp" android:layout_height="28dp">
+                    <ImageView android:padding="4dp" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/a3c" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </FrameLayout>
+            <com.p280ss.android.ugc.aweme.shortvideo.edit.audiorecord.AudioRecordStartButton android:id="@+id/da1" android:layout_width="72dp" android:layout_height="72dp" android:layout_below="@+id/dy4" android:layout_centerHorizontal="true"/>
+            <CheckBox android:textSize="13dp" android:textColor="#e6ffffff" android:id="@+id/tk" android:paddingLeft="0dp" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="16dp" android:layout_marginBottom="16dp" android:button="@drawable/bjh" android:text="@string/aja" android:drawablePadding="5dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/ec1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:layout_above="@+id/a24" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/bb4" android:padding="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a3u" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/bu1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:gravity="center" android:layout_gravity="center" android:id="@+id/bu0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="60dp">
+    <RelativeLayout android:id="@+id/cnd" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/cnb" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="20sp" android:textColor="@color/ahv" android:gravity="center" android:id="@+id/cnf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/aom" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="40dp" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/e8m" android:layout_width="33dp" android:layout_height="33dp" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/b65" android:layout_width="42dp" android:layout_height="42dp" android:layout_centerInParent="true"/>
+        <FrameLayout android:id="@+id/bp5" android:background="@drawable/bsz" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:layout_alignRight="@+id/e8m" android:layout_alignBottom="@+id/e8m">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/bm2" android:layout_width="6dp" android:layout_height="6dp" android:scaleType="centerCrop" app:lottie_autoPlay="true" app:lottie_fileName="ttlive_live_line.json" app:lottie_loop="true"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="15sp" android:textColor="@color/aht" android:ellipsize="end" android:id="@+id/e9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="130dp" android:maxLines="1" android:layout_toRightOf="@+id/aom" android:layout_centerVertical="true"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12dp" android:textColor="@color/all" android:gravity="center_vertical" android:id="@+id/dj0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:maxLines="1" android:drawableLeft="@drawable/cc_" android:drawablePadding="2dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:drawableStart="@drawable/cc_"/>
+    <View android:background="@color/alo" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="56dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

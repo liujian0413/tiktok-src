@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointVideoSegView android:id="@+id/ebj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mm"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/o5" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textColor="@color/a4i" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dq_" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:text="@string/caw" android:maxLines="2" android:shadowColor="@color/a8n" android:shadowRadius="2" android:lineSpacingExtra="2dp" app:isSelected="false"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/ea5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="center_vertical" android:id="@+id/g_" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginLeft="38dp" app:isCircle="true" app:useTextColor="true"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/d6z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="0.5dp" app:subView="true"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b5h" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/are" android:scaleType="centerInside"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/alq" android:background="@drawable/t_" android:visibility="gone" android:layout_width="33dp" android:layout_height="33dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b5j" android:layout_width="30dp" android:layout_height="30dp" app:actualImageScaleType="6"/>
+        </FrameLayout>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b5o" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/arf" android:scaleType="centerInside"/>
+    </FrameLayout>
+</FrameLayout>

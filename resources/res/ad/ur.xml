@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/che" android:background="@color/a1x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/lj" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/lj"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/sd" android:ellipsize="end" android:id="@+id/chg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lj" android:layout_marginTop="19.5dp" android:layout_marginRight="@dimen/lj" android:layout_marginBottom="12dp" android:maxLines="1" android:layout_weight="1" style="@style/u9"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/chf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lj"/>
+    <View android:id="@+id/chd" android:background="@color/a1x" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/lj" android:layout_marginRight="@dimen/lj"/>
+</LinearLayout>

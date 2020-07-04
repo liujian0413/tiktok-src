@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/az3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22dp" android:textColor="@color/n2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="当前用户信息"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="用户uid" android:layout_weight="1"/>
+            <TextView android:id="@+id/dt0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="本地会话总数" android:layout_weight="1"/>
+            <TextView android:id="@+id/e1p" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="本地消息总数" android:layout_weight="1"/>
+            <TextView android:id="@+id/dy5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <TextView android:textSize="22dp" android:textColor="@color/n2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="对方用户信息"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="用户uid" android:layout_weight="1"/>
+            <TextView android:id="@+id/e3o" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="关注状态" android:layout_weight="1"/>
+            <TextView android:id="@+id/dur" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <Button android:id="@+id/r8" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp" android:text="打印当前会话信息"/>
+        <EditText android:id="@+id/agf" android:layout_width="match_parent" android:layout_height="500dp" android:hint="打印板"/>
+        <LinearLayout android:orientation="vertical" android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22dp" android:textColor="@color/n2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="消息发送器：警告！通过这种方式发出的消息，极有可能会导致对方解析失败，严重者会导致闪退。请再三明确的知道你在做什么，且注意不要扩散。务必不要给线上用户通过这种方式发送消息。默认会开启检查。友情链接：事故平台地址 - http://fatal.bytedance.net"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="消息类型int" android:layout_weight="1"/>
+                <EditText android:id="@+id/ag9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="消息内容json" android:layout_weight="1"/>
+                <EditText android:id="@+id/ag8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+                <CheckBox android:id="@+id/to" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="启用严格检查" android:layout_weight="1"/>
+                <Button android:id="@+id/q0" android:layout_width="0dp" android:layout_height="wrap_content" android:text="采用打印版消息" android:layout_weight="1"/>
+                <Button android:id="@+id/rh" android:layout_width="0dp" android:layout_height="wrap_content" android:text="发送模拟消息" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="22dp" android:textColor="@color/n2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="网络模式切换：下一次请求开始生效，冷启动后会重置"/>
+        <RadioGroup android:id="@+id/css" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/co3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动降级模式"/>
+            <RadioButton android:id="@+id/co5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="强制长链模式：部分请求只能短链则依旧保持短链"/>
+            <RadioButton android:id="@+id/co4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="强制短链模式：所有请求都可以走短链"/>
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/ag4" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="短链host地址，格式：schema://host/" android:layout_weight="1"/>
+            <Button android:id="@+id/qd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

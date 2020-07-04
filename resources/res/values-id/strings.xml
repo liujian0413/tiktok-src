@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a6a">Kunjungi &lt;b&gt;facebook.com/device&lt;/b&gt; dan masukkan kode yang ditampilkan di atas.</string>
+    <string name="a6b">[value removed]</string>
+    <string name="a6c">Masuk WebView memerlukan izin INTERNET</string>
+    <string name="a6d">Kesalahan AndroidManifest</string>
+    <string name="a6e">Disukai</string>
+    <string name="a6f">Suka</string>
+    <string name="a6g">Memuat…</string>
+    <string name="a6h">Batal</string>
+    <string name="a6i">Masuk</string>
+    <string name="a6j">Lanjutkan dengan Facebook</string>
+    <string name="a6k">[value removed]</string>
+    <string name="a6l">Keluar</string>
+    <string name="a6m">Keluar</string>
+    <string name="a6n">Masuk sebagai: %1$s</string>
+    <string name="a6o">Masuk menggunakan Facebook</string>
+    <string name="a6p">[value removed]</string>
+    <string name="a6q">[value removed]</string>
+    <string name="a6r">Untuk menghubungkan akun Anda, buka aplikasi Facebook di perangkat seluler Anda dan periksa pemberitahuan.</string>
+    <string name="a6s">- ATAU -</string>
+    <string name="a6t">Bukan Anda?</string>
+    <string name="a6v">Konfirmasikan Masuk</string>
+    <string name="a6w">Anda memegang kendali - pilih info yang ingin Anda bagikan dengan aplikasi.</string>
+</resources>

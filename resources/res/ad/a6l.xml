@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bv8" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b6b" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b9n" android:visibility="invisible" android:layout_width="297dp" android:layout_height="246dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="14dp" android:textColor="@color/az3" android:id="@+id/e3_" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/b9n" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/br3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/e3_" android:layout_centerHorizontal="true">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/ba0" android:layout_width="wrap_content" android:layout_height="28.5dp" android:layout_marginRight="11.5dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:background="@color/az3" android:layout_width="1.5dp" android:layout_height="27.5dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bd2" android:layout_width="wrap_content" android:layout_height="27dp" android:layout_marginLeft="8.5dp"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b9m" android:visibility="invisible" android:layout_width="196dp" android:layout_height="196dp" android:layout_centerInParent="true"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bd7" android:visibility="invisible" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginLeft="21dp" android:layout_above="@+id/br3"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bd8" android:visibility="invisible" android:layout_width="90dp" android:layout_height="115dp" android:layout_above="@+id/br3" android:layout_alignParentRight="true"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b6q" android:visibility="invisible" android:layout_width="76dp" android:layout_height="99dp" android:layout_below="@+id/b9n"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b6r" android:visibility="invisible" android:layout_width="70dp" android:layout_height="72.5dp" android:layout_marginRight="16dp" android:layout_below="@+id/b9n" android:layout_alignParentRight="true"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:id="@+id/brv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/b_s" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="8dp" android:src="@drawable/b_t"/>
+        <TextView android:textSize="12dp" android:textColor="#e6ffffff" android:id="@+id/dxa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/b_u" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="8dp" android:src="@drawable/b_u"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtLoadingLayout android:id="@+id/c53" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="12dp" android:textColor="@color/az3" android:id="@+id/dxb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_above="@+id/brv" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bru" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:layout_above="@+id/dxb" android:layout_centerHorizontal="true">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_t" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="6dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:background="@color/az3" android:layout_width="1px" android:layout_height="18dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_v" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/b7g" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="24dp" android:src="@drawable/vx" android:scaleType="fitXY"/>
+</RelativeLayout>

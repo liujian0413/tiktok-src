@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/djz" layout="@layout/ad4"/>
+    <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/djz">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cxi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.common.widget.LoadingStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/br_" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="214dp" android:layout_below="@+id/djz" android:layout_centerHorizontal="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:gravity="center" android:id="@+id/du1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/u_"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5m" android:gravity="center" android:id="@+id/du2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" style="@style/u6"/>
+    </LinearLayout>
+</RelativeLayout>

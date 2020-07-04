@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ee" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/lm" android:background="@color/ec" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/am3" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView android:layout_gravity="center" android:id="@+id/dij" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="hardware"/>
+        <View android:id="@+id/lt" android:background="@color/vt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b7x" android:layout_width="match_parent" android:layout_height="120dp" android:contentDescription="@string/b_2"/>
+        <ImageView android:layout_gravity="bottom" android:id="@+id/ba3" android:layout_width="match_parent" android:layout_height="120dp" android:src="@drawable/a6d" android:contentDescription="@string/b_0"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp">
+            <com.p280ss.android.ugc.aweme.discover.p1185ui.DiscoverHollowTextView android:textSize="13sp" android:id="@+id/awr" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="20dp" android:text="@string/cum" android:radius="2dp" android:fontFamily="ProximaNova-Semibold" app:color="@color/l9" app:fontType="7" app:isBottomLeftRound="true" app:isBottomRightRound="true" app:isTopLeftRound="true" app:isTopRightRound="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/aaz" android:ellipsize="end" android:id="@+id/e3f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="3" android:lineSpacingExtra="2dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

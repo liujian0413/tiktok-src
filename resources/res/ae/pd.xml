@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/azt" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginLeft="15dp" android:layout_marginTop="31.5dp" android:src="@drawable/aig" android:scaleType="centerInside" android:layout_marginStart="15dp"/>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/i3" android:visibility="gone" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginBottom="36.5dp" app:lottie_autoPlay="true" app:lottie_fileName="game_btn.json" app:lottie_loop="true"/>
+</FrameLayout>

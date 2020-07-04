@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="52dp">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="0.5dp" app:subView="true"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b5h" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/are" android:scaleType="centerInside"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/alq" android:background="@drawable/t_" android:visibility="gone" android:layout_width="33dp" android:layout_height="33dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b5j" android:layout_width="30dp" android:layout_height="30dp" app:actualImageScaleType="6"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b5o" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/arf" android:scaleType="centerInside"/>
+</FrameLayout>

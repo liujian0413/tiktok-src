@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.Toolbar android:id="@+id/dl8" android:layout_width="match_parent" android:layout_height="?attr/f">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center" android:id="@+id/jn" android:layout_width="20dp" android:layout_height="match_parent" android:src="@drawable/ap9"/>
+            </LinearLayout>
+            <android.support.design.widget.TabLayout android:id="@+id/dfx" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+            <TextView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ur" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </android.support.p029v7.widget.Toolbar>
+    <android.support.p022v4.view.ViewPager android:id="@+id/edp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

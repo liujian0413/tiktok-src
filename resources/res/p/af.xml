@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="287" android:drawable="@drawable/a_9"/>
+    <item android:duration="287" android:drawable="@drawable/a_a"/>
+    <item android:duration="287" android:drawable="@drawable/a_c"/>
+</animation-list>

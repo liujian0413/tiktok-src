@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f6">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="hd">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="he">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+    <style name="ia">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="ib">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+    <style name="ic">
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="id">
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="ie">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="if">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="ig">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="ih">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="ii">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="ij">
+        <item name="android:paddingStart">@dimen/ai</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="ik">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="il">
+        <item name="android:layout_toStartOf">@id/acf</item>
+    </style>
+    <style name="im">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="in">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="io">
+        <item name="android:layout_marginStart">@dimen/ai</item>
+    </style>
+    <style name="ip">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="iq">
+        <item name="android:paddingStart">@dimen/l</item>
+        <item name="android:paddingEnd">@dimen/k</item>
+    </style>
+    <style name="s_">
+        <item name="android:textColor">@color/a2w</item>
+        <item name="android:layout_gravity">center_vertical|clip_horizontal</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_marginTop">1sp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="sa">
+        <item name="android:textColor">@color/a5d</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="sg">
+        <item name="android:textColor">@color/ab6</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">@drawable/j8</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:text">@string/bzb</item>
+        <item name="android:fontFamily">ProximaNova-Semibold</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="lm">7</item>
+    </style>
+    <style name="sk">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/a5h</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">3.5dp</item>
+        <item name="android:paddingRight">3.5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">97dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">3.5dp</item>
+        <item name="android:paddingEnd">3.5dp</item>
+    </style>
+    <style name="un">
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">13dp</item>
+        <item name="android:layout_marginStart">13dp</item>
+        <item name="android:layout_marginEnd">13dp</item>
+    </style>
+    <style name="uo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+    </style>
+    <style name="us">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+    <style name="v1">
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+    </style>
+    <style name="w3">
+        <item name="android:layout_gravity">right|center_horizontal</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">24.5dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+    <style name="wa">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/yr</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">13dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">13dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/f5</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingEnd">13dp</item>
+        <item name="le">medium</item>
+    </style>
+    <style name="xj">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/a5x</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+    </style>
+    <style name="xk">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/a5d</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+    </style>
+    <style name="a00">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/ui</item>
+        <item name="android:importantForAccessibility">noHideDescendants</item>
+        <item name="android:layout_marginEnd">@dimen/ui</item>
+    </style>
+    <style name="a02">
+        <item name="android:textSize">@dimen/vc</item>
+        <item name="android:textColor">@color/ask</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/v_</item>
+        <item name="android:layout_marginRight">@dimen/vf</item>
+        <item name="android:text">@string/fgr</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="a07">
+        <item name="android:textSize">@dimen/vc</item>
+        <item name="android:textColor">@color/asn</item>
+        <item name="android:background">@drawable/cix</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/vi</item>
+        <item name="android:layout_marginRight">@dimen/vf</item>
+        <item name="android:text">@string/fgu</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="a09">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/vx</item>
+        <item name="android:layout_marginTop">@dimen/vy</item>
+        <item name="android:layout_marginRight">@dimen/vx</item>
+        <item name="android:importantForAccessibility">noHideDescendants</item>
+        <item name="android:layout_marginStart">@dimen/vx</item>
+        <item name="android:layout_marginEnd">@dimen/vx</item>
+    </style>
+    <style name="a0a">
+        <item name="android:layout_marginLeft">@dimen/uv</item>
+        <item name="android:layout_marginRight">@dimen/uw</item>
+        <item name="android:layout_marginStart">@dimen/uv</item>
+        <item name="android:layout_marginEnd">@dimen/uw</item>
+    </style>
+    <style name="a0e">
+        <item name="android:layout_marginLeft">@dimen/wa</item>
+        <item name="android:layout_marginBottom">@dimen/w_</item>
+        <item name="android:layout_marginStart">@dimen/wa</item>
+    </style>
+    <style name="a0f">
+        <item name="android:layout_marginLeft">@dimen/uh</item>
+        <item name="android:layout_marginBottom">@dimen/w_</item>
+        <item name="android:layout_marginStart">@dimen/uh</item>
+    </style>
+    <style name="a0g">
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">@dimen/wi</item>
+        <item name="android:layout_height">@dimen/wi</item>
+        <item name="android:layout_marginLeft">@dimen/wf</item>
+        <item name="android:layout_marginTop">@dimen/wh</item>
+        <item name="android:layout_marginRight">@dimen/wg</item>
+        <item name="android:layout_marginStart">@dimen/wf</item>
+        <item name="android:layout_marginEnd">@dimen/wg</item>
+    </style>
+    <style name="a0h">
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">@dimen/wi</item>
+        <item name="android:layout_height">@dimen/wi</item>
+        <item name="android:layout_marginLeft">@dimen/uj</item>
+        <item name="android:layout_marginTop">@dimen/ul</item>
+        <item name="android:layout_marginRight">@dimen/uk</item>
+        <item name="android:layout_marginStart">@dimen/uj</item>
+        <item name="android:layout_marginEnd">@dimen/uk</item>
+    </style>
+    <style name="a0n">
+        <item name="android:ellipsize">@null</item>
+        <item name="android:layout_marginTop">@dimen/up</item>
+        <item name="android:layout_marginRight">@dimen/uo</item>
+        <item name="android:layout_marginEnd">@dimen/uo</item>
+    </style>
+    <style name="a0o">
+        <item name="android:textSize">@dimen/w7</item>
+        <item name="android:textColor">@color/at0</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_marginTop">@dimen/wm</item>
+        <item name="android:layout_marginRight">@dimen/wl</item>
+        <item name="android:drawablePadding">@dimen/wk</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_marginEnd">@dimen/wl</item>
+    </style>
+    <style name="a0t">
+        <item name="android:layout_marginTop">@dimen/uu</item>
+        <item name="android:layout_marginRight">@dimen/ut</item>
+        <item name="android:layout_marginBottom">@dimen/us</item>
+        <item name="android:layout_marginEnd">@dimen/ut</item>
+    </style>
+    <style name="a0v">
+        <item name="android:textSize">@dimen/w8</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">false</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/wu</item>
+        <item name="android:layout_marginTop">@dimen/wv</item>
+        <item name="android:layout_marginBottom">@dimen/wt</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableLeft">@drawable/ckx</item>
+        <item name="android:drawablePadding">@dimen/ws</item>
+        <item name="android:drawableStart">@drawable/ckx</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/wu</item>
+    </style>
+    <style name="a0w">
+        <item name="android:layout_marginLeft">@dimen/uz</item>
+        <item name="android:layout_marginTop">@dimen/v0</item>
+        <item name="android:layout_marginBottom">@dimen/uy</item>
+        <item name="android:drawablePadding">@dimen/ux</item>
+        <item name="android:layout_marginStart">@dimen/uz</item>
+    </style>
+    <style name="a0y">
+        <item name="android:textSize">@dimen/w8</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/v4</item>
+        <item name="android:layout_width">@dimen/v1</item>
+        <item name="android:layout_marginTop">@dimen/v3</item>
+        <item name="android:layout_marginBottom">@dimen/v2</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingStart">@dimen/v4</item>
+    </style>
+    <style name="a0z">
+        <item name="android:textSize">@dimen/w7</item>
+        <item name="android:textColor">@color/at0</item>
+        <item name="android:textColorLink">@color/asu</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/wy</item>
+        <item name="android:layout_marginTop">@dimen/x0</item>
+        <item name="android:layout_marginRight">@dimen/wz</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginStart">@dimen/wy</item>
+        <item name="android:layout_marginEnd">@dimen/wz</item>
+    </style>
+    <style name="a10">
+        <item name="android:layout_marginLeft">@dimen/v5</item>
+        <item name="android:layout_marginTop">@dimen/v7</item>
+        <item name="android:layout_marginRight">@dimen/v6</item>
+        <item name="android:layout_marginStart">@dimen/v5</item>
+        <item name="android:layout_marginEnd">@dimen/v6</item>
+    </style>
+    <style name="a11">
+        <item name="android:layout_marginLeft">@dimen/w3</item>
+        <item name="android:layout_marginTop">@dimen/v7</item>
+        <item name="android:layout_marginRight">@dimen/w3</item>
+        <item name="android:layout_marginBottom">@dimen/w2</item>
+        <item name="android:layout_marginStart">@dimen/w3</item>
+        <item name="android:layout_marginEnd">@dimen/w3</item>
+    </style>
+    <style name="a14">
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/wo</item>
+        <item name="android:layout_marginRight">@dimen/wn</item>
+        <item name="android:src">@drawable/ckr</item>
+        <item name="android:layout_marginEnd">@dimen/wn</item>
+    </style>
+    <style name="a15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/ur</item>
+        <item name="android:layout_marginRight">@dimen/uq</item>
+        <item name="android:src">@drawable/ckr</item>
+        <item name="android:layout_marginEnd">@dimen/uq</item>
+    </style>
+    <style name="a16">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:width">44dp</item>
+        <item name="android:layout_marginStart">6dp</item>
+    </style>
+</resources>

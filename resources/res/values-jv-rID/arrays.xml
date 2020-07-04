@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Kapustakan swara online</item>
+        <item>Swaraku</item>
+    </array>
+    <array name="m">
+        <item>Busak</item>
+        <item>Wurung</item>
+    </array>
+    <array name="n">
+        <item>Ngetren</item>
+        <item>Paling anyar</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Minggu</item>
+        <item>Senen</item>
+        <item>Selasa</item>
+        <item>Rebo</item>
+        <item>Kemis</item>
+        <item>Jemuwah</item>
+        <item>Setu</item>
+    </array>
+    <array name="y">
+        <item>Mandarin Prasaja</item>
+        <item>Basa Mandarin Tradisional</item>
+        <item>Inggris</item>
+        <item>Basa Jepang</item>
+        <item>Basa Korea</item>
+        <item>Basa Rusia</item>
+        <item>Basa Indonesia</item>
+        <item>Basa Melayu</item>
+        <item>Basa Portugis</item>
+        <item>Basa Thailand</item>
+        <item>Basa Vietnam</item>
+        <item>Basa India</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Ireng/Putih</item>
+        <item>Seni</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Kenthel</item>
+        <item>Krom</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agu</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </array>
+    <array name="a4">
+        <item>Nyimpen data dhisik</item>
+        <item>Resolusi dhuwur dhisik</item>
+    </array>
+    <array name="a5">
+        <item>Kabeh wong</item>
+        <item>Mung Kanca-kanca</item>
+    </array>
+    <array name="az">
+        <item>Senen</item>
+        <item>Selasa</item>
+        <item>Rebo</item>
+        <item>Kemis</item>
+        <item>Jemuwah</item>
+        <item>Setu</item>
+        <item>Minggu</item>
+    </array>
+</resources>

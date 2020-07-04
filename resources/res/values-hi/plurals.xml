@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1 घंटा</item>
+        <item quantity="other">%d घंटे</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 क्षण</item>
+        <item quantity="other">%d क्षण</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 पल</item>
+        <item quantity="other">%d पल</item>
+    </plurals>
+</resources>

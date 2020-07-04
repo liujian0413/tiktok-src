@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bn">
+    </style>
+    <style name="bu">
+    </style>
+    <style name="d8">
+        <item name="g7">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="d9">
+        <item name="g7">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="d_">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="f2">
+    </style>
+    <style name="q9">
+        <item name="android:background">?attr/g8</item>
+        <item name="android:stateListAnimator">@animator/a</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

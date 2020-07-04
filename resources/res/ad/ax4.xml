@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="0dp" app:frMode="1" app:whRatio="0.75">
+    <com.bytedance.lighten.loader.SmartImageView android:id="@+id/a4g" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ahw" android:scaleType="centerCrop" android:alpha="0.6"/>
+    <View android:background="@drawable/l1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ae6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aaz" android:gravity="center" android:id="@+id/dtl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:text="@string/dqb" android:shadowColor="#80000000" android:shadowDy="5" android:shadowRadius="10" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aaz" android:gravity="center" android:id="@+id/dtm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:text="" android:shadowColor="#80000000" android:shadowDy="5" android:shadowRadius="10" style="@style/u0"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

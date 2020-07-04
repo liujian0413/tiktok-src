@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">%d दिन पहले</item>
+        <item quantity="other">%d दिन पहले</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">घंटे</item>
+        <item quantity="other">घंटे</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d घंटे पहले</item>
+        <item quantity="other">%1$d घंटे पहले</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">मिनट</item>
+        <item quantity="other">मिनट</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d मिनट पहले</item>
+        <item quantity="other">%1$d मिनट पहले</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">दिन</item>
+        <item quantity="other">दिन</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">घंटे</item>
+        <item quantity="other">घंटे</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">मिनट</item>
+        <item quantity="other">मिनट</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">महीने</item>
+        <item quantity="other">महीने</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">सेकंड</item>
+        <item quantity="other">सेकंड</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">सप्ताह</item>
+        <item quantity="other">सप्ताह</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d वर्ष पहले</item>
+        <item quantity="other">%1$d वर्ष पहले</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">क्षमा करें! आपको प्रतिबंधित कर दिया गया है\10 आप %1$d दिनों में दोबारा लाइव स्ट्रीम कर सकते हैं</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d days</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">क्षमा करें! आपको प्रतिबंधित कर दिया गया है\10 आप %1$d घंटे में दोबारा लाइव स्ट्रीम कर सकते हैं</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d hours</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">क्षमा करें! आपको फिलहाल प्रतिबंधित कर दिया गया है\10 आप दोबारा लाइव स्ट्रीम कर सकते हैं: %1$d मिनट में</item>
+        <item quantity="other">Sorry, you are currently banned. \10 You can live stream again in: %1$d minutes</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">क्षमा करें! आपको प्रतिबंधित कर दिया गया है\10 आप %1$d सेकंड में दोबारा लाइव स्ट्रीम कर सकते हैं</item>
+        <item quantity="other">क्षमा करें! आपको प्रतिबंधित कर दिया गया है\10 आप %1$d सेकंड में दोबारा लाइव स्ट्रीम कर सकते हैं</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d उपयोगकर्ता आपका प्रसारण देख रहे हैं, क्या आप इसे बंद करना चाहते हैं?</item>
+        <item quantity="other">%d users are watching your broadcast, do you want to close it?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d मिनट के लिए कनेक्ट हुआ</item>
+        <item quantity="other">%1$d मिनट के लिए कनेक्ट हुआ</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d मिनट प्रतीक्षा किया</item>
+        <item quantity="other">%1$d मिनट प्रतीक्षा किया</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">%2$d अधिक पाने के लिए पहली बार %1$d डायमंड का रिचार्ज!</item>
+        <item quantity="other">%2$d अधिक पाने के लिए पहली बार %1$d डायमंड का रिचार्ज!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">मिनट</item>
+        <item quantity="other">मिनट</item>
+    </plurals>
+</resources>

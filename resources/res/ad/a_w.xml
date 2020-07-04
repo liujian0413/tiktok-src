@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/a7h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="100dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/a7o" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.views.MentionTextView android:textSize="15sp" android:textColor="@color/yk" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/a7e" android:paddingTop="4.5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xc" android:maxLines="4" android:includeFontPadding="false" android:shadowColor="@color/px" android:shadowDy="1" android:shadowRadius="1" android:layout_weight="1" android:lineSpacingExtra="3dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/b5r" android:paddingTop="4.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/a8f"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/yk" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/e3q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b53"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.translation.p1682ui.TranslationStatusView android:id="@+id/dnl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="@dimen/xc" android:layout_marginTop="4dp"/>
+</LinearLayout>

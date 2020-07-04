@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="52dp">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="match_parent" android:layout_height="1px" app:subView="true"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/azh" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:tint="@color/a4e" app:srcCompat="@drawable/apy"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/a5d" android:gravity="center" android:layout_gravity="center" android:id="@+id/dzk" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/u6"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/azm" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="6dp" android:tint="@color/a4e" app:srcCompat="@drawable/apz"/>
+</FrameLayout>

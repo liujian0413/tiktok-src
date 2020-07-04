@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fgm">[[141545]] What\'s Happening?</string>
+    <string name="fgn">[[141901]] Like Tweet</string>
+    <string name="fgo">[[141902]] Undo Like</string>
+    <string name="fgp">[[60974]] Loading Tweet</string>
+    <string name="fgq">[[94020]] Log in with Twitter</string>
+    <string name="fgr">[[141547]] 140</string>
+    <string name="fgs">[[147607]] pause</string>
+    <string name="fgt">[[147606]] play</string>
+    <string name="fgu">[[141546]] Tweet</string>
+    <string name="fgv">[[59353]] MM/dd/yy</string>
+    <string name="fgw">[[59352]] MMM dd</string>
+    <string name="fgx">[[147608]] replay</string>
+    <string name="fgy">[[99301]] Retweeted by %1$s</string>
+    <string name="fgz">[[60977]] Check out @%1$s\'s Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="fh0">[[60978]] Tweet from %1$s (@%2$s)</string>
+    <string name="fh1">[[60976]] Share Tweet</string>
+    <string name="fh2">[[60975]] %1$s. %2$s. %3$s.</string>
+    <string name="fh3">[[156357]] Tweet Media</string>
+</resources>

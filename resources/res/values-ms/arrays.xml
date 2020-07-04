@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Pilih daripada album</item>
+        <item>Ambil Gambar</item>
+        <item>Batal</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Tiada</item>
+        <item>Bunga</item>
+        <item>Manis</item>
+        <item>Teh</item>
+        <item>Cerdik</item>
+        <item>Kemerah-merahan</item>
+        <item>Bayu</item>
+        <item>Semula Jadi</item>
+        <item>Cahaya Matahari</item>
+        <item>Bayi</item>
+        <item>Nostalgia</item>
+        <item>Cerah</item>
+        <item>Comel</item>
+        <item>Pic</item>
+        <item>Matahari terbenam</item>
+    </array>
+    <array name="aq">
+        <item>Pusingan</item>
+        <item>Mingguan</item>
+        <item>Menyeluruh</item>
+        <item>Kedudukan Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Mac</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Julai</item>
+        <item>Ogos</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Disember</item>
+    </array>
+    <array name="au">
+        <item>Tiada</item>
+        <item>Semula Jadi</item>
+        <item>Kosongkan</item>
+        <item>日本語</item>
+        <item>Mengharukan</item>
+    </array>
+    <array name="av">
+        <item>Tiada</item>
+        <item>Semula Jadi</item>
+        <item>Cerah</item>
+        <item>Cinta pertama</item>
+    </array>
+    <array name="aw">
+        <item>Lapor</item>
+        <item>Batal</item>
+    </array>
+</resources>

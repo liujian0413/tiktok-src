@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bgr" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bjh" android:background="@color/e9" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+        <View android:id="@+id/dal" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr7" android:paddingBottom="@dimen/mz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dal">
+            <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+        </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/lt" android:gravity="center" android:id="@+id/ao0" android:background="@color/lq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="34dp" android:layout_below="@+id/dal"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.design.widget.CoordinatorLayout android:id="@+id/d8i" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="47dp" android:layout_alignParentBottom="true"/>
+        <com.p280ss.android.ugc.aweme.discover.p1185ui.NoticeView android:id="@+id/anv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" app:iconImage="@drawable/akl" app:titleText="@string/sy"/>
+    </RelativeLayout>
+</FrameLayout>

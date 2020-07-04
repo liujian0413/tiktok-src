@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.titlebar.NormalTitleBar android:id="@+id/djr" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="52dp" app:endTextVisible="8" app:titleTextColor="@color/a5d" app:useBackIcon="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr5" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/cqd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+        </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/daj" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

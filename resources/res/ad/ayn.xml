@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lt" android:layout_gravity="center_vertical" android:id="@+id/e00" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u0"/>
+    <SeekBar android:layout_gravity="center_vertical" android:id="@+id/d1y" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxHeight="2dp" android:max="10000" android:progressDrawable="@drawable/bh7" android:minHeight="2dp" android:thumb="@drawable/bh5" android:layout_weight="1"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lt" android:layout_gravity="center_vertical" android:id="@+id/e42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" style="@style/u0"/>
+</merge>

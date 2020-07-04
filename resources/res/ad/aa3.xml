@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.longvideo.view.LongVideoDiggAnimationView android:id="@+id/b_m" android:layout_width="44dp" android:layout_height="28dp" android:src="@drawable/bg_like"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_gravity="center_vertical" android:id="@+id/dtf" android:visibility="gone" style="@style/tf"/>
+    <ImageView android:id="@+id/b7p" android:layout_width="44dp" android:layout_height="28dp" android:src="@drawable/a8m"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_gravity="center_vertical" android:id="@+id/ds6" android:visibility="gone" style="@style/tf"/>
+    <ImageView android:id="@+id/bc7" android:layout_width="44dp" android:layout_height="28dp" android:src="@drawable/a8t"/>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>ជ្រើសរើស​ពីបណ្ណាល័យ​</item>
+        <item>ថត​រូប</item>
+        <item>បោះបង់</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>គ្មាន</item>
+        <item>ផ្កា</item>
+        <item>បង្អែម</item>
+        <item>តែ</item>
+        <item>ដែលមានខួរក្បាលល្អ</item>
+        <item>ពណ៌ក្រហមប្រឿងៗ</item>
+        <item>ខ្យល់រំភើយ​</item>
+        <item>ធម្មជាតិ​</item>
+        <item>ពន្លឺថ្ងៃ​</item>
+        <item>ទារក</item>
+        <item>ការអាឡោះអាល័យ</item>
+        <item>ភ្លឺ</item>
+        <item>គួរឲ្យស្រលាញ់</item>
+        <item>ផ្លែប៉ែស</item>
+        <item>ពេលថ្ងៃលិច​</item>
+    </array>
+    <array name="aq">
+        <item>មូល</item>
+        <item>ប្រចាំសប្តាហ៍</item>
+        <item>ជារួម</item>
+        <item>ចំណាត់ថ្នាក់​ Xigua</item>
+    </array>
+    <array name="ar">
+        <item>មករា​</item>
+        <item>កុម្ភៈ</item>
+        <item>មីនា</item>
+        <item>មេសា​</item>
+        <item>ឧសភា</item>
+        <item>មិថុនា</item>
+        <item>កក្កដា</item>
+        <item>សីហា​</item>
+        <item>កញ្ញា</item>
+        <item>តុលា​</item>
+        <item>វិច្ឆិកា​</item>
+        <item>ធ្នូ</item>
+    </array>
+    <array name="au">
+        <item>គ្មាន</item>
+        <item>ធម្មជាតិ​</item>
+        <item>សម្អាត​</item>
+        <item>ជប៉ុន</item>
+        <item>កំពុងប៉ះ</item>
+    </array>
+    <array name="av">
+        <item>គ្មាន</item>
+        <item>ធម្មជាតិ​</item>
+        <item>ភ្លឺ</item>
+        <item>ស្នេហាដំបូង</item>
+    </array>
+    <array name="aw">
+        <item>រាយការណ៍</item>
+        <item>បោះបង់</item>
+    </array>
+</resources>

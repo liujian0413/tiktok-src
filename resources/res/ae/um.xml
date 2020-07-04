@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/c1v" android:layout_width="6dp" android:layout_height="49dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    <com.p280ss.android.ugc.aweme.feed.widget.PeriscopeLayout android:id="@+id/c5a" android:layout_width="95dp" android:layout_height="95dp" android:layout_marginRight="21dp" android:layout_marginBottom="-22dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="21dp" android:layout_alignParentEnd="true"/>
+    <FrameLayout android:id="@+id/c1a" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginBottom="1.5dp" android:layout_toLeftOf="@+id/c1v" android:layout_alignParentBottom="true" android:layout_toStartOf="@+id/c1v">
+        <com.bytedance.lighten.loader.SmartCircleImageView android:id="@+id/c1_" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/h2" android:layout_height="@dimen/h2" app:placeholderImage="@drawable/a_i"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView android:layout_gravity="center" android:id="@+id/c9e" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="27dp" android:layout_height="27dp"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/edb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/auq" android:background="@color/a3z" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/drq" android:src="@drawable/al4" style="@style/a18"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/drr" android:src="@drawable/al9" style="@style/a18"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/cqh" android:background="@color/a3z" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="136dp" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:text="@string/caa" style="@style/u0"/>
+        <com.p280ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView android:layout_gravity="bottom" android:id="@+id/vx" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginBottom="20dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ebr" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cqh" android:layout_below="@+id/auq" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

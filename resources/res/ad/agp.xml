@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.p817ad.splash.core.video.SSRenderSurfaceView android:id="@+id/ebm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/df" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="14dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <TextView android:textSize="12dp" android:textColor="#ffffff" android:id="@+id/dc" android:padding="3dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="9dp" android:shadowColor="#7f000000" android:shadowRadius="12" android:layout_toLeftOf="@+id/dd" android:layout_alignParentTop="true"/>
+    <FrameLayout android:id="@+id/dd" android:layout_width="wrap_content" android:layout_height="@dimen/mi" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="12sp" android:textColor="@color/a9z" android:gravity="center" android:layout_gravity="center" android:id="@+id/de" android:background="@drawable/bjo" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/dw4"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/dg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+    </FrameLayout>
+    <include layout="@layout/aap"/>
+    <include layout="@layout/aao"/>
+    <ProgressBar android:id="@+id/eav" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:indeterminateDrawable="@drawable/bjr" android:indeterminateDuration="1200" android:layout_centerInParent="true"/>
+</RelativeLayout>

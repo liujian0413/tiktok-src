@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ceh" android:background="@color/a3z" android:paddingBottom="10dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/axw"/>
+        <TextView android:textSize="14dp" android:textColor="@color/a5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/cz9"/>
+    </LinearLayout>
+    <include layout="@layout/a9j"/>
+    <FrameLayout android:id="@+id/da5" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/da8" android:background="@drawable/a46" android:layout_width="71dp" android:layout_height="71dp"/>
+        <View android:background="@drawable/w8" android:layout_width="96dp" android:layout_height="96dp"/>
+    </FrameLayout>
+    <View android:id="@+id/dao" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dke" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/cgr" android:background="@color/a3z" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:alpha="0"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/x5">
+            <View android:id="@+id/cgp" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/adc" android:layout_centerVertical="true" style="@style/a16"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:ellipsize="end" android:gravity="center" android:id="@+id/cgo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="88dp" android:layout_marginRight="88dp" android:maxLines="1" android:layout_centerInParent="true" style="@style/u9"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cgs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <LinearLayout android:id="@+id/y1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.p280ss.android.ugc.aweme.music.p1410ui.CheckableImageView android:id="@+id/b7l" android:padding="10dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/al7"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/d4t" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/alj"/>
+                <ImageView android:id="@+id/bzv" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/aeo"/>
+            </LinearLayout>
+            <View android:id="@+id/dkb" android:background="@color/a1x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

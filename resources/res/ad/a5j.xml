@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/dcd" android:layout="@layout/aak" android:inflatedId="@+id/b9g" android:layout_width="150dp" android:layout_height="wrap_content"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/dcc" android:layout="@layout/a5u" android:inflatedId="@+id/br7" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/dcf" android:layout="@layout/a43" android:inflatedId="@+id/bcv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/dch" android:layout="@layout/md" android:inflatedId="@+id/ajb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/dcr" android:layout="@layout/mh" android:inflatedId="@+id/bbv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/dcq" android:layout="@layout/mg" android:inflatedId="@+id/bbu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/dct" android:layout="@layout/ak7" android:inflatedId="@+id/bbv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

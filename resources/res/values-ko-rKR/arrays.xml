@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>온라인 사운드 라이브러리</item>
+        <item>내 사운드</item>
+    </array>
+    <array name="m">
+        <item>삭제</item>
+        <item>취소</item>
+    </array>
+    <array name="n">
+        <item>인기</item>
+        <item>최신</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </array>
+    <array name="y">
+        <item>중국어(간체)</item>
+        <item>중국어 번체</item>
+        <item>영어</item>
+        <item>일본어</item>
+        <item>한국어</item>
+        <item>러시아어</item>
+        <item>인도네시아어</item>
+        <item>말레이어</item>
+        <item>포르투갈어</item>
+        <item>태국어</item>
+        <item>베트남어</item>
+        <item>힌디어</item>
+    </array>
+    <array name="z">
+        <item>일반</item>
+        <item>흑백</item>
+        <item>예술</item>
+        <item>빈티지</item>
+        <item>레트로럭스</item>
+        <item>높은 채도</item>
+        <item>크롬</item>
+    </array>
+    <array name="a1">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </array>
+    <array name="a4">
+        <item>데이터 절약 우선</item>
+        <item>고해상도 우선</item>
+    </array>
+    <array name="a5">
+        <item>모두</item>
+        <item>친구에게만 공개</item>
+    </array>
+    <array name="af">
+        <item>앨범에서 선택</item>
+        <item>사진 찍기</item>
+        <item>취소</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>없음</item>
+        <item>꽃</item>
+        <item>Sweet</item>
+        <item>차</item>
+        <item>똑똑한</item>
+        <item>장미빛</item>
+        <item>바람</item>
+        <item>자연</item>
+        <item>햇빛</item>
+        <item>베이비</item>
+        <item>노스탤지어</item>
+        <item>밝음</item>
+        <item>귀요미</item>
+        <item>복숭아</item>
+        <item>노을</item>
+    </array>
+    <array name="aq">
+        <item>라운드</item>
+        <item>주간</item>
+        <item>전체</item>
+        <item>Xigua 순위</item>
+    </array>
+    <array name="ar">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </array>
+    <array name="au">
+        <item>없음</item>
+        <item>자연</item>
+        <item>지우기</item>
+        <item>日本語</item>
+        <item>멋짐</item>
+    </array>
+    <array name="av">
+        <item>없음</item>
+        <item>자연</item>
+        <item>밝음</item>
+        <item>첫 사랑</item>
+    </array>
+    <array name="aw">
+        <item>신고</item>
+        <item>취소</item>
+    </array>
+    <array name="az">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/amu" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout android:id="@+id/cr7" android:paddingBottom="@dimen/mz" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.views.FpsRecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p280ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout>
+    <FrameLayout android:id="@+id/d4g" android:background="@drawable/mp" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/d4f" android:background="@drawable/mo" android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginBottom="@dimen/mz"/>
+    <View android:layout_gravity="bottom" android:id="@+id/e_i" android:background="@color/a87" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/mz"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/lw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

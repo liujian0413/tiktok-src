@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.commercialize.splash.AwesomeSplashMask xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/jj" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:id="@+id/jk" android:layout_width="match_parent" android:layout_height="0px"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="14dp" android:src="@drawable/bjt" android:scaleType="centerInside" android:layout_below="@+id/jk" android:layout_alignParentLeft="true"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="11sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/jm" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="6dp" android:text="@string/dvz" android:layout_toLeftOf="@+id/jl" android:layout_below="@+id/jk" android:layout_alignBottom="@+id/jl"/>
+    <FrameLayout android:id="@+id/jl" android:layout_width="wrap_content" android:layout_height="@dimen/mi" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:layout_below="@+id/jk" android:layout_alignParentRight="true">
+        <TextView android:textSize="12dp" android:textColor="@color/a9x" android:gravity="center" android:layout_gravity="center" android:background="@drawable/bjo" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/dwl"/>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.commercialize.splash.AwesomeSplashMask>

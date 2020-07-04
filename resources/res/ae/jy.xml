@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cd5" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout android:id="@+id/cd7" android:layout_width="match_parent" android:layout_height="wrap_content" app:whRatio="4.787">
+        <com.p280ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/cd6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.discover.widget.IndicatorView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cd4" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    </com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+    <View android:id="@+id/cd3" android:background="@color/a1x" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/lj" android:layout_below="@+id/cd7"/>
+</RelativeLayout>

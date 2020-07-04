@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bj6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/am3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/lf" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="120dp"/>
+        <com.p280ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView android:layout_gravity="center" android:id="@+id/dij" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="hardware"/>
+        <com.bytedance.lighten.loader.SmartImageView android:layout_gravity="center" android:id="@+id/b7x" android:layout_width="match_parent" android:layout_height="120dp" android:contentDescription="@string/b_2" app:placeholderImage="@color/h"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/br3" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="10dp" android:layout_marginStart="8dp" android:layout_marginEnd="10dp">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/bb7" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" app:lottie_autoPlay="true" app:lottie_fileName="audio_wave_icon_lottie.json" app:lottie_loop="true"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

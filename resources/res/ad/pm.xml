@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/edf" android:layout_width="wrap_content" android:layout_height="0dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44dp">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="match_parent" android:src="@drawable/cmp" android:layout_alignParentLeft="true" android:contentDescription="@string/pp" style="@style/a16"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a5d" android:ellipsize="end" android:id="@+id/dkn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dbz" android:maxLines="1" android:layout_centerInParent="true" style="@style/u9"/>
+        <View android:background="@color/a4n" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cus" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

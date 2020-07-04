@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.feed.guide.DoubleClickGuideLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/atm" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AnimationImageView android:layout_gravity="center_horizontal" android:id="@+id/b9s" android:layout_width="112.5dp" android:layout_height="90dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/zg" android:layout_gravity="center_horizontal" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:text="@string/aud" android:shadowColor="@color/a7j" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" style="@style/u9"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.feed.guide.DoubleClickGuideLayout>

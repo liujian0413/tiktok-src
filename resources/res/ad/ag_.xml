@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cyy" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dat" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/dak" android:padding="@dimen/ch" android:focusableInTouchMode="true" android:layout_width="@dimen/cg" android:layout_height="44dp" android:src="@drawable/aig" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <android.support.design.widget.TabLayout android:id="@+id/cz0" android:layout_width="match_parent" android:layout_height="44dp" android:layout_toRightOf="@+id/dak" app:tabIndicatorColor="@color/a_m" app:tabIndicatorHeight="2dp" app:tabMinWidth="20dp" app:tabMode="0" app:tabSelectedTextColor="@color/a_m" app:tabTextAppearance="@style/xi" app:tabTextColor="@color/a_l"/>
+    <android.support.p022v4.view.ViewPager android:id="@+id/cz2" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/lg" android:layout_below="@+id/cz0"/>
+    <View android:background="@drawable/dx" android:layout_width="match_parent" android:layout_height="60dp" android:layout_above="@+id/lg"/>
+    <View android:id="@+id/lg" android:layout_width="match_parent" android:layout_height="30dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

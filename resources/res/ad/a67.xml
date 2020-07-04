@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:id="@+id/duw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b9u" android:drawablePadding="4dp" android:drawableStart="@drawable/agu" style="@style/u2"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" layout="@layout/a7u"/>
+    <FrameLayout android:id="@+id/bhv" android:layout_width="match_parent" android:layout_height="343dp" android:contentDescription="@string/b_0">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b7x" android:background="@drawable/amv" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/b_0" app:actualImageScaleType="6"/>
+        <com.p280ss.android.ugc.aweme.feed.p1238ui.LongPressLayout android:id="@+id/bvy" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/b_2"/>
+        <com.p280ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a8y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/bgs" android:layout_width="match_parent" android:layout_height="50dp"/>
+        <RelativeLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="18dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/py" android:id="@+id/dqp" android:background="@drawable/m1" android:paddingLeft="3.5dp" android:paddingTop="3.5dp" android:paddingBottom="3.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="4dp" android:text="@string/b_v" style="@style/tw"/>
+            <ImageView android:layout_width="49.5dp" android:layout_height="20dp" android:src="@drawable/a7m" android:scaleType="fitXY" android:layout_toRightOf="@+id/dqp"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

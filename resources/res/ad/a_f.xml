@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="52dp">
+    <FrameLayout android:id="@+id/e6f" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:minWidth="64dp" android:minHeight="28dp" android:layout_centerVertical="true">
+        <com.p280ss.android.ugc.aweme.story.shootvideo.textsticker.view.MaskBlurLightTextView android:textSize="14dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/dko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48dp" android:maxLines="1"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/daq" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="-5dp" android:layout_marginBottom="-5dp" android:src="@drawable/b15" android:layout_alignRight="@+id/e6f" android:layout_alignBottom="@+id/e6f"/>
+</RelativeLayout>

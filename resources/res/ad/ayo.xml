@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="1dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.AudioControlView android:layout_gravity="bottom" android:id="@+id/hs" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0" app:foregroundColor="@color/ayn"/>
+    <com.p280ss.android.ugc.aweme.feed.widget.LineProgressBar android:id="@+id/bm_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.NewVideoPlayerProgressbar android:id="@+id/eb_" android:layout_width="match_parent" android:layout_height="match_parent" app:reached_color="@color/a50" app:reached_height="1dp"/>
+</FrameLayout>

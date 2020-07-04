@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2021407040" android:versionName="14.7.4" android:installLocation="auto" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.zhiliaoapp.musically" platformBuildVersionCode="2021407040" platformBuildVersionName="14.7.4">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="none.used.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="none.used.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.permission.READ_ACCOUNT"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.permission.WRITE_ACCOUNT"/>
+    <permission android:name="com.zhiliaoapp.musically.permission.READ_ACCOUNT" android:protectionLevel="signature"/>
+    <permission android:name="com.zhiliaoapp.musically.permission.WRITE_ACCOUNT" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lge.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lge.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher3.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher2.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.launcher2.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.ebproductions.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.ebproductions.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="dianxin.permission.ACCESS_LAUNCHER_DATA"/>
+    <uses-permission android:name="com.miui.mihome2.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.miui.mihome2.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <permission android:name="com.zhiliaoapp.musically.permission.MIPUSH_RECEIVE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="com.zhiliaoapp.musically.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.push.permission.MESSAGE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <meta-data android:name="TS_VERSION_CODE" android:value="100"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.miniapp.PROCESS_COMMUNICATION"/>
+    <permission android:name="com.zhiliaoapp.musically.miniapp.PROCESS_COMMUNICATION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-feature android:glEsVersion="20000" android:required="true"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.zhiliaoapp.musically.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.zhiliaoapp.musically.permission.RECEIVE_ADM_MESSAGE"/>
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_BADGE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <application android:theme="@style/a4" android:label="@string/bf7" android:icon="@mipmap/a" android:name="com.p280ss.android.ugc.aweme.app.host.HostApplication" android:persistent="false" android:launchMode="singleInstance" android:alwaysRetainTaskState="true" android:allowBackup="false" android:largeHeap="true" android:supportsRtl="true" android:resizeableActivity="false" android:networkSecurityConfig="@xml/d" android:roundIcon="@mipmap/a" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-6536861780333891~4547192519"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.musically.follows.FollowFollowerActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.i18n.musically.profile.p1309ui.MusHeaderDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.settings.privacy.MusPrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.settings.agreements.AgreementActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.checkprofile.CheckProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.settings.language.MusChooseLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.settings.blacklist.MusBlackListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.musically.cut.AvatarChooseActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.i18n.musically.cut.AvatarCutActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.MusSettingNewVersionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.child.ChildrenModeMusSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.child.ChildrenModeManageMyAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.MusSettingManageMyAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.sticker.prop.activity.StickerPropDetailActicity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.openauthorize.AwemeAuthorizeLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.zhiliaoapp.musically.openauthorize.AwemeAuthorizedActivity" android:exported="true" android:taskAffinity="com.zhiliaoapp.musically.authorize" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <meta-data android:name="BD_PLATFORM_SDK_VERSION" android:value="3"/>
+        </activity>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.welcome.WelcomeScreenActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.interest.InterestSelectActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.TestPoiOverseasActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.TestPoiMapPickUpActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="net.openid.appauth.RedirectUriReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="com.googleusercontent.apps.616463764658-p01hhcj82u4mqjnp1oca04i3o67fjsm1"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/m_" android:name="com.p280ss.android.ugc.aweme.app.AppLinkHandler" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:pathPrefix="/V"/>
+                <data android:pathPrefix="/v"/>
+                <data android:pathPrefix="/redirect"/>
+                <data android:host="app.musical.ly"/>
+                <data android:host="m.tiktok.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:pathPrefix="/h5/share"/>
+                <data android:pathPrefix="/H5/share"/>
+                <data android:pathPrefix="/share"/>
+                <data android:host="m.tiktok.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:pathPrefix="/share"/>
+                <data android:pathPrefix="/i18n/share"/>
+                <data android:host="www.tiktok.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:pathPrefix="/"/>
+                <data android:host="v16.musical.ly"/>
+                <data android:host="vm.tiktok.com"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.tiktok.com"/>
+                <data android:pathPattern="/@.*"/>
+                <data android:pathPrefix="/tag/"/>
+                <data android:pathPrefix="/music/"/>
+                <data android:pathPrefix="/sticker/"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.snapchat.kit.sdk.clientId" android:value="be57ee08-231d-4622-9cad-4e0792363934"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDIo7dOIVCd0lnPiREiSF7qHVNm9EVkoJc"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="TTOPEN_SDK_NEWSARTICLE_CLIENT_KEY" android:value="fc169c8d3a2eec4a"/>
+        <activity android:theme="@style/m_" android:name="com.p280ss.android.ugc.aweme.share.SystemShareActivity" android:launchMode="singleInstance" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="android.max_aspect" android:value="2.2"/>
+        <meta-data android:name="android.vivo_multidisplay_support" android:value="true"/>
+        <activity android:theme="@style/m_" android:name="com.p280ss.android.ugc.aweme.splash.SplashAdActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.feedback.FeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.feedback.SubmitFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.MusSubmitFeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.discover.activity.DiscoverDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="110560287"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.tencent.connect.common.AssistActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/y" android:name="com.p280ss.android.ugc.aweme.poi.p335ui.PoiDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/y" android:name="com.p280ss.android.ugc.aweme.poi.p335ui.PoiRouteActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/y" android:name="com.p280ss.android.ugc.aweme.poi.p335ui.PoiNoticeActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.detail.p1167ui.DetailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="taobao" android:host="detail.aweme.sdk.com"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/p" android:name="com.p280ss.android.ugc.aweme.challenge.p1086ui.AddChallengeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/p" android:name="com.p280ss.android.ugc.aweme.challenge.p1086ui.ChallengeDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/p" android:name="com.p280ss.android.ugc.aweme.challenge.p1086ui.CreateChallengeActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.challenge.p1086ui.ChallengeAvatarModifyActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/ga" android:name="com.ss.android.ugc.aweme.web.ui.ProgressActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.HeaderDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.ProfileCoverPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.ProfileCoverCropActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.CropActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.ProfileCoverLibActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.ss.android.ugc.aweme.profile.cover.ProfileCoverLibActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/z" android:name="com.ss.android.ugc.aweme.login.ui.CountryListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/i9" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.ProfileEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ss.android.ugc.aweme.profile.ui.EditSelfBriefActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.ProfileEditBioUrlActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.movie.view.MovieDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.discover.activity.HotSearchAndDiscoveryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.PrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.DuetControlSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.ReactControlSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.DownloadControlSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.BlackListActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.TestSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.notification.NotificationDetailActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:theme="@style/q" android:name="com.ss.android.ugc.aweme.notification.FansDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/we" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.SelectResidenceActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.UserProfileActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:theme="@style/a3" android:name="com.p280ss.android.ugc.aweme.following.p1265ui.FollowingFollowerActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.favorites.p1215ui.UserFavoritesActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.music.p1410ui.MusicDetailActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.serverpush.p1528ui.PushSettingManagerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/m6" android:name="com.p280ss.android.ugc.aweme.account.p982ui.FullScreenLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.app.LogListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.app.debug.AbTestSettingActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.app.debug.AbTestSettingCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.app.debug.AbTestSettingSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.p982ui.RecoverAccountActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:name="com.p280ss.android.websocket.internal.WebSocketService"/>
+        <activity android:theme="@style/j7" android:name="com.ss.android.ugc.aweme.shortvideo.ui.DraftPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.redpackage.cards.ui.CardReceiveActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.choosemusic.activity.MusicDetailListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.search.activity.SearchResultActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.discover.activity.MusicianMusicListActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/p" android:name="com.p280ss.android.ugc.aweme.music.p1410ui.MusicListActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/m_" android:name="com.p280ss.android.ugc.aweme.app.DeepLinkHandlerActivity" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ss.android.sdk.snssdk1180"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="musically"/>
+                <data android:scheme="snssdk1233"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.p280ss.android.ugc.aweme.common.net.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.p280ss.android.push.DefaultReceiver"/>
+        <service android:name="com.p280ss.android.push.DefaultService"/>
+        <meta-data android:name="APPKEY" android:value="10652857"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="2842221dd3697492947902e7c73da5fb"/>
+        <meta-data android:name="UPDATE_VERSION_CODE" android:value="2021407040"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.ContactsActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.InviteFriendsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.SummonFriendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.AccessibilitySettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.DataSaverSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.mobile.EditProfileActivityV2" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.ss.android.ugc.aweme.login.ui.RecommendFriendActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/b1m" android:name="com.p280ss.android.ugc.aweme.base.activity.CustomErrorActivity" android:process=":error_activity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.music.p1410ui.MusicRecommendActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.choosemusic.activity.OnlineMusicFragmentActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.UploadVideoFragmentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.alipay.sdk.app.H5AuthActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.music.p1410ui.EditOriginMusicTitleActivity"/>
+        <service android:name="com.bytedance.ies.telecom.RequestMobileService"/>
+        <receiver android:name="com.p280ss.android.common.applog.HotsoonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/nc" android:name="com.p280ss.android.ugc.aweme.ttplatformapi.TtAuthorizeActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <provider android:name="com.p280ss.android.ttplatformsdk.provider.TTPlatformAccountProvider" android:readPermission="com.zhiliaoapp.musically.permission.READ_ACCOUNT" android:writePermission="com.zhiliaoapp.musically.permission.WRITE_ACCOUNT" android:exported="true" android:multiprocess="true" android:authorities="com.zhiliaoapp.musically.ttplatformapi.AccountProvider"/>
+        <provider android:name="com.p280ss.android.ugc.aweme.livewallpaper.WallPaperDataProvider" android:exported="true" android:authorities="com.zhiliaoapp.musically.wallpapercaller"/>
+        <service android:name="com.p280ss.android.ugc.aweme.livewallpaper.AmeLiveWallpaper" android:permission="android.permission.BIND_WALLPAPER" android:enabled="true" android:exported="true" android:process=":wallpaper">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/a"/>
+        </service>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.livewallpaper.p1370ui.LocalLiveWallPaperActivity" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/y" android:name="com.p280ss.android.ugc.aweme.livewallpaper.p1370ui.LiveWallPaperPreviewActivity" android:exported="true" android:screenOrientation="portrait"/>
+        <receiver android:name="com.p280ss.android.ugc.aweme.livewallpaper.receiver.LiveWallPaperPluginInstalledReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.p280ss.ttm.player.TTPlayerService" android:exported="true" android:process=":ttplayer">
+            <intent-filter>
+                <action android:name="com.ss.ttm.service"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.bdm.service"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.p280ss.android.ugc.aweme.app.debug.FlowWindowService"/>
+        <service android:name="com.p280ss.android.download.DownloadService"/>
+        <service android:name="com.p280ss.android.download.DownloadHandlerService"/>
+        <receiver android:name="com.p280ss.android.download.DownloadReceiver"/>
+        <receiver android:name="com.p280ss.android.socialbase.downloader.downloader.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.ChatControlSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.personalization.PersonalizationActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.WhoCanSeeMyLikeListActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.FollowingAndFansSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.CommentControlSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.commentfilter.CommentFilterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.DigitalWellbeingActivity" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.qrcode.p1499v2.ScanQRCodeActivityV2" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.qrcode.p1499v2.QRCodeActivityV2" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:theme="@style/gt" android:label="@string/jf" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.qrcode.TextQRCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.qrcode.ScanResultActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.qrcode.QRCodePermissionActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.longvideo.LongVideoPlayActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.longvideonew.LongVideoActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.commercialize.loft.LoftPlayActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.commercialize.loft.LoftActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/m_" android:name="com.p280ss.android.ugc.aweme.main.MainActivity" android:clearTaskOnLaunch="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:alwaysRetainTaskState="true" android:hardwareAccelerated="true"/>
+        <activity-alias android:name="com.p280ss.android.ugc.aweme.splash.SplashActivity" android:launchMode="singleTop" android:targetActivity="com.ss.android.ugc.aweme.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/h"/>
+        </activity-alias>
+        <activity android:name="com.p280ss.android.ugc.aweme.notification.newstyle.LikeListDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.trill.main.shortcut.ShortcutShootingActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.trill.main.shortcut.ShortcutMessageActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.trill.main.shortcut.ShortcutTrendingActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.trill.setting.DisplaySettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.trill.setting.ContentPreferenceActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.trill.setting.children.ChildrenDisplaySettingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/a76" android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.IAddFriendsActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.InviteUserListActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.friends.p1285ui.GuideToInviteThirdFriends" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.secret.MusPrivacyAccountTipActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.trill.language.ChooseLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.trill.setting.PushSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.wiki.AddWikiActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.followrequest.FollowRequestActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/m6" android:name="com.p280ss.android.ugc.aweme.environment.DialogWarningTipsActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/m6" android:name="com.p280ss.android.ugc.aweme.login.p1373ui.BannedDialogActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.comment.share.I18nCommentShareActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <service android:name="com.p280ss.android.ugc.trill.account.TiktokAuthService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/b"/>
+        </service>
+        <service android:name="com.bytedance.ttnet.hostmonitor.HostMonitor"/>
+        <receiver android:name="com.appsflyer.MultipleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.appsflyer.SingleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.p280ss.android.ugc.trill.abtest.impl.NotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="notification_cancelled"/>
+                <action android:name="notification_clicked"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.bytedance.ttnet.hostmonitor.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.p280ss.android.common.util.MultiProcessSharedProvider" android:exported="true" android:authorities="com.ss.android.common.multiprocess.SHARE_PROVIDER_AUTHORITY1233"/>
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="@string/bx4"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/w"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="5559e28267e58eb4c1000012"/>
+        <meta-data android:name="SS_VERSION_NAME" android:value="14.7.4"/>
+        <meta-data android:name="SS_VERSION_CODE" android:value="2021407040"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/b2x"/>
+        <provider android:name="android.support.p022v4.content.FileProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/c"/>
+        </provider>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:enabled="false" android:exported="false" android:authorities="com.zhiliaoapp.musically.firebaseinitprovider" android:initOrder="100"/>
+        <receiver android:name="com.p280ss.android.ugc.aweme.common.net.NetWorkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/m6" android:name="com.p280ss.android.ugc.aweme.newfollow.p1423ui.ImageFollowFeedDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/m6" android:name="com.p280ss.android.ugc.aweme.newfollow.p1423ui.VideoFollowFeedDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.newfollow.ui.FollowForwardFeedDetailActivity"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.forward.view.ForwardDetailActivity"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.forward.view.OriginDetailActivity"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.app.PushCameraBlurActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.SetTimeLockActivity" android:screenOrientation="portrait" android:configChanges="screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.RecommendUserActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.TimeUnlockActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/m7" android:name="com.p280ss.android.ugc.aweme.commercialize.views.form.BottomFormDialogV2" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.commercialize.EasterEggActivityV2" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.commercialize.egg.EasterEggActivityV3" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.discover.p1185ui.CommunityAgreementActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.AdSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o7" android:name="com.p280ss.android.ugc.aweme.share.gif.p1537ui.VideoShare2GifEditActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o7" android:name="com.p280ss.android.ugc.aweme.share.gif.p1537ui.VideoShare2GifPreviewActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.baidu.android.pushservice.CommandService" android:exported="false" android:process=":push"/>
+        <receiver android:name="com.p280ss.android.message.MessageReceiver" android:process=":push" android:priority="2147483647">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.p280ss.android.downloadlib.core.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.p280ss.android.socialbase.appdownloader.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.ss.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/n" android:name="com.p280ss.android.ugc.aweme.favorites.FavoriteListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.PrivacySettingActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.proaccount.ProWelcomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.music.p1410ui.SimilarMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/a1d" android:name="com.p280ss.android.ugc.aweme.journey.NewUserJourneyActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <service android:label="@string/amk" android:icon="@drawable/aki" android:name="com.p280ss.android.ugc.aweme.tile.PublishTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.ACTIVE_TILE" android:value="true"/>
+        </service>
+        <service android:label="@string/aml" android:icon="@drawable/a9i" android:name="com.p280ss.android.ugc.aweme.tile.HotVideoTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.ACTIVE_TILE" android:value="true"/>
+        </service>
+        <activity android:name="com.p280ss.android.ugc.aweme.notification.newstyle.MusNotificationDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.notification.newstyle.MusFollowRequestDetailActivity" android:screenOrientation="portrait"/>
+        <receiver android:name="com.p280ss.android.ugc.aweme.share.systemshare.SystemShareTargetChosenReceiver">
+            <intent-filter>
+                <action android:name="com.zhiliaoapp.musically.systemshare.targetchosen.action"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.MemoryTestActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.LeakTestActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.optimize.OptimizeSettingActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.optimize.LayerInfoSettingActivity"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.app.PushLoginActivity" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p1216fe.method.upload.PreviewUploadActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/m0" android:name="com.p280ss.android.ugc.aweme.setting.p337ui.TestDependenciesActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.p280ss.android.sdk.activity.BootstrapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="snssdk0"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ss.android.ugc.aweme.commercialize.star.StarConfirmActivity"/>
+        <activity android:name="com.ss.android.ugc.aweme.story.shootvideo.record.StoryRecordActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.splash.TransitActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.live.LiveBroadcastActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/gq" android:name="com.p280ss.android.ugc.aweme.live.LiveBillingProxyActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.live.LiveBgBroadcastActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/gq" android:name="com.p280ss.android.ugc.aweme.live.LivePlayActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:name="com.ss.android.ugc.aweme.live.activity.StartLiveActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.live.LiveFeedActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:name="com.ss.android.ugc.aweme.app.LiveBroadcastSigningActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.live.activity.BannedListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.live.activity.GiftAdActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.live.activity.AdminListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p1216fe.method.upload.ImageChooseUploadActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/hj" android:name="com.ss.android.ugc.aweme.commerce.floatvideo.FloatVideoBrowseActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.bullet.BulletContainerActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.crossplatform.activity.CrossPlatformActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.login.larksso.CrossPlatformActivityForLarkSso" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.miniapp.anchor.MicroAppMoreElementsActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.miniapp.anchor.MediumMoreElementsActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.miniapp.anchor.GameMoreElementsActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.p280ss.android.sdk.activity.LiveDummyActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/p" android:name="com.p280ss.android.ugc.aweme.poi.p335ui.upload.PoiUploadImagePreviewActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/a3" android:name="com.p280ss.android.ugc.aweme.following.p1265ui.FollowRelationTabActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/a3" android:name="com.p280ss.android.ugc.aweme.follow.recommend.follow.view.RecommendFollowActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.poi.p335ui.upload.ChooseImageActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.miniapp.RecentlyUsedMicroAppActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.miniapp.appgroup.MicroAppGroupActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.miniapp.media.MiniAppMediaChooseEmptyActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/hj" android:name="com.p280ss.android.ugc.aweme.login.p1373ui.LogoutDialogActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.setting.p337ui.DiskManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.live.LiveSettingActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.freeflowcard.FreeFlowDataTestActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.poi.enterprise.UploadBusinessLicenseActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.commercialize.search.SearchMixCommerceViewMoreActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/hj" android:name="com.p280ss.android.ugc.aweme.commercialize.p1128im.ChatCheckLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.facebook.ads.AudienceNetworkActivity" android:exported="false" android:configChanges="locale|layoutDirection"/>
+        <service android:name="com.benchmark.BenchmarkService" android:process=":bm"/>
+        <service android:name="com.p280ss.android.ugc.aweme.effect.EffectJobService" android:exported="false"/>
+        <service android:name="com.p280ss.android.ugc.aweme.effect.EffectCompatJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.ss.android.ugc.aweme.live.livehostimpl.BgBroadcastService"/>
+        <service android:name="com.ss.android.ugc.aweme.applog.floatingwindow.AppLogFloatingService"/>
+        <service android:name="com.p280ss.android.http.OpenUrlService">
+            <intent-filter>
+                <action android:name="com.ss.android.action.openurl"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.p280ss.android.ugc.awemepushlib.p1714di.ies.MessageHandler" android:exported="false">
+            <intent-filter>
+                <action android:name="com.ss.android.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.xiaomi.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.umeng.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.hw.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.mz.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.aliyun.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.newmedia.message.cache.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.newmedia.message.notify.delete.action"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.oppo.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.fcm.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.adm.message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ss.android.vivo.message"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.p280ss.android.push.daemon.PushService" android:process=":pushservice"/>
+        <receiver android:name="com.p280ss.android.push.daemon.PushReceiver" android:process=":pushservice"/>
+        <service android:name="com.p280ss.android.message.NotifyService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.ss.android.message.action.PUSH_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.p280ss.android.message.PushJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" android:process=":push"/>
+        <service android:name="com.p280ss.android.message.log.LogService" android:exported="true" android:process=":push"/>
+        <activity android:theme="@style/j3" android:name="com.p280ss.android.message.sswo.SswoActivity" android:exported="false" android:process=":push" android:taskAffinity="com.ss.android.newmedia.message.lockscreen" android:finishOnTaskLaunch="false" android:excludeFromRecents="true" android:launchMode="singleInstance"/>
+        <service android:name="com.igexin.sdk.PushService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.igexin.sdk.PushReceiver" android:enabled="true" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.refreshls"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="7dcb6dabbaadc519b588cf7c63727247"/>
+        <receiver android:name="com.p280ss.android.ugc.awemepushlib.p1715os.receiver.NotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="notification_cancelled"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="p045cn.jpush.android.service.DaemonService" android:enabled="true" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+                <category android:name="com.zhiliaoapp.musically"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.p982ui.ModifyMobileActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.digitsverify.SendVerificationCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:theme="@style/gt" android:name="com.p280ss.android.ugc.aweme.account.login.authorize.AuthorizeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.forgetpsw.p961ui.FindPswByEmailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.ss.android.ugc.aweme.account.login.forgetpsw.ui.FindPswByPhoneActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ss.android.ugc.aweme.account.ui.UpdatePasswordActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.account.p982ui.BindMobileActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:name="com.ss.android.ugc.aweme.account.login.authorize.platforms.instgram.InsLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.agegate.p954ui.AgeGateActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.MusLoginActivity" android:screenOrientation="portrait" android:fitsSystemWindows="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.authorize.WapAuthActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.p974ui.MusCountryListActivity" android:screenOrientation="portrait" android:fitsSystemWindows="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.account.login.p974ui.CountryListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.digitsverify.DigitsVerifyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.I18nSignUpLoginPageActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/iy" android:name="com.p280ss.android.ugc.aweme.account.login.I18nSignUpActivity"/>
+        <activity android:theme="@style/t" android:name="com.ss.android.ugc.aweme.account.login.ui.GuideToInviteThirdFriends" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.ftc.activity.DeleteVideoAlertActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.ftc.activity.ExportVideoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.twostep.TwoStepAuthActivity" android:screenOrientation="portrait" android:fitsSystemWindows="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.ftc.activity.OperatorCompleteActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.login.p975v2.p977ui.SignUpOrLoginActivity" android:screenOrientation="portrait" android:fitsSystemWindows="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.account.p982ui.BindOrModifyPhoneActivity" android:screenOrientation="portrait" android:fitsSystemWindows="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.account.login.p974ui.LoginOrRegisterActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.account.activity.BindMobileActivityV2" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:theme="@style/o0" android:name="com.ss.android.ugc.aweme.account.login.ui.DangerZoneRebindPhoneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:theme="@style/q" android:name="com.p280ss.android.ugc.aweme.comment.p1103ui.GifEmojiDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.profile.p1487ui.RemindUserCompleteProfileActivity" android:screenOrientation="portrait" android:configChanges="screenSize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.ChatRoomActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.selectmsg.SelectChatMsgActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.FriendChatDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.GroupChatDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.GroupChatMembersActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.EditGroupInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.GroupAnnouncementActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.detail.GroupAnnouncementEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.group.GroupListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.group.GroupMemberSelectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.relations.RelationSelectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.module.stranger.StrangerListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.input.photo.PhotoPreviewListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.input.photo.PhotoSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.media.choose.MediaChooseActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.media.preview.MediaPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/ll" android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.input.photo.PhotoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/ll" android:name="com.p280ss.android.ugc.aweme.p313im.sdk.msgdetail.MediaBrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.module.session.SessionListActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.input.emoji.EmojiManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.chat.input.emoji.EmojiAddActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/ll" android:name="com.p280ss.android.ugc.aweme.p313im.sdk.videofileplay.VideoFilePlayerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.module.msghelper.MessageHelperActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.p313im.sdk.debug.DebugActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.sdk.iap.IapWalletActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.mediachoose.ChooseMediaActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/a0" android:name="com.p280ss.android.ugc.aweme.photo.edit.PhotoEditActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/a0" android:name="com.p280ss.android.ugc.aweme.photo.setfilter.PhotoSetFilterActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/j6" android:name="com.p280ss.android.ugc.aweme.photo.setfilter.EffectPhotoSetFilterActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.tools.draft.DraftBoxActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <service android:name="com.p280ss.android.ugc.aweme.shortvideo.ShortVideoPublishService" android:stopWithTask="true"/>
+        <service android:name="com.p280ss.android.ugc.aweme.tools.policysecurity.OriginalSoundUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <service android:name="com.p280ss.android.ugc.aweme.tools.extract.upload.VideoFramesUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.VideoPublishActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.photomovie.PhotoMoviePreViewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.photomovie.PhotoMovieChooseCoverActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.photomovie.PhotoMoviePublishActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.photo.publish.PhotoPreviewActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.photo.publish.PhotoPublishActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.shortvideo.PublishPermissionActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/t" android:name="com.p280ss.android.ugc.aweme.shortvideo.publish.PublishPrivacySettingActivity" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.VEVideoPublishPreviewActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.shortvideo.vechoosecover.ChooseCoverActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/b" android:name="com.p280ss.android.ugc.aweme.shortvideo.videocategory.p1626ui.ChooseVideoCategoryActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.VideoRecordPermissionActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.ss.intent.action.redirect.record"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/m5" android:name="com.p280ss.android.ugc.aweme.property.AVABAndSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.ss.android.ugc.aweme.property.TestSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/a0" android:name="com.p280ss.android.ugc.aweme.photomovie.PhotoMovieEditActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/a0" android:name="com.p280ss.android.ugc.aweme.shortvideo.edit.VEVideoPublishEditActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/j7" android:name="com.p280ss.android.ugc.aweme.shortvideo.cut.VECutVideoActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/v" android:name="com.p280ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/o0" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.VideoPreviewActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/a1" android:name="com.p280ss.android.ugc.aweme.shortvideo.p1617ui.VideoRecordNewActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize"/>
+        <activity android:theme="@style/o8" android:name="com.ss.android.ugc.aweme.story.shootvideo.VideoStoryEditPublishActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/v" android:name="com.ss.android.ugc.aweme.story.shootvideo.setting.StorySettingActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/a1" android:name="dmt.p1861av.video.superentrance.SuperEntranceActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/m5" android:name="com.p280ss.android.ugc.aweme.tools.debug.AVSchemaTestActivity" android:screenOrientation="portrait"/>
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvider1185976156869921250"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.p280ss.android.downloadlib.activity.TTDelegateActivity" android:launchMode="singleTask"/>
+        <provider android:name="com.bytedance.android.livesdk.TTLiveFileProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.ttlive_provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/j"/>
+        </provider>
+        <service android:name="com.bytedance.android.livesdk.bgbroadcast.BgBroadcastService"/>
+        <activity android:theme="@style/m0" android:name="com.bytedance.opensdk.core.grant.web.WebGrantActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.framework.activity.ReactBoxView" android:screenOrientation="portrait"/>
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/i3" android:name="com.bytedance.polaris.browser.PolarisBrowserActivity" android:configChanges="keyboard|orientation|screenSize"/>
+        <activity android:name="com.bytedance.polaris.feature.RedPacketActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/m9" android:name="com.bytedance.scene.p644ui.SceneContainerActivity"/>
+        <activity android:theme="@style/ur" android:name="com.bytedance.jirafast.p609ui.JIRAReportEntryActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/m5" android:name="com.bytedance.jirafast.p609ui.JIRACreateIssueActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.zhihu.matisse.p1857ui.MatisseActivity"/>
+        <activity android:name="com.zhihu.matisse.internal.p1856ui.AlbumPreviewActivity"/>
+        <activity android:name="com.zhihu.matisse.internal.p1856ui.SelectedPreviewActivity"/>
+        <service android:name="com.bytedance.boost_multidex.OptimizeService" android:exported="false" android:process=":boost_multidex"/>
+        <activity android:theme="@style/o1" android:name="com.p280ss.caijing.globaliap.pay.PayActivity" android:exported="false" android:configChanges="keyboardHidden|navigation|orientation|screenSize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabActivity0" android:process=":miniapp0" android:taskAffinity="com.zhiliaoapp.musically.MiniAppUI0" android:launchMode="singleTask" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabHostStackActivity0" android:process=":miniapp0" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="com.tt.miniapphost.placeholder.MiniappService0" android:process=":miniapp0" android:stopWithTask="true"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabActivity1" android:process=":miniapp1" android:taskAffinity="com.zhiliaoapp.musically.MiniAppUI1" android:launchMode="singleTask" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabHostStackActivity1" android:process=":miniapp1" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="com.tt.miniapphost.placeholder.MiniappService1" android:process=":miniapp1" android:stopWithTask="true"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabActivity2" android:process=":miniapp2" android:taskAffinity="com.zhiliaoapp.musically.MiniAppUI2" android:launchMode="singleTask" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabHostStackActivity2" android:process=":miniapp2" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="com.tt.miniapphost.placeholder.MiniappService2" android:process=":miniapp2" android:stopWithTask="true"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabActivity3" android:process=":miniapp3" android:taskAffinity="com.zhiliaoapp.musically.MiniAppUI3" android:launchMode="singleTask" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabHostStackActivity3" android:process=":miniapp3" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="com.tt.miniapphost.placeholder.MiniappService3" android:process=":miniapp3" android:stopWithTask="true"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabActivity4" android:process=":miniapp4" android:taskAffinity="com.zhiliaoapp.musically.MiniAppUI4" android:launchMode="singleTask" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/v4" android:name="com.tt.miniapphost.placeholder.MiniappTabHostStackActivity4" android:process=":miniapp4" android:screenOrientation="locked" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <service android:name="com.tt.miniapphost.placeholder.MiniappService4" android:process=":miniapp4" android:stopWithTask="true"/>
+        <service android:name="com.p1843tt.miniapphost.process.base.HostCrossProcessCallService" android:exported="false" android:stopWithTask="true"/>
+        <service android:name="com.tt.miniapphost.feedback.FeedbackRecordService" android:process=":miniapp100" android:stopWithTask="true"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.chooser.PickerActivity" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.chooser.PreviewActivity" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.map.AppbrandMapActivity" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.permission.PermissionSettingActivity" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.settings.ProjectSettingsActivity" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false"/>
+        <activity android:theme="@style/v6" android:name="com.tt.miniapp.feedback.entrance.FAQActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.about.AboutActivity" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.about.MicroAppSubjectInfoActivity" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false"/>
+        <activity android:theme="@style/v_" android:name="com.tt.miniapp.feedback.FeedbackRecordActivity" android:process=":miniapp100" android:launchMode="singleInstance" android:configChanges="orientation|screenSize" android:allowTaskReparenting="false"/>
+        <activity android:theme="@style/v8" android:name="com.tt.miniapp.activity.OpenSchemaMiddleActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenLayout|screenSize"/>
+        <activity android:theme="@style/v7" android:name="com.tt.miniapp.activity.MoveHostFrontActivity" android:configChanges="screenLayout|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:name="com.aweme.storage.JobService" android:exported="false"/>
+        <service android:name="com.aweme.storage.CompatJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.p280ss.android.ugc.asve.sandbox.SandBoxRemoteCoreService" android:process=":assandbox">
+            <intent-filter android:priority="7fffffff">
+                <action android:name="com.ss.android.ugc.asve.asvecoreservice"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.fcm.push.service.SSGcmListenerService"/>
+        <service android:name="com.fcm.push.service.SSInstanceIDListenerService"/>
+        <service android:name="com.fcm.service.SSGcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.fcm.service.FcmRegistrationJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <activity android:theme="@style/gx" android:name="com.twitter.sdk.android.tweetui.PlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/gx" android:name="com.twitter.sdk.android.tweetui.GalleryActivity"/>
+        <provider android:name="com.bytedance.p073ad.symphony.SymphonyContentProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.com.squareup.picasso"/>
+        <provider android:name="androidx.work.impl.WorkManagerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.zhiliaoapp.musically.workmanager-init" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="@bool/g" android:exported="false" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="@bool/h" android:exported="true" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="@bool/g" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/o2" android:name="com.bytedance.lobby.internal.LobbyInvisibleActivity"/>
+        <activity android:name="com.bytedance.lobby.instagram.InstagramAuthActivity" android:screenOrientation="portrait"/>
+        <provider android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.zhiliaoapp.musically.lifecycle-trojan"/>
+        <activity android:theme="@style/o5" android:label="ServiceActivity" android:name="com.p1848vk.sdk.VKServiceActivity"/>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true"/>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <provider android:name="com.google.android.gms.ads.MobileAdsInitProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.mobileadsinitprovider" android:initOrder="100"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.facebook.ads.internal.ipc.RemoteANActivity" android:exported="false" android:process=":adnw" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <service android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService" android:exported="false"/>
+        <service android:name="com.facebook.ads.internal.ipc.AdsMessengerService" android:exported="false" android:process=":adnw"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="GECKO_VERSION_CODE" android:value="1207"/>
+        <service android:name="com.bytedance.common.wschannel.server.WsChannelService" android:exported="true" android:process=":push"/>
+        <service android:name="com.bytedance.common.wschannel.client.WsClientService" android:exported="true"/>
+        <provider android:name="com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider" android:exported="true" android:authorities="com.zhiliaoapp.musically.WsChannelMultiProcessSharedProvider"/>
+        <provider android:name="com.bytedance.frameworks.core.apm.MonitorContentProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.apm"/>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.CampaignTrackingReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="net.openid.appauth.AuthorizationManagementActivity" android:exported="false" android:launchMode="singleTask"/>
+        <activity android:name="com.bytedance.router.SmartRouterTestActivity"/>
+        <activity android:name="com.p280ss.android.ugc.aweme.colortemplate.ColorTemplateActivity" android:screenOrientation="portrait"/>
+        <enable-feature android:name="com.amazon.device.messaging" android:required="false"/>
+        <service android:name="com.adm.push.ADMMessageHandler" android:exported="false"/>
+        <receiver android:name="com.adm.push.ADMMessageHandler$Receiver" android:permission="com.amazon.device.messaging.permission.SEND">
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION"/>
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE"/>
+                <category android:name="com.zhiliaoapp.musically"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.p280ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+        <activity android:theme="@style/Theme.Dialog" android:name="com.p280ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:launchMode="singleTask"/>
+        <service android:name="com.p280ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+        <service android:name="com.p280ss.android.socialbase.downloader.downloader.DownloadService"/>
+        <service android:name="com.p280ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.ss.android.socialbase.downloader.remote"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.p280ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+        <service android:name="com.p280ss.android.socialbase.downloader.impls.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="true"/>
+        <activity android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity" android:exported="false" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <service android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService" android:enabled="true" android:exported="false"/>
+        <activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="orientation|screenSize"/>
+        <receiver android:name="com.p280ss.android.push.window.oppo.ScreenReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.p280ss.android.message.NotifyIntentService" android:process=":push"/>
+        <service android:name="com.p280ss.android.newmedia.redbadge.RedbadgeHandler">
+            <intent-filter>
+                <action android:name="com.ss.android.redbadge.message"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.p280ss.android.deviceregister.AppProvider" android:enabled="true" android:exported="false" android:authorities="com.zhiliaoapp.musically.deviceregister.app_provider"/>
+        <provider android:name="com.p280ss.android.pushmanager.setting.PushMultiProcessSharedProvider" android:exported="false" android:authorities="com.zhiliaoapp.musically.push.SHARE_PROVIDER_AUTHORITY"/>
+        <activity android:theme="@style/fw" android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity" android:process=":error_activity"/>
+        <provider android:name="com.bytedance.ies.common.push.account.AccountProvider" android:exported="false" android:process=":push" android:authorities="com.zhiliaoapp.musically.AccountProvider"/>
+        <service android:name="com.bytedance.ies.common.push.account.AccountSyncService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/g"/>
+        </service>
+        <service android:name="com.bytedance.ies.common.push.account.AuthenticatorService" android:process=":push">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/f"/>
+        </service>
+        <activity android:theme="@style/gp" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="lineauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.ss.android.ugc.aweme.miniapp.views.MainProcessProxyActivity"/>
+        <activity android:name="com.ss.android.ugc.aweme.miniapp.views.MiniAppListH5Activity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.ss.android.ugc.aweme.miniapp.pay.OnePixelPayActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base,df_fusing,df_live_byte_link,df_live_zego_link"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="12"/>
+    </application>
+</manifest>

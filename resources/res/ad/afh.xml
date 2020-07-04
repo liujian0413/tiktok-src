@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/o1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/bzn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout android:id="@+id/acb" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+            <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointSingleVideoEditView android:layout_gravity="bottom" android:id="@+id/d72" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/kg" app:fsPanel="true" app:secondPanel="true"/>
+            <FrameLayout android:id="@+id/c55" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/kg"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/dn1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+    </LinearLayout>
+</FrameLayout>

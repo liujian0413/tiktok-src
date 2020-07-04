@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.shortvideo.widget.ScreenSizeAspectFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bk9" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.shortvideo.widget.VEVideoPublishPreviewSurfaceView android:id="@+id/cj6" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/ebd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.vote.VotingStickerView android:id="@+id/cja" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/ecr" android:background="@color/fs" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.p280ss.android.ugc.aweme.shortvideo.widget.ScreenSizeAspectFrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ae5" android:background="@drawable/la" android:layout_width="wrap_content" android:layout_height="102.6dp" android:maxWidth="196dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/adz" android:paddingLeft="8dp" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="80dp" android:layout_marginTop="8dp"/>
+</HorizontalScrollView>

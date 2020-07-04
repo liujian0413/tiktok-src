@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">před %d dnem</item>
+        <item quantity="few">před %d dny</item>
+        <item quantity="many">před %d dny</item>
+        <item quantity="other">před %d dny</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Hodin</item>
+        <item quantity="few">Hodiny</item>
+        <item quantity="many">Hodiny</item>
+        <item quantity="other">Hodiny</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">Před %1$d hodinou</item>
+        <item quantity="few">Před %1$d hodinami</item>
+        <item quantity="many">Před %1$d hodinami</item>
+        <item quantity="other">Před %1$d hodinami</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minut</item>
+        <item quantity="other">minut</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">před %1$d minutou</item>
+        <item quantity="few">před %1$d minutami</item>
+        <item quantity="many">před %1$d minutami</item>
+        <item quantity="other">před %1$d minutami</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+        <item quantity="many">dny</item>
+        <item quantity="other">dny</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Hodiny</item>
+        <item quantity="few">Hodiny</item>
+        <item quantity="many">Hodiny</item>
+        <item quantity="other">Hodiny</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">minuty</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minuta</item>
+        <item quantity="other">minuta</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">měsíc</item>
+        <item quantity="few">měsíce</item>
+        <item quantity="many">měsíců</item>
+        <item quantity="other">měsíců</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="few">s</item>
+        <item quantity="many">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">týden</item>
+        <item quantity="few">týdny</item>
+        <item quantity="many">týdnů</item>
+        <item quantity="other">týdnů</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">před %1$d rokem</item>
+        <item quantity="few">před %1$d roky</item>
+        <item quantity="many">před %1$d roky</item>
+        <item quantity="other">před %1$d roky</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d dny</item>
+        <item quantity="few">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d dny</item>
+        <item quantity="many">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d dnů</item>
+        <item quantity="other">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d dny</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d hodin</item>
+        <item quantity="few">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d hodiny</item>
+        <item quantity="many">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d hodin</item>
+        <item quantity="other">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d hodin</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d minut</item>
+        <item quantity="few">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d minuty</item>
+        <item quantity="many">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d minut</item>
+        <item quantity="other">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d minut</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d sekund</item>
+        <item quantity="few">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d sekundy</item>
+        <item quantity="many">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d sekund</item>
+        <item quantity="other">Omlouváme se! Byl(a) jsi zablokován(a)\10Znovu můžeš živě streamovat za %1$d sekund</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d uživatelů sleduje váš přenos, chcete ho ukončit?</item>
+        <item quantity="few">%d uživatelé sledují váš přenos, chcete ho ukončit?</item>
+        <item quantity="many">%d uživatelů sleduje váš přenos, chcete ho ukončit?</item>
+        <item quantity="other">%d uživatelů sleduje váš přenos, chcete ho ukončit?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Připojeno po %1$d minutu</item>
+        <item quantity="few">Připojeno po %1$d minuty</item>
+        <item quantity="many">Připojeno po %1$d minut</item>
+        <item quantity="other">Připojeno po %1$d minut</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Čekání po %1$d minutu</item>
+        <item quantity="few">Čekání po %1$d minuty</item>
+        <item quantity="many">Čekání po %1$d minut</item>
+        <item quantity="other">Čekání po %1$d minut</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Dobijete-li poprvé %1$d diamant, získáte %2$d navíc!</item>
+        <item quantity="few">Dobijete-li poprvé %1$d diamanty, získáte %2$d navíc!</item>
+        <item quantity="many">Dobijete-li poprvé %1$d diamantů, získáte %2$d navíc!</item>
+        <item quantity="other">Dobijete-li poprvé %1$d diamantů, získáte %2$d navíc!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minut</item>
+        <item quantity="other">minut</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="k">
+        <item>@string/a74</item>
+        <item>@string/a7a</item>
+        <item>@string/a6x</item>
+    </array>
+</resources>

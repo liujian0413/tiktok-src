@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="391dp" android:layout_height="152dp">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/aor" android:background="@drawable/bo5" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="375dp" android:layout_height="136dp" android:layout_margin="8dp"/>
+</FrameLayout>

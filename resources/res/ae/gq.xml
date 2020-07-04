@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/dke" layout="@layout/agy"/>
+            <FrameLayout android:layout_gravity="end" android:id="@+id/d4i" android:layout_width="@dimen/x5" android:layout_height="@dimen/x5">
+                <ImageView android:layout_gravity="center" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="6dp" android:src="@drawable/alb" android:contentDescription="@string/c_z"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="104dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/ic" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="centerInside"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="68dp" android:layout_marginRight="68dp" android:layout_marginStart="68dp" android:layout_marginEnd="68dp">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab0" android:id="@+id/c4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/u6"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab4" android:id="@+id/e9_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/u2"/>
+            </LinearLayout>
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/d37" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/bhn" app:actualImageScaleType="2" app:failureImage="@drawable/ac4" app:failureImageScaleType="2" app:placeholderImage="@drawable/ac4" app:placeholderImageScaleType="2"/>
+        </FrameLayout>
+        <View android:background="@color/a4j" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/crk" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/de_"/>
+        <View android:id="@+id/crl" android:background="@color/a4j" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/crz" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/des"/>
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/mt" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/tj"/>
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/crn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/def"/>
+        <View android:id="@+id/cro" android:background="#99999999" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+</ScrollView>

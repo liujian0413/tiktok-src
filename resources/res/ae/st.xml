@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/l0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@+id/egh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="50dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/l_" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/dqa" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/bc5" style="@style/u6"/>
+    <View android:layout_gravity="bottom" android:background="#20161823" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="50dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp"/>
+</FrameLayout>

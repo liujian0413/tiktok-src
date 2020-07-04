@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwi" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_below="@+id/dal" layout="@layout/agy"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:hideLine="true" app:startText="@string/fo9"/>
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/ee" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/ea" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/eo" app:left_text="@string/ew" app:left_text_color="@color/a4p"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/a9n" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/dnr"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/eek" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/dnu" app:left_text="@string/dny"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

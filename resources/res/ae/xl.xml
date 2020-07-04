@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bdp" android:layout_width="44dp" android:layout_height="44dp" android:layout_centerVertical="true" app:failureImage="@drawable/dh" app:placeholderImage="@drawable/dh" app:roundAsCircle="false" app:roundedCornerRadius="2dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/bdp">
+        <TextView android:textSize="15dp" android:textColor="@color/abu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axz" android:lineSpacingExtra="3dp"/>
+        <TextView android:textSize="13dp" android:textColor="@color/aza" android:ellipsize="end" android:id="@+id/e53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxWidth="195dp" android:text="ljfldjapgjadsjjahgldajglsjdg" android:maxLines="1" android:lineSpacingExtra="3dp"/>
+    </LinearLayout>
+</RelativeLayout>

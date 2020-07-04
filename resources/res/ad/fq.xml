@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:id="@+id/b3o" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="true" app:isShowDotOnImageView="false" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="52dp" app:itemImgWidth="52dp" app:placeHolderDrawable="@drawable/et"/>
+        <RelativeLayout android:layout_width="60dp" android:layout_height="60dp">
+            <ImageView android:id="@+id/b8u" android:visibility="gone" android:layout_width="@dimen/cd" android:layout_height="@dimen/cd" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:src="@drawable/ep" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ahr" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp">
+            <View android:background="@color/a5d" android:layout_width="16dp" android:layout_height="2dp"/>
+            <View android:background="@drawable/g4" android:layout_width="9dp" android:layout_height="9dp"/>
+            <View android:background="@color/a5d" android:layout_width="9dp" android:layout_height="2dp" android:alpha="0.6"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

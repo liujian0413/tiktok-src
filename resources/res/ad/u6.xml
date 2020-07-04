@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:layout_gravity="center" android:id="@+id/db2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="false" app:isShowBorder="true" app:isShowDotOnImageView="false" app:isShowText="false" app:itemImgHeight="50dp" app:itemImgWidth="50dp" app:roundRadius="6dp"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/b09" android:padding="2dp" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:layout_margin="3dp" android:src="@drawable/als" android:scaleType="fitXY"/>
+</FrameLayout>

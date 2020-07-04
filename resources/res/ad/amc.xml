@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a19" android:background="#303342" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cj_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/fy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/cmu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImageScaleType="0"/>
+    <View android:id="@+id/cmv" android:background="#66000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bnh" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/aeq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/aqu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

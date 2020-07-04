@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cwi" android:background="@drawable/pl" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:layout_centerHorizontal="true">
+        <com.p280ss.android.ugc.aweme.p1168df.base.p1170ui.DynamicFeatureCircularProgressView android:id="@+id/b_w" android:layout_width="36dp" android:layout_height="36dp" android:layout_centerInParent="true" app:cpv_animAutostart="true" app:cpv_color="@color/az3" app:cpv_indeterminate="true" app:cpv_maxProgress="100" app:cpv_thickness="2dp"/>
+        <TextView android:textSize="11sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/cky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="15sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/by6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/a5o" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

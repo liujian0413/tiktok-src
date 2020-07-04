@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kw">10dp</dimen>
+    <dimen name="kx">12dp</dimen>
+    <dimen name="ky">14dp</dimen>
+    <dimen name="kz">15dp</dimen>
+    <dimen name="l0">17dp</dimen>
+    <dimen name="l1">20dp</dimen>
+    <dimen name="l2">24dp</dimen>
+    <dimen name="l3">25dp</dimen>
+    <dimen name="l4">30dp</dimen>
+    <dimen name="l5">31dp</dimen>
+    <dimen name="l6">32dp</dimen>
+    <dimen name="l7">35dp</dimen>
+    <dimen name="l8">31dp</dimen>
+    <dimen name="l9">40dp</dimen>
+    <dimen name="l_">48dp</dimen>
+    <dimen name="la">5dp</dimen>
+    <dimen name="lb">5.5dp</dimen>
+    <dimen name="lc">61dp</dimen>
+    <dimen name="ld">72dp</dimen>
+    <dimen name="le">8dp</dimen>
+</resources>

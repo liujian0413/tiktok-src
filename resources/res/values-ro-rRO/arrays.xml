@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Bibliotecă online de sunete</item>
+        <item>Sunetele mele</item>
+    </array>
+    <array name="m">
+        <item>Șterge</item>
+        <item>Anulează</item>
+    </array>
+    <array name="n">
+        <item>În tendințe</item>
+        <item>Cele mai recente</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Duminică</item>
+        <item>Luni</item>
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+    </array>
+    <array name="y">
+        <item>Chineză simplificată</item>
+        <item>Chineză tradițională</item>
+        <item>Engleză</item>
+        <item>Japoneză</item>
+        <item>Coreeană</item>
+        <item>Rusă</item>
+        <item>Indoneziană</item>
+        <item>Malaieză</item>
+        <item>Portugheză</item>
+        <item>Tailandeză</item>
+        <item>Vietnameză</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Alb/negru</item>
+        <item>Arte</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturat</item>
+        <item>Crom</item>
+    </array>
+    <array name="a1">
+        <item>Ian</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mai</item>
+        <item>Iun</item>
+        <item>Iul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Noi</item>
+        <item>Dec</item>
+    </array>
+    <array name="a4">
+        <item>Economisirea datelor prioritară</item>
+        <item>Rezoluție mare prioritară</item>
+    </array>
+    <array name="a5">
+        <item>Toată lumea</item>
+        <item>Numai prieteni</item>
+    </array>
+    <array name="az">
+        <item>Luni</item>
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+        <item>Duminică</item>
+    </array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bjh" android:layout_width="match_parent" android:layout_height="wrap_content" android:keepScreenOn="true">
+    <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bnf" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80dp"/>
+    <include android:id="@+id/cjv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/b2y"/>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/amt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/lm" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.longvideo.view.DoubleClickDiggFrameLayout android:id="@+id/cws" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.ss.android.ugc.aweme.longvideo.view.CustomBottomSheetBehavior"/>
+        <RelativeLayout android:id="@+id/dl5" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@+id/eaz" android:background="@drawable/ol" android:layout_width="match_parent" android:layout_height="126dp" android:layout_alignParentTop="true"/>
+            <View android:id="@+id/eay" android:background="@drawable/ok" android:layout_width="match_parent" android:layout_height="334dp" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/a4h" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+                <com.p280ss.android.ugc.aweme.base.p308ui.AnimatedImageView android:id="@+id/a4g" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a44" app:placeholderImageScaleType="6"/>
+                <com.p280ss.android.ugc.aweme.base.p308ui.AudioControlView android:layout_gravity="bottom" android:id="@+id/hs" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="0.8" app:foregroundColor="@color/a8u"/>
+                <com.p280ss.android.ugc.aweme.feed.widget.LineProgressBar android:layout_gravity="bottom" android:id="@+id/cce" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/b7g" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="24dp" android:src="@drawable/vx" android:scaleType="fitXY"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ccf" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/bb4" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/abx"/>
+                <com.p280ss.android.ugc.aweme.longvideo.view.VideoPlaySeekBar android:layout_gravity="center_vertical" android:id="@+id/ebh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1" android:layout_marginStart="16dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/c8y" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_above="@+id/ccf">
+                <com.p280ss.android.ugc.aweme.longvideo.view.LongVideoDiggAnimationView android:layout_gravity="center" android:id="@+id/b8j" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:src="@drawable/bg_like" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+                <ImageView android:id="@+id/b7p" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/a8m" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+                <ImageView android:id="@+id/bc7" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/a8t" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/bbh" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/aek" android:layout_centerInParent="true"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bxa" android:background="@drawable/oc" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginBottom="4dp" android:layout_above="@+id/ccf" android:layout_alignParentEnd="true">
+                <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:layout_gravity="center" android:id="@+id/bx_" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="6dp" android:scaleType="centerInside" android:contentDescription="@string/b9y" android:layout_marginStart="6dp"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center" android:id="@+id/bxb" android:paddingLeft="6dp" android:paddingRight="15.5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="6dp" android:paddingEnd="15.5dp"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="18sp" android:textColor="@color/az3" android:ellipsize="end" android:gravity="center" android:id="@+id/bvb" android:layout_width="wrap_content" android:layout_height="56dp" android:maxLines="1" android:layout_alignBottom="@+id/b7g" android:layout_marginStart="40dp" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12sp" android:textColor="@color/az3" android:id="@+id/bva" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <com.p280ss.android.ugc.aweme.commercialize.views.CommerceLikeLayout android:id="@+id/a0_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.commercialize.loft.half.LoftView android:id="@+id/eax" android:layout_width="match_parent" android:layout_height="match_parent" android:translationY="1dp"/>
+    <include layout="@layout/a8c"/>
+</FrameLayout>

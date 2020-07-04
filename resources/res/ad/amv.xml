@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="12sp" android:textColor="#f4f4f5" android:id="@+id/a7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <View android:id="@+id/e_v" android:background="#66676b72" android:layout_width="1dp" android:layout_height="10dp" android:layout_marginRight="12dp" android:layout_toLeftOf="@+id/a7w" android:layout_centerVertical="true"/>
+    <com.bytedance.android.livesdk.gift.honor.LiveGiftHonorProgressView android:id="@+id/aw1" android:layout_width="match_parent" android:layout_height="@dimen/q3" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_toLeftOf="@+id/e_v" android:layout_toRightOf="@+id/bl7" android:layout_centerVertical="true"/>
+    <TextView android:textSize="10sp" android:textColor="#f4f4f5" android:id="@+id/c3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_below="@+id/aw1" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/blj" android:background="@drawable/bqa" android:layout_width="0dp" android:layout_height="14dp" android:layout_alignLeft="@+id/bl7" android:layout_centerVertical="true">
+        <TextView android:textSize="10sp" android:textColor="#face15" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp"/>
+    </FrameLayout>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bl7" android:layout_width="30dp" android:layout_height="14dp" android:layout_marginLeft="12dp" android:layout_centerVertical="true"/>
+    <TextView android:textSize="12sp" android:textColor="#face15" android:id="@+id/ei4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_centerVertical="true"/>
+    <View android:id="@+id/ar2" android:background="#33ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

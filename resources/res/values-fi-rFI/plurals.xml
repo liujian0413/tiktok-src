@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Poista luonnos?</item>
+        <item quantity="other">Poistetaanko luonnokset?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodia</item>
+        <item quantity="other">%d melodiaa</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d musiikki</item>
+        <item quantity="other">%d musiikkia</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d kipale</item>
+        <item quantity="other">%d kipaletta</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d kappale</item>
+        <item quantity="other">%d kappaletta</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ääni</item>
+        <item quantity="other">%d ääntä</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d sävelmä</item>
+        <item quantity="other">%d sävelmää</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d videota</item>
+        <item quantity="other">%d videota</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">postasi %d videon</item>
+        <item quantity="other">postasi %d videota</item>
+    </plurals>
+</resources>

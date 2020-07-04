@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:endText="@string/b3y" app:endTextColor="@color/a64" app:endTextSize="13sp" app:endTextVisible="8" app:titleTextColor="@color/a5d" app:useBackIcon="true"/>
+        <ImageView android:id="@+id/e7" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="6dp" android:src="@drawable/akt" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/aib" android:background="@color/a7o" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr7" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <android.support.p029v7.widget.RecyclerView android:id="@+id/aip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <android.support.p029v7.widget.RecyclerView android:id="@+id/bng" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

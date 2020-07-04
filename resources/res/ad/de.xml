@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@android:color/white" android:id="@+id/dzf" android:background="@android:color/black" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawableBottom="@android:color/darker_gray"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7e" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="控制判断为低端机"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@android:color/white" android:background="@android:color/black" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="工具" android:drawableBottom="@android:color/darker_gray"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItem android:id="@+id/d6m" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="布局层级调试工具"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7d" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="开启页面打开时间"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7b" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="显示Fps"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d77" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="检测无效绘制"/>
+    </LinearLayout>
+</ScrollView>

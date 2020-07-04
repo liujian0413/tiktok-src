@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true">
+        <inset android:insetLeft="@dimen/ch" android:insetRight="@dimen/ch" android:insetTop="@dimen/ch" android:insetBottom="@dimen/ch">
+            <shape android:shape="oval">
+                <solid android:color="#fe2c55"/>
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:insetLeft="@dimen/ch" android:insetRight="@dimen/ch" android:insetTop="@dimen/ch" android:insetBottom="@dimen/ch">
+            <shape android:shape="oval">
+                <solid android:color="#7ffe2c55"/>
+            </shape>
+        </inset>
+    </item>
+</selector>

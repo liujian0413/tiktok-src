@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/d48" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/dal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <View android:background="@drawable/nc" android:layout_width="match_parent" android:layout_height="126dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_below="@+id/dal">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/jo" android:padding="12dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="3dp" android:src="@drawable/b1q"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/yl" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d3u" style="@style/u9"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/baa" android:padding="12dp" android:layout_width="46dp" android:layout_height="44dp" android:src="@drawable/b19"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.PressFadeTextView android:textSize="15sp" android:textColor="@color/zg" android:gravity="center" android:id="@+id/e1q" android:background="@drawable/rj" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="@string/dme" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

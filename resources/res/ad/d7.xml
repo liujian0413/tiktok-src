@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwu" android:background="@color/aye" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:endButtonType="1" app:endText="@string/ci1" app:endTextSize="15dp" app:titleTextColor="@color/ab1" app:useBackIcon="true"/>
+    <FrameLayout android:id="@+id/a24" android:background="@color/aye" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/djz"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5s" android:layout_alignParentLeft="true"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5t" android:layout_alignParentRight="true"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5u" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5v" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bsc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:id="@+id/vb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+        <TextView android:textSize="12sp" android:textColor="#a3ffffff" android:id="@+id/dro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/eqx" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ImageView android:id="@+id/bnt" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="24dp" android:src="@drawable/c_q" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <View android:background="#14ffffff" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" app:layout_constraintBottom_toBottomOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/dj2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textColor="@color/aik" android:gravity="center_horizontal" android:id="@+id/dj0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0"/>
+            <TextView android:textSize="12sp" android:textColor="@color/afw" android:gravity="center_horizontal" android:id="@+id/dj1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/er4"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textColor="@color/am4" android:gravity="center_horizontal" android:id="@+id/c3s" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0"/>
+            <TextView android:textSize="12sp" android:textColor="@color/am6" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/er3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/bp4" android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp">
+        <android.support.constraint.ConstraintLayout android:gravity="center_horizontal" android:id="@+id/efw" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/aft" android:gravity="center_horizontal" android:id="@+id/efu" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <ImageView android:id="@+id/bq9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:src="@drawable/cew" app:layout_constraintBottom_toBottomOf="@+id/efu" app:layout_constraintLeft_toRightOf="@+id/efu" app:layout_constraintTop_toTopOf="@+id/efu"/>
+            <TextView android:textSize="12sp" android:textColor="#7affffff" android:gravity="center_horizontal" android:id="@+id/efv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/er6" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toBottomOf="@+id/efu"/>
+        </android.support.constraint.ConstraintLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="24sp" android:textColor="@color/aft" android:gravity="center_horizontal" android:id="@+id/a2n" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0"/>
+            <TextView android:textSize="12sp" android:textColor="@color/afw" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/eqz"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

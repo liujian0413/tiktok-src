@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dsz" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/ty"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bhm" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/b9h" android:layout_width="23dp" android:layout_height="20dp" android:src="@drawable/a80"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:id="@+id/dux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b9u" style="@style/u0"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgx" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/b7p" android:layout_width="23dp" android:layout_height="20dp" android:src="@drawable/a8m"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:id="@+id/ds6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a7h" style="@style/u0"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bh7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@+id/a8u" android:layout_width="23dp" android:layout_height="20dp" android:src="@drawable/m2" android:cropToPadding="false"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:id="@+id/dtf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biq" style="@style/u0"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="388dp" android:minHeight="188dp">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.github.rahatarmanahmed.cpv.CircularProgressView android:layout_gravity="center" android:id="@+id/clb" android:layout_width="32dp" android:layout_height="32dp" app:cpv_animAutostart="false" app:cpv_color="#fdcaf5" app:cpv_indeterminate="true" app:cpv_thickness="3dp"/>
+    </FrameLayout>
+</FrameLayout>

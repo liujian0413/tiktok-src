@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cu4" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/am0" android:background="@color/dq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/cu2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/dku" android:layout_width="match_parent" android:layout_height="40dp" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="?attr/yu" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/qg"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cx8" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="20dp" android:layout_below="@+id/dku" android:overScrollMode="never"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/cu0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/cu1" android:layout_width="match_parent" android:layout_height="40dp">
+                <FrameLayout android:id="@+id/alz" android:layout_width="40dp" android:layout_height="match_parent">
+                    <ImageView android:layout_gravity="center" android:id="@+id/b7n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ar6"/>
+                </FrameLayout>
+                <TextView android:textSize="16dp" android:textColor="@color/az3" android:id="@+id/ds3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cx7" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="20dp" android:layout_below="@+id/cu1" android:overScrollMode="never"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/cu5" android:paddingTop="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/am0">
+        <RelativeLayout android:id="@+id/cu3" android:background="@drawable/e1" android:layout_width="60dp" android:layout_height="28dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/b7o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a3b" android:layout_gravity="center_vertical" android:id="@+id/ds4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/ns" style="@style/u2"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <com.p280ss.android.ugc.aweme.tools.beauty.BeautyProgressBar android:id="@+id/ca2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:maxHeight="3dp" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/cy" android:thumb="@drawable/cz" android:layout_toLeftOf="@+id/cu3" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" app:rateTextSize="12dp"/>
+    </RelativeLayout>
+    <View android:id="@+id/e_c" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cu5" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+</RelativeLayout>

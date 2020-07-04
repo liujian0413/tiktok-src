@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/dk2" android:layout_width="match_parent" android:layout_height="@dimen/nb"/>
+    <FrameLayout android:id="@+id/s4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dk2">
+        <com.bytedance.ies.bullet.p551ui.common.BulletContainerView android:id="@+id/s5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bu_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+</RelativeLayout>

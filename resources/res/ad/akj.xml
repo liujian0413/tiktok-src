@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bpj" android:layout_width="270dp" android:layout_height="100dp">
+        <TextView android:textColor="#000000" android:gravity="center" android:layout_width="match_parent" android:layout_height="56.5dp" android:text="@string/en7"/>
+        <View android:id="@+id/a9r" android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17sp" android:textColor="@color/ae3" android:gravity="center" android:id="@+id/dr7" android:layout_width="0dp" android:layout_height="43.5dp" android:text="@string/fdl" android:layout_weight="1"/>
+            <View android:id="@+id/a9z" android:background="@color/ag1" android:layout_width="1dp" android:layout_height="43.5dp"/>
+            <TextView android:textSize="17sp" android:textColor="@color/ae8" android:gravity="center" android:id="@+id/dwf" android:layout_width="0dp" android:layout_height="43.5dp" android:text="@string/fdn" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Онлайн-библиотека звуков</item>
+        <item>Моя музыка</item>
+    </array>
+    <array name="m">
+        <item>Удалить</item>
+        <item>Отмена</item>
+    </array>
+    <array name="n">
+        <item>В тренде</item>
+        <item>Недавние</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </array>
+    <array name="y">
+        <item>Китайский (упрощенный)</item>
+        <item>Традиционный китайский</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Русский</item>
+        <item>Индонезийский</item>
+        <item>Малайский</item>
+        <item>Португальский</item>
+        <item>Тайский</item>
+        <item>Вьетнамский</item>
+        <item>Хинди</item>
+    </array>
+    <array name="z">
+        <item>Обычный</item>
+        <item>Черно-белый</item>
+        <item>Живопись</item>
+        <item>Винтаж</item>
+        <item>Ретро-люкс</item>
+        <item>Контрастный</item>
+        <item>Хроматический</item>
+    </array>
+    <array name="a1">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </array>
+    <array name="a4">
+        <item>Экономия данных</item>
+        <item>Высокое разрешение</item>
+    </array>
+    <array name="a5">
+        <item>Все</item>
+        <item>Только для друзей</item>
+    </array>
+    <array name="af">
+        <item>Выбрать из альбома</item>
+        <item>Сделать фото</item>
+        <item>Отменить</item>
+    </array>
+    <array name="an">
+        <item>Фильтр_01</item>
+        <item>Фильтр_02</item>
+        <item>Фильтр_03</item>
+        <item>Фильтр_04</item>
+        <item>Фильтр_05</item>
+    </array>
+    <array name="ao">
+        <item>Нет</item>
+        <item>Цветок</item>
+        <item>Сладкий</item>
+        <item>Чай</item>
+        <item>Умный</item>
+        <item>Розовый</item>
+        <item>Бриз</item>
+        <item>Мягкий</item>
+        <item>Солнечный свет</item>
+        <item>Малыш</item>
+        <item>Ностальгия</item>
+        <item>Яркий</item>
+        <item>Забавный</item>
+        <item>Персик</item>
+        <item>Закат</item>
+    </array>
+    <array name="aq">
+        <item>Раунд</item>
+        <item>За неделю</item>
+        <item>За все время</item>
+        <item>Рейтинг Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </array>
+    <array name="au">
+        <item>Нет</item>
+        <item>Мягкий</item>
+        <item>Очистить</item>
+        <item>В японском стиле</item>
+        <item>Трогательный</item>
+    </array>
+    <array name="av">
+        <item>Нет</item>
+        <item>Мягкий</item>
+        <item>Яркий</item>
+        <item>Первая любовь</item>
+    </array>
+    <array name="aw">
+        <item>Жалоба</item>
+        <item>Отменить</item>
+    </array>
+    <array name="az">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </array>
+</resources>

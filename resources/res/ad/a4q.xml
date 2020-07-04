@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cfd" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cfc" android:layout_width="wrap_content" android:layout_height="28dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_z" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/aet" android:scaleType="centerCrop"/>
+            <com.p280ss.android.ugc.aweme.newfollow.p1423ui.FollowFeedTagGroup android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/l8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/buk" android:paddingLeft="5dp" android:paddingRight="2dp" android:paddingBottom="1.4dp" android:layout_width="wrap_content" android:layout_height="30dp" android:maxLines="1" style="@style/u2"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/a9y" android:layout_width="1dp" android:layout_height="8dp" android:layout_marginLeft="3dp" android:layout_marginRight="5dp" android:src="@color/a5x"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/e7h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/ty"/>
+            </com.p280ss.android.ugc.aweme.newfollow.p1423ui.FollowFeedTagGroup>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:ellipsize="end" android:gravity="center" android:id="@+id/w4" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:maxLines="1" style="@style/ty"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cfb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="25dp" android:layout_marginTop="-4dp" android:layout_marginBottom="5.5dp">
+            <com.p280ss.android.ugc.aweme.newfollow.p1423ui.FollowFeedTagGroup android:layout_gravity="center_vertical" android:id="@+id/ch8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a1y" android:ellipsize="end" android:id="@+id/w3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="7dp" android:maxLines="1" style="@style/ty"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/a9q" android:layout_width="1dp" android:layout_height="8dp" android:layout_marginRight="7dp" android:src="@color/a1z"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a1y" android:ellipsize="end" android:id="@+id/b3d" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginRight="5dp" android:maxLines="1" style="@style/ty"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/a40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp"/>
+            </com.p280ss.android.ugc.aweme.newfollow.p1423ui.FollowFeedTagGroup>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a71" android:ellipsize="end" android:id="@+id/duh" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="-4dp" android:layout_marginBottom="4dp" android:maxWidth="215dp" android:maxLines="1" style="@style/ty"/>
+    </LinearLayout>
+</LinearLayout>

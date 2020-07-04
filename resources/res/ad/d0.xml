@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.zhihu.matisse.internal.p1856ui.widget.PreviewViewPager android:id="@+id/c9z" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/oe" android:background="@color/a2s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16sp" android:textColor="?attr/vu" android:layout_gravity="start" android:id="@+id/sf" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19" android:text="@string/c85"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/c9k" android:padding="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19">
+                <com.zhihu.matisse.internal.p1856ui.widget.CheckRadioView android:layout_gravity="center_vertical" android:id="@+id/c9j" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/afa" android:tint="#ffffff"/>
+                <TextView android:enabled="true" android:textSize="14sp" android:textColor="?attr/vu" android:layout_gravity="center_vertical" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c87"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/a2r" android:layout_gravity="center" android:id="@+id/d7h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="?attr/vt" android:layout_gravity="end" android:id="@+id/se" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/dmw" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_alignParentRight="true">
+        <com.zhihu.matisse.internal.p1856ui.widget.CheckView android:id="@+id/vg" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="165dp">
+    <com.p280ss.android.ugc.aweme.views.WorkaroundRemoteImageView android:id="@+id/b_i" android:layout_width="match_parent" android:layout_height="match_parent" app:failureImage="@color/vt" app:placeholderImage="@color/vt"/>
+    <View android:id="@+id/ecq" android:background="@drawable/nm" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/dw_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="9dp" android:layout_marginBottom="8dp" app:fontType="2" style="@style/u6"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/bc0" android:background="@drawable/a_m" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp"/>
+</FrameLayout>

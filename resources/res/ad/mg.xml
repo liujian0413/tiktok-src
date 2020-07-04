@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/j7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a7x" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wy" style="@style/u0"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/b7g" android:padding="4dp" android:layout_width="21dp" android:layout_height="21dp" android:layout_marginRight="15dp" android:src="@drawable/a3y"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AnimatedImageView android:layout_gravity="center_horizontal" android:id="@+id/b6w" android:layout_width="262.5dp" android:layout_height="150dp" app:placeholderImage="@drawable/abj"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.AnimatedImageView android:id="@+id/b8p" android:layout_width="wrap_content" android:layout_height="wrap_content" app:placeholderImage="@color/ayd"/>
+    </FrameLayout>
+    <FrameLayout android:paddingLeft="56dp" android:paddingRight="56dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a7x" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wx" style="@style/u4"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/bbg" android:padding="1dp" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ago"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.captcha.p1081ui.DragBar android:layout_gravity="center_horizontal" android:id="@+id/abe" android:layout_width="259dp" android:layout_height="40dp" android:layout_marginTop="32.5dp" android:layout_marginBottom="32.5dp"/>
+</LinearLayout>

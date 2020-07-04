@@ -1,0 +1,41 @@
+{
+  "flow_gear_group": {
+    "default_gear_name": "lower_720",
+    "gear_group": [
+      "lower_720",
+      "lowest_720"
+    ]
+  },
+  "adaptive_gear_group": {
+    "bitrate_range": [
+      200000,
+      2500000
+    ],
+    "default_gear_name": "lowest_540",
+    "default_bitrate": 1200000,
+    "gear_group": [
+      "normal_720",
+      "lower_720",
+      "lowest_720",
+      "normal_540",
+      "lower_540",
+      "lowest_540",
+      "normal_480"
+    ]
+  },
+  "default_gear_group": "adaptive_gear_group",
+  "definition_gear_group": {
+    "default_gear_name": "normal",
+    "gear_group": [
+      "normal_720",
+      "lower_720"
+    ]
+  },
+  "auto_bitrate_params": {
+    "param_d": -175870,
+    "param_b": 9.6104e-09,
+    "param_a": 0,
+    "param_c": 0.29429,
+    "min_bitrate": 200000
+  }
+}

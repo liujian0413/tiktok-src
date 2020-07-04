@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bh2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout android:orientation="vertical" android:id="@+id/c9o" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/c9n" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/bhw" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/bhr" android:background="@color/v" android:paddingTop="8dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/a4z" android:gravity="center" android:layout_gravity="center" android:id="@+id/dhq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8s"/>
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/a19" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.p280ss.android.ugc.aweme.comment.p1103ui.CommentAtSearchLayout android:id="@+id/sl" android:background="@drawable/j3" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginBottom="-220dp">
+                        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:gravity="center" android:id="@+id/du7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/c44"/>
+                        <com.p280ss.android.ugc.aweme.comment.p1103ui.CommentAtSearchLoadingView android:id="@+id/bu9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                        <android.support.p029v7.widget.RecyclerView android:id="@+id/cxo" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    </com.p280ss.android.ugc.aweme.comment.p1103ui.CommentAtSearchLayout>
+                    <LinearLayout android:orientation="vertical" android:background="@color/au2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <View android:id="@+id/dfd" android:background="@color/li" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                        <include android:id="@+id/z5" android:layout_width="match_parent" android:layout_height="52dp" layout="@layout/il"/>
+                        <FrameLayout android:id="@+id/bhq" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="16dp">
+                            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/aqf" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:fadeDuration="300" app:roundWithOverlayColor="@color/az3" app:roundedCornerRadius="2dp" app:roundingBorderColor="@color/li" app:roundingBorderWidth="0.5dp"/>
+                            <ImageView android:layout_gravity="end" android:id="@+id/aqg" android:paddingLeft="8dp" android:paddingRight="0dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ar0"/>
+                        </FrameLayout>
+                        <android.support.p029v7.widget.AppCompatCheckBox android:textColor="@color/a7r" android:id="@+id/tm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginBottom="15dp" android:button="@null" android:text="@string/d9a" android:drawableLeft="@drawable/bhh" android:drawablePadding="4dp" android:drawableStart="@drawable/bhh" style="@style/u4"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/c_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/c_7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="bottom" android:id="@+id/bjm" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </com.p280ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>
+    <ImageView android:id="@+id/aqh" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp"/>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="dismiss">
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/md" android:layout_width="match_parent" android:layout_height="340dp">
+        <com.p280ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/egh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/x_" android:paddingTop="13dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5b" android:paddingStart="18dp" android:paddingEnd="18dp"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">ลบแบบร่างหรือไม่</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d ทำนองเพลง</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d ดนตรี</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d บทเพลง</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d เสียง</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%d ทำนอง</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d วิดีโอ</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">%d วันก่อน</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">ชั่วโมง</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">%1$d ชั่วโมงก่อน</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">นาที</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">%1$d นาทีก่อน</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">วัน</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">ชั่วโมง</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">นาที</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">เดือน</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">วินาที</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">สัปดาห์</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="other">%1$d ปีก่อน</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="other">ขออภัย! คุณถูกแบน\10 คุณสามารถสตรีมสดได้อีกครั้งใน %1$d วัน</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="other">ขออภัย! คุณถูกแบน\10 คุณสามารถสตรีมสดได้อีกครั้งใน %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="other">ขออภัย ขณะนี้คุณถูกแบน \10 คุณสามารถสตรีมสดได้อีกครั้งใน: %1$d นาที</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="other">ขออภัย! คุณถูกแบน\10 คุณสามารถสตรีมสดได้อีกครั้งใน: %1$d วินาที</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="other">ผู้ใช้ %d คนกำลังรับชมการถ่ายทอดของคุณอยู่ ต้องการปิดหรือไม่</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="other">เชื่อมต่ออยู่เป็นเวลา %1$d นาทีแล้ว</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="other">รออยู่เป็นเวลา %1$d นาทีแล้ว</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="other">การเติมเงินซื้อเพชรครั้งแรก %1$d เม็ดได้รับเพิ่มอีก %2$d เม็ด!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="other">นาที</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">โพสต์ %d วิดีโอแล้ว</item>
+    </plurals>
+</resources>

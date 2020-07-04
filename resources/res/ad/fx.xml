@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:id="@+id/b3n" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="true" app:isShowBorder="true" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="48dp" app:itemImgWidth="48dp" app:oldPanel="true" app:roundRadius="2dp"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bdv" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" app:failureImage="@drawable/bkx" app:placeholderImage="@drawable/bkx" app:roundAsCircle="false"/>
+</RelativeLayout>

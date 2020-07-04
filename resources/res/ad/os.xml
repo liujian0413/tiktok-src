@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <android.support.design.widget.AppBarLayout android:theme="@style/n" android:id="@+id/u" android:background="@color/a6c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="d">
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/cxm" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="@color/g5" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bi2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include layout="@layout/a9f"/>
+            <FrameLayout android:id="@+id/dpt" android:background="@drawable/i3" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/a08"/>
+            </FrameLayout>
+            <View android:background="@color/g5" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@+id/c43" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/jl"/>
+    <com.p280ss.android.ugc.aweme.notification.view.NoticeView android:layout_gravity="bottom" android:id="@+id/c5h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" app:titleText="@string/cr7"/>
+    <com.p280ss.android.ugc.aweme.discover.p1185ui.NoticeView android:layout_gravity="bottom" android:id="@+id/asi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" app:iconImage="@drawable/adu" app:titleText="@string/bth"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</android.support.design.widget.CoordinatorLayout>

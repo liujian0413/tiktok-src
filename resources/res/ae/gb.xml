@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bjh" android:background="@color/lw" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <RelativeLayout android:id="@+id/dke" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/adc" android:layout_centerVertical="true" style="@style/a16"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a5d" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="88dp" android:layout_marginRight="88dp" android:text="@string/d0c" android:maxLines="1" android:layout_marginStart="88dp" android:layout_marginEnd="88dp" style="@style/u9"/>
+        <ImageView android:id="@+id/d4t" android:padding="10dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/alj" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <View android:background="@color/a1x" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dke"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:background="@color/lw" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/x5"/>
+</RelativeLayout>

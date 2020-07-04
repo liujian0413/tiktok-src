@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Ștergi schița?</item>
+        <item quantity="few">Ștergi schițele?</item>
+        <item quantity="other">Ștergi schițele?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodie</item>
+        <item quantity="few">%d melodii</item>
+        <item quantity="other">%d melodii</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">Muzică %d</item>
+        <item quantity="few">Muzică %d</item>
+        <item quantity="other">Muzică %d</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d piesă</item>
+        <item quantity="few">%d piese</item>
+        <item quantity="other">%d piese</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d cântec</item>
+        <item quantity="few">%d cântece</item>
+        <item quantity="other">%d cântece</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d sunet</item>
+        <item quantity="few">%d sunete</item>
+        <item quantity="other">%d sunete</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d melodie</item>
+        <item quantity="few">%d melodii</item>
+        <item quantity="other">%d melodii</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="few">%d friends commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="few">%d users want to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="few">%d friends liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="few">%d friends watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d videoclip</item>
+        <item quantity="few">%d videoclipuri</item>
+        <item quantity="other">%d videoclipuri</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">au postat %d videoclip</item>
+        <item quantity="few">au postat %d videoclipuri</item>
+        <item quantity="other">au postat %d videoclipuri</item>
+    </plurals>
+</resources>

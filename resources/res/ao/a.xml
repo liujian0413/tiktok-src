@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dl6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top" android:id="@+id/cbc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp">
+        <RelativeLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/azg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a4_" android:layout_centerVertical="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:id="@+id/dhy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/ea4" android:layout_toRightOf="@+id/azg" android:layout_centerVertical="true" style="@style/u6"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/cbb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="20dp">
+        <com.p280ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:id="@+id/dy2" android:text="@string/zm" android:drawableTop="@drawable/aq0" android:drawablePadding="@dimen/mc" style="@style/vd"/>
+        <com.p280ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:id="@+id/dy1" android:layout_marginLeft="16dp" android:text="@string/b6p" android:drawableTop="@drawable/aq4" android:drawablePadding="@dimen/mc" android:layout_toRightOf="@+id/dy2" style="@style/vd"/>
+        <com.p280ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:id="@+id/dy0" android:layout_marginLeft="16dp" android:text="@string/ea0" android:drawableTop="@drawable/aq2" android:drawablePadding="@dimen/mc" android:layout_toRightOf="@+id/dy1" style="@style/vd"/>
+        <FrameLayout android:layout_width="69dp" android:layout_height="32dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.p280ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:textSize="15sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/dy3" android:background="@drawable/rj" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/cll"/>
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

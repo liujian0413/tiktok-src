@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:duration="200" android:pivotX="50%" android:pivotY="50%" android:fromXScale="0.98" android:toXScale="1" android:fromYScale="0.98" android:toYScale="1"/>

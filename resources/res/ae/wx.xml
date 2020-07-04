@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dam" android:layout_width="match_parent" android:layout_height="128dp">
+    <include android:layout_width="@dimen/km" android:layout_height="@dimen/kl" layout="@layout/ag0"/>
+    <include android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/aft"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c7b" android:paddingTop="@dimen/kn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kl" android:minHeight="@dimen/kl" android:layout_toLeftOf="@+id/sr" android:layout_marginStart="@dimen/kl" android:layout_toStartOf="@+id/sr">
+        <FrameLayout android:id="@+id/c7a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kk" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_weight="1" android:layout_marginStart="@dimen/kk" android:layout_marginEnd="8dp"/>
+        <FrameLayout android:id="@+id/ctj" android:paddingTop="@dimen/kq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+            <DateTimeView android:textAppearance="@style/kr" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <Chronometer android:textAppearance="@style/kr" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/vy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/km" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/b0v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:singleLine="true"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bxh" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_alignParentBottom="true" android:layoutDirection="ltr"/>
+    <ImageView android:id="@+id/ae" android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="1dp" android:layout_above="@+id/bxh"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/b64" android:layout_width="48dp" android:layout_height="48dp"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/ab1" android:ellipsize="end" android:id="@+id/e4l" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="3sp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/auv" android:ellipsize="end" android:id="@+id/dt7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="2"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.following.p1265ui.view.WhiteBgFollowUserBtn android:id="@+id/ank" android:layout_width="wrap_content" android:layout_height="28dp" app:forceWidth="82dp"/>
+</LinearLayout>

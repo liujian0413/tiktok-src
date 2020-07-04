@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d">24dp</dimen>
+    <dimen name="e">80dp</dimen>
+    <dimen name="f">64dp</dimen>
+    <dimen name="g">8dp</dimen>
+    <dimen name="h">8dp</dimen>
+    <dimen name="a0">580dp</dimen>
+    <dimen name="bb">16dp</dimen>
+    <dimen name="bd">20dp</dimen>
+    <dimen name="fj">320dp</dimen>
+    <dimen name="fm">0dp</dimen>
+    <dimen name="fn">2dp</dimen>
+    <dimen name="fp">24dp</dimen>
+    <dimen name="fq">576dp</dimen>
+    <dimen name="fr">320dp</dimen>
+    <dimen name="fu">@dimen/ft</dimen>
+    <dimen name="fx">160dp</dimen>
+</resources>

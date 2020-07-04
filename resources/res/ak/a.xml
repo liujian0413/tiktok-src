@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="64dp" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/w7" android:padding="8dp" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="4dp" android:src="@drawable/a_1" android:scaleType="centerInside" android:autoMirrored="true"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a9b" android:ellipsize="end" android:gravity="center" android:id="@+id/c37" android:layout_width="60dp" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginBottom="8dp" android:text="@string/bn1" android:maxLines="2" style="@style/ty"/>
+</LinearLayout>

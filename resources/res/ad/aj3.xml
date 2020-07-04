@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fdp"/>
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/e7j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/fdm"/>
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/a8t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ema"/>
+        <TextView android:textSize="20dp" android:textColor="@android:color/holo_red_dark" android:id="@+id/ara" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ed_"/>
+        <TextView android:textSize="20sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/v9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ei_"/>
+        <TextView android:textSize="20sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/a8z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f74"/>
+        <TextView android:textSize="20sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/bxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="17sp" android:textColor="@android:color/holo_blue_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Push："/>
+        <TextView android:textSize="20sp" android:textColor="@android:color/holo_red_dark" android:id="@+id/cm_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</merge>

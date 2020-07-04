@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cl0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p262ui.widget.DoubleColorBallAnimationView android:layout_gravity="center" android:id="@+id/aa4" android:layout_width="36dp" android:layout_height="36dp"/>
+</FrameLayout>

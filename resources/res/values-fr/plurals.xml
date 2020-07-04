@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Supprimer le brouillon ?</item>
+        <item quantity="other">Supprimer les brouillons ?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d mélodie</item>
+        <item quantity="other">%d mélodies</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d musique</item>
+        <item quantity="other">%d musiques</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d morceau</item>
+        <item quantity="other">%d morceaux</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d chanson</item>
+        <item quantity="other">%d chansons</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d son</item>
+        <item quantity="other">%d sons</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d air</item>
+        <item quantity="other">%d airs</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d vidéo</item>
+        <item quantity="other">%d vidéos</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">a publié %d vidéo</item>
+        <item quantity="other">a publié %d vidéos</item>
+    </plurals>
+</resources>

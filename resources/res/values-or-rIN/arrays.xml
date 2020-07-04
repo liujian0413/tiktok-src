@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ଅନଲାଇନ୍ ସାଉଣ୍ଡ ଲାଇବ୍ରେରୀ</item>
+        <item>ମୋ ସାଉଣ୍ଡ</item>
+    </array>
+    <array name="m">
+        <item>ବିଲୋପ କରନ୍ତୁ</item>
+        <item>ବାତିଲ୍‌ କରନ୍ତୁ</item>
+    </array>
+    <array name="n">
+        <item>ଚର୍ଚ୍ଚାରେ</item>
+        <item>ଲାଟେଷ୍ଟ</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ରବିବାର</item>
+        <item>ସୋମବାର</item>
+        <item>ମଙ୍ଗଳବାର</item>
+        <item>ବୁଧବାର</item>
+        <item>ଗୁରୁବାର</item>
+        <item>ଶୁକ୍ରବାର</item>
+        <item>ଶନିବାର</item>
+    </array>
+    <array name="y">
+        <item>ସରଳୀକୃତ ଚାଇନିଜ୍</item>
+        <item>ଟ୍ରାଡିସନାଲ୍‌ ଚୀନା</item>
+        <item>ଇଂରାଜୀ</item>
+        <item>ଜାପାନୀ</item>
+        <item>କୋରିୟାନ୍‌</item>
+        <item>ରଶିୟାନ୍‌</item>
+        <item>ଇଣ୍ଡୋନେଶିଆନ୍‌</item>
+        <item>ମାଲୟୀ</item>
+        <item>ପର୍ତୁଗୀଜ</item>
+        <item>ଥାଇ</item>
+        <item>ଭିଏତନାମିଜ୍‌</item>
+        <item>ହିନ୍ଧୀ</item>
+    </array>
+    <array name="z">
+        <item>ସାମାନ୍ୟ</item>
+        <item>କଳା/ଧଳା</item>
+        <item>କଳା</item>
+        <item>ପ୍ରାଚୀନ</item>
+        <item>ରେଟ୍ରୋଲାକ୍ସ</item>
+        <item>ସମ୍ପୃକ୍ତ</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>ଜାନୁଆରୀ</item>
+        <item>ଫେବ୍ରୁଆରୀ</item>
+        <item>ମାର୍ଚ୍ଚ</item>
+        <item>ଏପ୍ରିଲ୍‍</item>
+        <item>ମେ</item>
+        <item>ଜୁନ୍</item>
+        <item>ଜୁଲାଇ</item>
+        <item>ଅଗଷ୍ଟ</item>
+        <item>ସେପ୍ଟେମ୍ବର</item>
+        <item>ଅକ୍ଟୋବର</item>
+        <item>ନଭେମ୍ବର</item>
+        <item>ଡିସେମ୍ବର</item>
+    </array>
+    <array name="a4">
+        <item>ପ୍ରଥମେ ଡାଟା-ସଞ୍ଚୟ</item>
+        <item>ପ୍ରଥମେ ଉଚ୍ଚ-ରିଜ୍ୟୁଲେସନ୍‌</item>
+    </array>
+    <array name="a5">
+        <item>ପ୍ରତ୍ୟେକ</item>
+        <item>କେବଳ ବନ୍ଧୁଗଣ</item>
+    </array>
+    <array name="af">
+        <item>ଲାଇବ୍ରେରୀରୁ ଚୟନ କରନ୍ତୁ</item>
+        <item>ଏକ ଫଟୋ ନିଅନ୍ତୁ</item>
+        <item>ବାତିଲ୍‌ କରନ୍ତୁ</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>କୌଣସିଟି ନୁହେଁ</item>
+        <item>ଫୁଲ</item>
+        <item>ମିଠା</item>
+        <item>ଚା</item>
+        <item>ବୃଦ୍ଧିମାନ</item>
+        <item>ଗୋଲାପି</item>
+        <item>ବ୍ରିଜ୍</item>
+        <item>ପ୍ରକୃତି</item>
+        <item>ସୂର୍ଯ୍ୟାଲୋକ</item>
+        <item>ଛୋଟ ଛୁଆ</item>
+        <item>ନୋସଟାଲଗିଆ</item>
+        <item>ଉଜ୍ଜଳତା</item>
+        <item>ସୁନ୍ଦର</item>
+        <item>ପିଚ୍‌</item>
+        <item>ସୂର୍ଯ୍ୟାସ୍ଥ</item>
+    </array>
+    <array name="aq">
+        <item>ରାଉଣ୍ଡ</item>
+        <item>ସାପ୍ତାହିକ</item>
+        <item>ମୋଟାମୋଟି ଭାବେ</item>
+        <item>Xigua ରେଙ୍କିଂ</item>
+    </array>
+    <array name="ar">
+        <item>ଜାନୁଆରୀ</item>
+        <item>ଫେବୃୟାରୀ</item>
+        <item>ମାର୍ଚ୍ଚ</item>
+        <item>ଏପ୍ରିଲ୍</item>
+        <item>ମେ</item>
+        <item>ଜୁନ୍</item>
+        <item>ଜୁଲାଇ</item>
+        <item>ଅଗଷ୍ଟ</item>
+        <item>ସେପ୍ଟେମ୍ୱର୍</item>
+        <item>ଅକ୍ଟୋବର</item>
+        <item>ନଭେମ୍ୱର୍</item>
+        <item>ଡିସେମ୍ୱର୍</item>
+    </array>
+    <array name="au">
+        <item>କୌଣସିଟି ନୁହେଁ</item>
+        <item>ପ୍ରକୃତି</item>
+        <item>ଖାଲି କରନ୍ତୁ</item>
+        <item>ଜାପାନୀ</item>
+        <item>ସ୍ପର୍ଶ କରୁଛି</item>
+    </array>
+    <array name="av">
+        <item>କୌଣସିଟି ନୁହେଁ</item>
+        <item>ପ୍ରକୃତି</item>
+        <item>ଉଜ୍ଜଳତା</item>
+        <item>ପ୍ରଥମ ପ୍ରେମ</item>
+    </array>
+    <array name="aw">
+        <item>ରିପୋର୍ଟ୍ କରନ୍ତୁ</item>
+        <item>ବାତିଲ୍‌ କରନ୍ତୁ</item>
+    </array>
+    <array name="az">
+        <item>ସୋମବାର</item>
+        <item>ମଙ୍ଗଳବାର</item>
+        <item>ବୁଧବାର</item>
+        <item>ଗୁରୁବାର</item>
+        <item>ଶୁକ୍ରବାର</item>
+        <item>ଶନିବାର</item>
+        <item>ରବିବାର</item>
+    </array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/b3o" android:layout_width="280dp" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/b64" android:layout_width="90dp" android:layout_height="90dp" android:layout_marginTop="20dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aut" android:id="@+id/e3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/bp_" style="@style/u9"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:background="@drawable/a9k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.5dp">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lo" android:layout_gravity="center" android:id="@+id/e0q" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bhu" android:drawableLeft="@drawable/agw" android:drawablePadding="4dp" android:drawableStart="@drawable/agw" style="@style/u0"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lz" android:layout_gravity="center" android:id="@+id/dxc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blh" style="@style/u0"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/fs" android:gravity="center" android:id="@+id/dz6" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="invisible" android:layout_width="160dp" android:layout_height="wrap_content" android:text="������������\10������������" android:lineSpacingExtra="8dp" style="@style/u_"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aue" android:layout_gravity="center_horizontal" android:background="@color/tb" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/bnv" android:paddingStart="8dp" android:paddingEnd="8dp" style="@style/u0"/>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/vn" android:id="@+id/du_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" style="@style/u4"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bgz" android:background="@drawable/b34" android:layout_width="240dp" android:layout_height="44dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp">
+            <ImageView android:id="@+id/b7s" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lt" android:id="@+id/ds9" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u6"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@+id/b7g" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="9dp" android:layout_marginRight="9dp" android:src="@drawable/a9u" android:layout_marginEnd="9dp"/>
+</FrameLayout>

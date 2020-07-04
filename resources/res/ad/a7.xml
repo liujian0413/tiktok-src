@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/e9" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.titlebar.NormalTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:endDrawable="@drawable/ade" app:lineVisible="8" app:titleText="@string/et" app:titleTextColor="@color/a5d" app:useBackIcon="true"/>
+    <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout android:id="@+id/gm" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/bjl" android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp" app:layout_scrollFlags="1">
+                <FrameLayout android:id="@+id/ami" android:background="@drawable/qr" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1">
+                    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/bbw" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@drawable/a25"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textColor="@color/sl" android:textColorHint="@color/ab5" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/agn" android:background="@null" android:paddingLeft="32.5dp" android:paddingRight="32.5dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="36dp" android:hint="@string/dkc" android:cursorVisible="false" android:singleLine="true" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/ys" style="@style/u6"/>
+                    <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/pw" android:background="@drawable/a59" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="4dp"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lo" android:gravity="center" android:id="@+id/e1b" android:paddingLeft="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/djj" style="@style/u9"/>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/jl">
+            <android.support.p022v4.widget.SwipeRefreshLayout android:id="@+id/cp6" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <android.support.p029v7.widget.RecyclerView android:id="@+id/cp8" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:layout_gravity="center" android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cp8"/>
+                </RelativeLayout>
+            </android.support.p022v4.widget.SwipeRefreshLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lo" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/e1f" android:paddingLeft="20dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:maxLines="1" android:drawableLeft="@drawable/a25" android:drawablePadding="4dp" android:drawableStart="@drawable/a25" style="@style/u6"/>
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

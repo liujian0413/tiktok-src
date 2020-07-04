@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.common.widget.PullUpLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/clx" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cuw" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bqe" android:background="@color/l0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="14dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp">
+                <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_d" android:background="@color/a5h" android:layout_width="45.5dp" android:layout_height="62dp" android:layout_margin="1.5dp" android:layout_alignTop="@+id/dt4" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:roundedCornerRadius="2dp"/>
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lw" android:id="@+id/dt4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/d3c" android:layout_marginStart="16dp" style="@style/u2"/>
+                    <ViewStub android:id="@+id/d5p" android:layout="@layout/b13" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_below="@+id/dt4" android:layout_marginStart="4dp"/>
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="21dp" android:layout_height="3dp" android:layout_marginBottom="5dp" android:src="@drawable/b_8" android:layout_below="@+id/d5p" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:id="@+id/bm7" android:background="@color/li" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bqu" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center_vertical" android:id="@+id/b7q" android:background="@color/a5h" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="8.5dp" android:layout_marginEnd="8.5dp"/>
+                <TextView android:textColor="@color/ab1" android:layout_gravity="center_vertical" android:id="@+id/ds8" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" style="@style/u2"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/yg" android:scaleType="fitXY"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/a_0"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.common.widget.PullUpLayout>

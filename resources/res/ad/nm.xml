@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c9o" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c9n" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/a19" android:background="@drawable/mn" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/dfd" android:background="@color/z6" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <include android:id="@+id/ac5" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="47dp" layout="@layout/im"/>
+        <View android:id="@+id/ca" android:background="@color/v" android:visibility="gone" android:layout_width="match_parent" android:layout_height="47dp" android:layout_marginTop="-47dp"/>
+        <android.support.p029v7.widget.AppCompatCheckBox android:textColor="@color/a5m" android:gravity="center_vertical" android:id="@+id/tm" android:layout_width="wrap_content" android:layout_height="42.5dp" android:layout_marginLeft="12dp" android:button="@null" android:text="@string/d9a" android:drawableLeft="@drawable/bhi" android:drawablePadding="4dp" android:drawableStart="@drawable/bhi" style="@style/u4"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/c_6" android:background="@color/au2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="244dp"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

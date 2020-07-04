@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Skrap halfklare?</item>
+        <item quantity="other">Skrap halfklares?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodie</item>
+        <item quantity="other">%d melodieë</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d musiek</item>
+        <item quantity="other">%d musiek</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d stuk</item>
+        <item quantity="other">%d stukke</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d liedjie</item>
+        <item quantity="other">%d liedjies</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d klank</item>
+        <item quantity="other">%d klanke</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d wysie</item>
+        <item quantity="other">%d wysies</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video’s</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">het %d video geplaas</item>
+        <item quantity="other">het %d video’s geplaas</item>
+    </plurals>
+</resources>

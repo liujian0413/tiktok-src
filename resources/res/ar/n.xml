@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="800dp" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cko" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="58dp">
+        <TextView android:textSize="16dp" android:textColor="#404040" android:layout_gravity="center" android:id="@+id/ai_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f09"/>
+        <TextView android:textSize="14dp" android:textColor="#ff2200" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/cy5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/efz" android:layout_marginEnd="16dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/agb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textColor="@color/all" android:gravity="center_horizontal" android:id="@+id/ahx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:text="@string/ezm" android:lineSpacingExtra="4sp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+        <android.support.p029v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+    <View android:background="@color/agb" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

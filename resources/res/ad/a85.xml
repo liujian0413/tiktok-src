@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a8c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/bnf" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/t4" android:dividerHeight="0.5dp"/>
+</FrameLayout>

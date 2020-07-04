@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1மணி</item>
+        <item quantity="other">%dமணி</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1நி</item>
+        <item quantity="other">%dநி</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1நொ</item>
+        <item quantity="other">%dநொ</item>
+    </plurals>
+</resources>

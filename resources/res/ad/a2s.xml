@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cws" android:paddingLeft="8dp" android:paddingRight="8dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="68dp" android:layout_height="52dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/eaf" android:layout_width="52dp" android:layout_height="52dp" app:actualImageScaleType="6" app:roundedCornerRadius="2dp"/>
+    <RelativeLayout android:id="@+id/a76" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignParentRight="true">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/a75" android:padding="2dp" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/are" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12dp" android:textStyle="bold" android:textColor="#e6ffffff" android:id="@+id/abt" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:shadowColor="#4c000000" android:shadowDy="1" android:shadowRadius="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:fontType="7"/>
+</RelativeLayout>

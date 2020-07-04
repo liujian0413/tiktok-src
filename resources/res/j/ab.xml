@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/av9" app:state_toggled_on="true">
+        <bitmap android:src="@drawable/civ"/>
+    </item>
+    <item android:id="@+id/av8">
+        <bitmap android:src="@drawable/ciu"/>
+    </item>
+    <transition android:toId="@+id/av9" android:fromId="@+id/av8">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj3"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj4"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj5"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj6"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj7"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj8"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj9"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cj_"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cja"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjb"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjc"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjd"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cje"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjf"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjg"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjh"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cji"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjj"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjk"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjl"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjm"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjn"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjo"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjp"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjq"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjr"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjs"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjt"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cju"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjv"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjw"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjx"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjy"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cjz"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck0"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck1"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck2"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck3"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck4"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck5"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck6"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck7"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck8"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck9"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ck_"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cka"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckb"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckc"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckd"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cke"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckf"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckg"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckh"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cki"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckj"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckk"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckl"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckm"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ckn"/>
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/cko"/>
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

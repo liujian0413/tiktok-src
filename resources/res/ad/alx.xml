@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.feed.BannerSwipeRefreshLayout android:id="@+id/def" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/bn1" android:background="@color/ain" android:paddingLeft="@dimen/of" android:paddingRight="@dimen/of" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </com.bytedance.android.livesdk.feed.BannerSwipeRefreshLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/ddq" android:background="@drawable/c1c" android:padding="0.5dp" android:visibility="invisible" android:layout_width="2dp" android:layout_height="2dp">
+        <TextureView android:id="@+id/ddo" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.bytedance.android.livesdk.feed.widget.LiveFeedFloatTabView android:id="@+id/and" android:background="@color/ain" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="@dimen/og" android:layout_marginRight="@dimen/og" android:translationY="-48dp"/>
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/do7" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="40dp" android:src="@drawable/c4w"/>
+</FrameLayout>

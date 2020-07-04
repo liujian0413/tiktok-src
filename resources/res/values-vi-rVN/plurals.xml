@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">Xóa bản nháp?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d giai điệu</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d nhạc</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d đoạn</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d bài hát</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d âm thanh</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%d âm điệu</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">giờ</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">%1$d giờ trước</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">%1$d phút trước</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">ngày</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">giờ</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">tháng</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">giây</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">tuần</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="other">%1$d năm trước</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="other">Rất tiếc! Bạn đã bị cấm\10 Bạn có thể phát trực tiếp trở lại sau %1$d ngày</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="other">Rất tiếc! Bạn đã bị cấm\10 Bạn có thể phát trực tiếp trở lại sau %1$d giờ</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="other">Rất tiếc, bạn đang bị cấm. \10 Bạn có thể phát trực tiếp lại sau: %1$d phút</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="other">Rất tiếc! Bạn đã bị cấm\10 Bạn có thể phát trực tiếp trở lại sau %1$d giây</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="other">%d người dùng đang xem video bạn phát, bạn có muốn đóng video này không?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="other">Đã kết nối %1$d phút</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="other">Đã đợi %1$d phút</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="other">Nạp %1$d kim cương trong lần đầu để nhận thêm %2$d!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">đã đăng %d video</item>
+    </plurals>
+</resources>

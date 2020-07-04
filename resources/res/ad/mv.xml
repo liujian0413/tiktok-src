@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/ea6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/b5k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fj" android:scaleType="centerInside"/>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="200dp"/>
+    <View android:layout_width="match_parent" android:layout_height="84dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/o1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a5c"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/eal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginBottom="8dp">
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/az3" android:layout_gravity="center" android:id="@+id/d2p" android:paddingLeft="6dp" android:paddingTop="3dp" android:paddingRight="6dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0"/>
+            </FrameLayout>
+            <com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.VEVideoEditViewV2 android:id="@+id/ea3" android:layout_width="match_parent" android:layout_height="wrap_content" app:cursorHeight="72dp" app:cursorWidth="6dp" app:leftRightMargin="35dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/dbu" android:layout="@layout/ac5" android:layout_width="222dp" android:layout_height="32dp" android:layout_marginLeft="32.5dp" android:layout_marginRight="32.5dp" android:layout_marginBottom="163dp"/>
+    <include android:id="@+id/dkg" layout="@layout/aam"/>
+    <include layout="@layout/is"/>
+</FrameLayout>

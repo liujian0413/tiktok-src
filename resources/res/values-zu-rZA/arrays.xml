@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Umtapo womsindo oku-intanethi</item>
+        <item>Umsindo Wami</item>
+    </array>
+    <array name="m">
+        <item>Susa</item>
+        <item>Khansela</item>
+    </array>
+    <array name="n">
+        <item>Okusematheni</item>
+        <item>Okwakamuva</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ISonto</item>
+        <item>UMsombuluko</item>
+        <item>ULwesibili</item>
+        <item>ULwesithathu</item>
+        <item>ULwesine</item>
+        <item>ULwesihlanu</item>
+        <item>UMgqibelo</item>
+    </array>
+    <array name="y">
+        <item>IsiShayina Esilula</item>
+        <item>AmaShayina Omdabu</item>
+        <item>IsiNgisi</item>
+        <item>AmaJaphane</item>
+        <item>AmaKoriya</item>
+        <item>AmaRashiya</item>
+        <item>Ama-Indonesia</item>
+        <item>AbaseMalay</item>
+        <item>AmaPutukezi</item>
+        <item>AbaseThayi</item>
+        <item>AbaseVietnam</item>
+        <item>AmaHindi</item>
+    </array>
+    <array name="z">
+        <item>Okuvamile</item>
+        <item>Omnyama/Omhlophe</item>
+        <item>Ubuciko</item>
+        <item>Umhlob&apos;omdala</item>
+        <item>IRetrolux</item>
+        <item>Okugcwele</item>
+        <item>IChrome</item>
+    </array>
+    <array name="a1">
+        <item>Januwari</item>
+        <item>Febhruwari</item>
+        <item>Mashi</item>
+        <item>Ephreli</item>
+        <item>Meyi</item>
+        <item>Juni</item>
+        <item>Julayi</item>
+        <item>Agasti</item>
+        <item>Septhemba</item>
+        <item>Okthoba</item>
+        <item>Novemba</item>
+        <item>Disemba</item>
+    </array>
+    <array name="a4">
+        <item>Ukongiwa kwedatha kuqala</item>
+        <item>Izinga eliphakeme lokucaca kuqala</item>
+    </array>
+    <array name="a5">
+        <item>Wonke umuntu</item>
+        <item>Abangane Kuphela</item>
+    </array>
+    <array name="az">
+        <item>UMsombuluko</item>
+        <item>ULwesibili</item>
+        <item>ULwesithathu</item>
+        <item>ULwesine</item>
+        <item>ULwesihlanu</item>
+        <item>UMgqibelo</item>
+        <item>ISonto</item>
+    </array>
+</resources>

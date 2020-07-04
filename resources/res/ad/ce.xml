@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7f" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="开启悬浮窗"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@android:color/white" android:background="@android:color/black" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="过滤View信息" android:drawableBottom="@android:color/darker_gray"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d79" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="过滤当前不可见"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d78" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="过滤无背景"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7_" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="过滤大小100px以内"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7a" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="过滤DmtTextView"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@android:color/white" android:background="@android:color/black" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="高亮View信息" android:drawableBottom="@android:color/darker_gray"/>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/d7c" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="高亮过渡绘制"/>
+    </LinearLayout>
+</ScrollView>

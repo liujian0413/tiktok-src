@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/am" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/b_n" android:background="@color/am" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentTop="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c5c" android:background="@color/a5d" android:layout_width="match_parent" android:layout_height="72dp" android:layout_below="@+id/b_n">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b_a" android:layout_width="30dp" android:layout_height="26dp" android:layout_marginLeft="9dp" app:srcCompat="@drawable/aiq"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/dk9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/sv" android:gravity="top" android:id="@+id/bd2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TikTok Rewards" app:fontType="2" style="@style/u6"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/sv" android:gravity="bottom" android:layout_gravity="bottom" android:id="@+id/b7w" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start earning free gifts today." app:fontType="2" style="@style/u0"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textSize="14sp" android:textColor="@color/sj" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/b6s" android:background="@drawable/bb0" android:layout_width="78dp" android:layout_height="28dp" android:foreground="?attr/a19" android:text="Join" android:lineSpacingExtra="3sp" android:textAllCaps="false" app:fontType="7" style="@style/rx"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b7g" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="28dp" android:layout_height="28dp" app:srcCompat="@drawable/agx"/>
+    </LinearLayout>
+</RelativeLayout>

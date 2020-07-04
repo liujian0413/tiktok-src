@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.rank.view.NobleRankListBottomView android:id="@+id/cn7" android:layout_width="match_parent" android:layout_height="64dp" android:layout_alignParentBottom="true" android:elevation="8dp"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cne" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cn7"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/u7" android:layout_above="@+id/cn7"/>
+</RelativeLayout>

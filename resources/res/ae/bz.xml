@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="175dp">
+    <RelativeLayout android:id="@+id/dm0" android:layout_width="match_parent" android:layout_height="52dp">
+        <FrameLayout android:id="@+id/dk_" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/dfx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_centerVertical="true" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="@color/az3" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:tabRippleColor="@null"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/bdq" android:visibility="invisible" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginRight="16dp" android:src="@drawable/a5z" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/cp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_below="@+id/dm0">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cxt" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/y1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_below="@+id/dm0">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cxr" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/aza" android:id="@+id/abn" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a61" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

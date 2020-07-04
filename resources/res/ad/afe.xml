@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/dx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/az3" android:layout_gravity="center" android:id="@+id/d2p" android:paddingLeft="6dp" android:paddingTop="3dp" android:paddingRight="6dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.VEVideoEditViewV2 android:id="@+id/ea3" android:layout_width="match_parent" android:layout_height="wrap_content" app:cursorHeight="72dp" app:cursorWidth="6dp" app:leftRightMargin="36dp"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="10dp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d7p" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/e24" android:shadowColor="@color/a8n" android:shadowRadius="2" app:isSelected="false"/>
+</LinearLayout>

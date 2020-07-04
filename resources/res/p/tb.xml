@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <rotate android:drawable="@drawable/bjj" android:fromDegrees="0" android:toDegrees="1080" android:pivotX="50%" android:pivotY="50%"/>
+    </item>
+    <item>
+        <rotate android:drawable="@drawable/bji" android:fromDegrees="720" android:toDegrees="0" android:pivotX="50%" android:pivotY="50%"/>
+    </item>
+</layer-list>

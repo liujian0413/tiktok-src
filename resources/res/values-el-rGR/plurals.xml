@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Διαγραφή πρόχειρου;</item>
+        <item quantity="other">Διαγραφή πρόχειρων;</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d μελωδία</item>
+        <item quantity="other">%d μελωδίες</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d μουσική</item>
+        <item quantity="other">%d μουσική</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d κομμάτι</item>
+        <item quantity="other">%d κομμάτια</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d τραγούδι</item>
+        <item quantity="other">%d τραγούδια</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ήχος</item>
+        <item quantity="other">%d ήχοι</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ρυθμός</item>
+        <item quantity="other">%d ρυθμοί</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d βίντεο</item>
+        <item quantity="other">%d βίντεο</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d ημέρα πριν</item>
+        <item quantity="other">%d ημέρες πριν</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Ώρα-ες</item>
+        <item quantity="other">Ώρες</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d ώρα πριν</item>
+        <item quantity="other">%1$d ώρες πριν</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">λεπτό</item>
+        <item quantity="other">λεπτά</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d λεπτό πριν</item>
+        <item quantity="other">%1$d λεπτά πριν</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">ημέρα</item>
+        <item quantity="other">ημέρες</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Ώρα</item>
+        <item quantity="other">Ώρες</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">λεπτό</item>
+        <item quantity="other">λεπτά</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">μήνας</item>
+        <item quantity="other">μήνες</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">δευτ.</item>
+        <item quantity="other">δευτ.</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">εβδομάδα</item>
+        <item quantity="other">εβδομάδες</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d χρόνο πριν</item>
+        <item quantity="other">%1$d χρόνια πριν</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d ημέρες</item>
+        <item quantity="other">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d ημέρες</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d ώρες</item>
+        <item quantity="other">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d ώρες</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί. \10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d λεπτά</item>
+        <item quantity="other">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί. \10 Θα μπορείτε να εκπέμψετε ζωντανά ξανά σε %1$d λεπτά</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμπετε ζωντανά ξανά σε %1$d δευτερόλεπτα</item>
+        <item quantity="other">Λυπούμαστε! Ο λογαριασμός σας έχει αποκλειστεί\10 Θα μπορείτε να εκπέμπετε ζωντανά ξανά σε %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d χρήστες παρακολουθούν τη μετάδοσή σας, θέλετε να την διακόψετε;</item>
+        <item quantity="other">%d χρήστες παρακολουθούν τη μετάδοσή σας, θέλετε να την διακόψετε;</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Συνδεδεμένοι για %1$d λεπτό</item>
+        <item quantity="other">Συνδεδεμένοι για %1$d λεπτά</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Σε αναμονή για %1$d λεπτό</item>
+        <item quantity="other">Σε αναμονή για %1$d λεπτά</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Αναπλήρωση πρώτη φορά %1$d διαμάντι κερδίζει %2$d ακόμα!</item>
+        <item quantity="other">Αναπλήρωση πρώτη φορά %1$d διαμάντια κερδίζουν %2$d ακόμα!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">λεπτό</item>
+        <item quantity="other">λεπτά</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">δημοσίευσε %d βίντεο</item>
+        <item quantity="other">δημοσίευσε %d βίντεο</item>
+    </plurals>
+</resources>

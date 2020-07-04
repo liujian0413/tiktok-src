@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bqg" android:background="@drawable/cm9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="85dp" android:minHeight="85dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DoubleColorBallAnimationView android:layout_gravity="center_horizontal" android:id="@+id/aa5" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="16dp" android:layout_marginBottom="8dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/l8" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/dqx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="16dp" android:maxWidth="176dp" android:minWidth="61dp" android:maxLines="3" style="@style/u2"/>
+    </LinearLayout>
+</merge>

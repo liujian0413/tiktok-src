@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ei" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/a4x" android:gravity="center" android:id="@+id/dqq" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_marginLeft="16dp" android:text="@string/db7" android:drawableLeft="@drawable/cmw" android:drawablePadding="5dp" android:drawableStart="@drawable/cmw" app:fontType="1" style="@style/u8"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b9j" android:layout_width="match_parent" android:layout_height="wrap_content" app:actualImageScaleType="6"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bsg" android:background="@drawable/uz" android:layout_width="match_parent" android:layout_height="163dp" android:layout_marginTop="16dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textStyle="bold" android:textColor="@color/a4x" android:gravity="center" android:id="@+id/e1u" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="27dp" android:text="@string/dt3"/>
+        <HorizontalScrollView android:id="@+id/d51" android:paddingLeft="0dp" android:paddingRight="15dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bse" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

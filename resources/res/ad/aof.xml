@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="56dp">
+    <RelativeLayout android:id="@+id/cnd" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/cnb" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/aom" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="40dp" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/e8m" android:layout_width="33dp" android:layout_height="33dp" android:scaleType="fitXY"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="left" android:id="@+id/e9o" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/dj0" android:layout_toRightOf="@+id/aom">
+        <TextView android:textSize="15sp" android:textColor="@color/aht" android:ellipsize="end" android:id="@+id/e9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/aih" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/e9m" android:layout_centerVertical="true">
+            <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bp5" android:visibility="visible" android:layout_width="60dp" android:layout_height="17dp" android:layout_marginTop="0dp" android:layout_alignParentTop="true" app:actualImageScaleType="1"/>
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="9dp" android:textColor="@color/as5" android:gravity="center" android:id="@+id/aij" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="17dp" android:maxLines="1" android:lines="1" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

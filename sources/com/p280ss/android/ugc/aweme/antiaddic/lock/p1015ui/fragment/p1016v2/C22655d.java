@@ -1,0 +1,21 @@
+package com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.fragment.p1016v2;
+
+import android.view.View;
+import android.view.View.OnClickListener;
+import com.bytedance.apm.agent.instrumentation.ClickInstrumentation;
+
+/* renamed from: com.ss.android.ugc.aweme.antiaddic.lock.ui.fragment.v2.d */
+final /* synthetic */ class C22655d implements OnClickListener {
+
+    /* renamed from: a */
+    private final TeenagerLockOptionsFragmentV2 f60308a;
+
+    C22655d(TeenagerLockOptionsFragmentV2 teenagerLockOptionsFragmentV2) {
+        this.f60308a = teenagerLockOptionsFragmentV2;
+    }
+
+    public final void onClick(View view) {
+        ClickInstrumentation.onClick(view);
+        this.f60308a.mo59372c(view);
+    }
+}

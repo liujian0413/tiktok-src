@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f">48dp</dimen>
+    <dimen name="bb">12dp</dimen>
+    <dimen name="bd">14dp</dimen>
+    <dimen name="ea">48dp</dimen>
+    <dimen name="o8">170dp</dimen>
+    <dimen name="pq">190dp</dimen>
+    <dimen name="pv">232dp</dimen>
+</resources>

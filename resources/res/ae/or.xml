@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/dau" android:background="@drawable/dy" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/a0m" android:scaleType="fitXY" app:roundedCornerRadius="10dp"/>
+    <View android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:background="@drawable/a5s" android:layout_width="10dp" android:layout_height="10dp"/>
+    <View android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:background="@drawable/a5t" android:layout_width="10dp" android:layout_height="10dp"/>
+    <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:background="@drawable/a5u" android:layout_width="10dp" android:layout_height="10dp"/>
+    <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:background="@drawable/a5v" android:layout_width="10dp" android:layout_height="10dp"/>
+</FrameLayout>

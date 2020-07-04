@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/dal" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:endTextSize="15dp" app:titleTextColor="@color/a5d" app:useBackIcon="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cs6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/anx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

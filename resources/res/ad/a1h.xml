@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b54" android:background="@color/a4o" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentBottom="true"/>

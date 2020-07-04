@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56dp" app:effectPanel="true" app:roundRadius="7dp">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/bc0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="18dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="center" android:id="@+id/d2a" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ame" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/bjj" android:layout_width="match_parent" android:layout_height="56dp"/>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

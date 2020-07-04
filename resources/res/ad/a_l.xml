@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/bk2" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="4dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="center" android:id="@+id/bk3" android:layout_width="36dp" android:layout_height="36dp" app:effectPanel="true" app:isCircle="true"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/b08" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ah2"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bjy" android:padding="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bk2">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="center" android:id="@+id/bjz" android:layout_width="36dp" android:layout_height="36dp" app:effectPanel="true" app:isCircle="true"/>
+            <com.p280ss.android.ugc.aweme.music.p1410ui.CheckableImageView android:layout_gravity="center" android:id="@+id/b06" android:layout_width="20dp" android:layout_height="20dp"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <android.support.p029v7.widget.ViewStubCompat android:id="@+id/dbz" android:layout="@layout/agc" android:inflatedId="@layout/agc" android:layout_width="match_parent" android:layout_height="65dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.p029v7.widget.ViewStubCompat android:id="@+id/dck" android:layout="@layout/agc" android:inflatedId="@layout/agc" android:layout_width="match_parent" android:layout_height="65dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.p029v7.widget.ViewStubCompat android:id="@+id/dc4" android:layout="@layout/mc" android:inflatedId="@layout/mc" android:layout_width="match_parent" android:layout_height="65dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.p029v7.widget.ViewStubCompat android:id="@+id/dci" android:layout="@layout/ae1" android:inflatedId="@layout/ae1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.p029v7.widget.ViewStubCompat android:id="@+id/dc1" android:layout="@layout/ir" android:inflatedId="@+id/dc1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <include android:id="@+id/dcj" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp" layout="@layout/a9m"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/dcs" android:layout="@layout/h8" android:inflatedId="@+id/dcs" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bk6" android:layout_width="match_parent" android:layout_height="wrap_content" app:effectPanel="true">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:orientation="horizontal" android:id="@+id/bk5" android:background="@drawable/blf" android:layout_width="match_parent" android:layout_height="36dp" app:effectPanel="true" app:secondPanel="true">
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/ayx" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="52dp" android:layout_height="match_parent" android:src="@drawable/alr" android:layout_centerVertical="true" android:contentDescription="@string/aq" app:fsPanel="true" app:isSelected="false" app:secondPanel="true"/>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/dfu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/ayx" android:overScrollHeader="@color/z4" android:overScrollFooter="@color/z4" app:tabGravity="0" app:tabIndicatorColor="@color/a5d" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/qg"/>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:id="@+id/dft" android:layout_width="0.5dp" android:layout_height="16dp" android:layout_alignLeft="@+id/dfu" android:layout_centerVertical="true" app:subView="true"/>
+            </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+            <com.p280ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/edt" android:layout_width="match_parent" android:layout_height="220dp" android:overScrollHeader="@color/a5q" android:overScrollFooter="@color/a5q"/>
+        </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+    </FrameLayout>
+</LinearLayout>

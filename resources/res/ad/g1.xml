@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="15dp" android:textColor="#bfffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fi5"/>
+    <TextView android:textSize="14dp" android:textColor="#bfffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/fi2"/>
+    <Button android:textSize="14dp" android:textColor="#bfffffff" android:id="@+id/ra" android:background="@color/a5y" android:paddingLeft="40dp" android:paddingTop="5dp" android:paddingRight="40dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/fia"/>
+    <FrameLayout android:id="@+id/rb" android:background="@color/a5y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:textColor="@color/az3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fia"/>
+    </FrameLayout>
+</LinearLayout>

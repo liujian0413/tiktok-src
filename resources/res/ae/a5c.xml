@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+    <View android:id="@+id/bbq" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="6dp"/>
+    <com.bytedance.android.livesdk.widget.VHeadView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/b64" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginBottom="4dp"/>
+    <View android:layout_gravity="center_horizontal" android:id="@+id/b87" android:visibility="gone" android:layout_width="24dp" android:layout_height="16dp"/>
+    <TextView android:textSize="10sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/e08" android:background="@drawable/bve" android:visibility="gone" android:layout_width="16dp" android:layout_height="12dp"/>
+    <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bam" android:background="@drawable/c9g" android:visibility="gone" android:layout_width="32dp" android:layout_height="12dp"/>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@drawable/hf" android:layout_width="57dp" android:layout_height="57dp">
+    <ProgressBar android:layout_width="27dp" android:layout_height="27dp" android:indeterminate="false" android:indeterminateDrawable="@drawable/cnl" android:indeterminateDuration="800"/>
+</RelativeLayout>

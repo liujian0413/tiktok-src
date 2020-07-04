@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">220</integer>
+    <integer name="b">150</integer>
+    <integer name="c">150</integer>
+    <integer name="d">4060</integer>
+    <integer name="e">150</integer>
+    <integer name="f">127</integer>
+    <integer name="com_vk_sdk_AppId">5989180</integer>
+    <integer name="g">@integer/i</integer>
+    <integer name="h">500</integer>
+    <integer name="i">400</integer>
+    <integer name="j">120</integer>
+    <integer name="k">200</integer>
+    <integer name="l">300</integer>
+    <integer name="m">150</integer>
+    <integer name="n">4000</integer>
+    <integer name="o">3</integer>
+    <integer name="p">5000</integer>
+    <integer name="q">500</integer>
+    <integer name="r">100</integer>
+    <integer name="s">0</integer>
+    <integer name="t">-90</integer>
+    <integer name="u">2</integer>
+    <integer name="v">300</integer>
+    <integer name="w">12451000</integer>
+    <integer name="x">320</integer>
+    <integer name="y">100</integer>
+    <integer name="z">100</integer>
+    <integer name="a0">100</integer>
+    <integer name="a1">250</integer>
+    <integer name="a2">200</integer>
+    <integer name="a3">999</integer>
+</resources>

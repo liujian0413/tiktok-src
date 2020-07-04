@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bz6" android:background="#57161823" android:layout_width="match_parent" android:layout_height="40dp">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bzh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/bz_" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginTop="1dp" android:src="@drawable/a38"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aze" android:id="@+id/bza" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="合集" style="@style/u2"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:src="@drawable/bas"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bz4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/a34" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/bz4" android:layout_toRightOf="@+id/bzh" android:layout_centerVertical="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aze" android:ellipsize="end" android:id="@+id/bz2" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/u2"/>
+    </LinearLayout>
+</RelativeLayout>

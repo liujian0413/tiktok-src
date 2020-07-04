@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cyw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="52dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/ph" android:gravity="center" android:id="@+id/dr7" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="52dp" android:text="@string/w_" android:layout_centerVertical="true" app:isChangeTextSize="false" style="@style/u9"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textStyle="bold" android:textColor="@color/ph" android:gravity="center" android:id="@+id/e15" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/di_" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:fontType="7" app:isChangeTextSize="false" style="@style/u9"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/a2u" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="52dp" android:layout_marginBottom="242dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/b5k" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/fj" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a5e"/>
+    </FrameLayout>
+</FrameLayout>

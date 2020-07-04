@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/aag" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/efo" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/fqm"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/c32" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/aan" app:left_text="@string/fqm"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/d6b" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/ab2"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/bmh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/b_a" app:left_text="@string/doh"/>
+    <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/diw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/e76"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/dh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/ab3" app:left_text="@string/e07"/>
+    <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/y" android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/cr"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/dn7" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/bla" app:left_text="@string/d7w"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/ain" android:layout_width="match_parent" android:layout_height="wrap_content" app:hideRightIcon="true" app:left_icon="@drawable/as2" app:left_text="@string/b94"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/cvy" android:layout_width="match_parent" android:layout_height="wrap_content" app:hideRightIcon="true" app:left_icon="@drawable/azl" app:left_text="@string/d7c"/>
+</LinearLayout>

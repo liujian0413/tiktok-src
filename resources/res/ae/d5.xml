@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:frMode="1" app:whRatio="0.56">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/a51" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="7" app:placeholderImage="@color/ea"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/hi" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="match_parent" android:layout_height="125dp" android:layout_alignParentBottom="true" android:paddingStart="7dp" android:paddingEnd="7dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lu" android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/a54" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:maxLines="2" style="@style/u6"/>
+</com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

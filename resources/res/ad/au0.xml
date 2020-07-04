@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/brl" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brm" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textColor="@color/fs" android:id="@+id/dws" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fft"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textSize="14sp" android:textColor="@color/fs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ffh"/>
+        <ImageView android:id="@+id/b8f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c2y"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/aot" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="8dp">
+        <TextView android:textSize="14sp" android:textColor="#adadad" android:layout_gravity="center" android:id="@+id/aw4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <android.support.constraint.ConstraintLayout android:id="@+id/avz" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bdg" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true"/>
+            <TextView android:textSize="16dp" android:textColor="@color/fs" android:id="@+id/e4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" app:layout_constraintStart_toEndOf="@+id/bdg" app:layout_constraintTop_toTopOf="0"/>
+            <ProgressBar android:id="@+id/aw2" android:layout_width="0dp" android:layout_height="6dp" android:layout_marginLeft="4dp" android:layout_marginTop="8dp" android:progress="60" android:progressDrawable="@drawable/c2c" app:layout_constraintBottom_toBottomOf="@+id/e4h" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/e4h" app:layout_constraintTop_toTopOf="@+id/e4h" style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView android:textSize="10dp" android:textColor="#808080" android:id="@+id/dvo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="3dp" android:maxLines="2" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@+id/bdg" app:layout_constraintTop_toBottomOf="@+id/e4h"/>
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:accountType="@string/cx" android:contentAuthority="@string/agh" android:userVisible="true" android:supportsUploading="false" android:allowParallelSyncs="false" android:isAlwaysSyncable="true"/>

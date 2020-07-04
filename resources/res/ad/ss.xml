@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.base.p308ui.AnimatedImageView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/d7m" android:layout_width="100dp" android:layout_height="133dp" app:placeholderImage="@color/a5u" app:roundedCornerRadius="2dp" app:roundingBorderWidth="0dp"/>

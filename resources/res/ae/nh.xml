@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/c3u" android:background="@color/ato" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/azy" android:background="@drawable/rg" android:visibility="invisible" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-4.5dp" android:layout_marginTop="19dp" android:layout_marginStart="-4.5dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageWithVerify android:id="@+id/b64" android:layout_width="48dp" android:layout_height="48dp"/>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginStart="12dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/b6n" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="6dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <com.p280ss.android.ugc.aweme.friends.p1285ui.FansFollowUserBtn android:layout_gravity="center_vertical" android:id="@+id/q5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_marginEnd="12dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/b6m" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a5i" android:contentDescription="@string/ln"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bh2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/b6n" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/b6n">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4e" android:ellipsize="end" android:id="@+id/e7f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1" app:fontType="7" style="@style/u6"/>
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/b8s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/a6y" android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/dg3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                    <com.p280ss.android.ugc.aweme.friends.p1285ui.RelativeUserAvatarListView android:id="@+id/crf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4f" android:ellipsize="end" android:id="@+id/dt5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/u2"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4f" android:id="@+id/e6q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:lines="1" android:layout_marginEnd="8dp" style="@style/u2"/>
+            </LinearLayout>
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/bnc" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/bh2"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

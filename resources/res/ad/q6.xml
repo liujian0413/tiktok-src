@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.common.widget.ZeusFrameLayout android:id="@+id/bnb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr7" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="6dp"/>
+        </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p280ss.android.ugc.aweme.common.widget.ZeusFrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

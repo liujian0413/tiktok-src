@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Eliminare la bozza?</item>
+        <item quantity="other">Eliminare le bozze?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodia</item>
+        <item quantity="other">%d melodie</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d musica</item>
+        <item quantity="other">%d musiche</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d pezzo</item>
+        <item quantity="other">%d pezzi</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d canzone</item>
+        <item quantity="other">%d canzoni</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d suono</item>
+        <item quantity="other">%d suoni</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d motivo</item>
+        <item quantity="other">%d motivi</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d giorni fa</item>
+        <item quantity="other">%d giorni fa</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">ore</item>
+        <item quantity="other">ore</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d ore fa</item>
+        <item quantity="other">%1$d ore fa</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">Minuti</item>
+        <item quantity="other">Minuti</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d minuti fa</item>
+        <item quantity="other">%1$d minuti fa</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">giorni</item>
+        <item quantity="other">giorni</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">ore</item>
+        <item quantity="other">ore</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">Minuti</item>
+        <item quantity="other">Minuti</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">mesi</item>
+        <item quantity="other">mesi</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">secondo</item>
+        <item quantity="other">secondo</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">settimane</item>
+        <item quantity="other">settimane</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d anni fa</item>
+        <item quantity="other">%1$d anni fa</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d giorni</item>
+        <item quantity="other">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d giorni</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d ore</item>
+        <item quantity="other">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d ore</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Mi spiace, ma il tuo account è stato bloccato. \10 Potrai riprendere lo streaming tra %1$d minuti</item>
+        <item quantity="other">Mi spiace, ma il tuo account è stato bloccato. \10 Potrai riprendere lo streaming tra %1$d minuti</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d secondi</item>
+        <item quantity="other">Mi spiace, ma il tuo account è stato bloccato\10 Potrai riprendere lo streaming tra %1$d secondi</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d utenti stanno guardando la tua trasmissione, vuoi chiuderla?</item>
+        <item quantity="other">%d utenti stanno guardando la tua trasmissione, vuoi chiuderla?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Connesso per %1$d minuti</item>
+        <item quantity="other">Connesso per %1$d minuti</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">In attesa da %1$d minuti</item>
+        <item quantity="other">In attesa da %1$d minuti</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Ricarica per la prima volta %1$d diamante per riceverne %2$d in più!</item>
+        <item quantity="other">Ricarica per la prima volta %1$d diamanti per riceverne %2$d in più!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">Minuti</item>
+        <item quantity="other">Minuti</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">%d video pubblicato</item>
+        <item quantity="other">%d video pubblicati</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15dp" android:gravity="center" android:id="@+id/btj" android:background="@drawable/vz" android:layout_width="match_parent" android:layout_height="match_parent" android:textAllCaps="false" app:fontType="2"/>
+    <com.p280ss.android.ugc.aweme.account.p982ui.LoadingCircleView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/bti" android:visibility="gone" android:layout_width="100dp" android:layout_height="100dp"/>
+</FrameLayout>

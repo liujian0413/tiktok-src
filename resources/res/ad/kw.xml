@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.commercialize.views.DouPlusRefundBanView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/ky" android:layout_width="280dp" android:layout_height="wrap_content">
+        <ImageView android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="20dp" android:src="@drawable/zi"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/lx" android:id="@+id/a_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="24dp" android:text="@string/cl" android:maxLines="1"/>
+        <View android:background="@color/li" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/l_" android:gravity="center_horizontal" android:id="@+id/a_t" android:paddingTop="13.5dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/km" app:fontFamily="medium"/>
+        <View android:background="@color/li" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/l_" android:gravity="center_horizontal" android:id="@+id/a_v" android:paddingTop="13.5dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/au9" app:fontFamily="medium"/>
+        <View android:background="@color/li" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/lx" android:gravity="center_horizontal" android:id="@+id/a_u" android:paddingTop="13.5dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/w_"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.commercialize.views.DouPlusRefundBanView>

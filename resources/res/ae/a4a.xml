@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.widget.roundcorner.RoundCornerFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ci1" android:layout_width="100dp" android:layout_height="36dp" app:ttlive_leftBottomRadius="18dp" app:ttlive_leftTopRadius="18dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/afh" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="2dp" android:layout_centerVertical="true" android:layout_marginStart="2dp"/>
+        <TextView android:textSize="12dp" android:textColor="@color/aft" android:id="@+id/afi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:text="@string/fe4" android:layout_toRightOf="@+id/afh" android:layout_centerVertical="true" android:layout_marginStart="-4dp" android:layout_toEndOf="@+id/afh"/>
+        <ImageView android:layout_width="10dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:src="@drawable/c0u" android:layout_toRightOf="@+id/afi" android:layout_centerVertical="true" android:layout_toEndOf="@+id/afi"/>
+        <View android:id="@+id/d7r" android:background="@drawable/c0v" android:visibility="gone" android:layout_width="64dp" android:layout_height="36dp"/>
+    </RelativeLayout>
+</com.bytedance.android.livesdk.widget.roundcorner.RoundCornerFrameLayout>

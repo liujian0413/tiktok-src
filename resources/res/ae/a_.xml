@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/t4" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.p313im.sdk.widget.ImTextTitleBar android:id="@+id/djz" android:background="@drawable/hq" android:layout_width="match_parent" android:layout_height="@dimen/i6" app:imTitle="@string/bil"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textColor="@color/vo" android:textColorHint="@color/vo" android:id="@+id/ago" android:background="@null" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/bp1" android:drawableLeft="@drawable/b54" android:drawablePadding="8dp" android:layout_weight="1" android:drawableStart="@drawable/b54" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/u6"/>
+        <ImageView android:id="@+id/b7f" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" android:src="@drawable/a_5" android:layout_marginStart="8dp" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <View android:background="@color/u8" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cxc" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

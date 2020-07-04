@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bon" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ana" android:gravity="start" android:id="@+id/bok" android:background="@color/as5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bom" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="12sp" android:textColor="#5a161823" android:id="@+id/bof" android:background="@color/as5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="false" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bol" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/an_" android:id="@+id/boj" android:background="@color/as5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="false" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bo6" android:layout_width="match_parent" android:layout_height="16dp"/>
+</LinearLayout>

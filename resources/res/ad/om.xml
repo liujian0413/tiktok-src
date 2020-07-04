@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/dal" android:layout_height="0dp" style="@style/i_"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a19" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dal" android:layout_alignParentLeft="true">
+        <com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout android:orientation="vertical" android:id="@+id/czg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ah5"/>
+            <include layout="@layout/ah7"/>
+            <com.p280ss.android.ugc.aweme.profile.p1487ui.SwipableViewPager android:id="@+id/czl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout>
+    </LinearLayout>
+    <ViewStub android:id="@+id/c4m" android:layout="@layout/afp" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:minWidth="178dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <com.p280ss.android.ugc.aweme.discover.p1185ui.NoticeView android:id="@+id/ecs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true"/>
+    <com.p280ss.android.ugc.aweme.profile.p1487ui.widget.NoticeButtonView android:id="@+id/eda" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" app:bv_contentText="Start earning free gifts today." app:bv_iconImage="@drawable/aiq" app:bv_itemText="Join" app:bv_noticeBackgroundColor="@color/az3" app:bv_titleText="TikTok Rewards"/>
+    <ViewStub android:id="@+id/c2q" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true"/>
+    <ViewStub android:id="@+id/c2p" android:layout="@layout/a6y" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:id="@+id/djz" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="@dimen/x5" android:layout_below="@+id/dal">
+        <ImageView android:id="@+id/jo" android:padding="12dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="3dp" android:src="@drawable/cmo" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/e7" android:layout_width="60dp" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/b5t" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside" android:layout_centerInParent="true" app:srcCompat="@drawable/afg"/>
+            <com.p280ss.android.ugc.aweme.profile.p1487ui.RecommendPointView android:id="@+id/cp4" android:background="@drawable/rh" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_toRightOf="@+id/b5t" android:layout_above="@+id/b5t"/>
+            <View android:background="@drawable/bhx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="184dp" android:maxLines="1" android:layout_centerInParent="true" app:fontType="2" style="@style/u9"/>
+        <RelativeLayout android:id="@+id/bzz" android:layout_width="49dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/c02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bez" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+            <View android:id="@+id/c09" android:background="@drawable/rh" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="-5dp" android:layout_toRightOf="@+id/c02" android:layout_alignTop="@+id/c02"/>
+            <View android:background="@drawable/bhx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <View android:id="@+id/dk3" android:background="@color/a4j" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <include layout="@layout/pf"/>
+</RelativeLayout>

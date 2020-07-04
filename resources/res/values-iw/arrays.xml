@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ספריית סאונד מקוונת</item>
+        <item>הסאונד שלי</item>
+    </array>
+    <array name="m">
+        <item>מחק</item>
+        <item>ביטול</item>
+    </array>
+    <array name="n">
+        <item>פופולרי</item>
+        <item>העדכני ביותר</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>יום ראשון</item>
+        <item>יום שני</item>
+        <item>יום שלישי</item>
+        <item>יום רביעי</item>
+        <item>יום חמישי</item>
+        <item>יום שישי</item>
+        <item>שבת</item>
+    </array>
+    <array name="y">
+        <item>סינית מפושטת</item>
+        <item>סינית מסורתית</item>
+        <item>אנגלית</item>
+        <item>יפנית</item>
+        <item>קוראנית</item>
+        <item>רוסית</item>
+        <item>אינדונזית</item>
+        <item>מלאית</item>
+        <item>פורטוגזית</item>
+        <item>תאית</item>
+        <item>וייטנאמית</item>
+        <item>הינדית</item>
+    </array>
+    <array name="z">
+        <item>רגיל</item>
+        <item>שחור/לבן</item>
+        <item>אמנויות</item>
+        <item>וינטאג&apos;</item>
+        <item>רטרולוקס</item>
+        <item>רווי</item>
+        <item>כרום</item>
+    </array>
+    <array name="a1">
+        <item>ינואר</item>
+        <item>פבר&apos;</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוג&apos;</item>
+        <item>ספט&apos;</item>
+        <item>אוק&apos;</item>
+        <item>נוב&apos;</item>
+        <item>דצמ&apos;</item>
+    </array>
+    <array name="a4">
+        <item>עדיפות לחיסכון באינטרנט הסלולרי</item>
+        <item>עדיפות לרזולוציה גבוהה</item>
+    </array>
+    <array name="a5">
+        <item>כולם</item>
+        <item>חברים בלבד</item>
+    </array>
+    <array name="az">
+        <item>יום שני</item>
+        <item>יום שלישי</item>
+        <item>יום רביעי</item>
+        <item>יום חמישי</item>
+        <item>יום שישי</item>
+        <item>שבת</item>
+        <item>יום ראשון</item>
+    </array>
+</resources>

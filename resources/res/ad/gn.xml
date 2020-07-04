@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/b0x" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="74dp" app:oldPanel="true">
+    <RelativeLayout android:id="@+id/b10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="16dp">
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cuz" android:background="@drawable/b91" android:layout_width="match_parent" android:layout_height="36dp">
+            <com.bytedance.ies.dmt.p262ui.widget.AutoRTLImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/bbw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ah6"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textColor="@color/lt" android:textColorHint="#59ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/e19" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/bdw" android:lines="1" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/ys" style="@style/u6"/>
+            <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/pw" android:background="@drawable/ah5" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="6dp"/>
+        </FrameLayout>
+        <com.p280ss.android.ugc.aweme.views.ConstantWidthTextView android:textColor="@color/lt" android:gravity="center" android:id="@+id/e1a" android:layout_width="match_parent" android:layout_height="match_parent" android:maxWidth="100dp" android:text="@string/w_" android:maxLines="1" android:layout_centerVertical="true" style="@style/u6"/>
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:id="@+id/b12" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+        <RelativeLayout android:id="@+id/d0n" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/d0m" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b0z" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/dbe" android:layout_width="match_parent" android:layout_height="40dp" app:oldPanel="true" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="@color/lt" app:tabIndicatorHeight="2dp" app:tabMaxWidth="9999dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp"/>
+        <View android:id="@+id/bm2" android:background="@color/vr" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <android.support.p022v4.view.ViewPager android:id="@+id/edp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

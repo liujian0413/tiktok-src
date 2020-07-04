@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p022v4.view.DmtRtlViewPager android:id="@+id/egw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/egt"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aaz" android:gravity="center" android:id="@+id/egt" android:background="@drawable/qk" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/um" android:layout_above="@+id/egr" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.ViewPagerIndicatorLayout android:id="@+id/egr" android:layout_width="wrap_content" android:layout_height="52dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:indicatorSize="6dp" app:indicatorSolidColor="@color/a4e" app:indicatorSpace="4dp" app:indicatorUnselectedAlpha="0.34"/>
+</RelativeLayout>

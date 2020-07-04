@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a5c" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout android:orientation="vertical" android:id="@+id/brg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:id="@+id/c3a" android:layout_width="match_parent" android:layout_height="@dimen/nb"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ViewStub android:layout_gravity="top" android:id="@+id/dh7" android:layout="@layout/afl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p280ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/a5b" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.p280ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout>
+    <com.p280ss.android.ugc.aweme.crossplatform.view.CrossPlatformTitleBar android:id="@+id/a5d" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/bq" android:background="@color/az3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="58dp">
+        <View android:layout_gravity="top" android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/np" android:gravity="center" android:layout_gravity="center" android:id="@+id/bs" android:background="@drawable/z_" android:layout_width="335dp" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/aoi" style="@style/u6"/>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout>

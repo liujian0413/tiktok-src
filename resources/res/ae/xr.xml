@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="52dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textStyle="bold" android:textColor="@color/a4_" android:gravity="center_vertical" android:id="@+id/dq5" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:shadowColor="@color/fd" android:shadowRadius="2" android:layout_marginStart="16dp" app:fontType="7" style="@style/t9"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/dlc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="20dp" android:layout_marginEnd="20dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/crr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/b5l" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/fp"/>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13sp" android:textColor="#ffffff" android:id="@+id/b5m" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axr" android:lineSpacingExtra="3sp"/>
+            </LinearLayout>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtCheckableImageButton android:id="@+id/b5p" android:visibility="invisible" android:layout_width="28dp" android:layout_height="28dp" app:selectSrc="@drawable/yx" app:unSelectSrc="@drawable/yw"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/b5n" android:visibility="gone" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="20dp" android:src="@drawable/fx" android:layout_marginStart="20dp"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/b5i" android:visibility="gone" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="20dp" android:src="@drawable/b2e" android:layout_marginStart="20dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

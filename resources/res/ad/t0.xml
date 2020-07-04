@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c1g" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bss" android:background="?attr/a19" android:layout_width="match_parent" android:layout_height="88dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginLeft="16dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/czm" android:background="@drawable/yj" android:layout_width="72dp" android:layout_height="72dp" android:src="@drawable/a61" app:roundedCornerRadius="1dp"/>
+            <ImageView android:id="@+id/bch" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/acy" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <ProgressBar android:id="@+id/ca4" android:layout_width="32dp" android:layout_height="32dp" android:indeterminateDrawable="@drawable/b_n" android:indeterminateDuration="1500" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/hh"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/cuu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bsq" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/bas" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/ad9"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:ellipsize="end" android:id="@+id/dyg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="90dp" android:maxWidth="187dp" android:lines="1" app:fontType="7" style="@style/u6"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/e21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="90dp" android:lines="1" android:layout_below="@+id/bsq" style="@style/u2"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/y7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="90dp" android:lines="1" android:layout_below="@+id/e21" style="@style/u2"/>
+            <ImageView android:id="@+id/c1c" android:layout_width="40dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/b2v" android:scaleType="centerInside" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/cup" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/cuo" android:background="@drawable/s4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="10dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aye" android:gravity="center" android:id="@+id/e7a" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/e46" android:drawableLeft="@drawable/ada" android:drawablePadding="2dp" android:layout_centerInParent="true" android:drawableStart="@drawable/ada" app:fontType="2" style="@style/u6"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

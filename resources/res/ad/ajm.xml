@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/as5" android:layout_width="300dp" android:layout_height="wrap_content">
+    <View android:id="@+id/boh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bog" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
+    <View android:id="@+id/bon" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ana" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/bok" android:background="@color/as5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1"/>
+    <View android:id="@+id/bom" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/an_" android:gravity="center_horizontal" android:id="@+id/boj" android:background="@color/as5" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/bo6" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <FrameLayout android:id="@+id/boe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bo_" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/boa" style="@style/yz"/>
+        <Button android:id="@+id/bo7" style="@style/yy"/>
+        <View android:id="@+id/bob" style="@style/yz"/>
+        <Button android:id="@+id/bo8" style="@style/yy"/>
+        <View android:id="@+id/boc" style="@style/yz"/>
+        <Button android:id="@+id/bo9" style="@style/yy"/>
+    </LinearLayout>
+</LinearLayout>

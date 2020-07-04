@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:layout_gravity="center" android:id="@+id/db2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" app:isCircle="false" app:isShowBorder="true" app:isShowText="false" app:itemImgHeight="40dp" app:itemImgWidth="40dp" app:multiStickerPanel="true" app:roundRadius="2dp"/>
+</FrameLayout>

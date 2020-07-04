@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/alu" android:clipChildren="false" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+            <com.p280ss.android.ugc.aweme.feed.p1238ui.LiveCircleView android:layout_gravity="center" android:id="@+id/b3w" android:padding="3dp" android:layout_width="66dp" android:layout_height="66dp" app:live_strokeWidth="2dp"/>
+            <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageWithVerifyAndLive android:layout_gravity="center" android:id="@+id/b64" android:layout_width="56dp" android:layout_height="56dp"/>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/axg" android:visibility="gone" android:layout_width="42dp" android:layout_height="19dp" android:layout_marginTop="44dp" android:src="@drawable/c7u"/>
+        </FrameLayout>
+        <com.p280ss.android.ugc.aweme.following.p1265ui.view.FollowUserBtn android:id="@+id/q5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/bh5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_toLeftOf="@+id/q5" android:layout_toRightOf="@+id/alu" android:layout_centerVertical="true">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a4e" android:ellipsize="end" android:id="@+id/e4l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:fontType="7" style="@style/u6"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a53" android:id="@+id/dqo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:lineSpacingExtra="0dp"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/duc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:lines="1" android:includeFontPadding="false" android:layout_weight="1" android:lineSpacingExtra="0dp"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/dt5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:lines="1" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/e0c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="84dp" android:layout_marginTop="-3dp" android:layout_marginBottom="10dp" android:maxLines="1" android:drawableStart="@drawable/ahi" style="@style/u2"/>
+    <ViewStub android:id="@+id/d0h" android:layout="@layout/a_m" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

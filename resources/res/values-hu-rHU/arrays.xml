@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Online hangkönyvtár</item>
+        <item>Saját hangok</item>
+    </array>
+    <array name="m">
+        <item>Törlés</item>
+        <item>Mégse</item>
+    </array>
+    <array name="n">
+        <item>Trendi</item>
+        <item>Legújabb</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+    </array>
+    <array name="y">
+        <item>Egyszerűsített kínai</item>
+        <item>Hagyományos kínai</item>
+        <item>Angol</item>
+        <item>Japán</item>
+        <item>Koreai</item>
+        <item>Orosz</item>
+        <item>Indonéz</item>
+        <item>Maláj</item>
+        <item>Portugál</item>
+        <item>Thai</item>
+        <item>Vietnámi</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normál</item>
+        <item>Fekete-fehér</item>
+        <item>Művészetek</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Telített</item>
+        <item>Króm</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Már</item>
+        <item>Ápr</item>
+        <item>Máj</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>Aug</item>
+        <item>Szep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="a4">
+        <item>Adattakarékosság előnyben</item>
+        <item>Nagy felbontás előnyben</item>
+    </array>
+    <array name="a5">
+        <item>Mindenki</item>
+        <item>Csak ismerősök</item>
+    </array>
+    <array name="af">
+        <item>Válassz a könyvtárból</item>
+        <item>Fénykép készítése</item>
+        <item>Mégse</item>
+    </array>
+    <array name="an">
+        <item>Szűrő_01</item>
+        <item>Szűrő_02</item>
+        <item>Szűrő_03</item>
+        <item>Szűrő_04</item>
+        <item>Szűrő_05</item>
+    </array>
+    <array name="ao">
+        <item>Nincs</item>
+        <item>Virág</item>
+        <item>Édes</item>
+        <item>Tea</item>
+        <item>Eszes</item>
+        <item>Rózsás</item>
+        <item>Szellő</item>
+        <item>Természet</item>
+        <item>Napfény</item>
+        <item>Bébi</item>
+        <item>Nosztalgia</item>
+        <item>Világos</item>
+        <item>Cuki</item>
+        <item>Őszibarack</item>
+        <item>Naplemente</item>
+    </array>
+    <array name="aq">
+        <item>Kör</item>
+        <item>Heti</item>
+        <item>Összesített</item>
+        <item>Xigua rangsor</item>
+    </array>
+    <array name="ar">
+        <item>Január</item>
+        <item>Február</item>
+        <item>Március</item>
+        <item>Április</item>
+        <item>Május</item>
+        <item>Június</item>
+        <item>Július</item>
+        <item>Augusztus</item>
+        <item>Szeptember</item>
+        <item>Október</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="au">
+        <item>Nincs</item>
+        <item>Természet</item>
+        <item>Törlés</item>
+        <item>Japán</item>
+        <item>Megható</item>
+    </array>
+    <array name="av">
+        <item>Nincs</item>
+        <item>Természet</item>
+        <item>Világos</item>
+        <item>Első szerelem</item>
+    </array>
+    <array name="aw">
+        <item>Bejelentés</item>
+        <item>Mégse</item>
+    </array>
+    <array name="az">
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+        <item>Vasárnap</item>
+    </array>
+</resources>

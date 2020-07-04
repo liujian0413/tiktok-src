@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">Busak konsep?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d melodi</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d musik</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d partitur</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d lagu</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d swara</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%d tembang</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">posting %d video</item>
+    </plurals>
+</resources>

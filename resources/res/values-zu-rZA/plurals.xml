@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Uyayisusa idrafti?</item>
+        <item quantity="other">Uyawasusa amadrafti?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d umnkenenezo</item>
+        <item quantity="other">%d iminkenenezo</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d umculo</item>
+        <item quantity="other">%d umculo</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d umucu</item>
+        <item quantity="other">%d imicu</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d ingoma</item>
+        <item quantity="other">%d izingoma</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d umsindo</item>
+        <item quantity="other">%d imisindo</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ishuni</item>
+        <item quantity="other">%d amashuni</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">ividiyo e %d</item>
+        <item quantity="other">amavidiyo angu %d</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">uphoste ividiyo e %d</item>
+        <item quantity="other">uphoste amavidiyo angu %d</item>
+    </plurals>
+</resources>

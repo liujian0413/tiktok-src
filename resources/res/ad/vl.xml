@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b7x" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintDimensionRatio="16:9" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:placeholderImage="@color/a6c" app:roundedCornerRadius="2dp"/>
+    <ImageView android:id="@+id/ccc" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/bf0" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:id="@+id/an0" android:background="@drawable/rc" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_margin="8dp" android:minWidth="80dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lt" android:layout_gravity="center" android:id="@+id/e48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7l" style="@style/u0"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/bc3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ayp"/>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

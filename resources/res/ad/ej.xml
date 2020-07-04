@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/t4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.p313im.sdk.widget.ImTextTitleBar android:id="@+id/djz" android:background="@drawable/hq" android:layout_width="match_parent" android:layout_height="@dimen/i6" app:imTitle="@string/bpw"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/dbo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

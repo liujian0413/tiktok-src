@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Librarya sa online nga tingog</item>
+        <item>Akong Tingog</item>
+    </array>
+    <array name="m">
+        <item>Papasa</item>
+        <item>Kanselaha</item>
+    </array>
+    <array name="n">
+        <item>Nag-trending</item>
+        <item>Pinakaulahi</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Dominggo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+    </array>
+    <array name="y">
+        <item>Gipasayon nga Inintsik</item>
+        <item>Tradisyonal nga Inintsik</item>
+        <item>Ingles</item>
+        <item>Japanese</item>
+        <item>Koreano</item>
+        <item>Russian</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Portuguese</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Itom/Puti</item>
+        <item>Arts</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturated</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Ene</item>
+        <item>Peb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>May</item>
+        <item>Hun</item>
+        <item>Hul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nob</item>
+        <item>Dis</item>
+    </array>
+    <array name="a4">
+        <item>Unahon ang data-saving</item>
+        <item>Unahon ang taas-og-resolusyon</item>
+    </array>
+    <array name="a5">
+        <item>Matag usa</item>
+        <item>Mga higala lang</item>
+    </array>
+    <array name="az">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+        <item>Dominggo</item>
+    </array>
+</resources>

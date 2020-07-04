@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Maktaba ya sauti ya mtandaoni</item>
+        <item>Sauti Yangu</item>
+    </array>
+    <array name="m">
+        <item>Futa</item>
+        <item>Ghairi</item>
+    </array>
+    <array name="n">
+        <item>Zinazovuma</item>
+        <item>Mpya Kabisa</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Jumapili</item>
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+    </array>
+    <array name="y">
+        <item>Kichina Rahisi</item>
+        <item>Utamaduni wa Kichina</item>
+        <item>Kiingereza</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kirusi</item>
+        <item>Kiindonesia</item>
+        <item>Kimalesia</item>
+        <item>Kireno</item>
+        <item>Kithai</item>
+        <item>Kivietinamu</item>
+        <item>Kihindi</item>
+    </array>
+    <array name="z">
+        <item>Kawaida</item>
+        <item>Nyeusi/Nyeupe</item>
+        <item>Sanaa</item>
+        <item>Za Kale</item>
+        <item>Retrolux</item>
+        <item>Iliyokoleza</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Machi</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </array>
+    <array name="a4">
+        <item>Zinazookoa data kwanza</item>
+        <item>Za ubora wa juu kwanza</item>
+    </array>
+    <array name="a5">
+        <item>Kila mtu</item>
+        <item>Marafiki Pekee</item>
+    </array>
+    <array name="az">
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+        <item>Jumapili</item>
+    </array>
+</resources>

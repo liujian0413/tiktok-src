@@ -1,0 +1,93 @@
+package com.p280ss.android.ugc.aweme.setting.p337ui;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import com.bytedance.apm.agent.instrumentation.ActivityInstrumentation;
+import com.bytedance.ies.ugc.appcontext.C6399b;
+import com.p280ss.android.ugc.aweme.account.C21115b;
+import com.zhiliaoapp.musically.df_live_zego_link.R;
+
+/* renamed from: com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity */
+public class DuetControlSettingActivity extends BaseControlSettingActivity {
+    /* renamed from: e */
+    public final String mo95114e() {
+        return "duet";
+    }
+
+    public void onCreate(Bundle bundle) {
+        ActivityInstrumentation.onTrace("com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity", "onCreate", true);
+        super.onCreate(bundle);
+        ActivityInstrumentation.onTrace("com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity", "onCreate", false);
+    }
+
+    public void onResume() {
+        ActivityInstrumentation.onTrace("com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity", "onResume", true);
+        super.onResume();
+        ActivityInstrumentation.onTrace("com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity", "onResume", false);
+    }
+
+    public void onWindowFocusChanged(boolean z) {
+        ActivityInstrumentation.onTrace("com.ss.android.ugc.aweme.setting.ui.DuetControlSettingActivity", "onWindowFocusChanged", true);
+        super.onWindowFocusChanged(z);
+    }
+
+    /* renamed from: c */
+    public final void mo95111c() {
+        this.f98361a = getIntent().getIntExtra("currentSettingsValue", 0);
+    }
+
+    /* renamed from: f */
+    public final void mo95115f() {
+        this.mEveryoneItem.setTag(Integer.valueOf(0));
+        this.mFriendsItem.setTag(Integer.valueOf(1));
+        this.mOffItem.setTag(Integer.valueOf(3));
+    }
+
+    /* renamed from: d */
+    public final void mo95113d() {
+        this.mTitle.setText(getString(R.string.awj));
+        if (C21115b.m71197a().getCurUser().isSecret()) {
+            mo95108a((CharSequence) getString(R.string.awi));
+            if (C6399b.m19947w()) {
+                mo95112c(getResources().getColor(R.color.a96));
+            }
+        }
+        int i = this.f98361a;
+        if (i != 3) {
+            switch (i) {
+                case 0:
+                    m120668a(this.mEveryoneItem);
+                    return;
+                case 1:
+                    m120668a(this.mFriendsItem);
+                    return;
+            }
+        } else {
+            m120668a(this.mOffItem);
+        }
+    }
+
+    /* renamed from: a */
+    public final void mo95107a(int i) {
+        if (i != 3) {
+            switch (i) {
+                case 0:
+                    m120668a(this.mEveryoneItem);
+                    return;
+                case 1:
+                    m120668a(this.mFriendsItem);
+                    return;
+            }
+        } else {
+            m120668a(this.mOffItem);
+        }
+    }
+
+    /* renamed from: a */
+    public static void m120781a(Activity activity, int i, int i2) {
+        Intent intent = new Intent(activity, DuetControlSettingActivity.class);
+        intent.putExtra("currentSettingsValue", i);
+        activity.startActivityForResult(intent, 2);
+    }
+}

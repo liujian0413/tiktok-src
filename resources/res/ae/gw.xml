@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.p313im.sdk.widget.ImTextTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/i6" app:imLeftText="@string/bhv" app:imRightColor="@color/a5e" app:imRightText="@string/bp5" app:imTitle="@string/bqz"/>
+        <View android:background="@color/am" android:layout_width="match_parent" android:layout_height="1px"/>
+        <com.p280ss.android.ugc.aweme.p313im.sdk.relations.SearchHeadListView android:id="@+id/d0z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp"/>
+        <View android:background="@color/am" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/bxs" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p280ss.android.ugc.aweme.p313im.sdk.relations.IndexView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b0o" android:layout_width="16dp" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+            <include layout="@layout/a_c"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="24sp" android:textColor="@color/az3" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b0m" android:background="@drawable/b6d" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="18dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="52dp" android:layout_height="42dp" android:layout_marginRight="40dp" android:text="W" android:paddingStart="12dp" android:paddingEnd="18dp" android:layout_marginEnd="40dp"/>
+</FrameLayout>

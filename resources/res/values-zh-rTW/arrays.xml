@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>線上音樂庫</item>
+        <item>我的音樂</item>
+    </array>
+    <array name="m">
+        <item>刪除</item>
+        <item>取消</item>
+    </array>
+    <array name="n">
+        <item>熱門</item>
+        <item>最新</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </array>
+    <array name="y">
+        <item>簡體中文</item>
+        <item>繁體中文</item>
+        <item>英文</item>
+        <item>日文</item>
+        <item>韓文</item>
+        <item>俄文</item>
+        <item>印尼文</item>
+        <item>馬來文</item>
+        <item>葡萄牙文</item>
+        <item>泰文</item>
+        <item>越南文</item>
+        <item>印度文</item>
+    </array>
+    <array name="z">
+        <item>一般</item>
+        <item>黑/白</item>
+        <item>藝術</item>
+        <item>復古</item>
+        <item>懷舊</item>
+        <item>飽和</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>1 月</item>
+        <item>2 月</item>
+        <item>3 月</item>
+        <item>4 月</item>
+        <item>5 月</item>
+        <item>6 月</item>
+        <item>7 月</item>
+        <item>8 月</item>
+        <item>9 月</item>
+        <item>10 月</item>
+        <item>11 月</item>
+        <item>12 月</item>
+    </array>
+    <array name="a4">
+        <item>減少數據用量優先</item>
+        <item>高解析度優先</item>
+    </array>
+    <array name="a5">
+        <item>所有人</item>
+        <item>僅限好友</item>
+    </array>
+    <array name="af">
+        <item>從檔案庫中選擇</item>
+        <item>拍攝照片</item>
+        <item>取消</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>無</item>
+        <item>花卉風</item>
+        <item>甜美風</item>
+        <item>茶</item>
+        <item>聰明</item>
+        <item>玫瑰風情</item>
+        <item>微風</item>
+        <item>自然</item>
+        <item>日光</item>
+        <item>嬰兒</item>
+        <item>懷舊風</item>
+        <item>明亮</item>
+        <item>可愛風</item>
+        <item>桃子</item>
+        <item>日落</item>
+    </array>
+    <array name="aq">
+        <item>回合</item>
+        <item>每週</item>
+        <item>整體</item>
+        <item>西瓜排名</item>
+    </array>
+    <array name="ar">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </array>
+    <array name="au">
+        <item>無</item>
+        <item>自然</item>
+        <item>清除</item>
+        <item>日本風</item>
+        <item>動人</item>
+    </array>
+    <array name="av">
+        <item>無</item>
+        <item>自然</item>
+        <item>明亮</item>
+        <item>初戀</item>
+    </array>
+    <array name="aw">
+        <item>報告</item>
+        <item>取消</item>
+    </array>
+    <array name="az">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </array>
+</resources>

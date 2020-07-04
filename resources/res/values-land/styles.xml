@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="qg">
+        <item name="a40">1</item>
+        <item name="a4c">1</item>
+    </style>
+    <style name="ze">
+        <item name="android:windowBackground">@color/ac4</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/zf</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="zf">
+        <item name="android:windowEnterAnimation">@anim/de</item>
+        <item name="android:windowExitAnimation">@anim/di</item>
+    </style>
+</resources>

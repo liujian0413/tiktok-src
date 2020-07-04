@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="@dimen/gp" android:layout_height="@dimen/gp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/adx" android:layout_width="@dimen/gp" android:layout_height="@dimen/gp" app:actualImageScaleType="2"/>
+</FrameLayout>

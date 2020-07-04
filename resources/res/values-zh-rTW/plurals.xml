@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">刪除草稿？</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d 段旋律</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d 首音樂</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d 件作品</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d 首歌曲</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d 首音樂</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%d 首曲調</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="other">%d位好友给你发了新动态</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="m">
+        <item quantity="other">%s次看过此地</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d 段影片</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">%1$d 小時前</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">%1$d 分鐘前</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">天</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">月</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">週</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="other">%1$d 年前</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="other">很抱歉！您已被禁播\10 %1$d 天後才能再次直播</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="other">很抱歉！您已被禁播\10 %1$d 小時後才能再次直播</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="other">很抱歉！目前您已被禁播。\10 稍後才能再繼續直播，等待時間：%1$d 分鐘</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="other">很抱歉！您已被禁播\10 %1$d 秒後才能再次直播</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="other">%d 名使用者正在觀看您的直播，您要關閉直播嗎？</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="other">已連線 %1$d 分鐘</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="other">已等候 %1$d 分鐘</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="other">首次儲值 %1$d 顆鑽石可額外獲得 %2$d 顆！</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 分鐘</item>
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">已發佈 %d 段影片</item>
+    </plurals>
+</resources>

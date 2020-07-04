@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/aue" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.lighten.loader.SmartImageView android:id="@+id/lo" android:layout_width="match_parent" android:layout_height="match_parent" app:failureImage="@drawable/i5" app:placeholderImage="@drawable/i5" app:placeholderImageScaleType="6"/>
+    <FrameLayout android:id="@+id/lp" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.9"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/auq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="68dp">
+        <View android:id="@+id/dal" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <RelativeLayout android:id="@+id/im" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.lighten.loader.SmartImageView android:layout_gravity="center_vertical" android:id="@+id/ic" android:layout_width="120dp" android:layout_height="158dp" app:failureImage="@drawable/b6x" app:placeholderImage="@drawable/b6x" app:roundedCornerRadius="2dp" app:roundingBorderColor="@color/a4o" app:roundingBorderWidth="1px"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="9sp" android:textStyle="bold" android:textColor="#590011" android:id="@+id/jd" android:background="@drawable/i7" android:paddingLeft="4dp" android:paddingTop="2.5dp" android:paddingRight="4dp" android:paddingBottom="2.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/ic">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="20dp" android:textColor="@color/h8" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="6dp"/>
+                <ViewStub android:id="@+id/hd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp"/>
+                <ViewStub android:gravity="center_vertical" android:id="@+id/sg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <ViewStub android:id="@+id/eeq" android:layout="@layout/i5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/eez" android:layout="@layout/i9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/eem" android:layout="@layout/hz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/eeo" android:layout="@layout/iq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/een" android:layout="@layout/i4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/eep" android:layout="@layout/ip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/eex" android:layout="@layout/jp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <ViewStub android:id="@+id/ees" android:layout="@layout/i6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <include layout="@layout/ah"/>
+        <Space android:id="@+id/ob" android:layout_width="0dp" android:layout_height="16dp"/>
+    </LinearLayout>
+</FrameLayout>

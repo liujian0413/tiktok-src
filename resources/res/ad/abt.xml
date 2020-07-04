@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bjj" android:padding="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" app:bgColor="#80000000" app:effectPanel="true" app:isChangeColor="true" app:itemMargin="8dp" app:roundRadius="4dp"/>

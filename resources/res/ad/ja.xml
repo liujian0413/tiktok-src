@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/ke" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.commercialize.views.bottomdialog.AdBottomDialogConfirmView android:textSize="15sp" android:textStyle="bold" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/a10" android:background="?attr/a19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt" android:lineSpacingExtra="3sp" app:fontFamily="PingFangSC-Medium"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.common.widget.datepicker.DatePicker android:layout_gravity="center_horizontal" android:id="@+id/a6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="32dp"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="60dp">
+    <RelativeLayout android:id="@+id/cnd" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/cnb" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/cc9" android:layout_centerInParent="true"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="20sp" android:textColor="#999999" android:gravity="center" android:id="@+id/cnf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/e8p" android:layout_width="46dp" android:layout_height="46dp" android:layout_toRightOf="@+id/cnd" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/e8m" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center" android:id="@+id/b65" android:visibility="gone" android:layout_width="42dp" android:layout_height="42dp"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/anj" android:background="@drawable/bso" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginBottom="4dp" android:src="@drawable/c54"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/avv" android:visibility="gone" android:layout_width="30dp" android:layout_height="15dp" android:layout_marginLeft="3dp" android:layout_toRightOf="@+id/e9m" android:layout_centerVertical="true"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="15sp" android:textColor="#1e1e1e" android:ellipsize="end" android:id="@+id/e9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxWidth="130dp" android:maxLines="1" android:layout_toRightOf="@+id/e8p" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/bp5" android:visibility="gone" android:layout_width="12dp" android:layout_height="8dp" android:layout_marginLeft="13dp" android:src="@drawable/c7a" android:layout_toRightOf="@+id/e9m" android:layout_centerVertical="true"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="13sp" android:textColor="@color/aer" android:id="@+id/dj0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <View android:background="@color/alo" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="56dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

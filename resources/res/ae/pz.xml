@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/aci" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+    <include layout="@layout/a5b"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.videoedit.VEVideoEditView android:id="@+id/ea3" android:layout_width="match_parent" android:layout_height="wrap_content" app:cursorHeight="72dp" app:cursorWidth="6dp" app:frameHeight="56dp" app:frameWidth="31dp" app:leftRightMargin="36dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ac0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="10dp" android:gravity="center" android:id="@+id/d7p" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/e24" android:shadowColor="@color/a8n" android:shadowRadius="2" app:isSelected="false"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textColor="@color/a4i" android:ellipsize="end" android:id="@+id/dq_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginRight="16dp" android:layout_marginBottom="0dp" android:text="@string/axm" android:maxLines="2" android:shadowColor="@color/a8n" android:shadowRadius="2" android:lineSpacingExtra="2dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:isSelected="false"/>
+        <include layout="@layout/a5g"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

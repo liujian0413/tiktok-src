@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="272dp" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/tw" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/t7" android:layout_width="80dp" android:layout_height="80dp" app:placeholderImage="@drawable/arv" app:roundedCornerRadius="18dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+                <TextView android:textSize="15dp" android:textColor="@color/az3" android:ellipsize="end" android:id="@+id/t8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140dp" android:lines="1"/>
+                <TextView android:textSize="13dp" android:textColor="@color/az3" android:ellipsize="end" android:id="@+id/t5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:lines="2"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dp">
+                    <FrameLayout android:id="@+id/t_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp"/>
+                    <TextView android:textSize="11dp" android:textColor="#c0ffffff" android:id="@+id/ta" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textColor="@color/az3" android:ellipsize="end" android:gravity="center" android:id="@+id/t6" android:background="@drawable/tx" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="34dp" android:lines="1"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@+id/t9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:src="@drawable/ajc"/>
+</merge>

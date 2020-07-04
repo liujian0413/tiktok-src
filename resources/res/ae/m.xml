@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/az3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:orientation="vertical" android:id="@+id/dal" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+            <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ayu" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ca"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/mw" android:layout_gravity="center" android:id="@+id/e7d" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/tr" android:background="@drawable/gj" android:layout_width="match_parent" android:layout_height="@dimen/c9" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <ImageView android:id="@+id/d0w" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:src="@drawable/cd" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/auz" android:id="@+id/e6l" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/d0w" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtLoadingLayout android:id="@+id/btv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.p029v7.widget.RecyclerView android:orientation="vertical" android:id="@+id/cqp" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bhe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/auw" android:id="@+id/e6m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_3"/>
+        <TextView android:textSize="14sp" android:textColor="@color/auz" android:id="@+id/e6n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/a_4"/>
+    </LinearLayout>
+</FrameLayout>

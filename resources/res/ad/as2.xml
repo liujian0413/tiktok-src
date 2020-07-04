@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/ae" android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="47dp">
+        <com.bytedance.android.live.core.widget.LiveTextView android:textColor="@color/afm" android:id="@+id/ask" android:visibility="gone" android:layout_height="match_parent" android:text="@string/ezr" android:drawableRight="@drawable/cfv" android:drawableEnd="@drawable/cfv" style="@style/zc"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textColor="@color/afm" android:gravity="center" android:id="@+id/h8" android:layout_height="match_parent" android:text="@string/ezk" android:drawableRight="@drawable/cfv" android:drawableEnd="@drawable/cfv" style="@style/zc"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textColor="@color/arl" android:id="@+id/anj" android:layout_height="match_parent" android:text="@string/ezn" android:drawableRight="@drawable/cfv" android:drawableEnd="@drawable/cfv" style="@style/zc"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textColor="@color/aeq" android:id="@+id/ao2" android:layout_height="match_parent" android:text="@string/ezo" android:drawableRight="@drawable/cfv" android:drawableEnd="@drawable/cfv" style="@style/zc"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textColor="@color/afm" android:id="@+id/avt" android:layout_height="match_parent" android:text="@string/en8" style="@style/zc"/>
+        <android.support.constraint.ConstraintLayout android:id="@+id/l8" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/l7" android:layout_width="32dp" android:layout_height="32dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/bzm" style="@style/zc"/>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

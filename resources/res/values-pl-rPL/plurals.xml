@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Usunąć wersję roboczą?</item>
+        <item quantity="few">Usunąć wersje robocze?</item>
+        <item quantity="many">Usunąć wersje robocze?</item>
+        <item quantity="other">Usunąć wersje robocze?</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="few">%d friends commented on your story.</item>
+        <item quantity="many">%d friends commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="few">%d users want to add you as friend</item>
+        <item quantity="many">%d users want to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="few">%d friends liked your story.</item>
+        <item quantity="many">%d friends liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="few">%d friends watched your story.</item>
+        <item quantity="many">%d friends watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d film</item>
+        <item quantity="few">%d filmy</item>
+        <item quantity="many">%d filmów</item>
+        <item quantity="other">%d filmów</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+        <item quantity="other">%d dni temu</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Godz.</item>
+        <item quantity="few">Godz.</item>
+        <item quantity="many">Godz.</item>
+        <item quantity="other">Godz.</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d godz. temu</item>
+        <item quantity="few">%1$d godz. temu</item>
+        <item quantity="many">%1$d godz. temu</item>
+        <item quantity="other">%1$d godz. temu</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">min.</item>
+        <item quantity="few">min.</item>
+        <item quantity="many">min.</item>
+        <item quantity="other">min</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d min temu</item>
+        <item quantity="few">%1$d min temu</item>
+        <item quantity="many">%1$d min temu</item>
+        <item quantity="other">%1$d min temu</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">dzień</item>
+        <item quantity="few">dni</item>
+        <item quantity="many">dni</item>
+        <item quantity="other">dni</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Godz.</item>
+        <item quantity="few">Godz.</item>
+        <item quantity="many">Godz.</item>
+        <item quantity="other">Godz.</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">min.</item>
+        <item quantity="few">min.</item>
+        <item quantity="many">min.</item>
+        <item quantity="other">min</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">mies.</item>
+        <item quantity="few">m-ce</item>
+        <item quantity="many">mies.</item>
+        <item quantity="other">mies.</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="few">s</item>
+        <item quantity="many">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">tydz.</item>
+        <item quantity="few">tyg.</item>
+        <item quantity="many">tyg.</item>
+        <item quantity="other">tyg.</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d rok temu</item>
+        <item quantity="few">%1$d l. temu</item>
+        <item quantity="many">%1$d l. temu</item>
+        <item quantity="other">%1$d l. temu</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d dni</item>
+        <item quantity="few">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d dni</item>
+        <item quantity="many">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d dni</item>
+        <item quantity="other">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d dni</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d godz.</item>
+        <item quantity="few">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d godz.</item>
+        <item quantity="many">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d godz.</item>
+        <item quantity="other">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d godz.</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d min</item>
+        <item quantity="few">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d min</item>
+        <item quantity="many">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d min</item>
+        <item quantity="other">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d min</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d sek.</item>
+        <item quantity="few">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d sek.</item>
+        <item quantity="many">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d sek.</item>
+        <item quantity="other">Przykro nam! Twoje konto zostało zablokowane\10 Możesz przesłać coś na żywo za %1$d sek.</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">Twoją transmisję ogląda %d użytkowników, chcesz ją zakończyć?</item>
+        <item quantity="few">Twoją transmisję oglądają %d użytkownicy, chcesz ją zakończyć?</item>
+        <item quantity="many">Twoją transmisję ogląda %d użytkowników, chcesz ją zakończyć?</item>
+        <item quantity="other">Twoją transmisję ogląda %d użytkowników, chcesz ją zakończyć?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Połączenie od %1$d min</item>
+        <item quantity="few">Połączenie od %1$d min</item>
+        <item quantity="many">Połączenie od %1$d min</item>
+        <item quantity="other">Połączenie od %1$d min</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Czeka %1$d min</item>
+        <item quantity="few">Czeka %1$d min</item>
+        <item quantity="many">Czeka %1$d min</item>
+        <item quantity="other">Czeka %1$d min</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Doładuj za pierwszym razem %1$d diament, by zdobyć o %2$d więcej!</item>
+        <item quantity="few">Doładuj za pierwszym razem %1$d diamenty, by zdobyć %2$d!</item>
+        <item quantity="many">Doładuj za pierwszym razem %1$d diamenty, by zdobyć %2$d!</item>
+        <item quantity="other">Doładuj za pierwszym razem %1$d diamenty, by zdobyć %2$d!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">min</item>
+        <item quantity="few">min</item>
+        <item quantity="many">min</item>
+        <item quantity="other">min</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">opublikował/a %d film</item>
+        <item quantity="few">opublikował/a %d filmów</item>
+        <item quantity="many">opublikował/a %d filmów</item>
+        <item quantity="other">opublikował/a %d filmów</item>
+    </plurals>
+</resources>

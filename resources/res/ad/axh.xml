@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/cji" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/cjh" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="4dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ba3"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a4z" android:gravity="center" android:id="@+id/dxf" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6g"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.account.login.p974ui.LoginButton android:layout_gravity="center_horizontal" android:id="@+id/qm" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginTop="15dp" android:layout_marginBottom="16.5dp" android:contentDescription="@string/afn"/>
+</LinearLayout>

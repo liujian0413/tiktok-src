@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bi6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.comment.p1103ui.CommentListLikeListView android:id="@+id/ecu" android:paddingLeft="@dimen/ds" android:paddingRight="@dimen/ds" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:background="@color/aue" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ds" android:layout_marginRight="@dimen/ds" android:layout_marginBottom="6dp"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/co8" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:id="@+id/bu2" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.account.views.AutoRTLImageView android:id="@+id/b6a" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:layout_marginTop="3dp" android:src="@drawable/a1q"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="32dp" android:layout_marginRight="32dp" android:layout_below="@+id/b6a">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/lw" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cb_" app:fontType="2" style="@style/u_"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lz" android:id="@+id/ep" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/cb9" style="@style/u4"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.account.common.widget.datepicker.DatePicker android:id="@+id/ab5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:layout_below="@+id/eo" android:layout_centerHorizontal="true"/>
+    <com.p280ss.android.ugc.aweme.account.login.p974ui.LoginButton android:enabled="false" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/qz" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="32dp" android:layout_marginBottom="32dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

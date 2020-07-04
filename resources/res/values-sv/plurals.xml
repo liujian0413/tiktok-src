@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="other">%d dagar sedan</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">timme</item>
+        <item quantity="other">timmar</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d timme sedan</item>
+        <item quantity="other">%1$d timmar sedan</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuter</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d minut sedan</item>
+        <item quantity="other">%1$d minuter sedan</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">dag</item>
+        <item quantity="other">dagar</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">timme</item>
+        <item quantity="other">timmar</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuter</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">månad</item>
+        <item quantity="other">månader</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">vecka</item>
+        <item quantity="other">veckor</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d år sedan</item>
+        <item quantity="other">%1$d år sedan</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Du har stängts av\10 Du kan livestreama igen om %1$d dagar</item>
+        <item quantity="other">Du har stängts av\10 Du kan livestreama igen om %1$d dagar</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Du har stängts av\10 Du kan livestreama igen om %1$d timmar</item>
+        <item quantity="other">Du har stängts av\10 Du kan livestreama igen om %1$d timmar</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Du är för närvarande avstängd. \10 Du kan livestreama igen om: %1$d minuter</item>
+        <item quantity="other">Du är för närvarande avstängd. \10 Du kan livestreama igen om: %1$d minuter</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Du har stängts av\10 Du kan livestreama igen om %1$d sekunder</item>
+        <item quantity="other">Du har stängts av\10 Du kan livestreama igen om %1$d sekunder</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d användare tittar på din sändning. Vill du avsluta den?</item>
+        <item quantity="other">%d användare tittar på din sändning. Vill du avsluta den?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Ansluten i %1$d minut</item>
+        <item quantity="other">Ansluten i %1$d minuter</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Väntade i %1$d minut</item>
+        <item quantity="other">Väntade i %1$d minuter</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Första påfyllning med %1$d diamant och få %2$d till!</item>
+        <item quantity="other">Första påfyllning med %1$d diamanter och få %2$d till!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">minut</item>
+        <item quantity="other">minuter</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+</resources>

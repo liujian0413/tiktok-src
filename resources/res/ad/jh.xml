@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.memory.MemorySettingItemSwitch android:id="@+id/aj2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="local_test检查fd泄漏开关"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:id="@+id/b2o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="检测间隔(ms)" android:inputType="number"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:id="@+id/dn4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="总体上报阈值" android:inputType="number"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:id="@+id/d71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="单个fd上报阈值" android:inputType="number"/>
+    <Button android:id="@+id/a10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定"/>
+</LinearLayout>

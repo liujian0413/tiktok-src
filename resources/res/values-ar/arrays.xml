@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>مكتبة الأصوات عبر الإنترنت</item>
+        <item>الصوت الخاص بي</item>
+    </array>
+    <array name="m">
+        <item>حذف</item>
+        <item>إلغاء</item>
+    </array>
+    <array name="n">
+        <item>متصدر</item>
+        <item>الأخير</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </array>
+    <array name="y">
+        <item>الصينية المبسطة</item>
+        <item>الصينية التقليدية</item>
+        <item>الإنجليزية</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+        <item>الروسية</item>
+        <item>الإندونيسية</item>
+        <item>الملايوية</item>
+        <item>البرتغالية</item>
+        <item>التايلاندية</item>
+        <item>الفييتنامية</item>
+        <item>الهندية</item>
+    </array>
+    <array name="z">
+        <item>عادي</item>
+        <item>أسود/أبيض</item>
+        <item>الفنون</item>
+        <item>عتيق</item>
+        <item>ريترولوكس</item>
+        <item>مشبع</item>
+        <item>كروم</item>
+    </array>
+    <array name="a1">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </array>
+    <array name="a4">
+        <item>توفير البيانات أولًا</item>
+        <item>الدقة العالية أولًا</item>
+    </array>
+    <array name="a5">
+        <item>الجميع</item>
+        <item>الأصدقاء فقط</item>
+    </array>
+    <array name="af">
+        <item>اختيار من ألبوم الصور.</item>
+        <item>التقاط صورة</item>
+        <item>إلغاء</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>لا شيء</item>
+        <item>زهرة</item>
+        <item>لطيف</item>
+        <item>شاي</item>
+        <item>ذكي</item>
+        <item>وردي</item>
+        <item>نسيم</item>
+        <item>طبيعة</item>
+        <item>ضوء الشمس</item>
+        <item>طفل</item>
+        <item>حنين</item>
+        <item>مشرق</item>
+        <item>جذاب</item>
+        <item>خوخ</item>
+        <item>غروب</item>
+    </array>
+    <array name="aq">
+        <item>الجولة</item>
+        <item>الأسبوعي</item>
+        <item>العام</item>
+        <item>تصنيف Xigua</item>
+    </array>
+    <array name="ar">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </array>
+    <array name="au">
+        <item>لا شيء</item>
+        <item>طبيعة</item>
+        <item>مسح</item>
+        <item>اليابانية</item>
+        <item>مؤثر</item>
+    </array>
+    <array name="av">
+        <item>لا شيء</item>
+        <item>طبيعة</item>
+        <item>مشرق</item>
+        <item>الحب الأول</item>
+    </array>
+    <array name="aw">
+        <item>إبلاغ</item>
+        <item>إلغاء</item>
+    </array>
+    <array name="az">
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </array>
+</resources>

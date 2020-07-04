@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/a0l">
+    <TextView android:id="@+id/e60" android:layout_alignLeft="@+id/e5a" style="@style/a0w"/>
+    <ImageView android:id="@+id/e5v" android:layout_below="@+id/e60" style="@style/a0h"/>
+    <LinearLayout android:id="@+id/e5a" android:layout_toRightOf="@+id/e5v" android:layout_below="@+id/e60" style="@style/a00">
+        <TextView android:id="@+id/e5w" style="@style/a0n"/>
+        <TextView android:id="@+id/e5x" style="@style/a0y"/>
+        <TextView android:id="@+id/e63" style="@style/a13"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/e64" android:layout_below="@+id/e60" android:layout_alignParentRight="true" style="@style/a15"/>
+    <com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout android:id="@+id/e5_" android:layout_below="@+id/e5a" android:layout_alignLeft="@+id/e5a" style="@style/a0t">
+        <com.twitter.sdk.android.tweetui.internal.TweetMediaView android:id="@+id/e68" style="@style/a0r"/>
+        <com.twitter.sdk.android.tweetui.internal.MediaBadgeView android:id="@+id/e5z" style="@style/a0i"/>
+    </com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout>
+    <TextView android:id="@+id/e62" android:layout_toRightOf="@+id/e5v" android:layout_below="@+id/e5_" style="@style/a10"/>
+    <FrameLayout android:id="@+id/cmp" android:layout_toRightOf="@+id/e5v" android:layout_below="@+id/e62" style="@style/a0a"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/e5v" android:layout_below="@+id/cmp" layout="@layout/b0h" style="@style/a0f"/>
+    <View android:id="@+id/o8" android:layout_width="match_parent" android:layout_height="@dimen/um" android:layout_below="@+id/cmp"/>
+</merge>

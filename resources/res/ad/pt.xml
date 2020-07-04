@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/d15" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/a2d" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout android:id="@+id/cr7" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.design.widget.AppBarLayout android:theme="@style/ng" android:id="@+id/d0_" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/aln" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="15">
+                        <FrameLayout android:id="@+id/akq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                        <FrameLayout android:id="@+id/a3c" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                        <com.p280ss.android.ugc.aweme.discover.widget.GuideSearchHeadView android:id="@+id/atn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </android.support.design.widget.AppBarLayout>
+                <com.p280ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/jl"/>
+            </android.support.design.widget.CoordinatorLayout>
+        </com.p280ss.android.ugc.aweme.base.opensourcemodified.android.support.p1064v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dag" android:background="@color/a3z" android:paddingTop="-45dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="45dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/a3z" android:paddingTop="-45dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="45dp"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/aa1" android:layout="@layout/b4_" android:layout_width="55dp" android:layout_height="55dp"/>
+    </FrameLayout>
+</LinearLayout>

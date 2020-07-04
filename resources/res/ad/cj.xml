@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:orientation="horizontal" android:id="@+id/dkf" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/jq" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:src="@drawable/cmw" android:scaleType="fitCenter"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/mf" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ahp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/az3" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/by5" android:padding="11.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.5dp" android:text="@string/ahy"/>
+        <View android:layout_gravity="bottom" android:background="@color/g4" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    </FrameLayout>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/bnf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dkf"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dkf"/>
+</RelativeLayout>

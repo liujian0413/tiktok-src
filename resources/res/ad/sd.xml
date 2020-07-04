@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="52dp">
+    <ImageView android:id="@+id/d10" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ce" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/avo" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cf" android:layout_centerVertical="true"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/mw" android:ellipsize="end" android:id="@+id/avp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@+id/avo" android:layout_toRightOf="@+id/d10" android:layout_centerVertical="true"/>
+</RelativeLayout>

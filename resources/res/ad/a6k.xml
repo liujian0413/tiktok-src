@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bv5" android:background="#d9000000" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+    <View android:id="@+id/o0" android:background="@drawable/b_v" android:layout_width="match_parent" android:layout_height="514dp"/>
+    <com.p280ss.android.ugc.aweme.commercialize.loft.half.LoftMaskViewParent android:id="@+id/bv6" android:layout_width="match_parent" android:layout_height="514dp">
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/c3l" android:paddingTop="114dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p280ss.android.ugc.aweme.commercialize.loft.half.LoftMaskViewParent>
+    <FrameLayout android:id="@+id/dm5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="40dp" android:layout_marginBottom="24dp" android:src="@drawable/avm"/>
+    </FrameLayout>
+</merge>

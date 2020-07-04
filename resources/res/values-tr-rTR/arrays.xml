@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Çevrimiçi ses kütüphanesi</item>
+        <item>Sesim</item>
+    </array>
+    <array name="m">
+        <item>Sil</item>
+        <item>İptal</item>
+    </array>
+    <array name="n">
+        <item>Revaçta</item>
+        <item>En son</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </array>
+    <array name="y">
+        <item>Basitleştirilmiş Çince</item>
+        <item>Geleneksel Çince</item>
+        <item>İngilizce</item>
+        <item>Japonca</item>
+        <item>Korece</item>
+        <item>Rusça</item>
+        <item>Endonezyaca</item>
+        <item>Malayca</item>
+        <item>Portekizce</item>
+        <item>Tayca</item>
+        <item>Vietnamca</item>
+        <item>Hintçe</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Siyah/Beyaz</item>
+        <item>Sanatlar</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Doygun</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Oca</item>
+        <item>Şub</item>
+        <item>Mar</item>
+        <item>Nis</item>
+        <item>May</item>
+        <item>Haz</item>
+        <item>Tem</item>
+        <item>Ağu</item>
+        <item>Eyl</item>
+        <item>Eki</item>
+        <item>Kas</item>
+        <item>Ara</item>
+    </array>
+    <array name="a4">
+        <item>Öncelikle veri tasarrufu</item>
+        <item>Öncelikle yüksek çözünürlük</item>
+    </array>
+    <array name="a5">
+        <item>Herkes</item>
+        <item>Sadece Arkadaşlar</item>
+    </array>
+    <array name="az">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+    </array>
+</resources>

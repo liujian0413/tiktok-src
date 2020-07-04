@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:fsPanel="true">
+    <include android:id="@+id/dkg" layout="@layout/a5j"/>
+    <FrameLayout android:id="@+id/eat" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="56dp" android:layout_marginBottom="@dimen/kg">
+        <SurfaceView android:id="@+id/ea6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ead" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="56dp" android:layout_marginBottom="@dimen/kg">
+        <ImageView android:layout_gravity="center" android:id="@+id/b5k" android:visibility="gone" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/fj" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/dbu" android:layout="@layout/ac5" android:layout_width="222dp" android:layout_height="48dp" android:layout_marginBottom="@dimen/kg"/>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointSingleVideoEditView android:layout_gravity="bottom" android:id="@+id/d72" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/kg" app:fsPanel="true" app:secondPanel="true"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/o1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointModeChangeView android:id="@+id/bzp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout android:id="@+id/acb" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+                <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointMusicView android:id="@+id/c29" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mm"/>
+                <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointVideoSegView android:id="@+id/ebj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mm"/>
+                <FrameLayout android:id="@+id/c55" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/kg"/>
+                <FrameLayout android:id="@+id/dn1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/ab4"/>
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@+id/o5" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                    <include layout="@layout/ab6"/>
+                </FrameLayout>
+            </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/d6z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+            <include layout="@layout/ab2"/>
+        </FrameLayout>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>

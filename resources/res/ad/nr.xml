@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwi" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_below="@+id/dal" layout="@layout/agy"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:hideLine="true" app:startText="@string/je"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/uw" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/dqp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

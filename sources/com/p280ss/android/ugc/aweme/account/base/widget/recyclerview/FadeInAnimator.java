@@ -1,0 +1,26 @@
+package com.p280ss.android.ugc.aweme.account.base.widget.recyclerview;
+
+import android.support.p022v4.view.C0991u;
+import android.support.p022v4.view.C1002z;
+import android.support.p029v7.widget.RecyclerView.C1293v;
+
+/* renamed from: com.ss.android.ugc.aweme.account.base.widget.recyclerview.FadeInAnimator */
+public class FadeInAnimator extends BaseItemAnimator {
+    /* access modifiers changed from: protected */
+    /* renamed from: c */
+    public final void mo57026c(C1293v vVar) {
+        C0991u.m4205c(vVar.itemView, 0.0f);
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: k */
+    public final void mo57027k(C1293v vVar) {
+        C0991u.m4238q(vVar.itemView).mo3797a(0.0f).mo3798a(this.f4941j).mo3801a(this.f56758n).mo3800a((C1002z) new DefaultRemoveVpaListener(vVar)).mo3803b(mo57030n(vVar)).mo3806c();
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: l */
+    public final void mo57028l(C1293v vVar) {
+        C0991u.m4238q(vVar.itemView).mo3797a(1.0f).mo3798a(this.f4940i).mo3801a(this.f56758n).mo3800a((C1002z) new DefaultAddVpaListener(vVar)).mo3803b(mo57031o(vVar)).mo3806c();
+    }
+}

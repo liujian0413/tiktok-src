@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textSize="36sp" android:textColor="@color/a5d" android:textColorHint="#4dffffff" android:gravity="center" android:id="@+id/acp" android:background="@drawable/r4" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginLeft="40dp" android:layout_marginTop="33dp" android:layout_marginRight="40dp" android:maxLength="4" android:inputType="numberPassword" android:textCursorDrawable="@drawable/ys"/>
+    <com.p280ss.android.ugc.aweme.login.p1373ui.CheckButton android:id="@+id/qz" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginTop="40dp" android:alpha="0.5"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textColor="@color/a6c" android:id="@+id/c15" android:background="@drawable/ra" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="30dp" android:layout_marginTop="40dp" android:layout_marginRight="30dp" android:text="@string/cll" android:textAllCaps="false"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a53" android:id="@+id/q8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    <View android:layout_width="match_parent" android:layout_height="30dp"/>
+</merge>

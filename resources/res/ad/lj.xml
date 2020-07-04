@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p029v7.widget.RecyclerView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bjj" android:background="@drawable/cv" android:padding="6.5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="65dp"/>

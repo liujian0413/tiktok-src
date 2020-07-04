@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="30dp">
+    <com.bytedance.ies.dmt.p262ui.common.rebranding.NiceWidthTextView android:textStyle="bold" android:textColor="@color/yj" android:ellipsize="end" android:gravity="center" android:id="@+id/q7" android:background="@drawable/lv" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:adjustViewBounds="true" android:text="@string/b7r" android:maxLines="1" android:drawablePadding="4dp" android:textAllCaps="false" app:fontType="7" style="@style/u2"/>
+</RelativeLayout>

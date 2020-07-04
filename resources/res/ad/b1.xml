@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a8q" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="43dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b6a" android:padding="6dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="15dp" android:src="@drawable/apd"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/az3" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="250dp" android:text="@string/fnj" android:fontFamily="PingFangSC-Medium" style="@style/u6"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/az3" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/fnk" android:alpha="0.5" android:fontFamily="PingFangSC-Medium" style="@style/u2"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/az3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dsk" android:background="@drawable/qq" android:layout_width="208dp" android:layout_height="40dp" android:layout_marginTop="177dp" android:text="@string/ah4" android:fontFamily="PingFangSC-Medium" style="@style/u2"/>
+</LinearLayout>

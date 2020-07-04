@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="84dp">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="10dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/b64" android:layout_width="49dp" android:layout_height="49dp"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/e_p" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/amq" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:id="@+id/e7f" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#99ffffff" android:id="@+id/e6q" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/u0"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#99ffffff" android:id="@+id/e6j" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/u2"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#b31af4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/e6o" android:background="@color/aye" android:layout_width="65dp" android:layout_height="36dp" android:layout_marginRight="15dp" android:text="@string/b7r" style="@style/u2"/>
+</LinearLayout>

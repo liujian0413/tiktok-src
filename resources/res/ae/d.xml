@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p029v7.widget.FitWindowsLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:ellipsize="end" android:id="@+id/title" android:paddingLeft="?attr/it" android:paddingTop="@dimen/ad" android:paddingRight="?attr/it" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" style="?android:attr/windowTitleStyle"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/u"/>
+</android.support.p029v7.widget.FitWindowsLinearLayout>

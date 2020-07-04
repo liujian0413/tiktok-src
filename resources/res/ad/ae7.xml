@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/vu">
+    <TextView android:id="@+id/jn" style="@style/vn"/>
+    <ImageView android:id="@+id/xb" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/bdm" android:layout_toRightOf="@+id/jn" android:layout_centerVertical="true"/>
+    <TextView android:id="@+id/ctl" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawableLeft="@drawable/bda" android:layout_alignParentRight="true" style="@style/vs"/>
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:layout_marginRight="85dp" android:singleLine="true" android:layout_centerInParent="true" style="@style/vv"/>
+    <ProgressBar android:id="@+id/cth" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:indeterminateOnly="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall"/>
+</RelativeLayout>

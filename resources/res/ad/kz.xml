@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.shortvideo.edit.MaxHeightScrollView android:orientation="vertical" android:id="@+id/cze" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:maxHeightDp="380">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/alk" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/an8" android:paddingTop="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.p280ss.android.ugc.aweme.shortvideo.edit.MaxHeightScrollView>
+    <ImageView android:id="@+id/dlb" android:padding="8dp" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:src="@drawable/a6v" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/cze"/>
+</android.support.constraint.ConstraintLayout>

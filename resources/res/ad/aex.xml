@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/cm8" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/cm1" android:layout_width="match_parent" android:layout_height="65dp">
+            <ImageView android:id="@+id/cm5" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/cm6" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="5dp" android:scaleType="centerInside" android:layout_alignBottom="@+id/cm5" android:layout_alignParentRight="true"/>
+            <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cm2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="0dp" android:layout_toRightOf="@+id/cm5">
+                <DateTimeView android:textSize="12sp" android:textColor="#ffffff" android:id="@+id/cm4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:alpha="0.6" style="@style/TextAppearance.StatusBar.EventContent"/>
+                <TextView android:textSize="18sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@+id/cm7" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@+id/cm4" style="@style/TextAppearance.StatusBar.EventContent.Title"/>
+                <TextView android:textSize="14sp" android:textStyle="normal" android:textColor="#ffffff" android:id="@+id/cm3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:singleLine="true" android:layout_below="@+id/cm7" style="@style/TextAppearance.StatusBar.EventContent"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cm9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="69dp" android:layout_marginTop="34dp" android:layout_marginRight="13dp" android:layout_marginBottom="10dp">
+            <TextView android:textSize="14sp" android:textStyle="normal" android:textColor="#ffffff" android:ellipsize="end" android:id="@+id/clz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="192dp" android:alpha="0.9" style="@style/TextAppearance.StatusBar.EventContent"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

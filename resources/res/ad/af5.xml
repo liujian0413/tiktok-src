@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#e80000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/cvq" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:dividerHeight="0dp" android:layout_weight="1"/>
+    <View android:id="@+id/cvl" android:background="@android:color/darker_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/cvm" android:paddingLeft="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:indeterminateOnly="true" style="@style/Widget.ProgressBar.Small"/>
+        <TextView android:textSize="14sp" android:textColor="@android:color/white" android:id="@+id/cvp" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp" android:fontFamily="monospace"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/cvk" android:text="@string/xb" style="@style/wc"/>
+        <Button android:id="@+id/cvn" android:text="@string/xn" style="@style/wc"/>
+        <Button android:id="@+id/cvj" android:text="@string/x7" style="@style/wc"/>
+        <Button android:id="@+id/cvo" android:visibility="gone" android:text="@string/xr" style="@style/wc"/>
+    </LinearLayout>
+</LinearLayout>

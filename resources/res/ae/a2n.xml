@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="64dp">
+    <FrameLayout android:id="@+id/aua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginStart="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/aum" android:background="@drawable/bo1" android:layout_width="@dimen/qt" android:layout_height="@dimen/qt" app:placeholderImage="@drawable/c4_" app:retryImageScaleType="0" app:roundAsCircle="true"/>
+        <com.bytedance.android.livesdk.widget.VHeadView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/aq7" android:background="@drawable/bo1" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/c1m" app:retryImageScaleType="0" app:roundAsCircle="true"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/pe" app:layout_constraintStart_toEndOf="@+id/aua" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#404040" android:ellipsize="end" android:id="@+id/dyh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:maxLines="1" android:maxEms="5" android:singleLine="true" android:layout_marginStart="2dp"/>
+            <TextView android:textSize="10sp" android:id="@+id/dwg" android:background="@color/as3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/eoj"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/bhi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <TextView android:textSize="14sp" android:id="@+id/dns" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/do8" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/c4z"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp">
+                <ImageView android:id="@+id/doj" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/c80"/>
+                <TextView android:textSize="14sp" android:textColor="#808080" android:id="@+id/duj" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textSize="14sp" android:textColor="@color/as5" android:id="@+id/pe" android:background="@drawable/btp" android:layout_width="64dp" android:layout_height="28dp" android:layout_marginRight="18dp" android:text="@string/eut" android:layout_marginEnd="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" style="?android:attr/borderlessButtonStyle"/>
+    <TextView android:textSize="14sp" android:textColor="@color/wg" android:gravity="center" android:id="@+id/e46" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginRight="18dp" android:text="@string/exf" android:layout_marginEnd="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/a9q" android:background="#e0e0e0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="60dp" android:layout_marginRight="0.5dp" android:layout_marginStart="60dp" android:layout_marginEnd="0.5dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+</android.support.constraint.ConstraintLayout>

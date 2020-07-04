@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bor" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:placeholderImage="@drawable/cev" app:placeholderImageScaleType="6"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/al1"/>
+    <FrameLayout android:id="@+id/dv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ao5"/>
+                <include android:id="@+id/a2o" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_below="@+id/title" layout="@layout/ao3"/>
+                <include android:id="@+id/e8z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginLeft="16dp" android:layout_marginTop="2dp" android:layout_marginRight="16dp" android:layout_below="@+id/a2o" layout="@layout/azc"/>
+                <include android:id="@+id/bh8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@+id/e8z" layout="@layout/atv"/>
+                <include android:id="@+id/av6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" layout="@layout/auh"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/czf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bh8">
+                    <include android:id="@+id/a2p" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ao4"/>
+                    <include android:id="@+id/ea2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ao6"/>
+                    <include android:id="@+id/cpg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ax8"/>
+                </LinearLayout>
+                <include android:id="@+id/ajp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/czf" layout="@layout/ax6"/>
+            </RelativeLayout>
+        </ScrollView>
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/k2" android:padding="4dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="4dp" android:src="@drawable/cex" android:layout_marginEnd="4dp"/>
+    </FrameLayout>
+</FrameLayout>

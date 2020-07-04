@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cws" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/a24" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/b7g" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="24dp" android:src="@drawable/vw" android:scaleType="fitXY"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtLoadingLayout android:id="@+id/bv_" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

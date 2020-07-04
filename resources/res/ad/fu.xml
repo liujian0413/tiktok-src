@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="125dp" android:layout_height="109dp">
+    <com.p280ss.android.ugc.aweme.shortvideo.sticker.StickerImageView android:id="@+id/db2" android:layout_width="93dp" android:layout_height="93dp" android:layout_centerInParent="true" app:placeHolderDrawable="@drawable/b90"/>
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.widget.GestureDetectLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/c_e" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="bottom" android:id="@+id/ld" android:background="#303342" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout android:id="@+id/c7x" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+        <View android:id="@+id/d4e" android:background="@drawable/bt2" android:layout_width="match_parent" android:layout_height="96dp"/>
+        <View android:id="@+id/nr" android:background="@drawable/bt1" android:layout_width="match_parent" android:layout_height="240dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/dw" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/aeu" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        <View android:id="@+id/b2m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/arp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/b27" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/cn3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/c52" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="end" android:id="@+id/x_" android:background="@drawable/bo3" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="14dp" android:layout_marginRight="8dp" android:layout_marginEnd="8dp"/>
+        <View android:id="@+id/jn" android:background="@drawable/cdd" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_marginTop="14dp" android:layout_marginStart="8dp"/>
+        <include android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" layout="@layout/az1"/>
+        <RelativeLayout android:id="@+id/b2k" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+            <FrameLayout android:id="@+id/a8v" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/bo5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <RelativeLayout android:id="@+id/dn3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/e9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_centerVertical="true" android:layout_marginStart="0dp"/>
+                <FrameLayout android:id="@+id/dmp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="40dp" android:layout_toRightOf="@+id/e9a" android:layout_centerVertical="true" android:layout_marginStart="12dp" android:layout_marginEnd="40dp" android:layout_toEndOf="@+id/e9a"/>
+                <FrameLayout android:id="@+id/aai" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_toLeftOf="@+id/aah" android:layout_centerVertical="true" android:layout_marginStart="24dp"/>
+                <FrameLayout android:id="@+id/aah" android:layout_width="167dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentEnd="true"/>
+                <FrameLayout android:id="@+id/aaj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_centerVertical="true" android:layout_marginStart="24dp"/>
+                <FrameLayout android:id="@+id/aa7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:minWidth="87dp" android:layout_toLeftOf="@+id/abh" android:layout_toRightOf="@+id/e9a" android:layout_centerVertical="true" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/abh" android:layout_toEndOf="@+id/e9a"/>
+                <FrameLayout android:id="@+id/abh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+                <FrameLayout android:id="@+id/bpb" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/dlw" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-1dp" android:layout_below="@+id/dn3" android:paddingEnd="8dp"/>
+            <FrameLayout android:id="@+id/bft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/dn3"/>
+            <FrameLayout android:id="@+id/bpt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+            <FrameLayout android:id="@+id/cli" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_below="@+id/dn3" android:layout_alignParentRight="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <Chronometer android:textSize="10dp" android:textColor="@color/as5" android:gravity="end" android:id="@+id/bnp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_below="@+id/cli" android:layout_alignParentRight="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/bnm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_below="@+id/cli" android:layout_alignParentRight="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/apq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="230dp" android:layout_marginRight="8dp" android:layout_alignParentRight="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:gravity="end" android:id="@+id/dmo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_below="@+id/dn3" android:layout_alignParentRight="true" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/o7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tb" android:layout_marginRight="@dimen/tc" android:layout_marginBottom="@dimen/ta" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/a5v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/o3" android:layout_toRightOf="@+id/ai3" android:layout_below="@+id/dn3" android:layout_marginStart="@dimen/o3" android:layout_toEndOf="@+id/ai3"/>
+            <FrameLayout android:id="@+id/l_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:layout_below="@+id/dn3" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/c40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/a5v"/>
+            <FrameLayout android:id="@+id/xt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/a5v"/>
+            <FrameLayout android:id="@+id/c87" android:visibility="gone" android:layout_width="28dp" android:layout_height="37dp" android:layout_marginLeft="14dp" android:layout_marginTop="8dp" android:layout_below="@+id/aaf" android:layout_alignParentLeft="true" android:layout_marginStart="14dp" android:layout_alignParentStart="true"/>
+            <FrameLayout android:id="@+id/cby" android:layout_width="wrap_content" android:layout_height="46dp" android:layout_marginTop="8dp" android:layout_toRightOf="@+id/c87" android:layout_below="@+id/a5v" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+            <FrameLayout android:id="@+id/chr" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_toRightOf="@+id/cby" android:layout_below="@+id/a5v" android:layout_marginEnd="8dp"/>
+            <FrameLayout android:id="@+id/cqz" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/dmo" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/dmb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="4dp" android:layout_toRightOf="@+id/cqz" android:layout_alignTop="@+id/cqz" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/cqz"/>
+            <FrameLayout android:id="@+id/dma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_toRightOf="@+id/cqz" android:layout_alignTop="@+id/cqz" android:layout_toEndOf="@+id/cqz"/>
+            <FrameLayout android:id="@+id/cic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_toRightOf="@+id/dmb" android:layout_below="@+id/a5v" android:layout_marginEnd="8dp"/>
+            <FrameLayout android:id="@+id/ee8" android:layout_width="40dp" android:layout_height="40dp" android:layout_toRightOf="@+id/cic" android:layout_alignTop="@+id/dmb" android:layout_toEndOf="@+id/cic"/>
+            <FrameLayout android:id="@+id/ai3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_below="@+id/dn3" android:layout_marginStart="8dp"/>
+            <FrameLayout android:id="@+id/ow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_below="@+id/ai3" android:layout_marginStart="8dp"/>
+            <FrameLayout android:id="@+id/bo1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/ai0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/awd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_below="@+id/dn3" android:layout_alignParentRight="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <FrameLayout android:id="@+id/byb" android:layout_width="match_parent" android:layout_height="@dimen/rq" android:layout_marginLeft="8dp" android:layout_marginRight="@dimen/t5" android:layout_marginBottom="@dimen/t6" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:gravity="center_vertical" android:id="@+id/dl9" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/zd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dl9" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:gravity="center_vertical" android:id="@+id/dla" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/ee5" android:layout_width="match_parent" android:layout_height="8dp" android:layout_above="@+id/zd"/>
+            <FrameLayout android:id="@+id/cbw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/b22" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ViewStub android:id="@+id/i0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/ehz" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dn3"/>
+            <android.support.constraint.ConstraintLayout android:id="@+id/aaf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <FrameLayout android:id="@+id/aa9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginLeft="12dp" android:layout_marginTop="8dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <FrameLayout android:id="@+id/aa_" android:visibility="gone" android:layout_width="101dp" android:layout_height="36dp" android:layout_marginRight="12dp" app:layout_constraintBottom_toBottomOf="@+id/aa9" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="@+id/aa9"/>
+            </android.support.constraint.ConstraintLayout>
+            <FrameLayout android:id="@+id/asf" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="@dimen/qm" android:layout_below="@+id/dn3"/>
+            <FrameLayout android:id="@+id/cwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="52dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/dml" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/kl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/c39" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginBottom="@dimen/pq" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/arl" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="30dp" android:layout_alignTop="@+id/c39"/>
+            <FrameLayout android:id="@+id/af1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/zd"/>
+            <FrameLayout android:id="@+id/ar6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/ea7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/c4x" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/aqa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <FrameLayout android:id="@+id/a04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/a5v"/>
+            <FrameLayout android:id="@+id/asn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ow"/>
+            <FrameLayout android:id="@+id/cp7" android:layout_width="match_parent" android:layout_height="113dp" android:layout_marginLeft="8dp" android:layout_marginBottom="52dp" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/k3" android:layout_width="wrap_content" android:layout_height="26dp" android:layout_marginBottom="52dp" android:layout_alignParentBottom="true"/>
+            <FrameLayout android:id="@+id/cis" android:visibility="invisible" android:layout_width="1dp" android:layout_height="1dp"/>
+            <FrameLayout android:id="@+id/b29" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="32dp" android:layout_below="@+id/asf" android:layout_marginStart="8dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/d81" android:background="@drawable/bxi" android:paddingLeft="8dp" android:paddingTop="14dp" android:paddingRight="8dp" android:paddingBottom="14dp" android:visibility="invisible" android:layout_width="112dp" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="52dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true">
+                <TextView android:textSize="16sp" android:textColor="@color/amg" android:layout_gravity="center_horizontal" android:id="@+id/d82" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="12sp" android:textColor="@color/ame" android:layout_gravity="center_horizontal" android:id="@+id/d80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/g7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/ehy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/aw5" android:layout_width="match_parent" android:layout_height="241dp"/>
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/ay3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.bytedance.android.livesdk.chatroom.widget.CountDownView android:layout_gravity="center" android:id="@+id/a3k" android:background="@drawable/bo2" android:visibility="gone" android:layout_width="100dp" android:layout_height="100dp" app:count_down="4000"/>
+        <com.bytedance.android.livesdk.chatroom.widget.AnimationLayer android:id="@+id/ge" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/a6h" android:layout="@layout/awa" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/cps" android:visibility="gone" android:layout_width="39dp" android:layout_height="39dp" android:layout_marginRight="63dp" android:layout_marginBottom="12dp" android:src="@drawable/cgg" android:layout_marginEnd="63dp"/>
+        <TextView android:textSize="15sp" android:textColor="@color/aft" android:layout_gravity="center" android:id="@+id/bpd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eyq"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/akn" android:paddingTop="@dimen/p8" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.android.live.uikit.rtl.AutoRTLImageView android:id="@+id/eco" android:visibility="gone" android:layout_width="@dimen/p9" android:layout_height="@dimen/p9" android:src="@drawable/ceb"/>
+            <TextView android:textSize="@dimen/pa" android:textColor="@color/aft" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ako" android:layout_width="192dp" android:layout_height="32dp" android:layout_marginLeft="@dimen/p_" android:layout_marginRight="@dimen/p_" android:text="@string/fct" android:shadowColor="@color/air" android:shadowDx="1" android:shadowDy="1" android:lineSpacingExtra="8sp" android:layout_marginStart="@dimen/p_" android:layout_marginEnd="@dimen/p_"/>
+            <com.bytedance.android.live.uikit.rtl.AutoRTLImageView android:id="@+id/ecp" android:visibility="gone" android:layout_width="@dimen/p9" android:layout_height="@dimen/p9" android:src="@drawable/cec"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/brj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/cdn"/>
+            <TextView android:textSize="14sp" android:textColor="@color/aft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/eyd"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/atl" android:background="@color/afb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/a0s" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:layout_gravity="bottom" android:id="@+id/cpj" android:layout="@layout/axf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/b2a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/day" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/bzs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/asr" android:background="@color/aia" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</com.bytedance.android.livesdk.widget.GestureDetectLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">Il y a %d jours</item>
+        <item quantity="other">Il y a %d jours</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">heures</item>
+        <item quantity="other">heures</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">Il y a %1$d heures</item>
+        <item quantity="other">Il y a %1$d heures</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">Minutes</item>
+        <item quantity="other">Minutes</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">Il y a %1$d minutes</item>
+        <item quantity="other">Il y a %1$d minutes</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">Jours</item>
+        <item quantity="other">Jours</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">heures</item>
+        <item quantity="other">heures</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">Minutes</item>
+        <item quantity="other">Minutes</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">mois</item>
+        <item quantity="other">mois</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">semaines</item>
+        <item quantity="other">semaines</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">il y a %1$d ans</item>
+        <item quantity="other">il y a %1$d ans</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d jours</item>
+        <item quantity="other">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d jours</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d heures</item>
+        <item quantity="other">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d heures</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Désolé, tu es actuellement banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d minutes</item>
+        <item quantity="other">Désolé, tu es actuellement banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d minutes</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d secondes</item>
+        <item quantity="other">Désolé, tu as été banni(e)\10Tu pourras de nouveau diffuser en direct dans %1$d secondes</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d utilisateurs regardent ta diffusion. Veux-tu y mettre fin ?</item>
+        <item quantity="other">%d utilisateurs regardent ta diffusion. Veux-tu y mettre fin ?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Connecté pendant %1$d minutes</item>
+        <item quantity="other">Connecté pendant %1$d minutes</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">A attendu %1$d minutes.</item>
+        <item quantity="other">A attendu %1$d minutes.</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Rechargez pour la première fois %1$d diamants pour en obtenir %2$d de plus !</item>
+        <item quantity="other">Rechargez pour la première fois %1$d diamants pour en obtenir %2$d de plus !</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">Minutes</item>
+        <item quantity="other">Minutes</item>
+    </plurals>
+</resources>

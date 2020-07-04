@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout android:id="@+id/cqh" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView android:id="@+id/d73" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView android:id="@+id/apa" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.p280ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout>
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout android:id="@+id/a5j" android:layout_width="20dp" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a5i" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </com.p280ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout>
+</merge>

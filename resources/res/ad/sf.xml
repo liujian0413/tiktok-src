@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/cu" android:padding="17.5dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="6.5dp">
+    <ImageView android:id="@+id/b_w" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/er" android:scaleType="centerInside"/>
+</FrameLayout>

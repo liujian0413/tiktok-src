@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/agb" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.chatroom.interact.refreshlayout.PkInviteUserListRefreshLayout android:id="@+id/cc0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="28dp" android:layout_marginTop="10dp">
+            <ProgressBar android:layout_gravity="center" android:id="@+id/cbz" android:layout_width="20dp" android:layout_height="20dp" android:indeterminateDrawable="@drawable/cfl" android:indeterminateBehavior="repeat"/>
+            <TextView android:textSize="12sp" android:textColor="@color/wg" android:gravity="center" android:layout_gravity="center" android:id="@+id/e0g" android:layout_width="match_parent" android:layout_height="16dp" android:text="@string/fbj"/>
+        </FrameLayout>
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:background="@color/ag7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.bytedance.android.livesdk.chatroom.interact.refreshlayout.PkInviteUserListRefreshLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/cir" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="10dp" android:indeterminateDrawable="@drawable/cfl" android:indeterminateBehavior="repeat"/>
+    <TextView android:textSize="16sp" android:layout_gravity="center" android:id="@+id/du0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exh"/>
+</FrameLayout>

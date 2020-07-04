@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/axp" android:layout_width="58dp" android:layout_height="58dp" android:layout_marginTop="10dp" app:placeholderImage="@drawable/b6l" app:roundedCornerRadius="2dp"/>
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_weight="1" android:layout_marginStart="8dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/th" android:ellipsize="end" android:id="@+id/dkn" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingMultiplier="1" style="@style/u6"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ti" android:ellipsize="end" android:id="@+id/a7k" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:includeFontPadding="false" style="@style/u2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/aue" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ti" android:id="@+id/dga" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_marginBottom="4.5dp" android:layout_marginStart="10dp" style="@style/tw"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/dog" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <com.bytedance.android.live.uikit.rtl.AutoRTLTextView android:textSize="14sp" android:textColor="@color/az3" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/es2" android:lineSpacingExtra="4sp"/>
+        <com.bytedance.android.live.uikit.rtl.AutoRTLImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccu"/>
+    </LinearLayout>
+    <com.bytedance.android.live.uikit.rtl.AutoRTLTextView android:textSize="12sp" android:textColor="#a3ffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="4dp" android:layout_marginRight="32dp" android:text="@string/ey5"/>
+</LinearLayout>

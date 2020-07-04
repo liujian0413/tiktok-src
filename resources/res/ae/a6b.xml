@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ayk" android:layout_width="214dp" android:layout_height="120dp"/>
+    <ImageView android:id="@+id/bzq" android:background="@drawable/c03" android:layout_width="10dp" android:layout_height="13dp" android:layout_marginLeft="64dp" android:layout_marginTop="50dp" android:layout_marginStart="64dp"/>
+    <com.bytedance.android.livesdk.commerce.coupon.LiveAlignTextView android:id="@+id/a42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/bzq" android:layout_alignBottom="@+id/bzq" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/bzq"/>
+    <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="#7f6000" android:id="@+id/a4d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64dp" android:layout_marginTop="78dp" android:includeFontPadding="false" android:layout_marginStart="64dp"/>
+</RelativeLayout>

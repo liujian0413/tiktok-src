@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Βιβλιοθήκη ήχων online</item>
+        <item>Ο ήχος μου</item>
+    </array>
+    <array name="m">
+        <item>Διαγραφή</item>
+        <item>Ακύρωση</item>
+    </array>
+    <array name="n">
+        <item>Δημοφιλή</item>
+        <item>Πιο πρόσφατα</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </array>
+    <array name="y">
+        <item>Απλοποιημένα Κινέζικα</item>
+        <item>Παραδοσιακά κινεζικά</item>
+        <item>Αγγλικά</item>
+        <item>Ιαπωνικά</item>
+        <item>Κορεάτικα</item>
+        <item>Ρωσικά</item>
+        <item>Ινδονησιακά</item>
+        <item>Μαλαϊκά</item>
+        <item>Πορτογαλικά</item>
+        <item>Ταϊλανδέζικα</item>
+        <item>Βιετναμέζικα</item>
+        <item>Χίντι</item>
+    </array>
+    <array name="z">
+        <item>1X</item>
+        <item>Ασπρόμαυρο</item>
+        <item>Τέχνες</item>
+        <item>Εποχής</item>
+        <item>Φίλτρο Retrolux</item>
+        <item>Κορεσμένο</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Ιαν.</item>
+        <item>Φεβ.</item>
+        <item>Μαρ.</item>
+        <item>Απρ.</item>
+        <item>Μάιος</item>
+        <item>Ιούν.</item>
+        <item>Ιούλ.</item>
+        <item>Αύγ.</item>
+        <item>Σεπ.</item>
+        <item>Οκτ.</item>
+        <item>Νοέμ.</item>
+        <item>Δεκ.</item>
+    </array>
+    <array name="a4">
+        <item>Προτεραιότητα στην εξοικονόμηση δεδομένων</item>
+        <item>Προτεραιότητα στην υψηλή ανάλυση</item>
+    </array>
+    <array name="a5">
+        <item>Όλοι</item>
+        <item>Μόνο φίλοι</item>
+    </array>
+    <array name="af">
+        <item>Επιλέξτε από τη Bιβλιοθήκη</item>
+        <item>Τραβήξτε μια φωτογραφία</item>
+        <item>Ακύρωση</item>
+    </array>
+    <array name="an">
+        <item>Φίλτρο_01</item>
+        <item>Φίλτρο_02</item>
+        <item>Φίλτρο_03</item>
+        <item>Φίλτρο_04</item>
+        <item>Φίλτρο_05</item>
+    </array>
+    <array name="ao">
+        <item>Κανένα</item>
+        <item>Λουλούδι</item>
+        <item>Γλυκό</item>
+        <item>Τσάι</item>
+        <item>Έξυπνος</item>
+        <item>Ροδαλό</item>
+        <item>Αύρα</item>
+        <item>Φύση</item>
+        <item>Φως του ήλιου</item>
+        <item>Μωρό</item>
+        <item>Νοσταλγία</item>
+        <item>Φωτεινό</item>
+        <item>Χαριτωμένο</item>
+        <item>Ροδάκινο</item>
+        <item>Ηλιοβασίλεμα</item>
+    </array>
+    <array name="aq">
+        <item>Γύρος</item>
+        <item>Εβδομαδιαία</item>
+        <item>Όλο</item>
+        <item>Κατάταξη Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Ιανουάριος</item>
+        <item>Φεβρουάριος</item>
+        <item>Μάρτιος</item>
+        <item>Απρίλιος</item>
+        <item>Μάιος</item>
+        <item>Ιούνιος</item>
+        <item>Ιούλιος</item>
+        <item>Αύγουστος</item>
+        <item>Σεπτέμβριος</item>
+        <item>Οκτώβριος</item>
+        <item>Νοέμβριος</item>
+        <item>Δεκέμβριος</item>
+    </array>
+    <array name="au">
+        <item>Κανένα</item>
+        <item>Φύση</item>
+        <item>Εκκαθάριση</item>
+        <item>Ιαπωνικά</item>
+        <item>Συγκινητικό</item>
+    </array>
+    <array name="av">
+        <item>Κανένα</item>
+        <item>Φύση</item>
+        <item>Φωτεινό</item>
+        <item>Πρώτη αγάπη</item>
+    </array>
+    <array name="aw">
+        <item>Αναφορά</item>
+        <item>Ακύρωση</item>
+    </array>
+    <array name="az">
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+        <item>Κυριακή</item>
+    </array>
+</resources>

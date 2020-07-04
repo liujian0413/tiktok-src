@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Pilih saka Kapustakan</item>
+        <item>Jupuk foto</item>
+        <item>Wurung</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Ora ana</item>
+        <item>Kembang</item>
+        <item>Manis</item>
+        <item>Teh</item>
+        <item>Pinter</item>
+        <item>Abang</item>
+        <item>Silir</item>
+        <item>Alam</item>
+        <item>Srengenge</item>
+        <item>Bayi</item>
+        <item>Nostalgia</item>
+        <item>Padhang</item>
+        <item>Imut</item>
+        <item>Persik</item>
+        <item>Angslup</item>
+    </array>
+    <array name="aq">
+        <item>Ronde</item>
+        <item>Minggon</item>
+        <item>Sakabehe</item>
+        <item>Peringkat Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </array>
+    <array name="au">
+        <item>Ora ana</item>
+        <item>Alam</item>
+        <item>Busak</item>
+        <item>Jepang</item>
+        <item>Nrenyuhake</item>
+    </array>
+    <array name="av">
+        <item>Ora ana</item>
+        <item>Alam</item>
+        <item>Padhang</item>
+        <item>Tresna sing kapisan</item>
+    </array>
+    <array name="aw">
+        <item>Lapur</item>
+        <item>Wurung</item>
+    </array>
+</resources>

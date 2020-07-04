@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Видалити чернетку?</item>
+        <item quantity="few">Видалити чернетки?</item>
+        <item quantity="many">Видалити чернетки?</item>
+        <item quantity="other">Видалити чернетки?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d мелодія</item>
+        <item quantity="few">%d мелодії</item>
+        <item quantity="many">%d мелодій</item>
+        <item quantity="other">%d мелодії</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d музичний твір</item>
+        <item quantity="few">%d музичних твори</item>
+        <item quantity="many">%d музичних творів</item>
+        <item quantity="other">%d музичного твору</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d твір</item>
+        <item quantity="few">%d твори</item>
+        <item quantity="many">%d творів</item>
+        <item quantity="other">%d твору</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d пісня</item>
+        <item quantity="few">%d пісні</item>
+        <item quantity="many">%d пісень</item>
+        <item quantity="other">%d пісні</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d аудіозапис</item>
+        <item quantity="few">%d аудіозаписи</item>
+        <item quantity="many">%d аудіозаписів</item>
+        <item quantity="other">%d аудіозапису</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d мотив</item>
+        <item quantity="few">%d мотиви</item>
+        <item quantity="many">%d мотивів</item>
+        <item quantity="other">%d мотиву</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="few">%d friends commented on your story.</item>
+        <item quantity="many">%d friends commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="few">%d users want to add you as friend</item>
+        <item quantity="many">%d users want to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="few">%d friends liked your story.</item>
+        <item quantity="many">%d friends liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="few">%d friends watched your story.</item>
+        <item quantity="many">%d friends watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d відео</item>
+        <item quantity="few">%d відео</item>
+        <item quantity="many">%d відео</item>
+        <item quantity="other">%d відео</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d д. тому</item>
+        <item quantity="few">%d д. тому</item>
+        <item quantity="many">%d д. тому</item>
+        <item quantity="other">%d д. тому</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">год.</item>
+        <item quantity="few">год.</item>
+        <item quantity="many">год.</item>
+        <item quantity="other">год.</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d год. тому</item>
+        <item quantity="few">%1$d год. тому</item>
+        <item quantity="many">%1$d год. тому</item>
+        <item quantity="other">%1$d год. тому</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">хв.</item>
+        <item quantity="few">хв.</item>
+        <item quantity="many">хв.</item>
+        <item quantity="other">хв.</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d хв. тому</item>
+        <item quantity="few">%1$d хв. тому</item>
+        <item quantity="many">%1$d хв. тому</item>
+        <item quantity="other">%1$d хв. тому</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">д.</item>
+        <item quantity="few">д.</item>
+        <item quantity="many">д.</item>
+        <item quantity="other">д.</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">год.</item>
+        <item quantity="few">год.</item>
+        <item quantity="many">год.</item>
+        <item quantity="other">год.</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">хв.</item>
+        <item quantity="few">хв.</item>
+        <item quantity="many">хв.</item>
+        <item quantity="other">хв.</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">місяців</item>
+        <item quantity="few">місяців</item>
+        <item quantity="many">місяців</item>
+        <item quantity="other">місяців</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">сек.</item>
+        <item quantity="few">сек.</item>
+        <item quantity="many">сек.</item>
+        <item quantity="other">сек.</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">тиж.</item>
+        <item quantity="few">тиж.</item>
+        <item quantity="many">тиж.</item>
+        <item quantity="other">тиж.</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d рік тому</item>
+        <item quantity="few">%1$d роки тому</item>
+        <item quantity="many">%1$d років тому</item>
+        <item quantity="other">%1$d років тому</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d д.</item>
+        <item quantity="few">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d д.</item>
+        <item quantity="many">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d д.</item>
+        <item quantity="other">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d д.</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d год.</item>
+        <item quantity="few">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d год.</item>
+        <item quantity="many">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d год.</item>
+        <item quantity="other">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d год.</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d хв.</item>
+        <item quantity="few">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d хв.</item>
+        <item quantity="many">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d хв.</item>
+        <item quantity="other">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d хв.</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d с.</item>
+        <item quantity="few">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d с.</item>
+        <item quantity="many">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d с.</item>
+        <item quantity="other">Вибач, але тебе заблоковано.\10Ти знову зможеш робити трансляції через %1$d с.</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">Твою трансляцію переглядають %d користувача. Ті дійсно хочеш закрити її?</item>
+        <item quantity="few">%d користувачів переглядають твою трансляцію. Дійсно хочеш закрити її?</item>
+        <item quantity="many">%d користувачів переглядають твою трансляцію. Дійсно хочеш закрити її?</item>
+        <item quantity="other">Твою трансляцію переглядають %d користувача. Ті дійсно хочеш закрити її?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Підключено за %1$d хв.</item>
+        <item quantity="few">Підключено за %1$d хв.</item>
+        <item quantity="many">Підключено за %1$d хв.</item>
+        <item quantity="other">Підключено за %1$d хв.</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Очікування %1$d хв.</item>
+        <item quantity="few">Очікування %1$d хв.</item>
+        <item quantity="many">Очікування %1$d хв.</item>
+        <item quantity="other">Очікування %1$d хв.</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Поповни перший раз на %1$d діамант й отримай %2$d додатково!</item>
+        <item quantity="few">Поповни перший раз на %1$d діамантів і отримай %2$d додатково!</item>
+        <item quantity="many">Поповни перший раз на %1$d діамантів і отримай %2$d додатково!</item>
+        <item quantity="other">Поповни перший раз на %1$d діамантів і отримай %2$d додатково!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">хв.</item>
+        <item quantity="few">хв.</item>
+        <item quantity="many">хв.</item>
+        <item quantity="other">хв.</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">публікують %d відео</item>
+        <item quantity="few">публікують %d відео</item>
+        <item quantity="many">публікують %d відео</item>
+        <item quantity="other">публікують %d відео</item>
+    </plurals>
+</resources>

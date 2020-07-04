@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.flowfeed.p1256ui.FollowFeedCommentLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bhj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+    <com.p280ss.android.ugc.aweme.flowfeed.p1256ui.CommentLikeListView android:id="@+id/bi8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/d8v" android:background="@color/ee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8dp"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:id="@+id/e1x" android:paddingTop="12dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/u3"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:id="@+id/ayt" android:layout_width="27dp" android:layout_height="27dp" app:placeholderImage="@color/ih" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/el" android:layout_marginStart="10dp" style="@style/u2"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.flowfeed.p1256ui.FollowFeedCommentLayout>

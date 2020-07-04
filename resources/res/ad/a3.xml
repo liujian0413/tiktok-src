@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/agz"/>
+    <Space android:id="@+id/d8v" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/dke"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d8v">
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/edx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="140dp" app:desc="@string/cqi" app:left_text="@string/fpu"/>
+        <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/a2z" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/azo" app:left_text="@string/cqg" app:right_text="@string/a5g"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-42dp" android:layout_below="@+id/d8v">
+        <ImageView android:layout_width="84dp" android:layout_height="84dp" android:src="@drawable/a1p" android:scaleType="fitXY"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/jj" style="@style/u9"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5m" android:id="@+id/e_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" style="@style/u2"/>
+    </LinearLayout>
+</RelativeLayout>

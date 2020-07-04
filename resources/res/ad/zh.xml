@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.views.RoundedFrameLayout android:layout_width="@dimen/c4" android:layout_height="@dimen/c2" app:rounded_radius="@dimen/lg">
+        <com.p280ss.android.ugc.aweme.base.p308ui.SquareImageView android:id="@+id/cf2" android:background="@color/a88" android:layout_width="@dimen/c4" android:layout_height="@dimen/c2" android:scaleType="centerCrop" app:placeholderImage="@color/a5o" app:placeholderImageScaleType="6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="10sp" android:textColor="#590011" android:ellipsize="end" android:id="@+id/cf3" android:background="@drawable/b8i" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#529e5f1e" android:shadowDy="1" android:shadowRadius="2"/>
+    </com.p280ss.android.ugc.aweme.views.RoundedFrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:ellipsize="end" android:gravity="center" android:id="@+id/cf4" android:layout_width="@dimen/c4" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" style="@style/u2"/>
+</LinearLayout>

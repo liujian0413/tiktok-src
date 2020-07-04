@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1с</item>
+        <item quantity="other">%dс</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1м</item>
+        <item quantity="other">%dм</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1с</item>
+        <item quantity="other">%dс</item>
+    </plurals>
+</resources>

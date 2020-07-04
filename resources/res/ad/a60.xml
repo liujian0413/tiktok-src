@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.flowfeed.p1256ui.InsFollowFeedCommentLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bhj" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.newfollow.p1423ui.InsCommentLikeListView android:id="@+id/bi8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:id="@+id/e1x" android:paddingTop="6dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/u7"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:id="@+id/ayt" android:layout_width="24dp" android:layout_height="24dp" app:placeholderImage="@color/ih" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/el" style="@style/u6"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.flowfeed.p1256ui.InsFollowFeedCommentLayout>

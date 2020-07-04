@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/cwi" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/dal" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="@dimen/x5" android:layout_below="@+id/dal" app:endTextSize="15dp" app:titleText="@string/dn5" app:titleTextColor="@color/a5d" app:useBackIcon="true"/>
+        <android.support.p022v4.widget.NestedScrollView android:id="@+id/czj" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/djz">
+            <LinearLayout android:orientation="vertical" android:id="@+id/bsd" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.p280ss.android.ugc.aweme.setting.p337ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:hideLine="true" app:startText="@string/dq4"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/x" android:tag="account_and_safety" android:layout_width="match_parent" app:left_icon="@drawable/aa5" app:left_text="@string/dn7" style="@style/wi"/>
+                <com.p280ss.android.ugc.aweme.setting.p337ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/dq5"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/a0t" android:tag="common_protocol" android:layout_width="match_parent" app:left_icon="@drawable/aad" app:left_text="@string/by9" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/e7m" android:tag="underage_protection" android:layout_width="match_parent" app:left_icon="@drawable/aac" app:left_text="@string/dqr" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/a69" android:tag="data_saver" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_icon="@drawable/aaa" app:left_text="@string/an_" style="@style/wi"/>
+                <com.p280ss.android.ugc.aweme.setting.p337ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/e44"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/ajq" android:tag="feedback_and_help" android:layout_width="match_parent" app:left_icon="@drawable/aau" app:left_text="@string/cfg" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/avd" android:tag="helper_center" android:layout_width="match_parent" app:left_icon="@drawable/aai" app:left_text="@string/b65" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/cxw" android:tag="safety_center" android:layout_width="match_parent" app:left_icon="@drawable/aaw" app:left_text="@string/dhx" style="@style/wi"/>
+                <com.p280ss.android.ugc.aweme.setting.p337ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/dq3"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/dh5" android:tag="terms_of_use" android:layout_width="match_parent" app:left_icon="@drawable/ab6" app:left_text="@string/d8t" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/a0u" android:tag="community_policy" android:layout_width="match_parent" app:isShowUnderLine="false" app:left_icon="@drawable/aa7" app:left_text="@string/aev" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/cjs" android:tag="privacy_policy" android:layout_width="match_parent" app:isShowUnderLine="false" app:left_icon="@drawable/ab7" app:left_text="@string/d4j" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/a33" android:tag="copyright_policy" android:layout_width="match_parent" app:isShowUnderLine="false" app:left_icon="@drawable/aa9" app:left_text="@string/ahi" style="@style/wi"/>
+                <com.p280ss.android.ugc.aweme.setting.p337ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/wm" android:tag="clear_cache" android:layout_width="match_parent" app:left_icon="@drawable/aa6" app:left_text="@string/a58" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/c8v" android:tag="open_debug_test" android:visibility="gone" android:layout_width="match_parent" app:left_icon="@drawable/aav" app:left_text="@string/anc" style="@style/wi"/>
+                <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/bvv" android:tag="logout" android:layout_width="match_parent" app:left_icon="@drawable/aar" app:left_text="@string/c6z" style="@style/wi"/>
+                <RelativeLayout android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="110dp">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:gravity="center" android:id="@+id/e9c" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:minHeight="30dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/u2"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5m" android:gravity="center" android:id="@+id/e_s" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_below="@+id/e9c" android:layout_centerHorizontal="true" style="@style/u2"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.p022v4.widget.NestedScrollView>
+    </RelativeLayout>
+</FrameLayout>

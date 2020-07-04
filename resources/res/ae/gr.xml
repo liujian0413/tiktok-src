@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cwi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/lo" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:paddingLeft="8dp" android:paddingTop="15.5dp" android:paddingRight="8dp" android:paddingBottom="15.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.base.widget.CircularProgressView android:layout_gravity="center" android:id="@+id/b_w" android:background="@drawable/uo" android:layout_width="29dp" android:layout_height="29dp" app:cpv_animAutostart="true" app:cpv_color="@color/aye" app:cpv_indeterminate="true" app:cpv_maxProgress="100" app:cpv_startAngle="180" app:cpv_thickness="2dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:gravity="center" android:layout_gravity="center" android:id="@+id/cky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" style="@style/tw"/>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

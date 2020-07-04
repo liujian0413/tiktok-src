@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/by8" android:layout_width="0dp" android:layout_height="@dimen/t8">
+    <com.bytedance.android.live.uikit.rtl.AutoRTLTextView android:id="@+id/jn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/bnm" android:drawableStart="@drawable/bnm" style="@style/ye"/>
+    <ImageView android:id="@+id/xb" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/yf"/>
+    <ProgressBar android:id="@+id/cth" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:indeterminateOnly="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall"/>
+    <ImageView android:id="@+id/rj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:src="@drawable/bxh" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

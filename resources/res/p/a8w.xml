@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="42" android:drawable="@drawable/cmy"/>
+    <item android:duration="42" android:drawable="@drawable/cmz"/>
+    <item android:duration="42" android:drawable="@drawable/cn_"/>
+    <item android:duration="42" android:drawable="@drawable/cne"/>
+    <item android:duration="42" android:drawable="@drawable/cnf"/>
+    <item android:duration="42" android:drawable="@drawable/cng"/>
+    <item android:duration="42" android:drawable="@drawable/cnh"/>
+    <item android:duration="42" android:drawable="@drawable/cni"/>
+    <item android:duration="42" android:drawable="@drawable/cnj"/>
+    <item android:duration="42" android:drawable="@drawable/cnk"/>
+    <item android:duration="42" android:drawable="@drawable/cn0"/>
+    <item android:duration="42" android:drawable="@drawable/cn1"/>
+    <item android:duration="42" android:drawable="@drawable/cn2"/>
+    <item android:duration="42" android:drawable="@drawable/cn3"/>
+    <item android:duration="42" android:drawable="@drawable/cn4"/>
+    <item android:duration="42" android:drawable="@drawable/cn5"/>
+    <item android:duration="42" android:drawable="@drawable/cn6"/>
+    <item android:duration="42" android:drawable="@drawable/cn7"/>
+    <item android:duration="42" android:drawable="@drawable/cn8"/>
+    <item android:duration="42" android:drawable="@drawable/cn9"/>
+    <item android:duration="42" android:drawable="@drawable/cna"/>
+    <item android:duration="42" android:drawable="@drawable/cnb"/>
+    <item android:duration="42" android:drawable="@drawable/cnc"/>
+    <item android:duration="42" android:drawable="@drawable/cnd"/>
+</animation-list>

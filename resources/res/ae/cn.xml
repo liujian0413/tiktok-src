@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/y1" android:background="@drawable/i8" android:paddingTop="6.5dp" android:paddingBottom="6.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp">
+    <com.p280ss.android.ugc.aweme.music.p1410ui.CheckableImageView android:id="@+id/b7l" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/ali" android:scaleType="fitXY"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:id="@+id/ds2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5u" android:fontFamily="ProximaNova-Semibold" android:layout_marginStart="6dp" app:fontType="2" style="@style/u2"/>
+</LinearLayout>

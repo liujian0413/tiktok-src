@@ -1,0 +1,71 @@
+{
+  "interest_list": [{
+    "id": "Animals",
+    "text": "Animals",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691802882053~noop.webp"
+  }, {
+    "id": "Comedy",
+    "text": "Comedy",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691800996870~noop.webp"
+  }, {
+    "id": "Travel",
+    "text": "Travel",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691804510213~noop.webp"
+  }, {
+    "id": "Food",
+    "text": "Food",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691810021382~noop.webp"
+  }, {
+    "id": "Sports",
+    "text": "Sports",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691798885381~noop.webp"
+  }, {
+    "id": "Beauty & Style",
+    "text": "Beauty & Style",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691809501190~noop.webp"
+  }, {
+    "id": "Art",
+    "text": "Art",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691794949125~noop.webp"
+  }, {
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691806067717~noop.webp",
+    "id": "Gaming",
+    "text": "Gaming"
+  }, {
+    "text": "Science & Education",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691796261894~noop.webp",
+    "id": "Science & Education"
+  }, {
+    "id": "Dance",
+    "text": "Dance",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691796775942~noop.webp"
+  }, {
+    "id": "DIY",
+    "text": "DIY",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691792318469~noop.webp"
+  }, {
+    "text": "Auto",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691798375429~noop.webp",
+    "id": "Auto"
+  }, {
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691792851973~noop.webp",
+    "id": "Music",
+    "text": "Music"
+  }, {
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691791275014~noop.webp",
+    "id": "Life Hacks",
+    "text": "Life Hacks"
+  }, {
+    "id": "Oddly Satisfying",
+    "text": "Oddly Satisfying",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691803422725~noop.webp"
+  }, {
+    "id": "Outdoors",
+    "text": "Outdoors",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691806604294~noop.webp"
+  }, {
+    "id": "Fandom",
+    "text": "Fandom",
+    "cover_url": "http://p16.muscdn.com/img/musically-maliva-obj/1650691801547782~noop.webp"
+  }]
+}

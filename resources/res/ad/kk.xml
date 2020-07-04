@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/l7" android:layout_width="280dp" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/lw" android:gravity="center" android:id="@+id/e82" android:layout_width="match_parent" android:layout_height="24dp" android:layout_marginTop="24dp" android:text="@string/d6s" app:text="个人资料更新提示"/>
+    <ImageView android:id="@+id/xq" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginTop="9dp" android:layout_marginRight="9dp" android:src="@drawable/b25" android:layout_alignParentRight="true"/>
+    <ScrollView android:id="@+id/e80" android:layout_width="match_parent" android:layout_height="230dp" android:layout_marginTop="8dp" android:fillViewport="true" android:layout_below="@+id/e82">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/chy" layout="@layout/abv"/>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/im" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:layout_gravity="center" android:id="@+id/ck5" android:layout_width="72dp" android:layout_height="72dp"/>
+                <ImageView android:layout_gravity="center" android:layout_width="72dp" android:layout_height="72dp" android:src="@drawable/bcn"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/ck6" android:layout_width="72dp" android:layout_height="72dp" android:src="@drawable/bcj"/>
+            </FrameLayout>
+            <android.support.p029v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/ix" android:layout_width="wrap_content" android:layout_height="47dp" android:layout_marginBottom="24dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:id="@+id/c4b" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/e80">
+        <View android:background="@color/ao" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/lw" android:gravity="center" android:id="@+id/a12" android:background="@drawable/clq" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/afq"/>
+    </LinearLayout>
+</RelativeLayout>

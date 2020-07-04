@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/dal" android:background="@color/ayd" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.bytedance.ies.dmt.p262ui.titlebar.ButtonTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:titleTextColor="@color/a4z"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bh4" android:layout_below="@+id/djz"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/ab6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bh4" android:layout_below="@+id/djz"/>
+    <FrameLayout android:id="@+id/bh4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+        <View android:background="@color/a4l" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/lo" android:layout_gravity="center_horizontal" android:id="@+id/dt1" android:background="?attr/a19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:fontType="2" style="@style/u9"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/p1" android:layout_gravity="center_horizontal" android:id="@+id/dv0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:lineSpacingExtra="3dp"/>
+    </FrameLayout>
+</RelativeLayout>

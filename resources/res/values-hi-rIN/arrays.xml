@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ऑनलाइन ध्वनि लाइब्रेरी</item>
+        <item>मेरी ध्वनि</item>
+    </array>
+    <array name="m">
+        <item>डिलीट करें</item>
+        <item>रद्द करें</item>
+    </array>
+    <array name="n">
+        <item>लोकप्रिय</item>
+        <item>नवीनतम</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </array>
+    <array name="y">
+        <item>सरलीकृत चीनी</item>
+        <item>पारंपरिक चीनी</item>
+        <item>अंग्रेज़ी</item>
+        <item>जापानी</item>
+        <item>कोरियाई</item>
+        <item>रूसी</item>
+        <item>इंडोनेशियाई</item>
+        <item>मलय</item>
+        <item>पुर्तगाली</item>
+        <item>थाई</item>
+        <item>वियतनामी</item>
+        <item>हिन्दी</item>
+    </array>
+    <array name="z">
+        <item>सामान्य</item>
+        <item>काला/सफेद</item>
+        <item>आर्ट</item>
+        <item>विंटेज</item>
+        <item>रेट्रोलक्स</item>
+        <item>सैचुरेटेड</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>जनवरी</item>
+        <item>फरवरी</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्त</item>
+        <item>सितम्बर</item>
+        <item>अक्टूबर</item>
+        <item>नवम्बर</item>
+        <item>दिसंबर</item>
+    </array>
+    <array name="a4">
+        <item>सबसे पहले डेटा-सहेजना</item>
+        <item>सबसे पहले उच्च-रिज़ॉल्यूशन</item>
+    </array>
+    <array name="a5">
+        <item>हर व्यक्ति</item>
+        <item>केवल मित्र</item>
+    </array>
+    <array name="af">
+        <item>एल्बम से चुनें</item>
+        <item>एक फोटो लें</item>
+        <item>रद्द करें</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>कुछ नहीं</item>
+        <item>Flower</item>
+        <item>बहुत सुंदर</item>
+        <item>Tea</item>
+        <item>Brainy</item>
+        <item>Rosy</item>
+        <item>Breeze</item>
+        <item>प्रकृति</item>
+        <item>Sunlight</item>
+        <item>Baby</item>
+        <item>Nostalgia</item>
+        <item>चमकदार</item>
+        <item>Cute</item>
+        <item>Peach</item>
+        <item>Sunset</item>
+    </array>
+    <array name="aq">
+        <item>राउंड</item>
+        <item>साप्ताहिक</item>
+        <item>संपूर्ण</item>
+        <item>Xigua रैंकिंग</item>
+    </array>
+    <array name="ar">
+        <item>जनवरी</item>
+        <item>फरवरी</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्‍त</item>
+        <item>सितंबर</item>
+        <item>अक्टूबर</item>
+        <item>नवंबर</item>
+        <item>दिसंबर</item>
+    </array>
+    <array name="au">
+        <item>कुछ नहीं</item>
+        <item>प्रकृति</item>
+        <item>क्‍लीयर करें</item>
+        <item>日本語</item>
+        <item>दिल को छूने वाला</item>
+    </array>
+    <array name="av">
+        <item>कुछ नहीं</item>
+        <item>प्रकृति</item>
+        <item>चमकदार</item>
+        <item>पहला प्यार</item>
+    </array>
+    <array name="aw">
+        <item>रिपोर्ट करें</item>
+        <item>रद्द करें</item>
+    </array>
+    <array name="az">
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="48dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a2h" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageView android:layout_gravity="center_horizontal" android:layout_width="31dp" android:layout_height="27dp" android:src="@drawable/bkg"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/e27" app:fontType="7"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_toRightOf="@+id/a2h" app:subView="true"/>
+</RelativeLayout>

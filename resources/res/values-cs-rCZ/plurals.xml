@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Odstranit koncept?</item>
+        <item quantity="few">Odstranit koncepty?</item>
+        <item quantity="many">Odstranit koncepty?</item>
+        <item quantity="other">Odstranit koncepty?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodie</item>
+        <item quantity="few">%d melodie</item>
+        <item quantity="many">%d melodií</item>
+        <item quantity="other">%d melodií</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d hudba</item>
+        <item quantity="few">%d hudby</item>
+        <item quantity="many">%d hudeb</item>
+        <item quantity="other">%d hudeb</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d kus</item>
+        <item quantity="few">%d kusy</item>
+        <item quantity="many">%d kusů</item>
+        <item quantity="other">%d kusů</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d skladba</item>
+        <item quantity="few">%d skladby</item>
+        <item quantity="many">%d skladeb</item>
+        <item quantity="other">%d skladeb</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d zvuk</item>
+        <item quantity="few">%d zvuky</item>
+        <item quantity="many">%d zvuků</item>
+        <item quantity="other">%d zvuků</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d píseň</item>
+        <item quantity="few">%d písně</item>
+        <item quantity="many">%d písní</item>
+        <item quantity="other">%d písní</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="few">%d friends commented on your story.</item>
+        <item quantity="many">%d friends commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="few">%d users want to add you as friend</item>
+        <item quantity="many">%d users want to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="few">%d friends liked your story.</item>
+        <item quantity="many">%d friends liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="few">%d friends watched your story.</item>
+        <item quantity="many">%d friends watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d个作品</item>
+        <item quantity="few">%d个作品</item>
+        <item quantity="many">%d个作品</item>
+        <item quantity="other">%d个作品</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">zveřejnili %d video</item>
+        <item quantity="few">zveřejnili %d videa</item>
+        <item quantity="many">zveřejnili %d videí</item>
+        <item quantity="other">zveřejnili %d videí</item>
+    </plurals>
+</resources>

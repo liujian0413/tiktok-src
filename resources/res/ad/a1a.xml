@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:paddingLeft="18dp" android:paddingTop="12dp" android:paddingRight="18dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/ba9" android:layout_width="48dp" android:layout_height="48dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_weight="1">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/vm" android:ellipsize="end" android:id="@+id/dxq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/vo" android:ellipsize="end" android:id="@+id/dxp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1" style="@style/u2"/>
+    </LinearLayout>
+</LinearLayout>

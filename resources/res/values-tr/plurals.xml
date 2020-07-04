@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">%d gün önce</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Saat(ler)</item>
+        <item quantity="other">Saat(ler)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d saat önce</item>
+        <item quantity="other">%1$d saat önce</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">Dakika</item>
+        <item quantity="other">Dakika</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d dakika önce</item>
+        <item quantity="other">%1$d dakika önce</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">Gün</item>
+        <item quantity="other">Gün</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Saat(ler)</item>
+        <item quantity="other">Saat(ler)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">Dakika</item>
+        <item quantity="other">Dakika</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">ay</item>
+        <item quantity="other">ay</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">sn</item>
+        <item quantity="other">sn</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">hafta</item>
+        <item quantity="other">hafta</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d yıl önce</item>
+        <item quantity="other">%1$d yıl önce</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d gün sonra başlayabilirsiniz</item>
+        <item quantity="other">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d gün sonra başlayabilirsiniz</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d saat sonra başlayabilirsiniz</item>
+        <item quantity="other">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d saat sonra başlayabilirsiniz</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d dakika sonra başlayabilirsiniz</item>
+        <item quantity="other">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d dakika sonra başlayabilirsiniz</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d saniye sonra başlayabilirsiniz</item>
+        <item quantity="other">Üzgünüz! Yasaklandınız\10 Canlı yayına ancak %1$d saniye sonra başlayabilirsiniz</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d kullanıcı yayınınızı izliyor, kapatmak istiyor musunuz?</item>
+        <item quantity="other">%d kullanıcı yayınınızı izliyor, kapatmak istiyor musunuz?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d için bağlandı</item>
+        <item quantity="other">%1$d için bağlandı</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d dakika bekledi</item>
+        <item quantity="other">%1$d dakika bekledi</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">İlk seferde %1$d elması yeniden yükleyerek %2$d daha fazla elmas kazanın!</item>
+        <item quantity="other">İlk seferde %1$d elmas yeniden yükleyerek %2$d daha fazla elmas kazanın!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">Dakika</item>
+        <item quantity="other">Dakika</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1d</item>
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1s</item>
+        <item quantity="other">%d</item>
+    </plurals>
+</resources>

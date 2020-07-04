@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="32dp" android:layout_height="32dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/e6" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a7b" android:contentDescription="@string/et" android:alpha="0.6"/>
+    <com.p280ss.android.ugc.aweme.profile.p1487ui.RecommendPointView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/cp3" android:background="@drawable/rh" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp"/>
+</FrameLayout>

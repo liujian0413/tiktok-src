@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.common.widget.PullUpLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/clx" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/cuw" android:background="@color/a0l" android:paddingLeft="20dp" android:paddingTop="14dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5e" android:id="@+id/e4_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="62dp" android:layout_marginTop="10dp" android:text="@string/d5f" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:id="@+id/dt4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="62dp" android:layout_marginTop="3dp" android:text="@string/a5c" android:layout_below="@+id/e4_" style="@style/u2"/>
+        <ImageView android:layout_width="21dp" android:layout_height="4dp" android:layout_marginTop="20dp" android:src="@drawable/b_8" android:layout_below="@+id/dt4" android:layout_centerHorizontal="true"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_d" android:background="@color/yq" android:padding="1dp" android:layout_width="47.5dp" android:layout_height="64dp" android:layout_alignTop="@+id/dt4" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+</com.p280ss.android.ugc.aweme.common.widget.PullUpLayout>

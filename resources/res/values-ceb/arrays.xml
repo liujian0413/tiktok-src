@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Pili gikan sa Library</item>
+        <item>Pagkuha og hulagway</item>
+        <item>Ikansela</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Wala</item>
+        <item>Bulak</item>
+        <item>Tam-is</item>
+        <item>Cha</item>
+        <item>Utokan</item>
+        <item>Rosason</item>
+        <item>Hoyohoy</item>
+        <item>Kinaiyahan</item>
+        <item>Bidlisyo</item>
+        <item>Puya</item>
+        <item>Kamingaw</item>
+        <item>Hayag</item>
+        <item>Himos</item>
+        <item>Peach</item>
+        <item>Kilom-kilom</item>
+    </array>
+    <array name="aq">
+        <item>Round</item>
+        <item>Sinemana</item>
+        <item>Kinatibuk-an</item>
+        <item>Xigua Ranggo</item>
+    </array>
+    <array name="ar">
+        <item>Enero</item>
+        <item>Pebrero</item>
+        <item>Marso</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Hunyo</item>
+        <item>Hulyo</item>
+        <item>Agosto</item>
+        <item>Septembre</item>
+        <item>Oktubre</item>
+        <item>Nobyembre</item>
+        <item>Disyembre</item>
+    </array>
+    <array name="au">
+        <item>Wala</item>
+        <item>Kinaiyahan</item>
+        <item>I-clear</item>
+        <item>Japanese</item>
+        <item>Makapatandog</item>
+    </array>
+    <array name="av">
+        <item>Wala</item>
+        <item>Kinaiyahan</item>
+        <item>Hayag</item>
+        <item>Unang gugma</item>
+    </array>
+    <array name="aw">
+        <item>Isumbong</item>
+        <item>Ikansela</item>
+    </array>
+</resources>

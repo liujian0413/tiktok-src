@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+            <ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/ao5"/>
+            <EditText android:id="@+id/czq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/cqd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.property.WaveSideBar android:id="@+id/d6o" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent" app:sidebar_lazy_respond="true" app:sidebar_text_color="#8d6e63"/>
+</RelativeLayout>

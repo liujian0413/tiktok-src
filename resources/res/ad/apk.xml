@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.ugc.live.barrage.view.BarrageLayout android:id="@+id/dlv" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+    <com.p280ss.ugc.live.barrage.view.BarrageLayout android:id="@+id/nq" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+</android.support.constraint.ConstraintLayout>

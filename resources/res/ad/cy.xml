@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwi" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.Toolbar android:theme="?attr/a72" android:id="@+id/dl8" android:background="?attr/g8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="?attr/aj" android:gravity="center" android:id="@+id/d2j" android:layout_width="wrap_content" android:layout_height="?attr/f" android:foreground="?attr/a19" android:drawableRight="@drawable/a2y"/>
+    </android.support.p029v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/oe" android:background="?attr/d2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16sp" android:textColor="?attr/d3" android:layout_gravity="start" android:id="@+id/si" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19" android:text="@string/c88"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/c9k" android:padding="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19">
+            <com.zhihu.matisse.internal.p1856ui.widget.CheckRadioView android:layout_gravity="center_vertical" android:id="@+id/c9j" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/afa"/>
+            <TextView android:enabled="true" android:textSize="14sp" android:textColor="?attr/d3" android:layout_gravity="center_vertical" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c87"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="?attr/d1" android:layout_gravity="end" android:id="@+id/se" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a19"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/a19" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/oe" android:layout_below="@+id/dl8"/>
+    <FrameLayout android:id="@+id/aee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/oe" android:layout_below="@+id/dl8">
+        <TextView android:textSize="16sp" android:textColor="?attr/al" android:gravity="center" android:layout_gravity="center" android:id="@+id/aef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c8a" android:drawableTop="?attr/ak" android:drawablePadding="8dp"/>
+    </FrameLayout>
+</RelativeLayout>

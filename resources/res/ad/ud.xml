@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bxo" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:placeholderImage="@drawable/ih"/>
+    <View android:id="@+id/d4f" android:background="@color/a7r" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/amg" android:layout_width="44dp" android:layout_height="44dp" android:layout_alignParentRight="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/j9" android:gravity="center" android:layout_gravity="end" android:id="@+id/ayi" android:background="@drawable/ne" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" style="@style/u2"/>
+    </FrameLayout>
+</RelativeLayout>

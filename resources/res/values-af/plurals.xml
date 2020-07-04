@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d day ago</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Hour(s)</item>
+        <item quantity="other">Hour(s)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d uur(e) gelede</item>
+        <item quantity="other">%1$d uur(e) gelede</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d minute gelede</item>
+        <item quantity="other">%1$d minute gelede</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">dae</item>
+        <item quantity="other">dae</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Hour(s)</item>
+        <item quantity="other">Hour(s)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">maande</item>
+        <item quantity="other">maande</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">weke</item>
+        <item quantity="other">weke</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d years ago</item>
+        <item quantity="other">%1$d years ago</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d days</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d days</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d hours</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d hours</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Sorry, you are currently banned. \10 You can live stream again in: %1$d minutes</item>
+        <item quantity="other">Sorry, you are currently banned. \10 You can live stream again in: %1$d minutes</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d seconds</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d seconds</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d users are watching your broadcast, do you want to close it?</item>
+        <item quantity="other">%d users are watching your broadcast, do you want to close it?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Connected for %1$d minutes</item>
+        <item quantity="other">Connected for %1$d minutes</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Waited for %1$d minutes</item>
+        <item quantity="other">Waited for %1$d minutes</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">First time recharge %1$d diamond to get %2$d more!</item>
+        <item quantity="other">First time recharge %1$d diamonds to get %2$d more!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+</resources>

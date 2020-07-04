@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="o">
+        <item quantity="one">Cu %d zi în urmă</item>
+        <item quantity="few">Cu %d zi în urmă</item>
+        <item quantity="other">Cu %d zi în urmă</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Oră(e)</item>
+        <item quantity="few">Oră(e)</item>
+        <item quantity="other">Oră(e)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">Acum %1$d ore</item>
+        <item quantity="few">Acum %1$d ore</item>
+        <item quantity="other">Acum %1$d ore</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">minute</item>
+        <item quantity="few">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">Cu %1$d minute în urmă</item>
+        <item quantity="few">Cu %1$d minute în urmă</item>
+        <item quantity="other">Cu %1$d minute în urmă</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">zile</item>
+        <item quantity="few">zile</item>
+        <item quantity="other">zile</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Oră(e)</item>
+        <item quantity="few">Oră(e)</item>
+        <item quantity="other">Oră(e)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">minute</item>
+        <item quantity="few">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">luni</item>
+        <item quantity="few">luni</item>
+        <item quantity="other">luni</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="few">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">săptămâni</item>
+        <item quantity="few">săptămâni</item>
+        <item quantity="other">săptămâni</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">Acum %1$d ani</item>
+        <item quantity="few">Acum %1$d ani</item>
+        <item quantity="other">Acum %1$d ani</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d zile</item>
+        <item quantity="few">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d zile</item>
+        <item quantity="other">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d zile</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d ore</item>
+        <item quantity="few">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d ore</item>
+        <item quantity="other">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d ore</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d minute</item>
+        <item quantity="few">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d minute</item>
+        <item quantity="other">Ne cerem scuze! Ai fost blocat\10Poți face din nou transmisiuni live în %1$d minute</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Ne cerem scuze! Ai fost blocat\10 Poți face din nou transmisiuni live în %1$d secunde</item>
+        <item quantity="few">Ne cerem scuze! Ai fost blocat\10 Poți face din nou transmisiuni live în %1$d secunde</item>
+        <item quantity="other">Ne cerem scuze! Ai fost blocat\10 Poți face din nou transmisiuni live în %1$d secunde</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d utilizatori îți urmăresc transmisiunea, vrei să o închei?</item>
+        <item quantity="few">%d utilizatori îți urmăresc transmisiunea, vrei să o închei?</item>
+        <item quantity="other">%d utilizatori îți urmăresc transmisiunea, vrei să o închei?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Conectat de %1$d minute</item>
+        <item quantity="few">Conectat de %1$d minute</item>
+        <item quantity="other">Conectat de %1$d minute</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Ai așteptat %1$d minute</item>
+        <item quantity="few">Ai așteptat %1$d minute</item>
+        <item quantity="other">Ai așteptat %1$d minute</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Mai întâi încarcă %1$d diamante pentru a primi încă %2$d!</item>
+        <item quantity="few">Mai întâi încarcă %1$d diamant pentru a primi încă %2$d!</item>
+        <item quantity="other">Mai întâi încarcă %1$d diamant pentru a primi încă %2$d!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">minute</item>
+        <item quantity="few">minute</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+</resources>

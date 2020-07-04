@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/dfo" android:background="?attr/ck" android:layout_width="match_parent" android:layout_height="160dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dfb" android:layout_width="match_parent" android:layout_height="40dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="?attr/yl" android:id="@+id/dfg" android:text="@string/b6t" style="@style/tr"/>
+        <View style="@style/tq"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="?attr/ym" android:id="@+id/dfs" android:text="@string/b6u" style="@style/tr"/>
+        <View style="@style/tq"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="?attr/ym" android:id="@+id/dfa" android:text="@string/b6s" style="@style/tr"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/dm9" android:layout_width="32dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:src="?attr/s8" android:layout_centerHorizontal="true"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/akm" style="@style/tk"/>
+    <com.p280ss.android.ugc.aweme.filter.FilterDialogExtContentLayout android:id="@+id/d89" android:visibility="gone" style="@style/tp"/>
+    <com.p280ss.android.ugc.aweme.filter.FilterDialogExtContentLayout android:id="@+id/m_" android:visibility="gone" style="@style/tj"/>
+</RelativeLayout>

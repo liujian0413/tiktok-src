@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">ڈرافٹ حذف کریں؟</item>
+        <item quantity="other">ڈرافٹس حذف کریں؟</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d گیت</item>
+        <item quantity="other">%d گیت</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d موسیقی</item>
+        <item quantity="other">%d موسیقی</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d پیس</item>
+        <item quantity="other">%d پیسز</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d گانا</item>
+        <item quantity="other">%d گانے</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d آواز</item>
+        <item quantity="other">%d آوازیں</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ٹیون</item>
+        <item quantity="other">%d ٹیونز</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d ویڈیو</item>
+        <item quantity="other">%d ویڈیوز</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 گھنٹہ</item>
+        <item quantity="other">%d گھنٹے</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1منٹ</item>
+        <item quantity="other">%dمنٹ</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">پہلا</item>
+        <item quantity="other">%dسیکنڈ</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">پوسٹ کردہ %d ویڈیو</item>
+        <item quantity="other">پوسٹ کردہ %d ویڈیوز</item>
+    </plurals>
+</resources>

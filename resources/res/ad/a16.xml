@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="0px" android:layout_height="match_parent" android:layout_marginTop="8.5dp" android:layout_weight="1">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteRoundImageView android:layout_gravity="center" android:id="@+id/d04" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <View android:layout_gravity="bottom" android:id="@+id/d06" android:background="@drawable/b96" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#c0ffffff" android:ellipsize="end" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/d07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="4dp" android:maxLines="1" style="@style/u1"/>
+</FrameLayout>

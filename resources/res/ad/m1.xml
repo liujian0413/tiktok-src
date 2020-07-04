@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.shortvideo.p1617ui.PressFadeFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="76dp">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/a7f" android:paddingLeft="22dp" android:paddingRight="22dp" android:layout_width="match_parent" android:layout_height="76dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:id="@+id/aia" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u9"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:layout_gravity="center" android:id="@+id/aim" android:layout_width="13dp" android:layout_height="13dp" app:actualImageScaleType="5"/>
+                <ImageView android:layout_gravity="center" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/a0h"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:layout_gravity="center_vertical" android:id="@+id/cca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" style="@style/u2"/>
+            <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/a7x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/as1" android:scaleType="centerInside"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/ahz" android:background="@color/a63" android:layout_width="1dp" android:layout_height="44dp"/>
+</com.p280ss.android.ugc.aweme.shortvideo.p1617ui.PressFadeFrameLayout>

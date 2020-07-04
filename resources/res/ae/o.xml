@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aq" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/bv" android:id="@+id/a80" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="detail_page_text" android:fontFamily="ProximaNova"/>
+        <com.bytedance.lighten.loader.SmartImageView android:id="@+id/ar" android:background="@color/a4l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="65dp" app:actualImageScaleType="6" app:placeholderImage="@color/a4l"/>
+    </LinearLayout>
+</FrameLayout>

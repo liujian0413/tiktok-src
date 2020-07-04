@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Selectează din Bibliotecă</item>
+        <item>Fă o fotografie</item>
+        <item>Anulează</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Niciunul</item>
+        <item>Floare</item>
+        <item>Sweet</item>
+        <item>Tea</item>
+        <item>Brainy</item>
+        <item>Rosy</item>
+        <item>Breeze</item>
+        <item>Natură</item>
+        <item>Sunlight</item>
+        <item>Baby</item>
+        <item>Nostalgia</item>
+        <item>Bright</item>
+        <item>Cute</item>
+        <item>Peach</item>
+        <item>Sunset</item>
+    </array>
+    <array name="aq">
+        <item>Rotunjit</item>
+        <item>Săptămânal</item>
+        <item>General</item>
+        <item>Clasament Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Ianuarie</item>
+        <item>Februarie</item>
+        <item>Martie</item>
+        <item>Aprilie</item>
+        <item>Mai</item>
+        <item>Iunie</item>
+        <item>Iulie</item>
+        <item>August</item>
+        <item>Septembrie</item>
+        <item>Octombrie</item>
+        <item>Noiembrie</item>
+        <item>Decembrie</item>
+    </array>
+    <array name="au">
+        <item>Niciunul</item>
+        <item>Natură</item>
+        <item>Golește</item>
+        <item>Japoneză</item>
+        <item>Touching</item>
+    </array>
+    <array name="av">
+        <item>Niciunul</item>
+        <item>Natură</item>
+        <item>Bright</item>
+        <item>First love</item>
+    </array>
+    <array name="aw">
+        <item>Raportează</item>
+        <item>Anulează</item>
+    </array>
+</resources>

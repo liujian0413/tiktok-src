@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.flowfeed.p1256ui.FollowFeedLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ViewStub android:id="@+id/dc3" android:layout="@layout/a5z" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/dcu" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/dc_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bqy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/dc2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dc7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dcv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dcl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dc6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dc0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/dc8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp"/>
+        <ViewStub android:id="@+id/dcp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+    <View android:id="@+id/bm8" android:background="@color/a4o" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="16dp"/>
+</com.p280ss.android.ugc.aweme.flowfeed.p1256ui.FollowFeedLayout>

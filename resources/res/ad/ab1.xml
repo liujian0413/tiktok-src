@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:id="@+id/ass" android:background="@color/a6d" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="@dimen/im" android:verticalSpacing="@dimen/im" android:numColumns="4"/>
+    <RelativeLayout android:id="@+id/c8r" android:background="#800a0909" android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:id="@+id/d2g" android:paddingLeft="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/c8y" android:layout_alignParentLeft="true" style="@style/v2"/>
+        <TextView android:id="@+id/d2e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/v2"/>
+        <TextView android:id="@+id/d2_" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/c8w" android:layout_alignParentRight="true" style="@style/v2"/>
+    </RelativeLayout>
+    <TextView android:textSize="15sp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/bxi" android:background="#aa000000" android:paddingLeft="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/c90" android:layout_alignBottom="@+id/ass"/>
+    <ProgressBar android:id="@+id/bty" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Widget.ProgressBar.Inverse"/>
+</RelativeLayout>

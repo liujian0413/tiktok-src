@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/a19" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/bwu" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/f00" style="@style/y2"/>
+    <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <TextView android:id="@+id/c2c" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/f02" style="@style/y2"/>
+    <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <TextView android:id="@+id/bfq" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/fch" style="@style/y2"/>
+    <TextView android:id="@+id/bws" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/f03" style="@style/y2"/>
+    <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <TextView android:id="@+id/bfp" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ed9" style="@style/y2"/>
+    <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <TextView android:id="@+id/c2b" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/f01" style="@style/y2"/>
+    <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:id="@+id/sp" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ecm" style="@style/y2"/>
+</LinearLayout>

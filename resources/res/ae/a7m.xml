@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#000000" android:layout_width="match_parent" android:layout_height="0dp" app:frMode="1" app:whRatio="0.75">
+    <com.bytedance.lighten.loader.SmartImageView android:id="@+id/a4g" android:background="@color/a5q" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <RelativeLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:background="@drawable/l0" android:layout_width="match_parent" android:layout_height="60dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="4dp" android:layout_alignParentBottom="true" android:layout_marginStart="4dp">
+            <ImageView android:layout_width="16dp" android:layout_height="16dp" app:srcCompat="@drawable/ae5"/>
+            <com.p280ss.android.ugc.aweme.views.FakeBoldTextView android:textColor="@color/yq" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/aw4" android:layout_marginStart="3dp" style="@style/u0"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.p280ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

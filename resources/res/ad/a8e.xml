@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.shortvideo.widget.TouchSensitiveRelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cut" android:layout_width="match_parent" android:layout_height="100dp">
+    <Space android:id="@+id/cpm" android:layout_width="100dp" android:layout_height="100dp" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/brp" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/cpm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/e_w">
+        <RelativeLayout android:id="@+id/acw" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bd4" android:padding="2dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_centerInParent="true" android:importantForAccessibility="no" app:placeholderImage="@drawable/ait" app:placeholderImageScaleType="6"/>
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bd5" android:padding="2dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_centerInParent="true" android:importantForAccessibility="no" app:actualImageScaleType="0"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/e3r" android:layout_marginTop="2dp" android:text="@string/e_w" android:maxLines="2" android:layout_below="@+id/bd4" style="@style/w_"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/cpm" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@+id/cuj" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <android.support.p029v7.widget.AppCompatImageView android:id="@+id/b9f" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/a4g" android:layout_centerInParent="true" android:importantForAccessibility="no"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/dun" android:layout_marginTop="2dp" android:text="@string/dh5" android:singleLine="true" android:layout_below="@+id/b9f" style="@style/w_"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/an4" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_weight="1">
+            <com.p280ss.android.ugc.aweme.shortvideo.local.UploadButton android:layout_gravity="center" android:id="@+id/rw" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/amp" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_weight="1">
+            <ImageView android:textColor="@color/du" android:layout_gravity="center" android:id="@+id/qz" android:background="@drawable/bbv" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ag2" android:scaleType="centerInside" android:minWidth="65dp" android:contentDescription="@string/ap"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.shortvideo.widget.TouchSensitiveRelativeLayout>

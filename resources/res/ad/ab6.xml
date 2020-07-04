@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.push.window.oppo.PushWindowScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/by7" android:background="@color/a1o" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/axo" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="15dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/a1r" android:id="@+id/dko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220dp" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@+id/axo" android:layout_alignTop="@+id/axo"/>
+        <TextView android:textSize="12sp" android:textColor="@color/a1q" android:id="@+id/djh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:includeFontPadding="false" android:layout_toRightOf="@+id/dko" android:layout_alignTop="@+id/dko"/>
+        <TextView android:textSize="12sp" android:textColor="@color/a1p" android:ellipsize="end" android:id="@+id/a2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxLines="2" android:includeFontPadding="false" android:layout_toRightOf="@+id/axo" android:layout_below="@+id/dko" android:lineSpacingExtra="1dp"/>
+    </RelativeLayout>
+</com.p280ss.android.push.window.oppo.PushWindowScrollView>

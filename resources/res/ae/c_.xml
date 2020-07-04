@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/kx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/l4" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/i7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="137dp">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/awr" android:gravity="center" android:id="@+id/i_" android:background="@color/aup" android:layout_width="60dp" android:layout_height="28dp" android:layout_marginRight="19dp" android:text="@string/ns" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="19dp" android:layout_alignParentEnd="true" style="@style/u2"/>
+        <com.p280ss.android.ugc.aweme.filter.widget.FilterBeautySeekBar android:id="@+id/i5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="100" android:progress="30" android:indeterminate="false" android:progressDrawable="@drawable/cy" android:thumb="@drawable/cz" android:layout_toLeftOf="@+id/i_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" android:layout_toStartOf="@+id/i_" android:layout_alignParentStart="true" app:rateTextColor="?attr/yz" app:rateTextSize="12dp"/>
+    </RelativeLayout>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="123dp">
+        <include layout="@layout/gp"/>
+    </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bul" android:background="@drawable/lk" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bum" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="5dp" android:src="@drawable/aet"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab0" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/buk" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="5dp" android:maxLines="1" style="@style/u2"/>
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/a6o"/>
+    <com.p280ss.android.ugc.aweme.movie.view.FeedMvTagView android:id="@+id/dg5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textColor="@color/ab0" android:ellipsize="end" android:gravity="center" android:id="@+id/u8" android:background="@drawable/lk" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="20dp" android:maxLines="1" android:includeFontPadding="false" android:drawableLeft="@drawable/a8l" android:drawablePadding="2dp" android:drawableStart="@drawable/a8l" style="@style/u0"/>
+</LinearLayout>

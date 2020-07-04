@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a1q" android:background="@drawable/n9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="1dp" android:layout_marginRight="8dp">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="80dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="80dp">
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/im" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginLeft="14dp" android:layout_marginRight="10dp">
+                    <ViewStub android:layout_gravity="center" android:id="@+id/bnu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <FrameLayout android:layout_gravity="center" android:id="@+id/iy" android:layout_width="48dp" android:layout_height="48dp">
+                        <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:layout_gravity="center" android:id="@+id/j2" android:layout_width="48dp" android:layout_height="48dp"/>
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/e8s" android:visibility="gone" android:layout_width="32dp" android:layout_height="13dp" android:src="@drawable/a9t"/>
+                    </FrameLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/au8" android:ellipsize="end" android:id="@+id/c37" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/u6"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/au8" android:ellipsize="end" android:id="@+id/a7m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true" style="@style/u6"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@+id/abk" android:background="@drawable/n_" android:layout_width="44dp" android:layout_height="4dp" android:layout_marginBottom="6dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/c5r" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60dp">
+            <View android:id="@+id/a9t" android:background="@color/ax4" android:layout_width="match_parent" android:layout_height="1px"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/tq" android:gravity="center" android:id="@+id/xm" android:background="@drawable/n_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/a1p"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/avh" android:gravity="center" android:id="@+id/xn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/a1l" android:singleLine="true" style="@style/u2"/>
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/abl" android:background="@drawable/n_" android:layout_width="44dp" android:layout_height="4dp" android:layout_marginBottom="6dp"/>
+    </LinearLayout>
+</FrameLayout>

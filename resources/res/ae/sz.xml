@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a8r" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dke" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <TextView android:textSize="17sp" android:textColor="@color/l0" android:gravity="center" android:id="@+id/ddl" android:layout_width="50dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:text="@string/di_" android:layout_alignParentRight="true" android:fontFamily="ProximaNova-Semibold" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <EditText android:textSize="15dp" android:textColor="#ffffff" android:textColorHint="#80ffffff" android:layout_gravity="bottom" android:id="@+id/act" android:background="@drawable/bg8" android:paddingLeft="10dp" android:paddingTop="8dp" android:paddingRight="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:maxLines="1" android:singleLine="true"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/zt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AnimationImageView android:layout_gravity="center" android:id="@+id/b9t" android:layout_width="212dp" android:layout_height="75dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/yk" android:layout_gravity="center" android:id="@+id/e24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/byt" style="@style/u9"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/yk" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/d7b" style="@style/u6"/>
+    </LinearLayout>
+</FrameLayout>

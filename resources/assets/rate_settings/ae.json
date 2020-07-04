@@ -1,0 +1,72 @@
+{
+  "flow_gear_group": {
+    "default_gear_name": "lower_720",
+    "gear_group": [
+      "lower_720",
+      "lowest_720"
+    ]
+  },
+  "adaptive_gear_group": {
+    "bitrate_range": [
+      200000,
+      2500000
+    ],
+    "default_gear_name": "normal_540",
+    "default_bitrate": 800000,
+    "gear_group": [
+      "normal_720",
+      "lower_720",
+      "lowest_720",
+      "normal_540",
+      "lower_540",
+      "lowest_540",
+      "normal_480",
+      "lowest_360"
+    ]
+  },
+  "gear_set": [
+    {
+      "network_upper": 150,
+      "bit_rate": 200000,
+      "network_lower": 0
+    },
+    {
+      "network_upper": 200,
+      "bit_rate": 300000,
+      "network_lower": 100
+    },
+    {
+      "network_upper": 250,
+      "bit_rate": 600000,
+      "network_lower": 150
+    },
+    {
+      "network_upper": 300,
+      "bit_rate": 800000,
+      "network_lower": 200
+    },
+    {
+      "network_upper": 400,
+      "bit_rate": 1200000,
+      "network_lower": 250
+    },
+    {
+      "network_upper": 500,
+      "bit_rate": 1600000,
+      "network_lower": 300
+    },
+    {
+      "network_upper": 1000000,
+      "bit_rate": 2400000,
+      "network_lower": 400
+    }
+  ],
+  "default_gear_group": "adaptive_gear_group",
+  "definition_gear_group": {
+    "default_gear_name": "normal",
+    "gear_group": [
+      "normal_720",
+      "lower_720"
+    ]
+  }
+}

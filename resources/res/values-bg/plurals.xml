@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1 ч</item>
+        <item quantity="other">%d ч</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 сек</item>
+        <item quantity="other">%d сек</item>
+    </plurals>
+</resources>

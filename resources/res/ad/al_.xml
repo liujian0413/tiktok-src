@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/oa" android:background="@drawable/bth" android:layout_width="match_parent" android:layout_height="440dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cwc" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/cwb" android:layout_width="50dp" android:layout_height="52dp">
+                <View android:background="@drawable/cee" android:layout_width="10dp" android:layout_height="19dp" android:layout_marginLeft="18dp" android:layout_marginTop="19dp"/>
+            </LinearLayout>
+            <TextView android:textSize="15sp" android:textColor="@color/ao1" android:gravity="center" android:layout_gravity="center" android:id="@+id/cw_" android:layout_width="wrap_content" android:layout_height="52dp"/>
+        </FrameLayout>
+        <View android:background="#33161823" android:layout_width="match_parent" android:layout_height="0.7dp"/>
+    </LinearLayout>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cw8" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/cwc"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:id="@+id/cw9" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

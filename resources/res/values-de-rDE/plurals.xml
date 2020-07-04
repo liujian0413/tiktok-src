@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Entwurf löschen?</item>
+        <item quantity="other">Entwürfe löschen?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d Melodie</item>
+        <item quantity="other">%d Melodien</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d Musik</item>
+        <item quantity="other">%d Musik</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d Musikstück</item>
+        <item quantity="other">%d Musikstücke</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d Song</item>
+        <item quantity="other">%d Songs</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d Sound</item>
+        <item quantity="other">%d Sounds</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d Tonfolge</item>
+        <item quantity="other">%d Tonfolgen</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d Video</item>
+        <item quantity="other">%d Videos</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">Vor %d Tagen</item>
+        <item quantity="other">Vor %d Tagen</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">Stunde(n)</item>
+        <item quantity="other">Stunde(n)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">Vor %1$d Stunden</item>
+        <item quantity="other">Vor %1$d Stunden</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">Minuten</item>
+        <item quantity="other">Minuten</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">Vor %1$d Minuten</item>
+        <item quantity="other">Vor %1$d Minuten</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">Tag</item>
+        <item quantity="other">Tage</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">Stunde(n)</item>
+        <item quantity="other">Stunde(n)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">Minuten</item>
+        <item quantity="other">Minuten</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">Monate</item>
+        <item quantity="other">Monate</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">Wochen</item>
+        <item quantity="other">Wochen</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">Vor %1$d Jahren</item>
+        <item quantity="other">Vor %1$d Jahren</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Tagen wieder live streamen</item>
+        <item quantity="other">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Tagen wieder live streamen</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Stunden wieder live streamen</item>
+        <item quantity="other">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Stunden wieder live streamen</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Entschuldigung, du bist derzeit leider gesperrt.\10 Du kannst in in %1$d Minuten wieder live streamen</item>
+        <item quantity="other">Entschuldigung, du bist derzeit leider gesperrt.\10 Du kannst in in %1$d Minuten wieder live streamen</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Sekunden wieder live streamen</item>
+        <item quantity="other">Entschuldigung! Du wurdest gesperrt\10 Du kannst in %1$d Sekunden wieder live streamen</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d Benutzer schauen deine Übertragung an, möchtest du sie schließen?</item>
+        <item quantity="other">%d Benutzer schauen deine Übertragung an, möchtest du sie schließen?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Für %1$d Minuten verbunden</item>
+        <item quantity="other">Für %1$d Minuten verbunden</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Für %1$d Minuten gewartet</item>
+        <item quantity="other">Für %1$d Minuten gewartet</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Laden Sie beim ersten Mal %1$d Diamanten auf, um %2$d mehr zu erhalten!</item>
+        <item quantity="other">Laden Sie beim ersten Mal %1$d Diamanten auf, um %2$d mehr zu erhalten!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">Minuten</item>
+        <item quantity="other">Minuten</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">veröffentlichte %d Video</item>
+        <item quantity="other">veröffentlichte %d Videos</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:id="@+id/b3n" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isCircle="false" app:isShowBorder="true" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="72dp" app:itemImgWidth="72dp" app:roundRadius="1dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bdv" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" app:failureImage="@drawable/bky" app:layout_constraintStart_toStartOf="@+id/bdp" app:layout_constraintTop_toTopOf="@+id/bdp" app:placeholderImage="@drawable/bky" app:roundAsCircle="false"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

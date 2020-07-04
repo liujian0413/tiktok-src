@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">খসড়া মুছবেন?</item>
+        <item quantity="other">খসড়াগুলি মুছবেন?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%dটি মূর্ছনা</item>
+        <item quantity="other">%dটি মূর্ছনা</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%dটি সংগীত</item>
+        <item quantity="other">%dটি সংগীত</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%dটি অংশ</item>
+        <item quantity="other">%dটি অংশ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%dটি গান</item>
+        <item quantity="other">%dটি গান</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%dটি শব্দ</item>
+        <item quantity="other">%dটি শব্দগুলো</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%dটি সুর</item>
+        <item quantity="other">%dটি সুর</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%dটি ভিডিও</item>
+        <item quantity="other">%dটি ভিডিও</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d দিন আগে</item>
+        <item quantity="other">%d দিন আগে</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">ঘণ্টা</item>
+        <item quantity="other">ঘণ্টা</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d ঘন্টা আগে</item>
+        <item quantity="other">%1$d ঘন্টা আগে</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">মিনিট</item>
+        <item quantity="other">মিনিট</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d মিনিট আগে</item>
+        <item quantity="other">%1$d মিনিট আগে</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">দিন</item>
+        <item quantity="other">দিন</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">ঘণ্টা</item>
+        <item quantity="other">ঘণ্টা</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">মিনিট</item>
+        <item quantity="other">মিনিট</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">মাস</item>
+        <item quantity="other">মাস</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">দ্বিতীয়</item>
+        <item quantity="other">দ্বিতীয়</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">সপ্তাহ</item>
+        <item quantity="other">সপ্তাহ</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d বছর আগে</item>
+        <item quantity="other">%1$d বছর আগে</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d দিন পরে লাইভ স্ট্রিম করতে পারবেন</item>
+        <item quantity="other">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d দিন পরে লাইভ স্ট্রিম করতে পারবেন</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d ঘণ্টা পরে লাইভ স্ট্রিম করতে পারবেন</item>
+        <item quantity="other">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d ঘণ্টা পরে লাইভ স্ট্রিম করতে পারবেন</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d মিনিট পরে লাইভ স্ট্রিম করতে পারবেন</item>
+        <item quantity="other">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d মিনিট পরে লাইভ স্ট্রিম করতে পারবেন</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d সেকেন্ড পরে লাইভ স্ট্রিম করতে পারবেন</item>
+        <item quantity="other">দুঃখিত! আপনাকে নিষিদ্ধ করা হয়েছে\10 আপনি আবার %1$d সেকেন্ড পরে লাইভ স্ট্রিম করতে পারবেন</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d জন ব্যবহারকারী আপনার সম্প্রচার দেখছেন, আপনি কি সেটি বন্ধ করতে চান?</item>
+        <item quantity="other">%d জন ব্যবহারকারী আপনার সম্প্রচার দেখছেন, আপনি কি সেটি বন্ধ করতে চান?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d মিনিটের জন্য সংযুক্ত রয়েছে</item>
+        <item quantity="other">%1$d মিনিটের জন্য সংযুক্ত রয়েছে</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d মিনিটের জন্য অপেক্ষা করা হচ্ছে</item>
+        <item quantity="other">%1$d মিনিটের জন্য অপেক্ষা করা হচ্ছে</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">আরও %2$d বেশি পেতে প্রথম বারে %1$dটি হীরক রিচার্জ করুন!</item>
+        <item quantity="other">আরও %2$dটি হীরক পেতে প্রথম বারে %1$dটি ডায়মন্ড রিচার্জ করুন!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">মিনিট</item>
+        <item quantity="other">মিনিট</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">%dটি ভিডিও পোস্ট করা হয়েছে</item>
+        <item quantity="other">%dটি ভিডিও পোস্ট করা হয়েছে</item>
+    </plurals>
+</resources>

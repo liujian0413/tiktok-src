@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/agz"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4x" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/d__"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/b2h" app:startText="@string/d_g" style="@style/wh"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/b2i" android:visibility="gone" app:hideLine="true" app:startText="@string/d_g" style="@style/wh"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4t" app:left_text="@string/d_5" app:right_text="@string/c3" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4s" app:left_text="@string/d_4" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4u" app:left_text="@string/d_6" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4y" app:left_text="@string/d_3" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/by9" app:startText="@string/d_h" style="@style/wh"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b47" app:left_text="@string/d_c" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b3p" android:visibility="gone" app:left_text="@string/a2c" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/cmb" app:startText="@string/d_i" style="@style/wh"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4v" app:left_text="@string/d_7" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4z" app:left_text="@string/d_d" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.Divider android:id="@+id/boo" app:startText="@string/d_f" style="@style/wh"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b4w" app:left_text="@string/d_k" style="@style/wj"/>
+            <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/b3q" app:left_text="@string/a2e" style="@style/wj"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

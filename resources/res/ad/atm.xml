@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/dpr" android:layout_width="36dp" android:layout_height="36dp" app:actualImageResource="@drawable/c73"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/djo" android:background="@drawable/byd" android:visibility="gone" android:layout_width="36dp" android:layout_height="12dp" app:layout_constraintBottom_toBottomOf="0">
+        <TextView android:textSize="9dp" android:textColor="#ffee00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fec"/>
+        <TextView android:textSize="9dp" android:textColor="#ffee00" android:id="@+id/c0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x2"/>
+    </LinearLayout>
+    <View android:id="@+id/cr1" android:background="@drawable/c8r" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_margin="2dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

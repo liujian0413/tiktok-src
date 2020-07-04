@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Pustaka suara online</item>
+        <item>Suara Saya</item>
+    </array>
+    <array name="m">
+        <item>Hapus</item>
+        <item>Batal</item>
+    </array>
+    <array name="n">
+        <item>Sedang tren</item>
+        <item>Terbaru</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </array>
+    <array name="y">
+        <item>Tionghoa Sederhana</item>
+        <item>Bahasa Mandarin Tradisional</item>
+        <item>Inggris</item>
+        <item>Bahasa Jepang</item>
+        <item>Bahasa Korea</item>
+        <item>Bahasa Rusia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahaya Melayu</item>
+        <item>Bahasa Portugis</item>
+        <item>Bahasa Thailand</item>
+        <item>Bahasa Vietnam</item>
+        <item>Bahasa India</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Hitam/Putih</item>
+        <item>Seni</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Tersaturasi</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agu</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </array>
+    <array name="a4">
+        <item>Penghematan data dahulu</item>
+        <item>Resolusi tinggi dahulu</item>
+    </array>
+    <array name="a5">
+        <item>Semua orang</item>
+        <item>Hanya teman</item>
+    </array>
+    <array name="af">
+        <item>3</item>
+        <item>Ambil Foto</item>
+        <item>Batal</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Tidak ada</item>
+        <item>Flower</item>
+        <item>Manis</item>
+        <item>Tea</item>
+        <item>Brainy</item>
+        <item>Rosy</item>
+        <item>Breeze</item>
+        <item>Nature</item>
+        <item>Sunlight</item>
+        <item>Baby</item>
+        <item>Nostalgia</item>
+        <item>Bright</item>
+        <item>Cute</item>
+        <item>Peach</item>
+        <item>Sunset</item>
+    </array>
+    <array name="aq">
+        <item>Putaran</item>
+        <item>Mingguan</item>
+        <item>Keseluruhan</item>
+        <item>Peringkat Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </array>
+    <array name="au">
+        <item>Tidak ada</item>
+        <item>Nature</item>
+        <item>Hapus</item>
+        <item>Japanese</item>
+        <item>Menyentuh</item>
+    </array>
+    <array name="av">
+        <item>Tidak ada</item>
+        <item>Nature</item>
+        <item>Bright</item>
+        <item>Cinta pertama</item>
+    </array>
+    <array name="aw">
+        <item>Laporkan</item>
+        <item>Batal</item>
+    </array>
+    <array name="az">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </array>
+</resources>

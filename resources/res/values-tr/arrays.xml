@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Fotoğraf albümünden seç.</item>
+        <item>Fotoğraf Çek</item>
+        <item>İptal</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Hiçbiri</item>
+        <item>Çiçek</item>
+        <item>Tatlı</item>
+        <item>Çay</item>
+        <item>Akıllı</item>
+        <item>Gül rengi</item>
+        <item>Esinti</item>
+        <item>Doğal</item>
+        <item>Gün ışığı</item>
+        <item>Bebek</item>
+        <item>Nostalji</item>
+        <item>Parlak</item>
+        <item>Sevimli</item>
+        <item>Şeftali</item>
+        <item>Gün batımı</item>
+    </array>
+    <array name="aq">
+        <item>Tur</item>
+        <item>Haftalık</item>
+        <item>Genel</item>
+        <item>Xigua Sıralaması</item>
+    </array>
+    <array name="ar">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </array>
+    <array name="au">
+        <item>Hiçbiri</item>
+        <item>Doğal</item>
+        <item>Temizle</item>
+        <item>Japonca</item>
+        <item>Dokunaklı</item>
+    </array>
+    <array name="av">
+        <item>Hiçbiri</item>
+        <item>Doğal</item>
+        <item>Parlak</item>
+        <item>İlk aşk</item>
+    </array>
+    <array name="aw">
+        <item>Bildir</item>
+        <item>İptal</item>
+    </array>
+</resources>

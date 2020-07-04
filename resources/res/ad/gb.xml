@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/alv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp">
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView android:layout_gravity="center_horizontal" android:id="@+id/b5f" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bottomDotTopMargin="8dp" app:isCircle="true" app:isShowBottomDot="true" app:isShowDotOnImageView="false" app:isShowDownloadIcon="false" app:isShowText="true" app:itemImgHeight="52dp" app:itemImgWidth="52dp" app:oldPanel="true" app:showBgDrawable="true" app:textTopMargin="8dp" app:useNewWidthRule="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/b6j" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="18dp" android:layout_marginTop="38dp" android:src="@drawable/ep" android:scaleType="fitXY"/>
+    </com.p280ss.android.ugc.aweme.themechange.base.AVDmtImageTextView>
+</FrameLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Ta bort utkast?</item>
+        <item quantity="other">Ta bort utkast?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d melodi</item>
+        <item quantity="other">%d melodier</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d musik</item>
+        <item quantity="other">%d musik</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d del</item>
+        <item quantity="other">%d delar</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d sång</item>
+        <item quantity="other">%d sånger</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ljud</item>
+        <item quantity="other">%d ljud</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d låt</item>
+        <item quantity="other">%d låtar</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videor</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">har publicerat %d video</item>
+        <item quantity="other">har publicerat %d videor</item>
+    </plurals>
+</resources>

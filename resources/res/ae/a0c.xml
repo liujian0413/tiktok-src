@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/bou" android:layout_width="match_parent" android:layout_height="48dp">
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="14sp" android:textStyle="normal" android:textColor="@color/aoc" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="9dp" android:text="@string/cw5" android:fontFamily="sans-serif" android:layout_marginStart="16dp"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="10sp" android:textStyle="normal" android:textColor="@color/af7" android:id="@+id/a7m" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginLeft="16dp" android:layout_marginTop="27dp" android:text="@string/cw4" android:fontFamily="sans-serif" android:layout_marginStart="16dp"/>
+    </FrameLayout>
+    <View android:background="@color/afg" android:layout_width="match_parent" android:layout_height="4dp"/>
+    <FrameLayout android:background="@color/as5" android:layout_width="match_parent" android:layout_height="42dp">
+        <ToggleButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/dkz" android:background="@drawable/cgy" android:layout_width="40dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:checked="true" android:textOn="" android:textOff="" android:layout_marginEnd="16dp"/>
+        <TextView android:textSize="14sp" android:textStyle="normal" android:textColor="@color/af6" android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="64dp" android:text="@string/cvh" android:fontFamily="sans-serif" android:layout_marginStart="16dp" android:layout_marginEnd="64dp"/>
+    </FrameLayout>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textColor="@color/afz" android:gravity="center" android:id="@+id/ae7" android:background="@color/afg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="184dp" android:text="@string/cx4"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:background="@color/agb" android:layout_width="match_parent" android:layout_height="184dp"/>
+</LinearLayout>

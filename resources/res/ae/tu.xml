@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/ef7" android:background="@color/a4l" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:ellipsize="end" android:id="@+id/e20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/chq" android:maxLines="2" android:layout_centerVertical="true" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginEnd="10dp" android:layout_toStartOf="@+id/bs_" android:layout_alignParentStart="true" app:fontType="7" style="@style/u6"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bs_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/d6v" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/acj" android:scaleType="centerInside"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

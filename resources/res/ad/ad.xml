@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="工具线拍摄器schema测试"/>
+        <TextView android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="协议头:"/>
+        <RadioGroup android:orientation="horizontal" android:id="@+id/cso" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/cnv" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="snssdk"/>
+            <RadioButton android:id="@+id/cnu" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:checked="true" android:text="sslocal"/>
+            <RadioButton android:id="@+id/cnt" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="aweme"/>
+        </RadioGroup>
+        <TextView android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="使用的协议类型:"/>
+        <RadioGroup android:orientation="vertical" android:id="@+id/csp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/cny" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:checked="true" android:text="/studio/create"/>
+            <RadioButton android:id="@+id/cnw" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/openRecord"/>
+            <RadioButton android:id="@+id/cnx" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/publishVideo"/>
+        </RadioGroup>
+        <TextView android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="附加参数(由于协议限制，以下资源ID每次请只设置一项):"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:padding="8dp" android:layout_width="200dp" android:layout_height="wrap_content" android:text="贴纸ID（sticker_id）:"/>
+            <EditText android:id="@+id/afu" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dp" android:maxLines="1" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:padding="8dp" android:layout_width="200dp" android:layout_height="wrap_content" android:text="音乐ID（music_id）:"/>
+            <EditText android:id="@+id/aft" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dp" android:maxLines="1" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:padding="8dp" android:layout_width="200dp" android:layout_height="wrap_content" android:text="挑战ID（challenge_id）:"/>
+            <EditText android:id="@+id/afq" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dp" android:maxLines="1" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:padding="8dp" android:layout_width="200dp" android:layout_height="wrap_content" android:text="来源（enter_from）:"/>
+            <EditText android:id="@+id/afr" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dp" android:maxLines="1" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <CheckBox android:id="@+id/tl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自定义路由："/>
+            <EditText android:id="@+id/afv" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true"/>
+        </LinearLayout>
+        <TextView android:id="@+id/dq7" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:text="准备打开的链接是:"/>
+        <TextView android:textSize="20dp" android:textColor="#fff" android:gravity="center" android:layout_gravity="center" android:id="@+id/dq3" android:background="#000" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="30dp" android:text="打开录制页"/>
+    </LinearLayout>
+</ScrollView>

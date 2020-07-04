@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cws" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/ahs" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <include android:id="@+id/djz" layout="@layout/aly"/>
+    <com.bytedance.android.live.uikit.layout.SwipeOverlayFrameLayout android:id="@+id/dee" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/p4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/djz"/>
+    </com.bytedance.android.live.uikit.layout.SwipeOverlayFrameLayout>
+</LinearLayout>

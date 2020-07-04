@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bhn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+    <FrameLayout android:id="@+id/bgo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:layout_gravity="center" android:id="@+id/e8m" android:visibility="visible" android:layout_width="32dp" android:layout_height="32dp" app:placeholderImage="@color/a5o" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+            <com.p280ss.android.ugc.aweme.base.p308ui.AnimationImageView android:id="@+id/j6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:layout_gravity="center" android:id="@+id/e8s" android:visibility="invisible" android:layout_width="32dp" android:layout_height="32dp" app:placeholderImage="@color/a5o" app:placeholderImageScaleType="6" app:roundAsCircle="true"/>
+        <com.p280ss.android.ugc.aweme.feed.p1238ui.LiveCircleView android:layout_gravity="center" android:id="@+id/e9k" android:padding="3dp" android:visibility="invisible" android:layout_width="42dp" android:layout_height="42dp" app:live_strokeWidth="1dp"/>
+    </FrameLayout>
+    <com.p280ss.android.ugc.aweme.newfollow.p1423ui.InsHeadLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a4z" android:ellipsize="end" android:id="@+id/e4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:fontType="7" style="@style/u6"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/e0c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxWidth="160dp" android:singleLine="true" style="@style/u0"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aa" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/e31" android:background="@drawable/mf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="3dp" android:paddingEnd="3dp" android:layout_marginStart="4dp" style="@style/ty"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dsz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="4dp" style="@style/u4"/>
+    </com.p280ss.android.ugc.aweme.newfollow.p1423ui.InsHeadLayout>
+    <com.p280ss.android.ugc.aweme.following.p1265ui.view.FollowUserBtn android:id="@+id/anj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88dp"/>
+    <ImageView android:id="@+id/b90" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gi" android:paddingStart="8dp"/>
+</LinearLayout>

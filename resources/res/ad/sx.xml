@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="52dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lz" android:id="@+id/drv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a57" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/u6"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/dio" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/din" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/bl0"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/ef7" android:background="@color/a4l" android:layout_width="0.5dp" android:layout_height="12dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        <com.p280ss.android.ugc.aweme.views.WrapContentRemoteImageView android:id="@+id/bd0" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</FrameLayout>

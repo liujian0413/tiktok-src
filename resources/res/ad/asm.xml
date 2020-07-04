@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="112dp" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <FrameLayout android:id="@+id/cc1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/kk" android:layout_width="match_parent" android:layout_height="20dp">
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/k5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="8sp" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:singleLine="true"/>
+    </FrameLayout>
+</FrameLayout>

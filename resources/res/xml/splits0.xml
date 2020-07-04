@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<splits xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <module name="">
+        <language>
+            <entry key="af" split=""/>
+            <entry key="ar" split=""/>
+            <entry key="bg" split=""/>
+            <entry key="bh" split=""/>
+            <entry key="bn" split=""/>
+            <entry key="ca" split=""/>
+            <entry key="ceb" split=""/>
+            <entry key="cs" split=""/>
+            <entry key="da" split=""/>
+            <entry key="de" split=""/>
+            <entry key="el" split=""/>
+            <entry key="en" split=""/>
+            <entry key="es" split=""/>
+            <entry key="fa" split=""/>
+            <entry key="fi" split=""/>
+            <entry key="fil" split=""/>
+            <entry key="fr" split=""/>
+            <entry key="gu" split=""/>
+            <entry key="hi" split=""/>
+            <entry key="hr" split=""/>
+            <entry key="hu" split=""/>
+            <entry key="in" split=""/>
+            <entry key="it" split=""/>
+            <entry key="iw" split=""/>
+            <entry key="ja" split=""/>
+            <entry key="jv" split=""/>
+            <entry key="km" split=""/>
+            <entry key="kn" split=""/>
+            <entry key="ko" split=""/>
+            <entry key="ml" split=""/>
+            <entry key="mr" split=""/>
+            <entry key="ms" split=""/>
+            <entry key="my" split=""/>
+            <entry key="nb" split=""/>
+            <entry key="nl" split=""/>
+            <entry key="or" split=""/>
+            <entry key="pa" split=""/>
+            <entry key="pl" split=""/>
+            <entry key="pt" split=""/>
+            <entry key="ro" split=""/>
+            <entry key="ru" split=""/>
+            <entry key="sk" split=""/>
+            <entry key="sr" split=""/>
+            <entry key="sv" split=""/>
+            <entry key="sw" split=""/>
+            <entry key="ta" split=""/>
+            <entry key="te" split=""/>
+            <entry key="th" split=""/>
+            <entry key="tl" split=""/>
+            <entry key="tr" split=""/>
+            <entry key="uk" split=""/>
+            <entry key="ur" split=""/>
+            <entry key="vi" split=""/>
+            <entry key="zh" split=""/>
+            <entry key="zu" split=""/>
+        </language>
+    </module>
+</splits>

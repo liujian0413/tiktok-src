@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cyr" android:background="@drawable/uw" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bgu" android:paddingLeft="8dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="16dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/no" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:id="@+id/c47" android:background="@drawable/dn" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</FrameLayout>

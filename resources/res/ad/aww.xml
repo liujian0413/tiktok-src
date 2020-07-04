@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/cug" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/de7" android:background="@color/ky" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Switch android:theme="@style/j5" android:id="@+id/det" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:checked="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

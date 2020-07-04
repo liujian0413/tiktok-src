@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bz2" android:layout_width="300dp" android:layout_height="wrap_content">
+    <View android:id="@+id/boh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bog" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginStart="50dp" android:layout_marginEnd="50dp"/>
+    <View android:id="@+id/bon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ana" android:gravity="center_horizontal" android:id="@+id/bok" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="17sp" android:textColor="@color/an_" android:gravity="center" android:id="@+id/boj" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="104dp" android:includeFontPadding="false" android:textAllCaps="false" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:id="@+id/bo6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="16dp"/>
+    <FrameLayout android:id="@+id/boe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:gravity="end" android:visibility="visible" android:layout_width="match_parent" android:layout_height="48dp">
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/bo_" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.android.livesdk.widget.FitButton android:textSize="15sp" android:id="@+id/bo8" android:background="@drawable/bsi" android:layout_width="0dp" android:layout_weight="1" style="@style/yx"/>
+            <com.bytedance.android.livesdk.widget.FitButton android:textSize="15sp" android:textStyle="bold" android:id="@+id/bo7" android:background="@drawable/bsi" android:layout_width="0dp" android:layout_weight="1" style="@style/yx"/>
+        </LinearLayout>
+        <View android:background="@drawable/c05" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/bod" android:background="@drawable/c06" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="1dp"/>
+    </FrameLayout>
+</LinearLayout>

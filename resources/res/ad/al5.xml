@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/djz" android:background="@drawable/bw7" android:layout_width="match_parent" android:layout_height="44dp">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ad2" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fdw" android:maxLines="1"/>
+    </FrameLayout>
+    <FrameLayout android:background="@color/az3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/br4" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginBottom="8dp">
+                <TextView android:textSize="12sp" android:textColor="#9ca4ae" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ekw"/>
+                <TextView android:textSize="12sp" android:textColor="#9ca4ae" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dtd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:drawablePadding="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ap3" android:background="@drawable/bpt" android:paddingLeft="6dp" android:paddingTop="8dp" android:paddingRight="6dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <ImageView android:id="@+id/b9e" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/c52"/>
+                <com.bytedance.android.live.uikit.layout.WrapLineFlowLayout android:gravity="center_vertical" android:id="@+id/anf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" app:vSpacing="6dp">
+                    <TextView android:textSize="14sp" android:textColor="@color/az3" android:gravity="center_vertical" android:id="@+id/dul" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginLeft="6dp" android:drawablePadding="6dp"/>
+                </com.bytedance.android.live.uikit.layout.WrapLineFlowLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/a1q" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/bsm" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.bytedance.android.live.wallet.customview.WalletPagerSlidingTabStrip android:id="@+id/bq3" android:layout_width="match_parent" android:layout_height="40dp" app:ttlive_tab_divider_color="#0000" app:ttlive_tab_indicator_color="@color/am8" app:ttlive_tab_indicator_height="4dp" app:ttlive_tab_indicator_radius="1.5dp" app:ttlive_tab_indicator_width="17dp" app:ttlive_tab_padding_left_right="10dp" app:ttlive_tab_underline_height="0dp"/>
+                </LinearLayout>
+                <com.bytedance.android.live.uikit.rtl.RtlViewPager android:id="@+id/ed4" android:layout_width="match_parent" android:layout_height="144dp" android:layout_marginBottom="4dp"/>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textColor="@color/apx" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/a8p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/ei5"/>
+        </LinearLayout>
+        <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Vybrat z knihovny</item>
+        <item>Udělej fotku</item>
+        <item>Zrušit</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Nic</item>
+        <item>Květina</item>
+        <item>Sladký</item>
+        <item>Čaj</item>
+        <item>Duchaplný</item>
+        <item>Růžový</item>
+        <item>Vánek</item>
+        <item>Příroda</item>
+        <item>Sluneční světlo</item>
+        <item>Dítě</item>
+        <item>Nostalgie</item>
+        <item>Světlý</item>
+        <item>Roztomilý</item>
+        <item>Broskev</item>
+        <item>Západ slunce</item>
+    </array>
+    <array name="aq">
+        <item>Kulatý</item>
+        <item>Týdně</item>
+        <item>Celkově</item>
+        <item>Žebříček Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Leden</item>
+        <item>Únor</item>
+        <item>Březen</item>
+        <item>Duben</item>
+        <item>Květen</item>
+        <item>Červen</item>
+        <item>Červenec</item>
+        <item>Srpen</item>
+        <item>Září</item>
+        <item>Říjen</item>
+        <item>Listopad</item>
+        <item>Prosinec</item>
+    </array>
+    <array name="au">
+        <item>Nic</item>
+        <item>Příroda</item>
+        <item>Vyčistit</item>
+        <item>Japonština</item>
+        <item>Působivý</item>
+    </array>
+    <array name="av">
+        <item>Nic</item>
+        <item>Příroda</item>
+        <item>Světlý</item>
+        <item>První láska</item>
+    </array>
+    <array name="aw">
+        <item>Nahlásit</item>
+        <item>Zrušit</item>
+    </array>
+</resources>

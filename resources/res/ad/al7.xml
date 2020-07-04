@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bwy" android:layout_width="@dimen/sr" android:layout_height="wrap_content" android:minWidth="@dimen/sr">
+    <RelativeLayout android:id="@+id/dm7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.android.livesdk.chatroom.p220ui.LiveRoundImageView android:id="@+id/dm6" android:layout_width="match_parent" android:layout_height="160dp" app:ttlive_radius_top_left="@dimen/sq" app:ttlive_radius_top_right="@dimen/sq"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/dlz" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:scaleType="centerInside" android:layout_alignParentRight="true" app:placeholderImage="@drawable/c63" app:placeholderImageScaleType="6"/>
+    </RelativeLayout>
+    <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/aqf" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/cw5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/aqe" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/cw4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="12dp" android:layout_marginRight="15dp" android:lineSpacingExtra="2dp"/>
+    <View android:id="@+id/boa" android:layout_marginTop="24dp" style="@style/yz"/>
+    <Button android:id="@+id/cw0" android:visibility="gone" style="@style/yy"/>
+    <include android:id="@+id/cw1" layout="@layout/ao1"/>
+    <TextView android:textSize="14sp" android:textColor="@color/aq9" android:gravity="center" android:id="@+id/cvz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:drawableLeft="@drawable/c64" android:drawablePadding="8dp" android:lineSpacingExtra="2dp" android:drawableStart="@drawable/c64"/>
+</LinearLayout>

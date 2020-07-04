@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/d8z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.widget.SpecialCombView android:id="@+id/d90" android:layout_width="@dimen/sz" android:layout_height="@dimen/sy" android:layout_margin="20dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <com.bytedance.android.livesdk.gift.dialog.view.LiveGiftComboView android:id="@+id/d91" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginRight="8dp" android:layout_marginBottom="42dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

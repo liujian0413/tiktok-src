@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="0dp"/>
+    <FrameLayout android:id="@+id/dlg" android:background="@color/ayz" android:layout_width="match_parent" android:layout_height="@dimen/xr">
+        <ImageButton android:id="@+id/xd" android:background="@null" android:layout_width="@dimen/xr" android:layout_height="@dimen/xr" android:src="@drawable/a5c"/>
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1o" android:scaleType="fitCenter" android:contentDescription="@string/fpx"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cif" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/dlg">
+        <ScrollView android:background="@color/az0" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:id="@+id/cig" android:paddingLeft="@dimen/xe" android:paddingTop="@dimen/xf" android:paddingRight="@dimen/xe" android:paddingBottom="@dimen/xe" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="@dimen/xm" android:textColor="@color/ayp" android:textColorHint="@color/ayx" android:id="@+id/d4j" android:background="@color/ayr" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/fpy" android:inputType="none|text|textCapSentences|textMultiLine"/>
+                <HorizontalScrollView android:id="@+id/aym" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xe">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/ayl" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <LinearLayout android:orientation="vertical" android:id="@+id/hc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xp" android:layout_marginBottom="@dimen/xh">
+                    <TextView android:textSize="@dimen/xl" android:textColor="@color/ayy" android:ellipsize="end" android:id="@+id/bmg" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1"/>
+                    <TextView android:textSize="@dimen/xk" android:textColor="@color/ayx" android:ellipsize="end" android:id="@+id/bmf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-1dp" android:lines="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@+id/cih" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/xj">
+            <View android:background="@color/ayw" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/xe" android:layout_marginRight="@dimen/xe"/>
+            <Button android:textColor="@color/ayv" android:background="@drawable/coi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fpz"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/d2u" android:background="@color/ayz" android:layout_width="match_parent" android:layout_height="48dp" android:layout_below="@+id/cif">
+        <ProgressBar android:id="@+id/d2w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+        <Button android:textSize="@dimen/xi" android:textColor="@color/az0" android:id="@+id/d2t" android:background="@drawable/coi" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/fq1" android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <View android:background="@drawable/ue" android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/dlg"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.discover.widget.CategoryAdView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="228.5dp" android:layout_marginTop="6dp">
+    <com.p280ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/edp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:background="@drawable/kx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.ViewPagerIndicatorLayout android:id="@+id/a_k" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    <LinearLayout android:layout_gravity="end" android:id="@+id/dk" android:background="@drawable/nu" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:paddingStart="3.5dp" android:paddingEnd="3.5dp" android:layout_marginEnd="12dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="9sp" android:textColor="@color/a4z" android:layout_gravity="center_vertical" android:id="@+id/di" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="60dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/lu" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:maxLines="2" android:shadowColor="#40000000" android:shadowDy="2" android:shadowRadius="6" style="@style/u6"/>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.discover.widget.CategoryAdView>

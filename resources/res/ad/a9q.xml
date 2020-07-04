@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/po" android:background="@drawable/d4" android:layout_width="76dp" android:layout_height="76dp">
+    <ImageView android:layout_gravity="center" android:layout_width="38dp" android:layout_height="38dp" android:src="@drawable/aom"/>
+</FrameLayout>

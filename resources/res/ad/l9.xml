@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dfn" android:background="@drawable/a09" android:paddingLeft="15dp" android:paddingTop="11dp" android:paddingRight="15dp" android:paddingBottom="11dp" android:layout_width="52dp" android:layout_height="44dp" android:scaleType="fitCenter"/>

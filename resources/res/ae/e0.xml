@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/cm2" android:layout_width="280dp" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b7p"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lw" android:gravity="center" android:id="@+id/e3f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/cak" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:fontType="7" style="@style/u9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/av3" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" android:text="@string/caj" android:layout_marginStart="13.5dp" android:layout_marginEnd="13.5dp" style="@style/u4"/>
+    <View android:background="@color/lr" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="47.5dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/av3" android:gravity="center" android:id="@+id/dr5" android:background="@drawable/cmi" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cai" android:layout_weight="1" style="@style/u6"/>
+        <View android:background="@color/lr" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lw" android:gravity="center" android:id="@+id/dqh" android:background="@drawable/clq" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cah" android:layout_weight="1" app:fontType="7" style="@style/u6"/>
+    </LinearLayout>
+</LinearLayout>

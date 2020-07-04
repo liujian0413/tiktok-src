@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/zv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/z5" android:focusable="false" android:focusableInTouchMode="false" android:layout_marginBottom="3dp" style="@style/td">
+        <ImageView android:layout_gravity="center" android:id="@+id/zc" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/a8m"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_gravity="center_horizontal" android:id="@+id/z7" android:paddingBottom="16dp" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_marginTop="-3.4dp" android:importantForAccessibility="no" style="@style/tf"/>
+</LinearLayout>

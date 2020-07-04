@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Libreria dei suoni online</item>
+        <item>I miei suoni</item>
+    </array>
+    <array name="m">
+        <item>Elimina</item>
+        <item>Annulla</item>
+    </array>
+    <array name="n">
+        <item>Tendenze</item>
+        <item>Più recenti</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Domenica</item>
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+    </array>
+    <array name="y">
+        <item>Cinese semplificato</item>
+        <item>Cinese tradizionale</item>
+        <item>Inglese</item>
+        <item>Giapponese</item>
+        <item>Coreano</item>
+        <item>Russo</item>
+        <item>Indonesiano</item>
+        <item>Malese</item>
+        <item>Portoghese</item>
+        <item>Thailandese</item>
+        <item>Vietnamita</item>
+        <item>Indi</item>
+    </array>
+    <array name="z">
+        <item>Normale</item>
+        <item>Bianco/Nero</item>
+        <item>Arte</item>
+        <item>Vintage</item>
+        <item>Retroilluminazione</item>
+        <item>Saturazione</item>
+        <item>Cromatismo</item>
+    </array>
+    <array name="a1">
+        <item>Gen</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mag</item>
+        <item>Giu</item>
+        <item>Lug</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Ott</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </array>
+    <array name="a4">
+        <item>Salvataggio dei dati prima</item>
+        <item>Alta risoluzione prima</item>
+    </array>
+    <array name="a5">
+        <item>Tutti</item>
+        <item>Solo amici</item>
+    </array>
+    <array name="af">
+        <item>Seleziona da album di foto.</item>
+        <item>Scatta una foto</item>
+        <item>Annulla</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Nessuno</item>
+        <item>Fiore</item>
+        <item>Dolce</item>
+        <item>Tè</item>
+        <item>Cervellone</item>
+        <item>Rosy</item>
+        <item>Brezza</item>
+        <item>Morbido</item>
+        <item>Luce del sole</item>
+        <item>Baby</item>
+        <item>Nostalgia</item>
+        <item>Luminoso</item>
+        <item>Carina</item>
+        <item>Pesca</item>
+        <item>Tramonto</item>
+    </array>
+    <array name="aq">
+        <item>Round</item>
+        <item>Settiman.</item>
+        <item>Generale</item>
+        <item>Classifica Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </array>
+    <array name="au">
+        <item>Nessuno</item>
+        <item>Morbido</item>
+        <item>Cancella</item>
+        <item>Giapponese</item>
+        <item>Tocco</item>
+    </array>
+    <array name="av">
+        <item>Nessuno</item>
+        <item>Morbido</item>
+        <item>Luminoso</item>
+        <item>Primo amore</item>
+    </array>
+    <array name="aw">
+        <item>Segnala</item>
+        <item>Annulla</item>
+    </array>
+    <array name="az">
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </array>
+</resources>

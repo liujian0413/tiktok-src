@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/b1m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l7" layout="@layout/b1r"/>
+    <include android:id="@+id/b1l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l1" layout="@layout/b1q"/>
+    <com.p280ss.android.ugc.aweme.account.p982ui.LoadingButton android:textSize="@dimen/kz" android:id="@+id/b1n" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="@dimen/l1" android:text="@string/aaw"/>
+</LinearLayout>

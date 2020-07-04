@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Thư viện âm thanh trực tuyến</item>
+        <item>Âm thanh của tôi</item>
+    </array>
+    <array name="m">
+        <item>Xóa</item>
+        <item>Hủy</item>
+    </array>
+    <array name="n">
+        <item>Thịnh hành</item>
+        <item>Mới nhất</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+    </array>
+    <array name="y">
+        <item>Tiếng Trung giản thể</item>
+        <item>Tiếng Trung phồn thể</item>
+        <item>Tiếng Anh</item>
+        <item>Tiếng Nhật</item>
+        <item>Tiếng Hàn Quốc</item>
+        <item>Tiếng Nga</item>
+        <item>Tiếng Indonesia</item>
+        <item>Tiếng Malaysia</item>
+        <item>Tiếng Bồ Đào Nha</item>
+        <item>Tiếng Thái</item>
+        <item>Tiếng Việt</item>
+        <item>Tiếng Hindi</item>
+    </array>
+    <array name="z">
+        <item>Bình thường</item>
+        <item>Đen/Trắng</item>
+        <item>Nghệ thuật</item>
+        <item>Cổ điển</item>
+        <item>Retrolux</item>
+        <item>Bão hòa</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </array>
+    <array name="a4">
+        <item>Tiết kiệm dữ liệu trước</item>
+        <item>Độ phân giải cao trước</item>
+    </array>
+    <array name="a5">
+        <item>Mọi người</item>
+        <item>Chỉ Bạn bè</item>
+    </array>
+    <array name="af">
+        <item>Chọn từ album ảnh</item>
+        <item>Chụp ảnh</item>
+        <item>Hủy</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Không có</item>
+        <item>Hoa</item>
+        <item>Ngọt</item>
+        <item>Trà</item>
+        <item>Thông minh</item>
+        <item>Tươi vui</item>
+        <item>Gió nhẹ</item>
+        <item>Tự nhiên</item>
+        <item>Ánh sáng mặt trời</item>
+        <item>Đứa bé</item>
+        <item>Nỗi nhớ</item>
+        <item>Sáng</item>
+        <item>Dễ thương</item>
+        <item>Hoa đào</item>
+        <item>Hoàng hôn</item>
+    </array>
+    <array name="aq">
+        <item>Theo vòng</item>
+        <item>Hàng tuần</item>
+        <item>Chung</item>
+        <item>Xếp hạng Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </array>
+    <array name="au">
+        <item>Không có</item>
+        <item>Tự nhiên</item>
+        <item>Xóa</item>
+        <item>Kiểu Nhật</item>
+        <item>Chạm</item>
+    </array>
+    <array name="av">
+        <item>Không có</item>
+        <item>Tự nhiên</item>
+        <item>Sáng</item>
+        <item>Mối tình đầu</item>
+    </array>
+    <array name="aw">
+        <item>Báo cáo</item>
+        <item>Hủy</item>
+    </array>
+    <array name="az">
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ Nhật</item>
+    </array>
+</resources>

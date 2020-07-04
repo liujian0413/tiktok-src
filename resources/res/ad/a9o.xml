@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/b4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mf" android:layout_above="@+id/b3" android:layout_alignParentRight="true">
+        <TextView android:textSize="14sp" android:textColor="@color/a9r" android:gravity="center" android:id="@+id/b5" android:background="@drawable/bjk" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/me" android:text="@string/dvx"/>
+    </FrameLayout>
+    <android.widget.Space android:id="@+id/b3" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginRight="@dimen/mf" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</merge>

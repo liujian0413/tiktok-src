@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="270dp" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:gravity="center" android:id="@+id/dsf" android:background="#ecedf7" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ba0" style="@style/u6"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/drw" android:background="#ecedf7" android:layout_width="match_parent" android:layout_height="30dp" android:minHeight="60dp" android:layout_below="@+id/dsf"/>
+    <RelativeLayout android:id="@+id/ctx" android:background="@drawable/bg_follow_dialog_button_normal2" android:layout_width="match_parent" android:layout_height="54dp" android:layout_below="@+id/drw">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/fa" android:gravity="center" android:id="@+id/dyz" android:background="@drawable/lw" android:layout_width="match_parent" android:layout_height="54dp" android:text="@string/b8g" style="@style/u6"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:background="@drawable/m7" android:layout_width="wrap_content" android:layout_height="72dp" android:layout_alignBottom="@+id/ba0"/>
+    <ImageView android:id="@+id/ba0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b8a" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a6c" android:gravity="center" android:id="@+id/ba1" android:background="@drawable/b8b" android:paddingLeft="30dp" android:paddingRight="30dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-55dp" android:text="@string/ftg" android:layout_below="@+id/ba0" android:layout_centerHorizontal="true" style="@style/u_"/>
+    <View android:layout_width="match_parent" android:layout_height="70dp" android:layout_below="@+id/ctx"/>
+</RelativeLayout>

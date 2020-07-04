@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/agz"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/nk" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:text="@string/e8u" style="@style/xj"/>
+            <LinearLayout android:orientation="vertical" android:background="@color/a6c" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/b1g"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a8f" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e8v" style="@style/u6"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="41dp" android:layout_marginBottom="20dp">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/b1c"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a8f" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e88" style="@style/u6"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:text="@string/e8q" style="@style/xj"/>
+            <LinearLayout android:orientation="vertical" android:background="@color/a6c" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/b1i"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a8f" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e8r" style="@style/u6"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="41dp">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/b1j"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a8f" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e99" style="@style/u6"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="41dp" android:layout_marginBottom="20dp">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="3dp" android:layout_marginRight="6dp" android:src="@drawable/b1e"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a8f" android:layout_gravity="center_vertical" android:id="@+id/ap8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agk" style="@style/u6"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/nk" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textSize="15sp" android:textColor="@color/a8d" android:id="@+id/qk" android:background="@drawable/ra" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/dlp" android:textAllCaps="false"/>
+    </LinearLayout>
+</RelativeLayout>

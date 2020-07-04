@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">下書きを破棄しますか？</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">メロディー：%d</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">楽曲：%d</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">作品：%d</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">曲：%d</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">サウンド：%d</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">音律：%d</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d 本の動画</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">%1$d時間前</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">%1$d分前</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">日</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">月</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">週</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="other">%1$d年前</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="other">申し訳ありません！あなたは使用が禁止されています。\10%1$d日後にライブストリームを再度利用できるようになります。</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="other">申し訳ありません！あなたは使用が禁止されています。\10%1$d時間後にライブストリームを再度利用できるようになります。</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="other">申し訳ありません。あなたは現在使用が禁止されています。\10%1$d分後にライブストリームを再度利用できるようになります。</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="other">申し訳ありません！あなたは使用が禁止されています。\10%1$d秒後にライブストリームを再度利用できるようになります。</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="other">%d人のユーザーがブロードキャストを視聴しています。終了しますか？</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="other">接続時間：%1$d分</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="other">待機時間：%1$d分</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="other">%1$d個のダイヤモンドを初めて再チャージすると、%2$dを追加で手に入れることができます！</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">動画を%d本投稿しました</item>
+    </plurals>
+</resources>

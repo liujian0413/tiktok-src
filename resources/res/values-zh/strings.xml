@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alu">取消</string>
+    <string name="alv">完成</string>
+    <string name="alw">[value removed]</string>
+    <string name="alx">正在保存照片…</string>
+    <string name="aly">请等待…</string>
+    <string name="dva">无法将此内容分享到 Snapchat</string>
+</resources>

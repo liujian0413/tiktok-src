@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.account.shortvideo.p981ui.PressFadeLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/aip" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12dp" android:textColor="@color/bv" android:gravity="center_vertical" android:id="@+id/dud" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="12dp"/>
+</com.p280ss.android.ugc.aweme.account.shortvideo.p981ui.PressFadeLinearLayout>

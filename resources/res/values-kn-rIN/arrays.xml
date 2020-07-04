@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ಆನ್‌ಲೈನ್ ಧ್ವನಿ ಲೈಬ್ರರಿ</item>
+        <item>ನನ್ನ ಧ್ವನಿ</item>
+    </array>
+    <array name="m">
+        <item>ಅಳಿಸಿ</item>
+        <item>ರದ್ದುಗೊಳಿಸಿ</item>
+    </array>
+    <array name="n">
+        <item>ಟ್ರೆಂಡಿಂಗ್</item>
+        <item>ಇತ್ತೀಚಿನ</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ಭಾನುವಾರ</item>
+        <item>ಸೋಮವಾರ</item>
+        <item>ಮಂಗಳವಾರ</item>
+        <item>ಬುಧವಾರ</item>
+        <item>ಗುರುವಾರ</item>
+        <item>ಶುಕ್ರವಾರ</item>
+        <item>ಶನಿವಾರ</item>
+    </array>
+    <array name="y">
+        <item>ಸರಳೀಕೃತ ಚೀನೀ</item>
+        <item>ಸಾಂಪ್ರದಾಯಿಕ ಚೈನೀಸ್</item>
+        <item>ಇಂಗ್ಲಿಷ್</item>
+        <item>ಜಪಾನೀಸ್</item>
+        <item>ಕೊರಿಯನ್</item>
+        <item>ರಷ್ಯನ್</item>
+        <item>ಇಂಡೋನೇಷ್ಯನ್</item>
+        <item>ಮಲಾಯ್</item>
+        <item>ಪೋರ್ಚುಗೀಸ್</item>
+        <item>ಥಾಯ್</item>
+        <item>ವಿಯೆಟ್ನಾಮೀಸ್</item>
+        <item>ಹಿಂದಿ</item>
+    </array>
+    <array name="z">
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ಕಪ್ಪು/ಬಿಳಿ</item>
+        <item>ಕಲೆ</item>
+        <item>ವಿಂಟೇಜ್</item>
+        <item>ರೆಟ್ರೋಲಕ್ಸ್</item>
+        <item>ಸ್ಯಾಚುರೇಟೆಡ್</item>
+        <item>ಕ್ರೋಮ್</item>
+    </array>
+    <array name="a1">
+        <item>ಜನ</item>
+        <item>ಫೆಬ್ರ</item>
+        <item>ಮಾರ್ಚ್</item>
+        <item>ಏಪ್ರಿ</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗ</item>
+        <item>ಸೆಪ್ಟೆಂ</item>
+        <item>ಅಕ್ಟೋ</item>
+        <item>ನವೆಂ</item>
+        <item>ಡಿಸೆಂ</item>
+    </array>
+    <array name="a4">
+        <item>ಮೊದಲು ಡೇಟಾ-ಉಳಿತಾಯ</item>
+        <item>ಮೊದಲು ಅಧಿಕ-ರೆಸಲ್ಯೂಶನ್</item>
+    </array>
+    <array name="a5">
+        <item>ಪ್ರತಿಯೊಬ್ಬರೂ</item>
+        <item>ಸ್ನೇಹಿತರು ಮಾತ್ರ</item>
+    </array>
+    <array name="af">
+        <item>ಲೈಬ್ರರಿಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಒಂದು ಫೋಟೋ ತೆಗೆಯಿರಿ</item>
+        <item>ರದ್ದುಪಡಿಸಿ</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ಹೂವು</item>
+        <item>ಸಿಹಿ</item>
+        <item>ಚಹಾ</item>
+        <item>ಮೆದುಳಿನ</item>
+        <item>ಗುಲಾಬಿಯಾದ</item>
+        <item>ತಂಗಾಳಿ</item>
+        <item>ನಿಸರ್ಗ</item>
+        <item>ಸೂರ್ಯನ ಬೆಳಕು</item>
+        <item>ಮಗು</item>
+        <item>ಭಾವುಕ ಹಂಬಲ</item>
+        <item>ಹೊಳಪು</item>
+        <item>ಮುದ್ದಾದ</item>
+        <item>ಪೀಚ್</item>
+        <item>ಸೂರ್ಯಾಸ್ತ</item>
+    </array>
+    <array name="aq">
+        <item>ಸುತ್ತು</item>
+        <item>ಸಾಪ್ತಾಹಿಕ</item>
+        <item>ಒಟ್ಟಾರೆ</item>
+        <item>Xigua ರ್ಯಾಂಕಿಂಗ್‌</item>
+    </array>
+    <array name="ar">
+        <item>ಜನವರಿ</item>
+        <item>ಫೆಬ್ರವರಿ</item>
+        <item>ಮಾರ್ಚ್</item>
+        <item>ಏಪ್ರಿಲ್</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗಸ್ಟ್</item>
+        <item>ಸೆಪ್ಟೆಂಬರ್</item>
+        <item>ಅಕ್ಟೋಬರ್</item>
+        <item>ನವಂಬರ್</item>
+        <item>ಡಿಸೆಂಬರ್</item>
+    </array>
+    <array name="au">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ನಿಸರ್ಗ</item>
+        <item>ಸ್ಪಷ್ಟ</item>
+        <item>ಜಪಾನೀಸ್</item>
+        <item>ಸ್ಪರ್ಷಿಸುವ</item>
+    </array>
+    <array name="av">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ನಿಸರ್ಗ</item>
+        <item>ಹೊಳಪು</item>
+        <item>ಮೊದಲ ಪ್ರೀತಿ</item>
+    </array>
+    <array name="aw">
+        <item>ವರದಿ</item>
+        <item>ರದ್ದುಪಡಿಸಿ</item>
+    </array>
+    <array name="az">
+        <item>ಸೋಮವಾರ</item>
+        <item>ಮಂಗಳವಾರ</item>
+        <item>ಬುಧವಾರ</item>
+        <item>ಗುರುವಾರ</item>
+        <item>ಶುಕ್ರವಾರ</item>
+        <item>ಶನಿವಾರ</item>
+        <item>ಭಾನುವಾರ</item>
+    </array>
+</resources>

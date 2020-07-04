@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/dm2" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <com.p280ss.android.ugc.aweme.views.RoundedRelativeLayout android:id="@+id/a1q" android:layout_width="match_parent" android:layout_height="165dp" android:layout_below="@+id/dm2" app:rounded_radius="@dimen/lg">
+        <com.p280ss.android.ugc.aweme.base.p308ui.SquareImageView android:id="@+id/chm" android:background="@color/a88" android:layout_width="match_parent" android:layout_height="165dp" android:scaleType="centerCrop" app:placeholderImage="@color/a5o" app:placeholderImageScaleType="6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="#99ffffff" android:id="@+id/e9u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_marginBottom="12dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:lineSpacingExtra="3sp" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </com.p280ss.android.ugc.aweme.views.RoundedRelativeLayout>
+    <View android:id="@+id/nt" android:layout_width="match_parent" android:layout_height="8dp" android:layout_below="@+id/a1q"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/hc">
+    <include layout="@layout/a8y"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="end" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/dar" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8dp" android:src="@drawable/ag6" android:scaleType="fitXY" android:layout_marginEnd="8dp"/>
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/a91"/>
+                <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/a1q" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/cbm" android:background="@color/ayd" android:layout_width="120dp" android:layout_height="120dp" app:actualImageScaleType="2" app:roundWithOverlayColor="@color/e9" app:roundedCornerRadius="2dp" app:roundingBorderWidth="0dp"/>
+                </FrameLayout>
+                <include layout="@layout/a8x"/>
+                <include layout="@layout/acd"/>
+            </LinearLayout>
+            <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageView android:id="@+id/j2" style="@style/hd"/>
+        </LinearLayout>
+        <include layout="@layout/aa5"/>
+    </RelativeLayout>
+    <include layout="@layout/a8t"/>
+</LinearLayout>

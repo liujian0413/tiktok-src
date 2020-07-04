@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bn">
+    </style>
+    <style name="bu">
+    </style>
+    <style name="d4">
+        <item name="a1">?android:attr/actionModeShareDrawable</item>
+        <item name="ji">?android:attr/editTextBackground</item>
+    </style>
+    <style name="d5">
+        <item name="a1">?android:attr/actionModeShareDrawable</item>
+        <item name="ji">?android:attr/editTextBackground</item>
+    </style>
+</resources>

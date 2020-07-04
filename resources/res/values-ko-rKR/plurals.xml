@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">초안을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">멜로디 %d개</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">음악 %d개</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">작품 %d개</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">노래 %d곡</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">사운드 %d개</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">선율 %d개</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">동영상 %d개</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">%d일 전</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">시간</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">%1$d시간 전</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">분</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">%1$d분 전</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">일</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">시간</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">분</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">개월</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">초</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">주</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="other">%1$d년 전</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="other">죄송합니다! 차단되셨습니다.\10 %1$d일 후에 다시 라이브 스트림할 수 있습니다.</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="other">죄송합니다! 차단되셨습니다.\10 %1$d시간 후에 다시 라이브 스트림할 수 있습니다.</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="other">죄송합니다! 차단되셨습니다. \10 %1$d분 후에 다시 라이브 스트림할 수 있습니다.</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="other">죄송합니다! 차단되셨습니다.\10 %1$d초 후에 다시 라이브 스트림할 수 있습니다.</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="other">%d명의 사용자가 방송을 보고 있습니다. 닫으시겠습니까?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="other">%1$d분 연결됨</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="other">%1$d분 대기함</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="other">%2$d개를 더 받으려면 처음에 %1$d개의 다이아몬드를 재충전하세요!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="other">분</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">동영상 %d개 게시함</item>
+    </plurals>
+</resources>

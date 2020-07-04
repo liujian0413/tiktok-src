@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bmt" android:background="@drawable/o1" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" app:roundedCornerRadius="2dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@+id/bmq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:maxLines="2" android:layout_weight="1" android:fontFamily="PingFangSC-Medium"/>
+    <View android:id="@+id/bmu" android:background="#33ffffff" android:layout_width="1dp" android:layout_height="20dp"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="11sp" android:textColor="#57ffffff" android:gravity="center_vertical" android:id="@+id/bmp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:lineSpacingExtra="3sp" android:fontFamily="PingFangSC-Medium"/>
+    <ImageView android:id="@+id/bms" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="@drawable/b_b"/>
+</merge>

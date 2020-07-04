@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b7x" android:layout_width="210dp" android:layout_height="280dp" android:contentDescription="@string/bo0"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lu" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/dtp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" style="@style/u0"/>
+    <View android:id="@+id/ba3" android:background="@color/a6h" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/bjo" android:layout_width="30dp" android:layout_height="30dp">
+        <ImageView android:id="@+id/bc0" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1dp" android:scaleType="fitXY"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a6d" android:gravity="center" android:id="@+id/e1l" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1dp" style="@style/u2"/>
+    </FrameLayout>
+</FrameLayout>

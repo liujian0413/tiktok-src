@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/atv" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="10dp"/>
+    <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/ats" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="10dp"/>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ajj" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/o4"/>
+    <android.support.constraint.ConstraintLayout android:id="@+id/a8_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/a74"/>
+    <ViewStub android:id="@+id/dcg" android:layout="@layout/a9d" android:inflatedId="@+id/c3y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/eb3" android:layout_width="wrap_content" android:layout_height="95dp" android:layout_marginBottom="58dp"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/eb4" android:layout_width="180dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xc" android:layout_marginBottom="58dp" android:layout_marginStart="@dimen/xc" android:layout_marginEnd="90dp"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="64dp">
+    <RelativeLayout android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="64dp">
+        <ImageView android:id="@+id/ayn" android:layout_width="114dp" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="41dp" android:layout_marginTop="16dp" android:src="@drawable/bd0"/>
+        <ImageView android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="100dp" android:layout_marginTop="4dp" android:src="@drawable/status_icon"/>
+        <TextView android:textSize="10dp" android:textColor="@color/wp" android:gravity="center_vertical" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginLeft="19dp" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/wp" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:maxLines="1" android:layout_toLeftOf="@+id/time" android:layout_toRightOf="@+id/ayn"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="38dp" android:layout_marginLeft="8dp" android:layout_marginRight="12dp" android:layout_marginBottom="7dp" android:layout_toRightOf="@+id/ayn" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14dp" android:textColor="@android:color/black" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/e6c" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

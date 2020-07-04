@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.filter.widget.FilterBeautySeekBar android:id="@+id/a0x" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="100" android:progress="30" android:indeterminate="false" android:progressDrawable="@drawable/cy" android:thumb="@drawable/cz" app:rateTextColor="@color/a53" app:rateTextSize="12dp"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/bjj" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="80dp" app:effectPanel="true" app:isChangeColor="true" app:itemMargin="6dp" app:itemShowBorder="false" app:roundRadius="7dp"/>
+</LinearLayout>

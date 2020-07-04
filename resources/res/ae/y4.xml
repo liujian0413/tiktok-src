@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/brc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="152dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/sk" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arh" style="@style/u9"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp">
+            <ImageView android:id="@+id/d_7" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b12" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <ImageView android:id="@+id/d_8" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b12" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <ImageView android:id="@+id/d_9" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b12" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <ImageView android:id="@+id/d__" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b12" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <ImageView android:id="@+id/d_a" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b12" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/cui" android:visibility="gone" android:layout_width="match_parent" android:layout_height="152dp">
+        <ImageView android:id="@+id/ajv" android:paddingTop="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqz" android:layout_alignParentTop="true" android:paddingEnd="12dp" android:layout_alignParentEnd="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/brb" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a53" android:gravity="center_horizontal" android:layout_width="327dp" android:layout_height="wrap_content" android:text="@string/arj" style="@style/u6"/>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/ro" android:background="@drawable/ry" android:layout_width="247dp" android:layout_height="36dp" android:layout_marginTop="12dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/az6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as5"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/sk" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:text="@string/ari" android:layout_marginStart="7dp" style="@style/u6"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

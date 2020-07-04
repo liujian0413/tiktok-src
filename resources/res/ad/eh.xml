@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/dal" android:layout_width="match_parent" android:layout_height="0dp" style="@style/i_"/>
+    <RelativeLayout android:id="@+id/cv3" android:layout_width="match_parent" android:layout_height="44dp">
+        <ImageView android:id="@+id/b6v" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/ale" android:scaleType="fitXY" android:layout_centerVertical="true" android:onClick="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/ab" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/di6" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/a9o" android:background="@color/a4j" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="49dp" android:layout_marginTop="8dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/d6x" android:layout_width="37dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" app:placeholderImage="@drawable/bjf" app:roundedCornerRadius="2dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/ab" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="12dp" android:text="@string/b79" android:lineSpacingExtra="4sp"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/d6w" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+</LinearLayout>

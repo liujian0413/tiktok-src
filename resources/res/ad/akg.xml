@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textStyle="normal" android:textColor="@color/aoc" android:gravity="center" android:id="@+id/title" android:background="@drawable/bou" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/cw5" android:fontFamily="sans-serif"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textColor="@color/afz" android:gravity="center" android:id="@+id/ae7" android:background="@color/aeg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="137dp" android:text="@string/ev2"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:background="@color/aeg" android:layout_width="match_parent" android:layout_height="160dp"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/aeg" android:layout_width="match_parent" android:layout_height="45dp">
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/ag7" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/aa" android:background="@drawable/brk" android:layout_width="wrap_content" android:layout_height="36dp" android:minWidth="106dp" android:text="@string/etx" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="sans-serif"/>
+    </LinearLayout>
+</LinearLayout>

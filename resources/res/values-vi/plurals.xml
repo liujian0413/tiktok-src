@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1giờ</item>
+        <item quantity="other">%dgiờ</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1phút</item>
+        <item quantity="other">%dphút</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1giây</item>
+        <item quantity="other">%dgiây</item>
+    </plurals>
+</resources>

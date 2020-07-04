@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ഓൺലൈൻ ശബ്‌ദ ലൈബ്രറി</item>
+        <item>എന്റെ ശബ്‌ദം</item>
+    </array>
+    <array name="m">
+        <item>ഇല്ലാതാക്കുക</item>
+        <item>റദ്ദാക്കുക</item>
+    </array>
+    <array name="n">
+        <item>ട്രെന്‍‌ഡിംഗ്</item>
+        <item>ഏറ്റവും പുതിയത്</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ഞായര്‍</item>
+        <item>തിങ്കള്‍</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധന്‍</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+    </array>
+    <array name="y">
+        <item>സിംപ്ലിഫൈഡ് ചൈനീസ്</item>
+        <item>പരമ്പരാഗത ചൈനീസ്</item>
+        <item>ഇംഗ്ലീഷ്</item>
+        <item>ജാപ്പനീസ്</item>
+        <item>കൊറിയൻ</item>
+        <item>റഷ്യൻ</item>
+        <item>ഇന്തോനേഷ്യൻ</item>
+        <item>മലായ്</item>
+        <item>പോർച്ചുഗീസ്</item>
+        <item>തായ്</item>
+        <item>വിയറ്റ്‌നാമീസ്</item>
+        <item>ഹിന്ദി</item>
+    </array>
+    <array name="z">
+        <item>സാധാരണം</item>
+        <item>കറുപ്പ്/വെളുപ്പ്</item>
+        <item>കലകൾ</item>
+        <item>വിന്റേജ്</item>
+        <item>റിട്രോലക്സ്</item>
+        <item>സാച്ചുറേറ്റഡ്</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>ജനു</item>
+        <item>ഫെബ്രു</item>
+        <item>മാര്‍</item>
+        <item>ഏപ്രി</item>
+        <item>മെയ്</item>
+        <item>ജൂണ്‍</item>
+        <item>ജൂലൈ</item>
+        <item>ഓഗ</item>
+        <item>സെപ്തം</item>
+        <item>ഒക്ടോ</item>
+        <item>നവം</item>
+        <item>ഡിസം</item>
+    </array>
+    <array name="a4">
+        <item>ആദ്യം ഡാറ്റ ലാഭിക്കൽ</item>
+        <item>ആദ്യം ഉയർന്ന റെസലൂഷൻ</item>
+    </array>
+    <array name="a5">
+        <item>എല്ലാവരും</item>
+        <item>സുഹൃത്തുക്കൾക്ക് മാത്രം</item>
+    </array>
+    <array name="af">
+        <item>ലൈബ്രറിയിൽ നിന്നും തിരഞ്ഞെടുക്കുക</item>
+        <item>ഒരു ഫോട്ടോയെടുക്കുക</item>
+        <item>റദ്ദാക്കുക</item>
+    </array>
+    <array name="an">
+        <item>ഫിൽട്ടർ_01</item>
+        <item>ഫിൽട്ടർ_02</item>
+        <item>ഫിൽട്ടർ_03</item>
+        <item>ഫിൽട്ടർ_04</item>
+        <item>ഫിൽട്ടർ_05</item>
+    </array>
+    <array name="ao">
+        <item>ഒന്നുമില്ല</item>
+        <item>പുഷ്പം</item>
+        <item>മധുരം</item>
+        <item>ചായ</item>
+        <item>ബുദ്ധിസാമർത്ഥ്യം</item>
+        <item>അരുണാഭം</item>
+        <item>ഇളങ്കാറ്റ്</item>
+        <item>പ്രകൃതി</item>
+        <item>സൂര്യപ്രകാശം</item>
+        <item>കുഞ്ഞ്</item>
+        <item>ഗൃഹാതുരത്വം</item>
+        <item>തെളിച്ചം</item>
+        <item>വശ്യം</item>
+        <item>പീച്ച്</item>
+        <item>അസ്തമയം</item>
+    </array>
+    <array name="aq">
+        <item>റൗണ്ട്</item>
+        <item>പ്രതിവാരം</item>
+        <item>മൊത്തത്തിലുള്ളത്</item>
+        <item>Xigua റാങ്കിംഗ്</item>
+    </array>
+    <array name="ar">
+        <item>ജനുവരി</item>
+        <item>ഫെബ്രുവരി</item>
+        <item>മാർച്ച്</item>
+        <item>ഏപ്രിൽ</item>
+        <item>മെയ്</item>
+        <item>ജൂൺ</item>
+        <item>ജൂലൈ</item>
+        <item>ഓഗസ്‌റ്റ്</item>
+        <item>സെപ്തംബർ</item>
+        <item>ഒക്ടോബർ</item>
+        <item>നവംബർ</item>
+        <item>ഡിസംബർ</item>
+    </array>
+    <array name="au">
+        <item>ഒന്നുമില്ല</item>
+        <item>പ്രകൃതി</item>
+        <item>മായ്‌ക്കുക</item>
+        <item>ജാപ്പനീസ്</item>
+        <item>ഹൃദയഹാരിയായ</item>
+    </array>
+    <array name="av">
+        <item>ഒന്നുമില്ല</item>
+        <item>പ്രകൃതി</item>
+        <item>തെളിച്ചം</item>
+        <item>ആദ്യ പ്രണയം</item>
+    </array>
+    <array name="aw">
+        <item>റിപ്പോർട്ട്</item>
+        <item>റദ്ദാക്കുക</item>
+    </array>
+    <array name="az">
+        <item>തിങ്കള്‍</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധന്‍</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+        <item>ഞായര്‍</item>
+    </array>
+</resources>

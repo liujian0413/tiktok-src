@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ஆன்லைன் ஒலி நூலகம்</item>
+        <item>எனது ஒலி</item>
+    </array>
+    <array name="m">
+        <item>நீக்கு</item>
+        <item>ரத்துசெய்</item>
+    </array>
+    <array name="n">
+        <item>டிரெண்டிங்</item>
+        <item>சமீபத்தியவை</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ஞாயிற்றுக்கிழமை</item>
+        <item>திங்கட்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+    </array>
+    <array name="y">
+        <item>சிம்ப்ளிஃபைட் சைனீஸ்</item>
+        <item>பாரம்பரிய சீனம்</item>
+        <item>ஆங்கிலம்</item>
+        <item>ஜப்பானிஸ்</item>
+        <item>கொரியன்</item>
+        <item>ரஷ்யன்</item>
+        <item>இந்தோனேஷியன்</item>
+        <item>மலாய்</item>
+        <item>போர்ச்சுகீஸ்</item>
+        <item>தாய்</item>
+        <item>வியட்நாமிஸ்</item>
+        <item>இந்தி</item>
+    </array>
+    <array name="z">
+        <item>சாதாரணமானது</item>
+        <item>கருப்பு/வெள்ளை</item>
+        <item>ஆர்ட்ஸ்</item>
+        <item>விண்டேஜ்</item>
+        <item>ரெட்ரோலக்ஸ்</item>
+        <item>சாட்ஸுரேட்டட்</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>ஜன</item>
+        <item>பிப்</item>
+        <item>மார்ச்</item>
+        <item>ஏப்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆக</item>
+        <item>செப்</item>
+        <item>அக்</item>
+        <item>நவ</item>
+        <item>டிச</item>
+    </array>
+    <array name="a4">
+        <item>முதலில் தரவுச் சேமிப்பு</item>
+        <item>முதலில் உயர் தெளிவுத்திறன்</item>
+    </array>
+    <array name="a5">
+        <item>அனைவரும்</item>
+        <item>நண்பர்கள் மட்டும்</item>
+    </array>
+    <array name="af">
+        <item>ஆல்பத்திலிருந்து தேர்ந்தெடுக்கவும்</item>
+        <item>படமெடு</item>
+        <item>ரத்து</item>
+    </array>
+    <array name="an">
+        <item>வடிப்பான்_01</item>
+        <item>வடிப்பான்_02</item>
+        <item>வடிப்பான்_03</item>
+        <item>வடிப்பான்_04</item>
+        <item>வடிப்பான்_05</item>
+    </array>
+    <array name="ao">
+        <item>எதுவுமில்லை</item>
+        <item>பூ</item>
+        <item>இனிப்பு</item>
+        <item>தேநீர்</item>
+        <item>திறமைமிக்கது</item>
+        <item>ரோஸி</item>
+        <item>தென்றல்</item>
+        <item>இயற்கை</item>
+        <item>சூரிய ஒளி</item>
+        <item>குழந்தை</item>
+        <item>ஏக்கம்</item>
+        <item>பிரகாசம்</item>
+        <item>அழகு</item>
+        <item>செம்பொன் நிறம்</item>
+        <item>சூரிய அஸ்தமனம்</item>
+    </array>
+    <array name="aq">
+        <item>சுற்று</item>
+        <item>வாரம்</item>
+        <item>முழு</item>
+        <item>Xigua தரவரிசை</item>
+    </array>
+    <array name="ar">
+        <item>ஜனவரி</item>
+        <item>பிப்ரவரி</item>
+        <item>மார்ச்</item>
+        <item>ஏப்ரல்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆகஸ்ட்</item>
+        <item>செப்டம்பர்</item>
+        <item>அக்டோபர்</item>
+        <item>நவம்பர்</item>
+        <item>டிசம்பர்</item>
+    </array>
+    <array name="au">
+        <item>எதுவுமில்லை</item>
+        <item>இயற்கை</item>
+        <item>அழி</item>
+        <item>日本語</item>
+        <item>தொடுதல்</item>
+    </array>
+    <array name="av">
+        <item>எதுவுமில்லை</item>
+        <item>இயற்கை</item>
+        <item>பிரகாசம்</item>
+        <item>முதல் காதல்</item>
+    </array>
+    <array name="aw">
+        <item>புகாரளி</item>
+        <item>ரத்து</item>
+    </array>
+    <array name="az">
+        <item>திங்கட்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+        <item>ஞாயிற்றுக்கிழமை</item>
+    </array>
+</resources>

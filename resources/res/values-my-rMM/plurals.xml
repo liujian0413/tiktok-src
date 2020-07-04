@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">မူကြမ်းများကို ဖျက်ပစ်မလား။</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">သံစဉ် %d ခု သံစဉ် %d ခု</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">ဂီတ %d ခု ဂီတ %d ခု</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">အပိုင်း %d ခု အပိုင်း %d ခု</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">သီချင်း %d ပုဒ် သီချင်း %d ပုဒ်</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">အသံ %d ခု အသံ %d ခု</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">တီးလုံး %d ခု တီးလုံး %d ခု</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">ဗီဒီယို %d ကား</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">ပို့စ်တင်ထားသည့် ဗီဒီယို %d ခု ပို့စ်တင်ထားသည့် ဗီဒီယို %d ခု</item>
+    </plurals>
+</resources>

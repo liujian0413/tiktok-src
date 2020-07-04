@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bk7" android:background="@drawable/to" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bcq" android:layout_width="wrap_content" android:layout_height="wrap_content" app:failureImage="@drawable/tp" app:placeholderImage="@drawable/tp" app:roundedCornerRadius="@dimen/i5"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/bcr" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/a_2" android:scaleType="fitCenter"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/bcs" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/aj7" android:scaleType="fitCenter"/>
+    <com.p280ss.android.ugc.aweme.p313im.sdk.widget.CircleProgressTextView android:layout_gravity="center" android:id="@+id/bdd" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" app:hintProgressColor="@color/ur" app:progressColor="@color/un" app:progressWidth="3dp" app:textColor="@color/un" app:textSize="11dp"/>
+</FrameLayout>

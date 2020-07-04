@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="sequentially">
+    <objectAnimator android:duration="100" android:valueFrom="0" android:valueTo="12" android:valueType="floatType" android:propertyName="rotation"/>
+    <objectAnimator android:duration="100" android:repeatCount="4" android:repeatMode="reverse" android:valueFrom="12" android:valueTo="-12" android:valueType="floatType" android:propertyName="rotation"/>
+    <objectAnimator android:duration="100" android:valueFrom="-12" android:valueTo="0" android:valueType="floatType" android:propertyName="rotation"/>
+</set>

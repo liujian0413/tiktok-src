@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cws" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/m2" android:background="@drawable/dw" android:layout_width="match_parent" android:layout_height="90dp"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/dv" android:layout_width="match_parent" android:layout_height="120dp"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.widget.RecordLayout android:enabled="false" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/co_" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35dp" android:contentDescription="@string/ar">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:layout_gravity="center" android:id="@+id/e0e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="66dp" android:text="@string/fgl" android:shadowColor="@color/a4j" android:shadowDy="1" android:shadowRadius="2"/>
+    </com.p280ss.android.ugc.aweme.shortvideo.widget.RecordLayout>
+    <RelativeLayout android:id="@+id/sj" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ayy" android:padding="@dimen/ch" android:focusableInTouchMode="true" android:layout_width="@dimen/cg" android:layout_height="44dp" android:layout_marginLeft="12dp" android:layout_marginTop="24.5dp" android:src="@drawable/aig" android:scaleType="centerInside" android:contentDescription="@string/ak"/>
+        <include layout="@layout/b1z"/>
+    </RelativeLayout>
+    <com.p280ss.android.ugc.aweme.shortvideo.widget.ProgressSegmentView android:id="@+id/cl9" android:layout_width="match_parent" android:layout_height="18dp" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp"/>
+</FrameLayout>

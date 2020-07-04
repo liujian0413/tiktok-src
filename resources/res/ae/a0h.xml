@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:layout_marginTop="25dp" android:layout_marginRight="11dp" android:layout_marginStart="11dp" android:layout_marginEnd="11dp">
+        <TextView android:textSize="14sp" android:textColor="@color/am7" android:layout_gravity="center_horizontal" android:id="@+id/ebl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/er5" android:maxLines="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+            <FrameLayout android:id="@+id/ald" android:background="@drawable/bop" android:layout_width="0dp" android:layout_height="128.55dp" android:layout_weight="1">
+                <ImageView android:layout_gravity="center" android:id="@+id/r_" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/cd0"/>
+                <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/eag" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImageScaleType="6" app:roundedCornerRadius="3dp"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/alb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c7v"/>
+                <TextView android:textSize="10sp" android:textColor="@color/as5" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/cpu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:text="@string/faw"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/d1r" android:background="@drawable/bop" android:layout_width="0dp" android:layout_height="128.55dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="1" android:layout_marginStart="6dp" android:layout_marginEnd="6dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/az8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cfy"/>
+                <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/eah" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImageScaleType="6" app:roundedCornerRadius="3dp"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/d1o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c7v"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/dix" android:background="@drawable/bop" android:layout_width="0dp" android:layout_height="128.55dp" android:layout_weight="1">
+                <ImageView android:layout_gravity="center" android:id="@+id/az9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cfy"/>
+                <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/eai" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImageScaleType="6" app:roundedCornerRadius="3dp"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/div" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c7v"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

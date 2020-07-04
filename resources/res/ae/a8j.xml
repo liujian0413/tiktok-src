@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#57292929" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bl5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xc" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/xc" android:layout_alignParentStart="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/dw3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginStart="1dp"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/ax9" android:layout_width="13dp" android:layout_height="17dp" android:src="@drawable/amt"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/b8y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/a35" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/b8y" android:layout_toRightOf="@+id/bl5" android:layout_centerVertical="true" android:layout_toStartOf="@+id/b8y" android:layout_toEndOf="@+id/bl5">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/dsf" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/fpm" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1" android:layout_marginStart="8dp" style="@style/u2"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/dvw" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" | 热度35.2w" android:maxLines="1" android:includeFontPadding="false" android:paddingEnd="16dp" style="@style/u2"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

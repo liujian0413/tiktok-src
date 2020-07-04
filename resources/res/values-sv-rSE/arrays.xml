@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Ljudbibliotek online</item>
+        <item>Mitt ljud</item>
+    </array>
+    <array name="m">
+        <item>Ta bort</item>
+        <item>Avbryt</item>
+    </array>
+    <array name="n">
+        <item>Populärt</item>
+        <item>Senaste</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Söndag</item>
+        <item>måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </array>
+    <array name="y">
+        <item>Förenklad kinesiska</item>
+        <item>Traditionell kinesiska</item>
+        <item>Engelska</item>
+        <item>Japanska</item>
+        <item>Koreanska</item>
+        <item>Ryska</item>
+        <item>Indonesiska</item>
+        <item>Malajiska</item>
+        <item>Portugisiska</item>
+        <item>Thailändska</item>
+        <item>Vietnamesiska</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Svartvitt</item>
+        <item>Konst</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Mättad</item>
+        <item>Krom</item>
+    </array>
+    <array name="a1">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </array>
+    <array name="a4">
+        <item>Spara data först</item>
+        <item>Hög upplösning först</item>
+    </array>
+    <array name="a5">
+        <item>Alla</item>
+        <item>Bara vänner</item>
+    </array>
+    <array name="az">
+        <item>måndag</item>
+        <item>tisdag</item>
+        <item>onsdag</item>
+        <item>torsdag</item>
+        <item>fredag</item>
+        <item>lördag</item>
+        <item>söndag</item>
+    </array>
+</resources>

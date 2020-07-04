@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Törlöd a piszkozatot?</item>
+        <item quantity="other">Törlöd a piszkozatokat?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d dallam</item>
+        <item quantity="other">%d dallam</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d zene</item>
+        <item quantity="other">%d zene</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d darab</item>
+        <item quantity="other">%d darab</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d dal</item>
+        <item quantity="other">%d dal</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d hang</item>
+        <item quantity="other">%d hangok</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d motívum</item>
+        <item quantity="other">%d motívum</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d videó</item>
+        <item quantity="other">%d videó</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d napja</item>
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">óra</item>
+        <item quantity="other">óra</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d órája</item>
+        <item quantity="other">%1$d órája</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">perc</item>
+        <item quantity="other">perc</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d perce</item>
+        <item quantity="other">%1$d perce</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">nap</item>
+        <item quantity="other">nap</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">óra</item>
+        <item quantity="other">óra</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">perc</item>
+        <item quantity="other">perc</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">hónap</item>
+        <item quantity="other">hónap</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">hét</item>
+        <item quantity="other">hét</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d éve</item>
+        <item quantity="other">%1$d éve</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">Sajnos letiltottak.\10 %1$d nap múlva élőzhetsz újra</item>
+        <item quantity="other">Sajnos letiltottak.\10 %1$d nap múlva élőzhetsz újra</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Sajnos letiltottak.\10 %1$d óra múlva élőzhetsz újra</item>
+        <item quantity="other">Sajnos letiltottak.\10 %1$d óra múlva élőzhetsz újra</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Sajnos jelenleg le vagy tiltva. \10 %1$d perc múlva élőzhetsz újra</item>
+        <item quantity="other">Sajnos jelenleg le vagy tiltva. \10 %1$d perc múlva élőzhetsz újra</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">Sajnos letiltottak.\10 %1$d másodperc múlva élőzhetsz újra</item>
+        <item quantity="other">Sajnos letiltottak.\10 %1$d másodperc múlva élőzhetsz újra</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d felhasználó figyeli az adást, be szeretnéd zárni?</item>
+        <item quantity="other">%d felhasználó figyeli az adást, be szeretnéd zárni?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">Csatlakozás %1$d perce</item>
+        <item quantity="other">Csatlakozás %1$d perce</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Várakozás %1$d perce</item>
+        <item quantity="other">Várakozás %1$d perce</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">Első alkalommal tölts fel %1$d gyémántot, hogy további %2$d-t kapj!</item>
+        <item quantity="other">Első alkalommal tölts fel %1$d gyémántot, hogy további %2$d-t kapj!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">perc</item>
+        <item quantity="other">perc</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">%d videót közölt</item>
+        <item quantity="other">%d videót közölt</item>
+    </plurals>
+</resources>

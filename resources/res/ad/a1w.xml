@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="93.5dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_c" android:layout_width="59dp" android:layout_height="59dp" android:layout_centerInParent="true" app:actualImageScaleType="5"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/vi" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="-9dp" android:layout_marginRight="-9dp" android:src="@drawable/b6f" android:scaleType="fitXY" android:layout_alignTop="@+id/b_c" android:layout_alignRight="@+id/b_c"/>
+</RelativeLayout>

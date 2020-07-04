@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/akl"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/nk" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/am9" android:alpha="0.5"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="20sp" android:textColor="@color/a53" android:gravity="center" android:id="@+id/dj9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6" android:includeFontPadding="false"/>
+                    <FrameLayout android:id="@+id/lb" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <include layout="@layout/akh"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:id="@+id/e7n" android:background="@color/a4l" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.widget.TimeLockDesc android:id="@+id/dgr" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/a7" app:startDrawable="@drawable/b1e"/>
+            <com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.widget.TimeLockDesc android:id="@+id/dgu" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/a8" app:startDrawable="@drawable/b1j"/>
+            <com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.widget.TimeLockDesc android:id="@+id/dgs" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/a9" app:startDrawable="@drawable/b1g"/>
+            <com.p280ss.android.ugc.aweme.antiaddic.lock.p1015ui.widget.TimeLockDesc android:id="@+id/dgt" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/a_" app:startDrawable="@drawable/b1f"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/nk" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12sp" android:textColor="@color/a4f" android:id="@+id/dgq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/aa"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textSize="15sp" android:textColor="@color/a8d" android:id="@+id/qk" android:background="@drawable/cly" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/dlp" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

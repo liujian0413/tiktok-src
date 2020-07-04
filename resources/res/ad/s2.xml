@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/cnx" android:layout_width="match_parent" android:layout_height="50dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textStyle="bold" android:textColor="@color/mw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的收藏" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/ays" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/cb" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <android.support.p029v7.widget.RecyclerView android:orientation="horizontal" android:id="@+id/cqi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/ays" android:layout_centerVertical="true"/>
+</RelativeLayout>

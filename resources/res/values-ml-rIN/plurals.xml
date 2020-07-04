@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">ഡ്രാഫ്റ്റ് ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">ഡ്രാഫ്റ്റുകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d മെലഡി</item>
+        <item quantity="other">%d മെലഡികൾ</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d സംഗീതം</item>
+        <item quantity="other">%d സംഗീതം</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d പീസ്</item>
+        <item quantity="other">%d പീസുകൾ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d ഗാനം</item>
+        <item quantity="other">%d ഗാനങ്ങൾ</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ശബ്‌ദം</item>
+        <item quantity="other">%d ശബ്‌ദങ്ങൾ</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ട്യൂൺ</item>
+        <item quantity="other">%d ട്യൂണുകൾ</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d വീഡിയോ</item>
+        <item quantity="other">%d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d ദിവസം മുമ്പ്</item>
+        <item quantity="other">%d ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">മണിക്കൂർ</item>
+        <item quantity="other">മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="other">%1$d മണിക്കൂർ മുമ്പ്</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">മിനിറ്റ്</item>
+        <item quantity="other">മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="other">%1$d മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">ദിവസം</item>
+        <item quantity="other">ദിവസം</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">മണിക്കൂർ</item>
+        <item quantity="other">മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">മിനിറ്റ്</item>
+        <item quantity="other">മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">മാസം</item>
+        <item quantity="other">മാസം</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">സെ</item>
+        <item quantity="other">സെ</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">ആഴ്ച</item>
+        <item quantity="other">ആഴ്ച</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d വർഷം മുമ്പ്</item>
+        <item quantity="other">%1$d വർഷം മുമ്പ്</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d ദിവസങ്ങൾക്ക് ശേഷം നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+        <item quantity="other">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d ദിവസങ്ങൾക്ക് ശേഷം നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d മണിക്കൂറുകൾ കഴിഞ്ഞ് നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+        <item quantity="other">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d മണിക്കൂറുകൾ കഴിഞ്ഞ് നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">ക്ഷമിക്കണം! നിങ്ങളെ നിലവിൽ വിലക്കിയിരിക്കുന്നു. \10 നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകുന്ന ത്: %1$d മിനിറ്റുകൾക്ക് ശേഷം</item>
+        <item quantity="other">ക്ഷമിക്കണം! നിങ്ങളെ നിലവിൽ വിലക്കിയിരിക്കുന്നു. \10 നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകുന്ന ത്: %1$d മിനിറ്റുകൾക്ക് ശേഷം</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d സെക്കൻഡുകൾ കഴിഞ്ഞ് നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+        <item quantity="other">ക്ഷമിക്കണം! നിങ്ങളെ വിലക്കിയിരിക്കുന്നു\10 %1$d സെക്കൻഡുകൾ കഴിഞ്ഞ് നിങ്ങൾക്ക് വീണ്ടും ലൈവ് സ്ട്രീം ചെയ്യാനാകും</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d ഉപയോക്താക്കൾ നിങ്ങളുടെ ബ്രോഡ്‌കാസ്റ്റ് കാണുന്നു, ഇത് അടയ്ക്കണോ?</item>
+        <item quantity="other">%d ഉപയോക്താക്കൾ നിങ്ങളുടെ ബ്രോഡ്‌കാസ്റ്റ് കാണുന്നു, ഇത് അടയ്ക്കണോ?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d മിനിറ്റ് നേരത്തേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്നു</item>
+        <item quantity="other">%1$d മിനിറ്റ് നേരത്തേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്നു</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d മിനിറ്റ് നേരം കാത്തിരുന്നു</item>
+        <item quantity="other">%1$d മിനിറ്റ് നേരം കാത്തിരുന്നു</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">%2$d എണ്ണം കൂടി ലഭ്യമാക്കാൻ ആദ്യതവണ %1$d ഡയമണ്ടുകൾ റീച്ചാർജ് ചെയ്യൂ!</item>
+        <item quantity="other">%2$d എണ്ണം കൂടി ലഭ്യമാക്കാൻ ആദ്യതവണ %1$d ഡയമണ്ട് റീച്ചാർജ് ചെയ്യൂ!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">മിനിറ്റ്</item>
+        <item quantity="other">മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">%d വീഡിയോ പോസ്റ്റുചെയ്‌തു</item>
+        <item quantity="other">%d വീഡിയോകൾ പോസ്റ്റുചെയ്‌തു</item>
+    </plurals>
+</resources>

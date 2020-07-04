@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Selecteren uit de bibliotheek</item>
+        <item>Maak een foto</item>
+        <item>Annuleren</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Geen</item>
+        <item>Bloem</item>
+        <item>Lief</item>
+        <item>Thee</item>
+        <item>Intelligent</item>
+        <item>Blos</item>
+        <item>Briesje</item>
+        <item>Natuur</item>
+        <item>Zonlicht</item>
+        <item>Baby</item>
+        <item>Nostalgie</item>
+        <item>Helder</item>
+        <item>Schattig</item>
+        <item>Perzik</item>
+        <item>Zonsondergang</item>
+    </array>
+    <array name="aq">
+        <item>Ronde</item>
+        <item>Wekelijks</item>
+        <item>Algemeen</item>
+        <item>Xigua-ranglijst</item>
+    </array>
+    <array name="ar">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maart</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="au">
+        <item>Geen</item>
+        <item>Natuur</item>
+        <item>Wissen</item>
+        <item>Japans</item>
+        <item>Ontroerend</item>
+    </array>
+    <array name="av">
+        <item>Geen</item>
+        <item>Natuur</item>
+        <item>Helder</item>
+        <item>Eerste liefde</item>
+    </array>
+    <array name="aw">
+        <item>Melden</item>
+        <item>Annuleren</item>
+    </array>
+</resources>

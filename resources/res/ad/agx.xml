@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bnb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/po" android:background="@drawable/d4" android:visibility="gone" android:layout_width="76dp" android:layout_height="76dp">
+            <ImageView android:layout_gravity="center" android:layout_width="38dp" android:layout_height="38dp" android:src="@drawable/ame"/>
+        </FrameLayout>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cqd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bjf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textColor="@color/a6h" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cjm"/>
+        <TextView android:textSize="15sp" android:textColor="@color/a5l" android:gravity="center" android:id="@+id/e0q" android:background="@drawable/dz" android:layout_width="231dp" android:layout_height="44dp" android:layout_marginTop="16dp" android:text="@string/fia"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtLoadingLayout android:layout_gravity="center" android:id="@+id/bu9" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

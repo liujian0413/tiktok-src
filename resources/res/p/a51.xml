@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/c3g" android:maxLevel="1"/>
+    <item android:drawable="@drawable/c3h" android:maxLevel="2"/>
+    <item android:drawable="@drawable/c3i" android:maxLevel="3"/>
+    <item android:drawable="@drawable/cby" android:maxLevel="4"/>
+    <item android:drawable="@drawable/cbz" android:maxLevel="5"/>
+    <item android:drawable="@drawable/cc0" android:maxLevel="6"/>
+</level-list>

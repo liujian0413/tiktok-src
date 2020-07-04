@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/agz"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bjq" android:background="@color/lw" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/az3" android:id="@+id/bxg" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textColor="@color/az3" android:id="@+id/cz3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/bfi"/>
+            <TextView android:textColor="@color/az3" android:id="@+id/bfi" android:background="@color/a2w" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="8dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跳转" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/aek" android:layout_width="match_parent" android:layout_height="wrap_content" app:isShowUnderLine="false" app:startText="模拟gps"/>
+        <TextView android:textColor="@color/az3" android:id="@+id/bwv" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="地图拾点"/>
+        <include layout="@layout/a7x"/>
+        <android.support.p029v7.widget.RecyclerView android:id="@+id/bus" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

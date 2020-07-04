@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a2v" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bwd" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bw8" android:background="#c0000000" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/cyn" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.uikit.textview.AlwaysMarqueeTextView android:textSize="14sp" android:textColor="@color/lu" android:ellipsize="marquee" android:id="@+id/bwc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:scrollHorizontally="true" android:singleLine="true" android:shadowColor="#26000000" android:shadowDy="2" android:shadowRadius="2" android:drawableLeft="@drawable/a8p" android:drawablePadding="4dp" android:layout_toLeftOf="@+id/b7m" android:layout_alignParentLeft="true" android:marqueeRepeatLimit="marquee_forever" android:drawableStart="@drawable/a8p"/>
+            <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/bm9">
+                <com.p280ss.android.ugc.aweme.story.shootvideo.textsticker.view.ColorSelectLayout android:layout_gravity="end" android:id="@+id/y9" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="10dp"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/bm9" android:layout_width="65dp" android:layout_height="52dp" android:layout_alignParentRight="true">
+                <View android:id="@+id/bm2" android:background="#33ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="14dp" android:layout_marginBottom="14dp"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/b7m" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:src="@drawable/a5g" android:layout_toLeftOf="@+id/b89" android:layout_alignWithParentIfMissing="true"/>
+            <ImageView android:id="@+id/b89" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:src="@drawable/a5z" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/bw_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="24dp"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

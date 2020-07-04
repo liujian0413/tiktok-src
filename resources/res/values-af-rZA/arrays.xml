@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Aanlyn klankbiblioteek</item>
+        <item>My klank</item>
+    </array>
+    <array name="m">
+        <item>Skrap</item>
+        <item>Kanselleer</item>
+    </array>
+    <array name="n">
+        <item>Tendens</item>
+        <item>Jongste</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Sondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrydag</item>
+        <item>Saterdag</item>
+    </array>
+    <array name="y">
+        <item>Vereenvoudigde Sjinees</item>
+        <item>Tradisionele Chinees</item>
+        <item>Engels</item>
+        <item>Japannees</item>
+        <item>Koreaans</item>
+        <item>Russies</item>
+        <item>Indonesies</item>
+        <item>Maleis</item>
+        <item>Portugees</item>
+        <item>Thais</item>
+        <item>Viëtnamees</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normaal</item>
+        <item>Swart/wit</item>
+        <item>Kunste</item>
+        <item>Tydloos</item>
+        <item>Retrolux</item>
+        <item>Versadig</item>
+        <item>Chroom</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mrt</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </array>
+    <array name="a4">
+        <item>Databesparing belangriker</item>
+        <item>Hoë resolusie belangriker</item>
+    </array>
+    <array name="a5">
+        <item>Almal</item>
+        <item>Slegs vriende</item>
+    </array>
+    <array name="az">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrydag</item>
+        <item>Saterdag</item>
+        <item>Sondag</item>
+    </array>
+</resources>

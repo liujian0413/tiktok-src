@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bv9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dms" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/aq1" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <include android:id="@+id/d0c" android:layout_width="match_parent" android:layout_height="@dimen/x5" android:layout_below="@+id/aq1" layout="@layout/lk"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/aox" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dms">
+        <FrameLayout android:id="@+id/aoy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.discover.p1185ui.SearchIntermediateView android:id="@+id/d11" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout>

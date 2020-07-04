@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c_b" android:background="@drawable/zc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:minWidth="200dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dli" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/dkl" android:paddingLeft="24dp" android:paddingTop="22dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <ImageView android:id="@+id/ax9" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:src="@null" android:scaleType="fitCenter" android:layout_marginEnd="8dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a_c" android:ellipsize="end" android:id="@+id/f4" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/u9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/a1u" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bv" android:layout_weight="1">
+        <View android:layout_gravity="top" android:id="@+id/czc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <ScrollView android:id="@+id/czd" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a_d" android:id="@+id/by6" android:paddingLeft="24dp" android:paddingTop="18dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp" style="@style/u6"/>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_gravity="bottom" android:id="@+id/czb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/a5n" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bv" android:layout_weight="1">
+        <FrameLayout android:id="@+id/a5m" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/sc" android:paddingLeft="24dp" android:paddingTop="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/s_" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wr"/>
+        <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/s9" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wr"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/s8" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wr"/>
+    </LinearLayout>
+</LinearLayout>

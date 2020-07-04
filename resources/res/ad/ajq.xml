@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="48dp">
+        <com.bytedance.android.livesdk.widget.LivePagerSlidingTabStrip android:id="@+id/c_4" android:background="@drawable/bol" android:layout_width="match_parent" android:layout_height="48dp" app:tab_background="@color/ac4" app:tab_divider_color="#0000" app:tab_indicator_color="@color/ac4" app:tab_indicator_height="2dp" app:tab_indicator_width="80dp" app:tab_should_expand="true" app:tab_text_color="@color/arr" app:tab_text_size="18sp" app:tab_underline_color="#0000"/>
+        <FrameLayout android:id="@+id/jw" android:visibility="gone" android:layout_width="32dp" android:layout_height="18dp" android:layout_marginLeft="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <View android:background="@drawable/cdy" android:layout_width="10dp" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <View android:id="@+id/cx0" android:background="@drawable/c2g" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/c_1" android:background="@color/aft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp">
+        <View android:id="@+id/a9q" android:background="@color/alo" android:layout_width="match_parent" android:layout_height="1px"/>
+        <com.bytedance.android.live.uikit.rtl.RtlViewPager android:id="@+id/ed4" android:background="@color/aft" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="380dp" android:layout_below="@+id/a9q"/>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/a2t" android:layout="@layout/awo" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@+id/a63" android:visibility="gone" android:layout_width="match_parent" android:layout_height="380dp" android:layout_marginTop="40dp"/>
+</FrameLayout>

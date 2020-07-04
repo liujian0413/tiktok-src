@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/ca6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="120dp" android:layout_marginTop="91dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="top" android:id="@+id/md" android:visibility="visible" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="10dp" android:scaleType="fitCenter" app:actualImageScaleType="2" app:fadeDuration="0"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="top" android:id="@+id/d83" android:visibility="gone" android:layout_width="36dp" android:layout_height="120dp" android:scaleType="fitXY" app:actualImageScaleType="2" app:fadeDuration="0"/>
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/xd" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a7j"/>
+    </FrameLayout>
+</merge>

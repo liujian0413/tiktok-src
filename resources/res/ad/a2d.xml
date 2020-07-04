@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cws" android:layout_width="48dp" android:layout_height="48dp" app:roundRadius="2dp" app:subView="true">
+    <com.p280ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.DmtPlusView android:layout_gravity="center" android:id="@+id/ec" android:layout_width="20dp" android:layout_height="20dp" app:lineWidth="2dp" app:roundRadius="1dp"/>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>

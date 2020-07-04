@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/au0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/tz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@+id/dn2" android:layout_width="wrap_content" android:layout_height="250dp" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/l6" android:layout_width="240dp" android:layout_height="127dp" android:layout_marginBottom="30dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/aa2" android:layout_width="240dp" android:layout_height="127dp" android:layout_marginBottom="106dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <FrameLayout android:id="@+id/coi" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/aa3" android:layout_width="267dp" android:layout_height="241dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <RelativeLayout android:id="@+id/ny" android:layout_width="240dp" android:layout_height="127dp" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@+id/apl" android:layout_width="260dp" android:layout_height="127dp"/>
+                <TextView android:textSize="16sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/a7l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/ezg" android:layout_above="@+id/dnp" android:layout_centerHorizontal="true" android:alpha="0.5"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ff6249" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dnp" android:background="@drawable/bz6" android:layout_width="140dp" android:layout_height="30dp" android:layout_marginBottom="30dp" android:text="@string/f53" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@+id/xr" android:background="@drawable/c02" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="36dp" android:layout_below="@+id/dn2" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

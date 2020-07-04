@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="213dp" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="18.5dp" android:paddingTop="14dp" android:paddingRight="18.5dp" android:paddingBottom="14dp" android:layout_width="213dp" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="20sp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/eeh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:shadowColor="@color/a98" android:shadowDy="2" android:shadowRadius="8"/>
+        <RelativeLayout android:id="@+id/cuq" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginBottom="7.5dp">
+            <com.p280ss.android.ugc.aweme.shortvideo.sticker.infoSticker.interact.consume.view.DispathTouchEventView android:id="@+id/eeb" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progressDrawable="@drawable/coj" style="?android:attr/progressBarStyleHorizontal"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/v" android:id="@+id/di2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/mj" android:id="@+id/caa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/cur" android:layout_width="match_parent" android:layout_height="44dp">
+            <com.p280ss.android.ugc.aweme.shortvideo.sticker.infoSticker.interact.consume.view.DispathTouchEventView android:id="@+id/eec" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progressDrawable="@drawable/col" style="?android:attr/progressBarStyleHorizontal"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/v" android:id="@+id/di3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/mj" android:id="@+id/cab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

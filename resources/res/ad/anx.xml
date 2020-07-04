@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="130dp" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.chatroom.widget.AvatarIconView android:id="@+id/j5" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="12dp" app:ttlive_avatar_size="72dp" app:ttlive_icon_size="16dp"/>
+    <TextView android:textSize="13sp" android:textStyle="normal" android:textColor="@color/aee" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/c33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxWidth="82dp" android:maxLines="1" android:fontFamily="sans-serif"/>
+    <TextView android:textSize="12sp" android:textStyle="normal" android:textColor="@color/aef" android:ellipsize="end" android:gravity="center" android:id="@+id/a7m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="2" android:fontFamily="sans-serif"/>
+</LinearLayout>

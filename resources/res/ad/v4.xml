@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="40dp">
+    <View android:id="@+id/a9o" android:background="@color/a4j" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="6dp" android:layout_marginRight="16dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:layout_alignParentBottom="true">
+        <TextView android:textStyle="bold" android:textColor="@color/ab4" android:layout_gravity="center_vertical" android:id="@+id/e7c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hx" style="@style/u2"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/cjt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/azj"/>
+    </LinearLayout>
+</RelativeLayout>

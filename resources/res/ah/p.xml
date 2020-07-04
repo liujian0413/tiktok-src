@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cv0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqp" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true"/>
+    <com.p280ss.android.ugc.aweme.discover.p1185ui.NestedWebScrollView android:id="@+id/cve" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/cvg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.p280ss.android.ugc.aweme.discover.p1185ui.NestedWebScrollView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:background="@drawable/c26" android:layout_width="100dp" android:layout_height="10dp" android:layout_marginBottom="3dp">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/arx" android:layout_width="98dp" android:layout_height="6dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:max="1000" android:progress="0" android:progressDrawable="@drawable/bqm" style="@style/yb"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@+id/cld" android:visibility="invisible" android:layout_width="23dp" android:layout_height="25dp" android:layout_marginLeft="1dp" app:actualImageScaleType="2"/>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@+id/clf" android:visibility="gone" android:layout_width="98dp" android:layout_height="6dp" app:actualImageScaleType="2"/>
+    <TextView android:textSize="8sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_marginBottom="1dp" android:text="1000"/>
+</FrameLayout>

@@ -1,0 +1,15 @@
+package com.bytedance.p073ad.symphony;
+
+import com.p280ss.android.ugc.aweme.thread.C7258h;
+import com.p280ss.android.ugc.aweme.thread.C7265m;
+import com.p280ss.android.ugc.aweme.thread.ThreadPoolType;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ThreadFactory;
+
+/* renamed from: com.bytedance.ad.symphony.b */
+final class C2094b {
+    /* renamed from: a */
+    static ScheduledExecutorService m9265a(int i, ThreadFactory threadFactory) {
+        return (ScheduledExecutorService) C7258h.m22724a(C7265m.m22758a(ThreadPoolType.SCHEDULED).mo18993a(1).mo18995a(threadFactory).mo18996a());
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:background="@drawable/n7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="21dp" android:layout_marginRight="21dp">
+    <ImageView android:id="@+id/e23" android:padding="10dp" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/b1s" android:layout_alignParentRight="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bqx" android:layout_width="match_parent" android:layout_height="230dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@string/ce8" style="@style/u_"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="20dp" android:layout_marginBottom="25dp">
+            <android.support.p029v7.widget.RecyclerView android:id="@+id/cxj" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <View android:id="@+id/e_e" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgw" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/bxv" style="@style/u0"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:id="@+id/drs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="English" style="@style/u0"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:src="@drawable/ba1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="17dp" android:layout_marginRight="8dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c68" style="@style/tw"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:id="@+id/dug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5h" style="@style/tw"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5m" android:gravity="center" android:id="@+id/e4k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" style="@style/tw"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/brx" android:background="@drawable/bb1" android:layout_width="match_parent" android:layout_height="50dp" android:layout_below="@+id/bqx">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ce4" style="@style/u0"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a79" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/ce5" app:fontType="2" style="@style/u0"/>
+    </LinearLayout>
+</RelativeLayout>

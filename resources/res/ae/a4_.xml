@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ci2" android:layout_width="match_parent" android:layout_height="36dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/cnh" android:visibility="visible" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="8dp" android:src="@drawable/ccp" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/cnh" android:layout_centerVertical="true" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/cnh">
+        <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/aft" android:id="@+id/awo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:maxWidth="50dp" android:text="@string/etp" android:singleLine="true"/>
+        <TextView android:textSize="9dp" android:textColor="@color/aft" android:id="@+id/awn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:singleLine="true"/>
+    </LinearLayout>
+</RelativeLayout>

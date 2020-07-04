@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/apj" android:background="?attr/a19" android:layout_width="match_parent" android:layout_height="76dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/azy" android:background="@drawable/rg" android:visibility="invisible" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-4.5dp" android:layout_marginStart="-4.5dp"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageWithVerify android:layout_gravity="center_vertical" android:id="@+id/b64" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginLeft="11.5dp" android:layout_marginRight="12dp" android:layout_marginStart="11.5dp" android:layout_marginEnd="12dp"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="15dp" android:layout_weight="1" android:layout_marginEnd="15dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/e7f" app:fontType="7" style="@style/uq"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/e6q" style="@style/up"/>
+    </LinearLayout>
+    <com.p280ss.android.ugc.aweme.following.p1265ui.view.FollowAndInviteUserBtn android:layout_gravity="center_vertical" android:id="@+id/e6o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_marginEnd="16dp"/>
+</LinearLayout>

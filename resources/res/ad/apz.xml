@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fx" android:background="@drawable/byk" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="2dp">
+            <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/au8" android:background="@drawable/bo1" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/e_5" android:visibility="gone" android:layout_width="@dimen/ud" android:layout_height="@dimen/ud" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            <TextView android:textSize="8dp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/e9v" android:background="@drawable/byn" android:visibility="gone" android:layout_width="30dp" android:layout_height="12dp" android:text="@string/f84" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/c36" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="10dp">
+            <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12dp" android:textColor="@color/az3" android:ellipsize="end" android:id="@+id/e9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true"/>
+            <com.bytedance.android.live.core.widget.LiveTextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/az3" android:id="@+id/dj3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+            <com.bytedance.android.live.core.widget.LiveTextView android:textSize="10dp" android:textColor="@color/amb" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="1dp" android:singleLine="true" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/anr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp">
+            <com.bytedance.android.live.core.widget.FitTextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/anc" android:gravity="center" android:id="@+id/anj" android:layout_width="34dp" android:layout_height="28dp" android:text="@string/elf"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/anw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.ProgressBar.Small"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/ahw" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/c6v"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="52dp" android:layout_height="52dp">
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center" android:id="@+id/b70" android:layout_width="38dp" android:layout_height="38dp"/>
+    </FrameLayout>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="13sp" android:textColor="@color/am4" android:gravity="center" android:id="@+id/d3v" android:background="@drawable/bxf" android:visibility="gone" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="-4dp" android:text="@string/f3h" android:layout_below="@+id/fx"/>
+    <ViewStub android:id="@+id/aie" android:layout="@layout/apk" android:layout_width="10dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+</RelativeLayout>

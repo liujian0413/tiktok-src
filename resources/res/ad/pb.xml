@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout android:id="@+id/egp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/egq" android:layout_width="280dp" android:layout_height="280dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="24sp" android:textColor="@color/a4e" android:id="@+id/egv" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_marginTop="24dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/egq"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/a4f" android:id="@+id/egu" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/egv"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

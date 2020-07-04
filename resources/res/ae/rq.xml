@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cwi" android:background="@drawable/hj" android:paddingLeft="15dp" android:paddingRight="15dp" android:paddingBottom="15dp" android:layout_width="140dp" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+    <RelativeLayout android:id="@+id/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/b9d" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/b28" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:gravity="center" android:id="@+id/by6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/fkj" android:layout_below="@+id/a5o" android:layout_centerHorizontal="true" style="@style/u6"/>
+</RelativeLayout>

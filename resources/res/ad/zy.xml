@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/a19" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="5dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textColor="#e6ffffff" android:id="@+id/y8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:lineSpacingExtra="3sp"/>
+        <ImageView android:id="@+id/c5f" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginLeft="3dp" android:src="@drawable/b__" android:layout_toRightOf="@+id/y8" android:layout_alignTop="@+id/y8"/>
+        <ImageView android:id="@+id/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/afh" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/aza" android:id="@+id/y2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:layout_toLeftOf="@+id/h4" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/y5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/a9o" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="20dp" android:src="#1fffffff"/>
+</LinearLayout>

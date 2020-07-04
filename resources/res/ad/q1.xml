@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwi" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/dke" layout="@layout/akl"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/dhx" android:text="@string/e97" style="@style/xl"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/dhw" style="@style/xk"/>
+        <include layout="@layout/a62"/>
+    </LinearLayout>
+</ScrollView>

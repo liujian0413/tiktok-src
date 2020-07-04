@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aa">
+        <item quantity="one">1时</item>
+        <item quantity="other">%d时</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1分</item>
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1秒</item>
+        <item quantity="other">%d秒</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cpr" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="6"/>
+        <android.support.p029v7.widget.ViewStubCompat android:layout_gravity="center" android:id="@+id/akc" android:layout="@layout/h1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10"/>
+    </LinearLayout>
+    <FrameLayout android:background="@color/ayd" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/cpp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/cpq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

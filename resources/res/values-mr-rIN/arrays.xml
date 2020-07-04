@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ऑनलाईन ध्वनी लायब्ररी</item>
+        <item>माझा ध्वनी</item>
+    </array>
+    <array name="m">
+        <item>हटवा</item>
+        <item>रद्द करा</item>
+    </array>
+    <array name="n">
+        <item>ट्रेंडिंग</item>
+        <item>नवीनतम</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगळवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </array>
+    <array name="y">
+        <item>सोपी केलेली चीनी भाषा</item>
+        <item>पारंपरिक चिनी</item>
+        <item>इंग्रजी</item>
+        <item>जपानी</item>
+        <item>कोरियन</item>
+        <item>रशियन</item>
+        <item>इंडोनेशियन</item>
+        <item>मलय</item>
+        <item>पोर्तुगीज</item>
+        <item>थाई</item>
+        <item>व्हिएतनामी</item>
+        <item>हिंदी</item>
+    </array>
+    <array name="z">
+        <item>साधारण</item>
+        <item>काळे/पांढरे</item>
+        <item>कला</item>
+        <item>विंटेज</item>
+        <item>रेट्रोलक्स</item>
+        <item>संपृक्त</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>जाने</item>
+        <item>फेब्रु</item>
+        <item>मार्च</item>
+        <item>एप्रि</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑग</item>
+        <item>सप्टें॔</item>
+        <item>ऑक्टो</item>
+        <item>नोव्हें</item>
+        <item>डिसें</item>
+    </array>
+    <array name="a4">
+        <item>डेटा-बचत प्रथम</item>
+        <item>हाय-रेझोल्युशन प्रथम</item>
+    </array>
+    <array name="a5">
+        <item>प्रत्येकजण</item>
+        <item>फक्त मित्र</item>
+    </array>
+    <array name="az">
+        <item>सोमवार</item>
+        <item>मंगळवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </array>
+</resources>

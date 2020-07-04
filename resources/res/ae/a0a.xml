@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/brd" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <RelativeLayout android:id="@+id/a24" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/av1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="@color/amg" android:id="@+id/av2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/auy" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textColor="@color/ame" android:id="@+id/auz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/av1"/>
+        <RelativeLayout android:id="@+id/efl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:minHeight="35dp" android:layout_below="@+id/auz">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="12sp" android:textColor="@color/ame" android:gravity="center" android:id="@+id/efm" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_weight="1"/>
+                <TextView android:textSize="12sp" android:textColor="@color/ame" android:gravity="center" android:id="@+id/efn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/amd" android:gravity="center" android:id="@+id/u2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/cog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_below="@+id/efl">
+            <View android:background="@color/amf" android:layout_width="wrap_content" android:layout_height="0.5dp" android:layout_toLeftOf="@+id/coh" android:layout_centerVertical="true" android:layout_toStartOf="@+id/coh"/>
+            <TextView android:textSize="12sp" android:textColor="@color/amg" android:id="@+id/coh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ezi" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+            <View android:background="@color/amf" android:layout_width="wrap_content" android:layout_height="0.5dp" android:layout_toRightOf="@+id/coh" android:layout_centerVertical="true" android:layout_toEndOf="@+id/coh"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/nw" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="16dp" android:layout_below="@+id/cog"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@+id/btb" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

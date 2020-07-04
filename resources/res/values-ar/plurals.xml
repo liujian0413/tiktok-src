@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="zero">هل تريد حذف المشروع؟</item>
+        <item quantity="one">هل تريد حذف المشروع؟</item>
+        <item quantity="two">هل تريد حذف المشروع؟</item>
+        <item quantity="few">هل تريد حذف المشاريع؟</item>
+        <item quantity="many">هل تريد حذف المشروع؟</item>
+        <item quantity="other">هل تريد حذف المشروع؟</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="zero">%d نغمة</item>
+        <item quantity="one">%d نغمة</item>
+        <item quantity="two">%d نغمة</item>
+        <item quantity="few">%d نغمات</item>
+        <item quantity="many">%d نغمة</item>
+        <item quantity="other">%d نغمة</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="zero">%d موسيقى</item>
+        <item quantity="one">%d موسيقى</item>
+        <item quantity="two">%d موسيقى</item>
+        <item quantity="few">%d موسيقى</item>
+        <item quantity="many">%d موسيقى</item>
+        <item quantity="other">%d موسيقى</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="zero">%d قطعة</item>
+        <item quantity="one">%d قطعة</item>
+        <item quantity="two">%d قطعة</item>
+        <item quantity="few">%d قطع</item>
+        <item quantity="many">%d قطعة</item>
+        <item quantity="other">%d قطعة</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="zero">%d أغنية</item>
+        <item quantity="one">%d أغنية</item>
+        <item quantity="two">%d أغنية</item>
+        <item quantity="few">%d أغنيات</item>
+        <item quantity="many">%d أغنية</item>
+        <item quantity="other">%d أغنية</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="zero">%d صوت</item>
+        <item quantity="one">%d صوت</item>
+        <item quantity="two">%d صوت</item>
+        <item quantity="few">%d أصوات</item>
+        <item quantity="many">%d صوت</item>
+        <item quantity="other">%d صوت</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="zero">%d قطعة موسيقية</item>
+        <item quantity="one">%d قطعة موسيقية</item>
+        <item quantity="two">%d قطعة موسيقية</item>
+        <item quantity="few">%d قطع موسيقية</item>
+        <item quantity="many">%d قطعة موسيقية</item>
+        <item quantity="other">%d قطعة موسيقية</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="zero">%d friends commented on your story.</item>
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="two">%d friends commented on your story.</item>
+        <item quantity="few">%d friends commented on your story.</item>
+        <item quantity="many">%d friends commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="zero">%d users want to add you as friend</item>
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="two">%d users want to add you as friend</item>
+        <item quantity="few">%d users want to add you as friend</item>
+        <item quantity="many">%d users want to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="zero">%d friends liked your story.</item>
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="two">%d friends liked your story.</item>
+        <item quantity="few">%d friends liked your story.</item>
+        <item quantity="many">%d friends liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="zero">%d friends watched your story.</item>
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="two">%d friends watched your story.</item>
+        <item quantity="few">%d friends watched your story.</item>
+        <item quantity="many">%d friends watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="zero">%d فيديو</item>
+        <item quantity="one">%d فيديو</item>
+        <item quantity="two">%d فيديو</item>
+        <item quantity="few">%d فيديوهات</item>
+        <item quantity="many">%d فيديو</item>
+        <item quantity="other">%d فيديو</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ %d يوم</item>
+        <item quantity="two">منذ %d يوم</item>
+        <item quantity="few">منذ %d يوم</item>
+        <item quantity="many">منذ %d يوم</item>
+        <item quantity="other">منذ %d يوم</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="zero">ساعة (ساعات)</item>
+        <item quantity="one">ساعة (ساعات)</item>
+        <item quantity="two">ساعة (ساعات)</item>
+        <item quantity="few">ساعة (ساعات)</item>
+        <item quantity="many">ساعة (ساعات)</item>
+        <item quantity="other">ساعة (ساعات)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="zero">منذ %1$d ساعات</item>
+        <item quantity="one">منذ %1$d ساعات</item>
+        <item quantity="two">منذ %1$d ساعات</item>
+        <item quantity="few">منذ %1$d ساعات</item>
+        <item quantity="many">منذ %1$d ساعات</item>
+        <item quantity="other">منذ %1$d ساعات</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقة</item>
+        <item quantity="few">دقيقة</item>
+        <item quantity="many">دقيقة</item>
+        <item quantity="other">دقيقة</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="zero">منذ %1$d دقائق</item>
+        <item quantity="one">منذ %1$d دقائق</item>
+        <item quantity="two">منذ %1$d دقائق</item>
+        <item quantity="few">منذ %1$d دقائق</item>
+        <item quantity="many">منذ %1$d دقائق</item>
+        <item quantity="other">منذ %1$d دقائق</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="zero">أيام</item>
+        <item quantity="one">أيام</item>
+        <item quantity="two">أيام</item>
+        <item quantity="few">أيام</item>
+        <item quantity="many">أيام</item>
+        <item quantity="other">أيام</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="zero">ساعة (ساعات)</item>
+        <item quantity="one">ساعة (ساعات)</item>
+        <item quantity="two">ساعة (ساعات)</item>
+        <item quantity="few">ساعة (ساعات)</item>
+        <item quantity="many">ساعة (ساعات)</item>
+        <item quantity="other">ساعة (ساعات)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقة</item>
+        <item quantity="few">دقيقة</item>
+        <item quantity="many">دقيقة</item>
+        <item quantity="other">دقيقة</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="zero">شهر</item>
+        <item quantity="one">شهر</item>
+        <item quantity="two">شهر</item>
+        <item quantity="few">شهر</item>
+        <item quantity="many">شهر</item>
+        <item quantity="other">شهر</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="zero">ثانية</item>
+        <item quantity="one">ثانية</item>
+        <item quantity="two">ثانية</item>
+        <item quantity="few">ثانية</item>
+        <item quantity="many">ثانية</item>
+        <item quantity="other">ثانية</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="zero">أسبوع</item>
+        <item quantity="one">أسبوع</item>
+        <item quantity="two">أسبوع</item>
+        <item quantity="few">أسبوع</item>
+        <item quantity="many">أسبوع</item>
+        <item quantity="other">أسبوع</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="zero">منذ %1$d سنوات</item>
+        <item quantity="one">منذ %1$d سنوات</item>
+        <item quantity="two">منذ %1$d سنوات</item>
+        <item quantity="few">منذ %1$d سنوات</item>
+        <item quantity="many">منذ %1$d سنوات</item>
+        <item quantity="other">منذ %1$d سنوات</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="zero">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d يوم</item>
+        <item quantity="one">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d يوم</item>
+        <item quantity="two">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d أيام</item>
+        <item quantity="few">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d يوم</item>
+        <item quantity="many">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d يوم</item>
+        <item quantity="other">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d يوم</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="zero">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعة</item>
+        <item quantity="one">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعة</item>
+        <item quantity="two">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعة</item>
+        <item quantity="few">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعات</item>
+        <item quantity="many">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعة</item>
+        <item quantity="other">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ساعة</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="zero">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقيقة</item>
+        <item quantity="one">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقيقة</item>
+        <item quantity="two">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقيقة</item>
+        <item quantity="few">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقائق</item>
+        <item quantity="many">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقيقة</item>
+        <item quantity="other">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d دقيقة</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="zero">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثانية</item>
+        <item quantity="one">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثانية</item>
+        <item quantity="two">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثانية</item>
+        <item quantity="few">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثوان</item>
+        <item quantity="many">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثانية</item>
+        <item quantity="other">عذرًا! لقد تم حظرك\10 يمكنك القيام بالبث المباشر مرة أخرى خلال %1$d ثانية</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="zero">%d مستخدم يشاهد البث الخاص بك، هل تريد إغلاقه؟</item>
+        <item quantity="one">%d مستخدم يشاهدون البث الخاص بك، هل تريد إغلاقه؟</item>
+        <item quantity="two">%d مستخدم يشاهد البث الخاص بك، هل تريد إغلاقه؟</item>
+        <item quantity="few">%d مستخدمين يشاهدون البث الخاص بك، هل تريد إغلاقه؟</item>
+        <item quantity="many">%d مستخدم يشاهدون البث الخاص بك، هل تريد إغلاقه؟</item>
+        <item quantity="other">%d مستخدم يشاهدون البث الخاص بك، هل تريد إغلاقه؟</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="zero">تم الاتصال لمدة %1$d دقيقة</item>
+        <item quantity="one">تم الاتصال لمدة %1$d دقيقة</item>
+        <item quantity="two">تم الاتصال لمدة %1$d دقيقة</item>
+        <item quantity="few">تم الاتصال لمدة %1$d دقيقة</item>
+        <item quantity="many">تم الاتصال لمدة %1$d دقيقة</item>
+        <item quantity="other">تم الاتصال لمدة %1$d دقيقة</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="zero">الانتظار لمدة %1$d دقيقة</item>
+        <item quantity="one">الانتظار لمدة %1$d دقيقة</item>
+        <item quantity="two">الانتظار لمدة %1$d دقيقة</item>
+        <item quantity="few">الانتظار لمدة %1$d دقيقة</item>
+        <item quantity="many">الانتظار لمدة %1$d دقيقة</item>
+        <item quantity="other">الانتظار لمدة %1$d دقيقة</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="zero">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+        <item quantity="one">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+        <item quantity="two">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+        <item quantity="few">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+        <item quantity="many">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+        <item quantity="other">قم بإعادة شحن %1$d ماسة في المرة الأولى لتحصل على %2$d أكثر!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقة</item>
+        <item quantity="few">دقيقة</item>
+        <item quantity="many">دقيقة</item>
+        <item quantity="other">دقيقة</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">1 س</item>
+        <item quantity="other">%d س</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">1 د</item>
+        <item quantity="other">%d د</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">1 ث</item>
+        <item quantity="other">%d ث</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="zero">نشر %d مقطع فيديو</item>
+        <item quantity="one">نشر %d مقطع فيديو</item>
+        <item quantity="two">نشر %d مقطع فيديو</item>
+        <item quantity="few">نشر %d مقاطع فيديو</item>
+        <item quantity="many">نشر %d مقطع فيديو</item>
+        <item quantity="other">نشر %d مقطع فيديو</item>
+    </plurals>
+</resources>

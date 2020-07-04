@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Välj från biblioteket</item>
+        <item>Ta ett foto</item>
+        <item>Avbryt</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Inget</item>
+        <item>Blomma</item>
+        <item>Söt</item>
+        <item>Te</item>
+        <item>Smart</item>
+        <item>Rosig</item>
+        <item>Bris</item>
+        <item>Natur</item>
+        <item>Solljus</item>
+        <item>Bebis</item>
+        <item>Nostalgi</item>
+        <item>Ljus</item>
+        <item>Gullig</item>
+        <item>Persika</item>
+        <item>Solnedgång</item>
+    </array>
+    <array name="aq">
+        <item>Runda</item>
+        <item>Varje vecka</item>
+        <item>Sammanlagt</item>
+        <item>Xigua-rankning</item>
+    </array>
+    <array name="ar">
+        <item>januari</item>
+        <item>februari</item>
+        <item>mars</item>
+        <item>april</item>
+        <item>maj</item>
+        <item>juni</item>
+        <item>juli</item>
+        <item>augusti</item>
+        <item>september</item>
+        <item>oktober</item>
+        <item>november</item>
+        <item>december</item>
+    </array>
+    <array name="au">
+        <item>Inget</item>
+        <item>Natur</item>
+        <item>Rensa</item>
+        <item>Japanskt</item>
+        <item>Gripande</item>
+    </array>
+    <array name="av">
+        <item>Inget</item>
+        <item>Natur</item>
+        <item>Ljus</item>
+        <item>Första kärleken</item>
+    </array>
+    <array name="aw">
+        <item>Rapportera</item>
+        <item>Avbryt</item>
+    </array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cty" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bqm" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.challenge.p1086ui.ChallengeSwipeRefreshLayout android:id="@+id/bj_" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/czg" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/x5">
+                <LinearLayout android:id="@+id/auq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.p262ui.widget.tablayout.DmtTabLayout android:id="@+id/dfo" android:layout_width="match_parent" android:layout_height="45dp" app:tabBackground="@null" app:tabGravity="0" app:tabIndicatorColor="@color/a4s" app:tabIndicatorHeight="2dp" app:tabMinWidth="0dp" app:tabMode="1" app:tabPaddingEnd="12dp" app:tabPaddingStart="12dp"/>
+                <View android:id="@+id/c3i" android:background="@color/ak" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+                <com.p280ss.android.ugc.aweme.views.ChallengeViewPager android:id="@+id/edp" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+        </com.p280ss.android.ugc.aweme.challenge.p1086ui.ChallengeSwipeRefreshLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dke" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/dal" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <RelativeLayout android:gravity="center_vertical" android:background="@color/ayd" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+            <View android:id="@+id/dk8" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="1"/>
+            <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/cmw" android:layout_centerVertical="true" style="@style/a16"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5e" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cy" android:singleLine="true" android:drawablePadding="3dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:alpha="0" style="@style/u9"/>
+            <ImageView android:id="@+id/d4t" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/alb" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/da5" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/da8" android:background="@drawable/a46" android:layout_width="71dp" android:layout_height="71dp"/>
+        <ImageView android:id="@+id/da7" android:background="@drawable/a43" android:layout_width="96dp" android:layout_height="96dp"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/x5"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/bbq" android:layout_width="272dp" android:layout_height="@dimen/kd">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/aax" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:id="@+id/btx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/b50" style="@style/u2"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:id="@+id/btz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" style="@style/tw"/>
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center" android:id="@+id/aap" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zj"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/bxc" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/aaq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/aar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

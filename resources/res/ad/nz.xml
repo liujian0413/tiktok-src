@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/amt" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/cww" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@+id/lm" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.p280ss.android.ugc.aweme.longvideo.view.DoubleClickDiggFrameLayout android:id="@+id/eb9" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_gravity="center" android:id="@+id/eba" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <FrameLayout android:layout_gravity="center" android:id="@+id/apu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.p280ss.android.ugc.aweme.longvideo.view.DoubleClickDiggFrameLayout>
+            <RelativeLayout android:id="@+id/dl5" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:background="@drawable/ol" android:layout_width="match_parent" android:layout_height="126dp" android:layout_alignParentTop="true"/>
+                <View android:background="@drawable/ok" android:layout_width="match_parent" android:layout_height="334dp" android:layout_alignParentBottom="true"/>
+                <FrameLayout android:id="@+id/cch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                <FrameLayout android:id="@+id/c8z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_above="@+id/cch"/>
+                <ImageView android:id="@+id/b7g" android:background="@drawable/in" android:padding="6dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:src="@drawable/abw" android:scaleType="fitXY"/>
+            </RelativeLayout>
+        </android.support.design.widget.CoordinatorLayout>
+        <FrameLayout android:id="@+id/ase" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.commercialize.views.CommerceLikeLayout android:id="@+id/a0_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

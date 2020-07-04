@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="ring" android:useLevel="false" android:innerRadius="12dp" android:thickness="2dp">
+    <stroke android:width="2dp" android:color="@color/a4o"/>
+</shape>

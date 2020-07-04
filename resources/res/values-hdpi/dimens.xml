@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vp">5dp</dimen>
+    <dimen name="vq">40dp</dimen>
+    <dimen name="vr">10dp</dimen>
+    <dimen name="vt">15dp</dimen>
+</resources>

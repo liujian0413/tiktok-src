@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Utafuta rasimu?</item>
+        <item quantity="other">Utafuta rasimu?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">Tuni %d</item>
+        <item quantity="other">Tuni %d</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">Muziki %d</item>
+        <item quantity="other">Muziki %d</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">Kifungu %d</item>
+        <item quantity="other">Vifungu %d</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">Wimbo %d</item>
+        <item quantity="other">Nyimbo %d</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">Sauti %d</item>
+        <item quantity="other">Sauti %d</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">Tuni %d</item>
+        <item quantity="other">Tuni %d</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">Video %d</item>
+        <item quantity="other">Video %d</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">amechapisha video %d</item>
+        <item quantity="other">amechapisha video %d</item>
+    </plurals>
+</resources>

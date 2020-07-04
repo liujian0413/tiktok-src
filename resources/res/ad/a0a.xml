@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.AvatarImageWithVerify android:id="@+id/b64" android:background="@drawable/bg6" android:layout_width="48dp" android:layout_height="48dp"/>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/b8l" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="6dp" android:layout_alignParentRight="true">
+                <com.p280ss.android.ugc.aweme.friends.p1285ui.FansFollowUserBtn android:layout_gravity="center_vertical" android:id="@+id/vd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/a9i" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a5i" android:contentDescription="@string/ln"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bh2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/b8l">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4e" android:ellipsize="end" android:id="@+id/dkn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b6y" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1" app:fontType="7" style="@style/u6"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4f" android:ellipsize="end" android:id="@+id/a7k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/en" android:maxLines="1" android:includeFontPadding="false" style="@style/u2"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

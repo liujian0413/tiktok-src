@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwi" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.shortvideo.widget.ScreenSizeAspectFrameLayout android:id="@+id/bk9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/cq4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/bhp" android:background="@color/ayd" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.RecordZoomValueTextView android:id="@+id/cq9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

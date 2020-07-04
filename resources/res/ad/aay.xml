@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:src="@drawable/cmw" android:layout_centerVertical="true"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5e" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true" style="@style/u9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:gravity="center" android:id="@+id/dhp" android:background="@drawable/qu" android:visibility="gone" android:layout_width="56dp" android:layout_height="30dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/u2"/>
+</RelativeLayout>

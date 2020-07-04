@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aos" android:background="@color/az3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="123dp">
+    <com.bytedance.android.live.uikit.rtl.RtlViewPager android:id="@+id/kj" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="16dp"/>
+    <com.bytedance.android.live.wallet.view.RoundIndicatorView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/kc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23dp" app:ttlive_ri_default_color="#80ffffff" app:ttlive_ri_selected_color="#ffffff" app:ttlive_ri_size="7dp" app:ttlive_ri_space="8dp"/>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bgq" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/a20" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/bkh">
+        <ScrollView android:id="@+id/bh2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/ht" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/az3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82dp" android:src="@drawable/gs"/>
+                <ImageView android:id="@+id/az4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gt" android:layout_alignParentRight="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="25dp" android:layout_marginRight="25dp">
+                    <com.bytedance.sdk.account.bdplatform.impl.view.RoundImageView android:layout_gravity="center_horizontal" android:id="@+id/axh" android:background="#d8d8d8" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="16dp" android:scaleType="centerCrop" app:radius="15dp"/>
+                    <TextView android:textSize="19dp" android:textColor="#222222" android:layout_gravity="center_horizontal" android:id="@+id/e6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text=""/>
+                    <TextView android:textSize="14dp" android:textColor="#999999" android:layout_gravity="center_horizontal" android:id="@+id/e6u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="今日头条授权登录"/>
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+                        <com.bytedance.sdk.account.bdplatform.impl.view.RoundImageView android:id="@+id/e9w" android:background="#d8d8d8" android:layout_width="36dp" android:layout_height="36dp" android:scaleType="centerCrop" app:radius="18dp"/>
+                        <TextView android:textSize="16dp" android:textColor="#222222" android:id="@+id/e9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text=""/>
+                    </LinearLayout>
+                    <View android:id="@+id/nh" android:background="#e8e8e8" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="10dp" android:layout_marginBottom="4dp"/>
+                    <TextView android:textSize="14dp" android:textColor="#999999" android:id="@+id/hu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="登录后应用将获得以下权限"/>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/bgm" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <TextView android:textSize="17dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/qm" android:background="@drawable/gn" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="56dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:text="授权并登录" android:layout_below="@+id/bh2"/>
+        <TextView android:gravity="center" android:id="@+id/e8l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/bkh" android:layout_width="match_parent" android:layout_height="44dp">
+        <TextView android:textSize="16dp" android:textColor="#222222" android:gravity="center" android:id="@+id/e6h" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/r5"/>
+    </FrameLayout>
+</RelativeLayout>

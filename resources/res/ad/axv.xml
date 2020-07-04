@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cmh" android:background="@color/l0" android:layout_width="316dp" android:layout_height="400dp">
+    <ImageView android:id="@+id/tb" android:layout_width="match_parent" android:layout_height="250dp" android:layout_marginTop="50dp" android:src="@drawable/rn"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aoj" android:layout_width="316dp" android:layout_height="400dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center_horizontal" android:id="@+id/cmg" android:layout_width="168dp" android:layout_height="168dp" android:layout_marginTop="24dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lw" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/u8"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lx" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/a7e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:maxLines="2" style="@style/u2"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lx" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@+id/clj" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:maxLines="1" android:layout_weight="1" style="@style/u4"/>
+        <ImageView android:layout_gravity="start" android:id="@+id/bvs" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="16dp" android:src="@drawable/b8f" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</FrameLayout>

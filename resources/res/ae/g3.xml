@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/aye" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5" app:endButtonVisible="8" app:endTextSize="15dp" app:titleTextColor="@color/j9" app:useBackIcon="true"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/djw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="21dp" android:layout_marginBottom="16dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/djx" android:layout_width="0px" android:layout_height="21dp" app:actualImageScaleType="5"/>
+            <ImageView android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/a1c"/>
+            <ImageView android:layout_width="40.5dp" android:layout_height="18dp" android:src="@drawable/a1b"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p022v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/lw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="0dp" android:text="@string/c4m" android:alpha="0.75" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" style="@style/u4"/>
+                <android.support.p029v7.widget.RecyclerView android:id="@+id/c1h" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </android.support.p022v4.widget.NestedScrollView>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/c1y" android:background="@color/az3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="400dp"/>
+    </FrameLayout>
+</LinearLayout>

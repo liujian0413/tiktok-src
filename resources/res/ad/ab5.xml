@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.photo.local.MediaTypeNavigator xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/az3" android:layout_width="match_parent" android:layout_height="45dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dfb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/b0p" android:background="@color/a71" android:layout_width="180dp" android:layout_height="3dp" android:layout_alignParentBottom="true"/>
+</com.p280ss.android.ugc.aweme.photo.local.MediaTypeNavigator>

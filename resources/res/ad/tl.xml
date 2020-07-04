@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="75dp" android:layout_height="100dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bdp" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/o5" app:roundedCornerRadius="4dp"/>
+    <View android:background="@drawable/kt" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignParentBottom="true"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bdr" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" app:placeholderImage="@color/o4" app:roundAsCircle="true" app:roundingBorderColor="@color/az3" app:roundingBorderWidth="1dp"/>
+    <View android:background="@drawable/v6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/ef8" android:background="@drawable/v5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

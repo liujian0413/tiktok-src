@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lj" android:layout_marginTop="4dp" android:layout_marginRight="@dimen/lj" android:layout_marginBottom="24dp" android:layout_marginStart="@dimen/lj" android:layout_marginEnd="@dimen/lj">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/a5e" android:id="@+id/cdc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cxk" android:layout_weight="1"/>
+        <ImageView android:layout_width="10dp" android:layout_height="15dp" android:src="@drawable/axy" android:layout_centerVertical="true"/>
+    </LinearLayout>
+    <View android:id="@+id/cdb" android:background="@color/a1x" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/lj" android:layout_marginRight="@dimen/lj"/>
+</LinearLayout>

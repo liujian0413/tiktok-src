@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/adx" android:layout_width="@dimen/gk" android:layout_height="@dimen/gk" app:actualImageScaleType="2"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#8a8b91" android:layout_gravity="center_horizontal" android:id="@+id/dkn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42dp" style="@style/u0"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="#99000000" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" style="@style/u0"/>
+</LinearLayout>

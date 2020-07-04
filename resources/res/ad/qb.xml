@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/czg" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/x5">
+            <include layout="@layout/aju"/>
+            <com.p280ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/c3h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <com.p280ss.android.ugc.aweme.sticker.prop.view.NoScrollViewPager android:id="@+id/edp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.p280ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/dke" android:background="@color/ayd" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+        <View android:id="@+id/dk8" android:background="@color/a6c" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/cmw" android:layout_centerVertical="true" style="@style/a16"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" style="@style/u6"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bcn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+                <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bco" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/d4t" android:padding="10dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/alb" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:background="@drawable/mm" android:layout_width="match_parent" android:layout_height="90dp" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/da5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/da8" android:background="@drawable/a46" android:layout_width="71dp" android:layout_height="71dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/w7" android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:background="@color/a3z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/x5"/>
+</RelativeLayout>

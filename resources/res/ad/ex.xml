@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a81" android:background="@color/ayd" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/aoy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5s"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a5t"/>
+    <FrameLayout android:id="@+id/ase" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/db" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.commercialize.views.AdHalfWebPageMaskLayer android:id="@+id/dq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.commercialize.views.AdHalfWebPageContainer android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/dp" android:layout_width="270dp" android:layout_height="295dp" android:layout_marginBottom="-300dp"/>
+</FrameLayout>

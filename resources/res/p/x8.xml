@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="14dp"/>
+            <solid android:color="#e0e0e0"/>
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <shape>
+            <corners android:radius="14dp"/>
+            <solid android:color="@color/ai1"/>
+        </shape>
+    </item>
+</transition>

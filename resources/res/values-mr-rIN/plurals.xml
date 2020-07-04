@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">मसुदा हटवायचा?</item>
+        <item quantity="other">मसुदे हटवायचे?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%d मेलोडी</item>
+        <item quantity="other">%d मेलोडीज</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d संगीत</item>
+        <item quantity="other">%d संगीत</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%d तुकडा</item>
+        <item quantity="other">%d तुकडे</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%d गाणे</item>
+        <item quantity="other">%d गाणी</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%d ध्वनी</item>
+        <item quantity="other">%d ध्वनी</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%d ट्यून</item>
+        <item quantity="other">%d ट्यून</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%d व्हिडिओ</item>
+        <item quantity="other">%d व्हिडिओ</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">पोस्ट केलेला %d व्हिडिओ</item>
+        <item quantity="other">पोस्ट केलेले %d व्हिडिओज</item>
+    </plurals>
+</resources>

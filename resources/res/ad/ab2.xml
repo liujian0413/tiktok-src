@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/bxo" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:placeholderImage="@drawable/ih"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a7f" android:gravity="center_vertical" android:id="@+id/eaj" android:background="@null" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginBottom="5dp" android:shadowColor="@color/fs" android:shadowDx="5" android:shadowDy="5" android:shadowRadius="6" style="@style/u0"/>
+    </LinearLayout>
+    <View android:id="@+id/e7w" android:background="@color/x3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@+id/bxo" android:layout_alignTop="@+id/bxo" android:layout_alignRight="@+id/bxo" android:layout_alignBottom="@+id/bxo"/>
+    <View android:id="@+id/d28" android:background="@color/a7r" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/amg" android:layout_width="44dp" android:layout_height="44dp" android:layout_alignParentRight="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/j9" android:gravity="center" android:layout_gravity="end" android:id="@+id/ayi" android:background="@drawable/ne" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" style="@style/u2"/>
+    </FrameLayout>
+</RelativeLayout>

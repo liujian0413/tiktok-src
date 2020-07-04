@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Онлайн-бібліотека аудіозаписів</item>
+        <item>Мій аудіозапис</item>
+    </array>
+    <array name="m">
+        <item>Видалити</item>
+        <item>Скасувати</item>
+    </array>
+    <array name="n">
+        <item>У тренді</item>
+        <item>Останнє</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+    </array>
+    <array name="y">
+        <item>Спрощена китайська</item>
+        <item>Китайська (традиційна)</item>
+        <item>Англійська</item>
+        <item>Японська</item>
+        <item>Корейська</item>
+        <item>Російська</item>
+        <item>Індонезійська</item>
+        <item>Малайська</item>
+        <item>Португальська</item>
+        <item>Тайська</item>
+        <item>В’єтнамська</item>
+        <item>Хінді</item>
+    </array>
+    <array name="z">
+        <item>Нормальний</item>
+        <item>Чорно-білий</item>
+        <item>Мистецтво</item>
+        <item>Старовинний</item>
+        <item>Ретролюкс</item>
+        <item>Насичений</item>
+        <item>Хром</item>
+    </array>
+    <array name="a1">
+        <item>Січ.</item>
+        <item>Лют.</item>
+        <item>Бер.</item>
+        <item>Квіт.</item>
+        <item>Трав.</item>
+        <item>Черв.</item>
+        <item>Лип.</item>
+        <item>Серп.</item>
+        <item>Вер.</item>
+        <item>Жовт.</item>
+        <item>Лист.</item>
+        <item>Груд.</item>
+    </array>
+    <array name="a4">
+        <item>Пріоритет економії трафіку</item>
+        <item>Пріоритет якості зображення</item>
+    </array>
+    <array name="a5">
+        <item>Усі</item>
+        <item>Лише друзі</item>
+    </array>
+    <array name="af">
+        <item>Вибрати з галереї</item>
+        <item>Зробити фото</item>
+        <item>Скасувати</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Немає</item>
+        <item>Квітка</item>
+        <item>Солодощі</item>
+        <item>Чай</item>
+        <item>Розумник</item>
+        <item>Рожевий</item>
+        <item>Бриз</item>
+        <item>Природний</item>
+        <item>Сонячне світло</item>
+        <item>Дитина</item>
+        <item>Ностальгія</item>
+        <item>Яскравий</item>
+        <item>Милий</item>
+        <item>Персик</item>
+        <item>Захід сонця</item>
+    </array>
+    <array name="aq">
+        <item>Раунд</item>
+        <item>Щотижневий</item>
+        <item>Загальний</item>
+        <item>Рейтинг Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Трав</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </array>
+    <array name="au">
+        <item>Немає</item>
+        <item>Природний</item>
+        <item>Чіткий</item>
+        <item>Японія</item>
+        <item>Зворушливий</item>
+    </array>
+    <array name="av">
+        <item>Немає</item>
+        <item>Природний</item>
+        <item>Яскравий</item>
+        <item>Перше кохання</item>
+    </array>
+    <array name="aw">
+        <item>Повідомити</item>
+        <item>Скасувати</item>
+    </array>
+    <array name="az">
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+        <item>Неділя</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.shortvideo.widget.TabHost xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/od" android:layout_width="match_parent" android:layout_height="49dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.shortvideo.widget.ScrollableLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/a19" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cpw" android:layout_width="5dp" android:layout_height="0dp" android:src="@drawable/bg9" android:scaleType="center" android:layout_weight="0.3"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.shortvideo.widget.TabHost>

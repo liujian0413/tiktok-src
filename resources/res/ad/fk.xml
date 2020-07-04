@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/a0l" android:layout_width="match_parent" android:layout_height="52dp">
+    <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="24dp"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13sp" android:textStyle="bold" android:textColor="?attr/yx" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:shadowColor="#26000000" android:shadowDy="1" android:shadowRadius="2" android:layout_weight="1" app:fontType="7" app:isChangeTextSize="false"/>
+    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="0dp" android:layout_marginRight="20dp" android:src="@drawable/a4i"/>
+</LinearLayout>

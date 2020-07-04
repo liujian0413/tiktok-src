@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b1t" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:textCursorDrawable="@drawable/zm"/>
+    <FrameLayout android:id="@+id/b1s" android:layout_width="35dp" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/b1u" android:clipChildren="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+    </FrameLayout>
+</LinearLayout>

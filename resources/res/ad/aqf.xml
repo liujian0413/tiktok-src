@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="116dp">
+    <View android:background="@drawable/cho" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginLeft="20dp" android:layout_marginTop="39dp" android:layout_marginRight="20dp"/>
+    <FrameLayout android:layout_width="28dp" android:layout_height="116dp">
+        <ImageView android:layout_gravity="top" android:id="@+id/dd0" android:background="@drawable/chn" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="27dp"/>
+        <TextView android:textSize="12sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/dd2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23dp" android:lines="1"/>
+    </FrameLayout>
+    <android.support.p029v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@+id/dd1" android:layout_width="wrap_content" android:layout_height="116dp"/>
+    <View android:background="@drawable/cho" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginLeft="20dp" android:layout_marginTop="39dp" android:layout_marginRight="20dp"/>
+</LinearLayout>

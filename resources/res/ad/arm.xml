@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="216dp">
+    <RelativeLayout android:id="@+id/at0" android:background="@drawable/brf" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_marginTop="58dp">
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/auf" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="24dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/kx" android:ellipsize="end" android:id="@+id/e3k" android:layout_width="70dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@+id/auf" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="right" android:id="@+id/at3" android:background="@drawable/bre" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_marginTop="108dp">
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/auh" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="24dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/kx" android:ellipsize="end" android:id="@+id/e3m" android:layout_width="70dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/auh" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center_horizontal" android:id="@+id/b5z" android:visibility="gone" android:layout_width="216dp" android:layout_height="216dp"/>
+</merge>

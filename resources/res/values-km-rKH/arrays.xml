@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>បណ្ណាល័យសំឡេងលើបណ្ដាញ</item>
+        <item>សំឡេង​របស់​ខ្ញុំ</item>
+    </array>
+    <array name="m">
+        <item>លុប</item>
+        <item>បោះបង់</item>
+    </array>
+    <array name="n">
+        <item>ពេញ​និយម</item>
+        <item>ថ្មី​បំផុត</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ថ្ងៃ​អាទិត្យ</item>
+        <item>ថ្ងៃ​ចន្ទ</item>
+        <item>ថ្ងៃ​អង្គារ</item>
+        <item>ថ្ងៃ​ពុធ</item>
+        <item>ថ្ងៃ​ព្រហស្បតិ៍</item>
+        <item>ថ្ងៃ​សុក្រ</item>
+        <item>ថ្ងៃ​សៅរ៍</item>
+    </array>
+    <array name="y">
+        <item>អក្សរ​ចិន​កាត់</item>
+        <item>ចិនបុរាណ</item>
+        <item>អង់គ្លេស</item>
+        <item>ជប៉ុន</item>
+        <item>កូរ៉េ</item>
+        <item>រុស្ស៊ី</item>
+        <item>ឥណ្ឌូណេស៊ី</item>
+        <item>ម៉ាឡេ</item>
+        <item>ព័រទុយហ្គាល់</item>
+        <item>ថៃ</item>
+        <item>វៀតណាម</item>
+        <item>ហិណ្ឌី</item>
+    </array>
+    <array name="z">
+        <item>ធម្មតា</item>
+        <item>ស/ខ្មៅ</item>
+        <item>សិល្បៈ</item>
+        <item>វិនធីច</item>
+        <item>រ៉េត្រូឡាក់</item>
+        <item>ឆ្អែត</item>
+        <item>ក្រូម</item>
+    </array>
+    <array name="a1">
+        <item>មករា</item>
+        <item>កុម្ភៈ</item>
+        <item>មីនា</item>
+        <item>មេសា</item>
+        <item>ឧសភា</item>
+        <item>មិថុនា</item>
+        <item>កក្កដា</item>
+        <item>សីហា</item>
+        <item>កញ្ញា</item>
+        <item>តុលា</item>
+        <item>វិច្ឆិកា</item>
+        <item>ធ្នូ</item>
+    </array>
+    <array name="a4">
+        <item>ការសន្សំសំចៃទិន្នន័យជាអាទិភាព</item>
+        <item>គុណភាពបង្ហាញជាអាទិភាព</item>
+    </array>
+    <array name="a5">
+        <item>មនុស្ស​គ្រប់​គ្នា</item>
+        <item>តែមិត្តភក្តិ​ប៉ុណ្ណោះ</item>
+    </array>
+    <array name="az">
+        <item>ថ្ងៃ​ចន្ទ</item>
+        <item>ថ្ងៃ​អង្គារ</item>
+        <item>ថ្ងៃ​ពុធ</item>
+        <item>ថ្ងៃ​ព្រហស្បតិ៍</item>
+        <item>ថ្ងៃ​សុក្រ</item>
+        <item>ថ្ងៃ​សៅរ៍</item>
+        <item>ថ្ងៃ​អាទិត្យ</item>
+    </array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bth" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/my" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/y3" android:id="@+id/n9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="@string/cwd"/>
+            <ImageView android:id="@+id/n5" android:background="@drawable/c_b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/n9" android:layout_alignTop="@+id/n9"/>
+        </RelativeLayout>
+        <TextView android:textSize="13sp" android:textColor="#80161823" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:text="@string/cwe" android:lineSpacingExtra="3sp" android:translationY="-1.38sp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/n1" android:layout_width="match_parent" android:layout_height="37dp">
+            <View android:layout_gravity="center" android:id="@+id/mx" android:background="@drawable/bnn" android:layout_width="54dp" android:layout_height="28dp" android:layout_marginLeft="16dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.p029v7.widget.RecyclerView android:id="@+id/n6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <View android:id="@+id/n8" android:background="@drawable/bnq" android:layout_width="8dp" android:layout_height="match_parent" android:layout_alignParentLeft="true"/>
+                <View android:id="@+id/n7" android:background="@drawable/bnp" android:layout_width="8dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/n4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp">
+            <com.bytedance.android.live.core.widget.LiveEditText android:textSize="15sp" android:textColor="@color/and" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/n2" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="17dp" android:layout_marginBottom="14dp" android:inputType="text" android:imeOptions="actionUnspecified|actionSend|flagNoExtractUi" android:textCursorDrawable="@drawable/c0x"/>
+            <com.bytedance.android.live.core.widget.FitTextView android:textSize="15sp" android:textColor="#b0b0b0" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/n3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="17dp" android:layout_marginBottom="14dp" android:maxLines="1" android:singleLine="true"/>
+            <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentTop="true"/>
+            <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ac" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/bwu" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/y3" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/f00" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp"/>
+            <View android:background="@drawable/ceg" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/c2c" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/y3" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/f02" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp"/>
+            <View android:background="@drawable/ceg" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/bfq" android:layout_width="match_parent" android:layout_height="52dp">
+            <TextView android:textAppearance="@style/y3" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/fch" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:lineSpacingExtra="0sp" android:translationY="-0.21sp"/>
+            <View android:background="@drawable/ceg" android:layout_width="6dp" android:layout_height="10dp" android:layout_marginRight="19dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/bws" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/f03" style="@style/y2"/>
+        <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/bfp" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ed9" style="@style/y2"/>
+        <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:id="@+id/c2b" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/f01" style="@style/y2"/>
+        <View android:background="@color/ag1" android:layout_width="match_parent" android:layout_height="8dp"/>
+        <TextView android:id="@+id/sp" android:background="@color/as5" android:layout_width="match_parent" android:layout_height="57dp" android:text="@string/ecm" style="@style/y2"/>
+    </LinearLayout>
+</LinearLayout>

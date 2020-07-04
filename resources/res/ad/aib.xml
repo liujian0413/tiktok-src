@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ctw" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/b6e" android:layout_width="match_parent" android:layout_height="58dp" android:scaleType="centerCrop" app:actualImageScaleType="6" app:placeholderImage="@color/ac_"/>
+    <ImageView android:id="@+id/aly" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="12dp" android:src="@drawable/bm4" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</merge>

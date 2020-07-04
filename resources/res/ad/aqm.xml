@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aqw" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/aqy" android:layout_width="match_parent" android:layout_height="34dp" android:layout_marginTop="10dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/d_v" android:background="@drawable/bm_" android:visibility="gone" android:layout_width="50dp" android:layout_height="match_parent" android:layout_marginTop="9dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/aep" android:background="@drawable/bm9" android:layout_width="32dp" android:layout_height="match_parent" android:layout_marginTop="9dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/aye" android:paddingLeft="@dimen/be" android:paddingTop="@dimen/bh" android:paddingRight="@dimen/be" android:paddingBottom="@dimen/bh" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/be" android:paddingEnd="@dimen/be">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yu" android:contentDescription="@null"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b1z" style="@style/u9"/> app:fontType=&quot;bold&quot;/&gt; 
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/afk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/fjl"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_weight="0">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/be4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/bbm" android:layout_marginEnd="10dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/a2y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/ahd" android:layout_marginEnd="10dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/csb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/a5q" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>

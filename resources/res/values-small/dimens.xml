@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qu">132dp</dimen>
+    <dimen name="qv">100dp</dimen>
+    <dimen name="rc">118dp</dimen>
+</resources>

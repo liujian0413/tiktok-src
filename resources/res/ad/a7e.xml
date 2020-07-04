@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/da5" android:layout_width="wrap_content" android:layout_height="62dp" android:layout_marginBottom="@dimen/ka" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/da8" android:background="@drawable/biy" android:layout_width="66dp" android:layout_height="66dp"/>
+        <RelativeLayout android:layout_gravity="center" android:id="@+id/da6" android:paddingLeft="25dp" android:paddingRight="25dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="1dp" android:layout_marginBottom="1dp">
+            <ImageView android:id="@+id/da_" android:layout_width="@dimen/k7" android:layout_height="@dimen/k7" android:src="@drawable/w9" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/sf" android:ellipsize="end" android:id="@+id/da9" android:paddingLeft="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="202dp" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@+id/da_" android:layout_centerVertical="true" app:fontType="2"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

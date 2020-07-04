@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="60dp" android:layout_height="60dp">
+    <com.p280ss.android.ugc.aweme.commercialize.views.ScaleFadeCircleView android:layout_gravity="center" android:id="@+id/ale" android:layout_width="40dp" android:layout_height="40dp"/>
+    <com.p280ss.android.ugc.aweme.commercialize.views.ScaleFadeCircleView android:layout_gravity="center" android:id="@+id/d1s" android:layout_width="40dp" android:layout_height="40dp"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:layout_gravity="center" android:id="@+id/w2" android:layout_width="40dp" android:layout_height="40dp"/>
+</FrameLayout>

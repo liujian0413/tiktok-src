@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.uikit.tabhost.FragmentTabHost xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bwn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bwj" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/x9">
+        <FrameLayout android:id="@+id/dfc" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="bottom" android:id="@+id/oc" android:background="@color/z6" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="47dp"/>
+        <ViewStub android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/a3y" android:layout="?attr/hs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45dp" android:layout_marginEnd="13dp"/>
+        <com.p280ss.android.ugc.aweme.homepage.p1291ui.view.MainBottomTabView android:layout_gravity="bottom" android:id="@+id/bwi" android:layout_width="match_parent" android:layout_height="@dimen/mz"/>
+        <com.p280ss.android.ugc.aweme.feed.p1238ui.seekbar.VideoSeekBar android:layout_gravity="bottom" android:id="@+id/ebh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="18dp" android:layout_marginBottom="36dp"/>
+        <LinearLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ebi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="116dp">
+            <TextView android:textSize="24dp" android:textColor="@color/aze" android:id="@+id/a5k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="5dp" android:layout_height="12.5dp" android:src="@drawable/alv" android:layout_marginStart="11.5dp" android:layout_marginEnd="11.5dp"/>
+            <TextView android:textSize="24dp" android:textColor="@color/az7" android:id="@+id/dn5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2dp"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/dcr" android:layout="@layout/mh" android:inflatedId="@+id/bbv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bnq" android:visibility="gone" android:layout_width="178dp" android:layout_height="127.5dp" android:layout_marginBottom="@dimen/my"/>
+        <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/s0" android:layout="?attr/vn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="44dp"/>
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/rz" android:layout="?attr/vo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginBottom="44dp" android:layout_marginStart="40dp"/>
+        <include android:layout_gravity="bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="?attr/a70"/>
+    </FrameLayout>
+    <View android:id="@+id/efa" android:background="#111111" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</com.bytedance.ies.uikit.tabhost.FragmentTabHost>

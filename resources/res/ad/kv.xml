@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/a9g" android:background="@color/a81" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bxd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="233dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="21sp" android:textColor="@color/a5e" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/d4c" android:visibility="gone" android:layout_width="319dp" android:layout_height="wrap_content" android:text="@string/a3z" android:maxLines="2" android:lineSpacingExtra="3sp"/>
+        <android.support.p029v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/d4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp"/>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/a9o" android:background="@color/aj" android:visibility="gone" android:layout_width="236.5dp" android:layout_height="0.5dp" android:layout_marginTop="32dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/al2" android:visibility="gone" android:clickable="true" android:layout_width="236.5dp" android:layout_height="wrap_content" android:layout_marginTop="26.5dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/al3" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/a0s"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/sd" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/b7a" android:lineSpacingExtra="1sp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/sd" android:layout_gravity="center" android:id="@+id/al4" android:layout_width="15dp" android:layout_height="wrap_content" android:text="." android:lineSpacingExtra="1sp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/al0" android:visibility="gone" android:clickable="true" android:layout_width="236.5dp" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/cxy" android:layout_width="37dp" android:layout_height="49dp" app:placeholderImage="@drawable/bgu" app:roundedCornerRadius="2dp"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/cxz" android:layout_width="5dp" android:layout_height="39dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:src="@drawable/bgv" android:alpha="0.34"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/sd" android:layout_gravity="center" android:id="@+id/cy0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="@string/b78" android:lineSpacingExtra="1sp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/al1" android:visibility="gone" android:clickable="false" android:layout_width="236.5dp" android:layout_height="wrap_content" android:layout_marginTop="29dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/a3q" android:layout_gravity="center" android:id="@+id/cy1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b77" android:lineSpacingExtra="1sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

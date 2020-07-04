@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:id="@+id/e2d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="00:00" android:layout_centerVertical="true" style="@style/u0"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5h" android:id="@+id/du4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="00:15" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/u0"/>
+    <FrameLayout android:id="@+id/acy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.p280ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView android:id="@+id/vx" android:layout_width="match_parent" android:layout_height="wrap_content" app:frameHeight="28dp" app:frameWidth="28dp"/>
+        <FrameLayout android:id="@+id/nj" android:layout_width="match_parent" android:layout_height="28dp"/>
+        <com.p280ss.android.ugc.aweme.effect.VEEffectSeekBar android:id="@+id/acx" android:layout_width="match_parent" android:layout_height="28dp"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/cv1" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignLeft="@+id/acy" android:layout_centerVertical="true">
+        <com.p280ss.android.ugc.aweme.shortvideo.p1617ui.CircleImageView android:id="@+id/e1m" android:background="@color/ayd" android:layout_width="30dp" android:layout_height="30dp" android:layout_centerVertical="true" app:border_color="@color/ayd" app:border_width="0dp"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a70" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/cue" android:layout_width="20dp" android:layout_height="40dp" android:layout_alignLeft="@+id/acy" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/dsq" android:layout_width="4dp" android:layout_height="40dp" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

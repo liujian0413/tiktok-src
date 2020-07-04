@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/a3h" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1"/>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:orientation="vertical" android:id="@+id/a3g" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.constraint.ConstraintLayout android:id="@+id/dka" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/lt" android:id="@+id/dhj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ahn" app:fontType="7" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/t9"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/csq" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+                <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:textSize="13dp" android:textColor="@color/do" android:gravity="center" android:id="@+id/co0" android:background="@drawable/e5" android:layout_width="44dp" android:layout_height="28dp" android:checked="true" android:button="@android:color/transparent" android:text="3s" android:fontFamily="ProximaNova-Semibold"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:textSize="13dp" android:textColor="@color/do" android:gravity="center" android:id="@+id/cnz" android:background="@drawable/e8" android:layout_width="44dp" android:layout_height="28dp" android:button="@android:color/transparent" android:text="10s" android:fontFamily="ProximaNova-Semibold"/>
+            </RadioGroup>
+        </android.support.constraint.ConstraintLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="20dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/yp" android:id="@+id/di9" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7" app:isSelected="false"/>
+                    <android.support.p022v4.widget.Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/yp" android:id="@+id/dho" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7" app:isSelected="false"/>
+                </LinearLayout>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/yi" android:id="@+id/di1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.p280ss.android.ugc.aweme.shortvideo.widget.VolumeTapsView android:id="@+id/ee7" android:layout_width="match_parent" android:layout_height="66dp" android:layout_marginTop="4dp" app:isCircle="false"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aye" android:gravity="center" android:id="@+id/da5" android:background="@drawable/rj" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="20dp" android:foreground="?attr/a19" android:text="@string/ahl" app:fontType="7"/>
+        </LinearLayout>
+    </com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+</LinearLayout>

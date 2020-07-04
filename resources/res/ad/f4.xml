@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/apb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/eac" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/eh6" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView android:gravity="center" android:id="@+id/deh" android:layout_width="match_parent" android:layout_height="289dp" android:layout_marginBottom="60dp" android:layout_alignParentBottom="true" app:lottie_fileName="feed_guide_hand_swip_lottie.json" app:lottie_loop="true"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="28dp" android:textColor="@color/az3" android:gravity="center" android:id="@+id/dej" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:text="@string/fs4" android:layout_alignParentBottom="true" android:fontFamily="ProximaNova-Bold"/>
+    </RelativeLayout>
+    <RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dab" android:background="@drawable/tj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_marginBottom="32dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="28dp" android:textColor="@color/az3" android:id="@+id/dac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e1a" android:layout_centerInParent="true" android:fontFamily="ProximaNova-Bold"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="12dp" android:src="@drawable/co" android:layout_toRightOf="@+id/dac" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

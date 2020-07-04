@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/dke" layout="@layout/agz"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/nk" android:layout_below="@+id/dke">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/b5_" android:background="@color/a6c" app:startText="@string/e83" style="@style/wf"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:text="@string/e99" style="@style/xj"/>
+            <com.bytedance.ies.dmt.p262ui.widget.setting.SettingItemSwitch android:id="@+id/b3i" android:background="@color/a6c" app:startText="@string/agi" style="@style/wf"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:id="@+id/ap9" android:text="@string/agj" style="@style/xj"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/nk" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textColor="@color/a8d" android:id="@+id/qk" android:background="@drawable/ra" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/e8a" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textColor="@color/a5x" android:id="@+id/qj" android:background="@drawable/rb" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="10dp" android:text="@string/dlo" style="@style/u6"/>
+    </LinearLayout>
+</RelativeLayout>

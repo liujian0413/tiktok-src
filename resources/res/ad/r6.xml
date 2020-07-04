@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/an7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="179dp">
+        <com.p280ss.android.ugc.aweme.photomovie.CompatTextureView android:layout_gravity="center" android:id="@+id/dij" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/ccc" android:visibility="gone" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/fj" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/uz" android:layout_width="match_parent" android:layout_height="163dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="18dp" android:layout_marginRight="20dp" android:layout_marginBottom="23.5dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/a53" android:ellipsize="end" android:id="@+id/e3_" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:maxLines="1" android:shadowColor="@color/fd" android:shadowRadius="2" android:layout_weight="1"/>
+            <com.bytedance.ies.dmt.p262ui.widget.AutoRTLImageView android:id="@+id/b5u" android:visibility="gone" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/a6u"/>
+            <Space android:layout_width="20dp" android:layout_height="0dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.AutoRTLImageView android:id="@+id/bbr" android:visibility="gone" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/a4h"/>
+        </LinearLayout>
+        <com.p280ss.android.ugc.aweme.shortvideo.cut.videoedit.VideoEditView android:id="@+id/eak" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="30dp" app:cursorHeight="72dp" app:cursorWidth="6dp" app:frameHeight="60dp" app:frameWidth="31dp" app:leftRightMargin="36dp"/>
+    </LinearLayout>
+</FrameLayout>

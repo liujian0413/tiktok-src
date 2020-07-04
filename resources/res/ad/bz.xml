@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/t4" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.p313im.sdk.widget.ImTextTitleBar android:id="@+id/djz" android:background="@drawable/hq" android:layout_width="match_parent" android:layout_height="@dimen/i6" app:imRightColor="@color/aw3" app:imRightText="@string/boq" app:imRightTextSize="15dp"/>
+        <TextView android:textColor="@color/vo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:text="@string/bk3" style="@style/u2"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:textColor="@color/vj" android:textColorHint="@color/vo" android:id="@+id/ag5" android:background="@null" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="52dp" android:hint="@string/biz" android:layout_weight="1" android:textCursorDrawable="@drawable/b50" style="@style/u6"/>
+            <ImageView android:id="@+id/b7e" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/a_5"/>
+        </LinearLayout>
+        <View android:background="@color/u8" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+        <TextView android:textColor="@color/a54" android:id="@+id/e4t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" style="@style/u0"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:layout_gravity="center" android:id="@+id/ecx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

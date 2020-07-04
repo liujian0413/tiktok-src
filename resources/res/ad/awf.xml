@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/cq6" android:background="@drawable/te" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="150dp">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:id="@+id/cno" android:background="@drawable/td" android:text="@string/fnw" style="@style/w9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:id="@+id/cnp" android:background="@drawable/td" android:text="@string/dv5" style="@style/w9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:id="@+id/cnq" android:background="@drawable/td" android:checked="true" android:text="@string/e04" style="@style/w9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:id="@+id/cnr" android:background="@drawable/td" android:text="@string/b4e" style="@style/w9"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtRadioButton android:id="@+id/cns" android:background="@drawable/td" android:text="@string/fnu" style="@style/w9"/>
+</RadioGroup>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.shortvideo.p1617ui.PressFadeFrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="15dp" android:paddingBottom="15.5dp" android:layout_width="wrap_content" android:layout_height="54dp">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="54dp">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:layout_gravity="center" android:id="@+id/aim" android:layout_width="13dp" android:layout_height="13dp" app:actualImageScaleType="5"/>
+            <ImageView android:layout_gravity="center" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/a0h"/>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:id="@+id/cca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" style="@style/u2"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a5d" android:layout_gravity="center_vertical" android:id="@+id/aia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" style="@style/u9"/>
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/a7x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/as1"/>
+    </LinearLayout>
+    <View android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/ahz" android:background="@color/a5u" android:layout_width="1dp" android:layout_height="20dp"/>
+</com.p280ss.android.ugc.aweme.shortvideo.p1617ui.PressFadeFrameLayout>

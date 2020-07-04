@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/cwn" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/cwi" android:background="@drawable/bex" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.5dp">
+                <LinearLayout android:orientation="vertical" android:id="@+id/a76" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21dp">
+                    <ImageView android:id="@+id/a70" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/asz"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a82" android:layout_gravity="center_horizontal" android:id="@+id/a71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/anl" style="@style/u0"/>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:background="@color/lh" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="15dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a89" android:gravity="center" android:id="@+id/sp" android:background="@drawable/vg" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/w_" style="@style/u6"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

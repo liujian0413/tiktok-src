@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/cqb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/bkj" android:background="@color/uq" android:layout_width="match_parent" android:layout_height="@dimen/i6">
+        <com.p280ss.android.ugc.aweme.p313im.sdk.widget.AutoRTLImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/b6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/a_f" android:scaleType="centerInside" android:layout_marginStart="16dp"/>
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/bjo" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="16dp" android:layout_marginEnd="16dp">
+            <ImageView android:id="@+id/bc0" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1dp" android:scaleType="fitXY"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a6d" android:gravity="center" android:id="@+id/e1l" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1dp" style="@style/u2"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/bgs" android:background="@color/uq" android:layout_width="match_parent" android:layout_height="48dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/un" android:gravity="center" android:id="@+id/ri" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bo8" android:drawableLeft="@drawable/bhz" android:drawablePadding="5dp" android:drawableStart="@drawable/bhz" style="@style/u6"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:textColor="@color/a8c" android:ellipsize="end" android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/rg" android:background="@drawable/sd" android:layout_width="wrap_content" android:layout_height="27dp" android:layout_marginRight="15dp" android:maxWidth="90dp" android:minWidth="57.5dp" android:text="@string/bp9" android:maxLines="1" android:layout_marginEnd="15dp" style="@style/u2"/>
+    </FrameLayout>
+</FrameLayout>

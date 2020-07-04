@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:fsPanel="true">
+    <FrameLayout android:id="@+id/bk9" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.photomovie.CompatTextureView android:layout_gravity="center" android:id="@+id/cbd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bhu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bk9"/>
+    <FrameLayout android:id="@+id/bgs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>

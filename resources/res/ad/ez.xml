@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a3z" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/a3z" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+            <com.p280ss.android.ugc.aweme.imported.AutoRTLTextView android:textSize="16dp" android:textColor="@color/a4z" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/jn" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="6dp" android:drawableLeft="@drawable/fs" android:drawablePadding="10dp" android:drawableStart="@drawable/fs" app:fontType="1"/>
+            <android.support.p022v4.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="16dp" android:textColor="@color/a4z" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/sp" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44dp" android:text="@string/w_"/>
+        </LinearLayout>
+        <com.p280ss.android.ugc.aweme.imported.FakeBoldTextView android:textColor="@color/a4z" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e2x" android:fontFamily="ProximaNova-Bold" app:fontType="1" style="@style/u9"/>
+    </FrameLayout>
+    <View android:background="@color/a4j" android:layout_width="match_parent" android:layout_height="1px"/>
+    <FrameLayout android:id="@+id/aoy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

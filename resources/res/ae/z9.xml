@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="visible" android:layout_width="110dp" android:layout_height="96dp">
+    <View android:id="@+id/m8" android:background="@drawable/byt" android:layout_width="110dp" android:layout_height="96dp"/>
+    <RelativeLayout android:id="@+id/mc" android:layout_width="110dp" android:layout_height="96dp">
+        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/as5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:text="@string/fff" android:layout_marginStart="8dp"/>
+        <TextView android:textSize="12dp" android:textColor="@color/as5" android:id="@+id/e3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginRight="5.5dp" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="12dp" android:textColor="@color/as5" android:id="@+id/e4n" android:background="@drawable/cil" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:layout_alignBottom="@+id/bdj"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bdj" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="5dp" android:layout_marginRight="6dp" android:layout_below="@+id/e3c" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="12dp" android:textColor="@color/as5" android:id="@+id/e4o" android:background="@drawable/cim" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:layout_alignBottom="@+id/bdk"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bdk" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="2dp" android:layout_marginRight="6dp" android:layout_below="@+id/bdj" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/d7z" android:visibility="invisible" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="37dp" android:layout_marginTop="30dp">
+        <View android:layout_gravity="bottom" android:id="@+id/ee9" android:background="@drawable/byu" android:layout_width="4dp" android:layout_height="0dp" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:layout_marginBottom="2dp"/>
+        <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/eed" android:background="@drawable/byv" android:layout_width="4dp" android:layout_height="0dp" android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:layout_marginBottom="2dp"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/ay4" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp"/>
+            <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/as5" android:gravity="center" android:id="@+id/dto" android:visibility="gone" android:layout_width="26dp" android:layout_height="wrap_content" android:text="@string/ffb"/>
+            <TextView android:textSize="8dp" android:textStyle="bold" android:textColor="@color/as5" android:gravity="center" android:id="@+id/e3_" android:visibility="invisible" android:layout_width="26dp" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

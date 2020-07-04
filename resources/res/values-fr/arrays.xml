@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>Bibliothèque de sons en ligne</item>
+        <item>Mon son</item>
+    </array>
+    <array name="m">
+        <item>Supprimer</item>
+        <item>Annuler</item>
+    </array>
+    <array name="n">
+        <item>Tendance</item>
+        <item>Récents</item>
+        <item>…</item>
+        <item>…</item>
+        <item>…</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </array>
+    <array name="y">
+        <item>Chinois simplifié</item>
+        <item>Chinois traditionnel</item>
+        <item>Anglais</item>
+        <item>Japonais</item>
+        <item>Coréen</item>
+        <item>Russe</item>
+        <item>Indonésien</item>
+        <item>Malais</item>
+        <item>Portugais</item>
+        <item>Thaïlandais</item>
+        <item>Vietnamien</item>
+        <item>Hindi</item>
+    </array>
+    <array name="z">
+        <item>Normal</item>
+        <item>Noir/Blanc</item>
+        <item>Art</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturé</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>Jan</item>
+        <item>Fév</item>
+        <item>Mar</item>
+        <item>Avr</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Jui</item>
+        <item>Août</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Déc</item>
+    </array>
+    <array name="a4">
+        <item>Économie de données prioritaire</item>
+        <item>Haute résolution prioritaire</item>
+    </array>
+    <array name="a5">
+        <item>Tout le monde</item>
+        <item>Amis uniquement</item>
+    </array>
+    <array name="az">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </array>
+</resources>

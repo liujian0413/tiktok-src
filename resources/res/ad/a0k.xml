@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.views.RoundedLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#0fffffff" android:layout_width="@dimen/ly" android:layout_height="wrap_content" app:rounded_radius="@dimen/lg">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/lx">
+        <com.p280ss.android.ugc.aweme.base.p308ui.SquareImageView android:id="@+id/b4_" android:background="@color/a22" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/b4a" android:visibility="gone" android:layout_width="36dp" android:layout_height="40dp" android:src="@drawable/b7n" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:ellipsize="end" android:gravity="start" android:id="@+id/b4r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/u2"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="15dp" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab4" android:id="@+id/b4d" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u0"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/ab4" android:gravity="end" android:id="@+id/b49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_weight="1" style="@style/u0"/>
+    </LinearLayout>
+</com.p280ss.android.ugc.aweme.views.RoundedLinearLayout>

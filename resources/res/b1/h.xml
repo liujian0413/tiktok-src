@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut android:icon="@drawable/a1g" android:enabled="true">
+        <intent android:targetPackage="com.zhiliaoapp.musically" android:action="android.intent.action.MAIN" android:targetClass="com.ss.android.ugc.aweme.main.MainActivity"/>
+        <intent android:targetPackage="com.zhiliaoapp.musically" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutShootingActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/a1f" android:enabled="true">
+        <intent android:targetPackage="com.zhiliaoapp.musically" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutMessageActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/a1h" android:enabled="true">
+        <intent android:targetPackage="com.zhiliaoapp.musically" android:action="android.intent.action.VIEW" android:targetClass="com.ss.android.ugc.trill.main.shortcut.ShortcutTrendingActivity"/>
+    </shortcut>
+</shortcuts>

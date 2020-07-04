@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/bxl" android:background="#ffffffff" android:paddingLeft="8dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#1e000000" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="52dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13dp" android:textColor="#80161823" android:layout_gravity="center_vertical" android:id="@+id/ear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/alk" android:layout_weight="1" android:layout_marginEnd="16dp"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ddn" android:background="@drawable/dp" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="36dp" android:text="@string/cll" android:layout_weight="0" android:paddingStart="12dp" android:paddingEnd="12dp" app:fontType="7"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

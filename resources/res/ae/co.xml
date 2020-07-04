@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:id="@+id/y1" android:background="@drawable/i8" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentEnd="true">
+        <com.p280ss.android.ugc.aweme.music.p1410ui.CheckableImageView android:id="@+id/b7l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ali" android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dn_" android:background="@drawable/i8" android:layout_width="match_parent" android:layout_height="28dp" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/y1">
+        <com.p280ss.android.ugc.aweme.music.p1410ui.CheckableImageView android:id="@+id/bd9" android:layout_width="16dp" android:layout_height="16dp" android:scaleType="fitXY" android:layout_marginEnd="6dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/asc" android:ellipsize="end" android:id="@+id/e44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="ProximaNova-Semibold" app:fontType="2" style="@style/u2"/>
+    </LinearLayout>
+</RelativeLayout>

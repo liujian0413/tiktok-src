@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" app:fsPanel="true" app:secondPanel="true">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="22dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/bix" android:layout_width="0dp" android:layout_height="75dp" android:layout_marginLeft="16dp" android:layout_weight="1" android:layout_marginStart="16dp">
+            <ImageView android:id="@+id/azi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/azk" android:background="@drawable/u_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p280ss.android.ugc.aweme.photomovie.edit.imageframe.ImageFrameView android:layout_gravity="center_vertical" android:id="@+id/azn" android:layout_width="35dp" android:layout_height="35dp"/>
+                <View android:layout_width="13dp" android:layout_height="wrap_content"/>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:layout_gravity="center_vertical" android:id="@+id/dhz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e_z" style="@style/u6"/>
+            </LinearLayout>
+        </FrameLayout>
+        <View android:layout_width="16dp" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/biy" android:layout_width="0dp" android:layout_height="75dp" android:layout_marginRight="16dp" android:layout_weight="1" android:layout_marginEnd="16dp">
+            <ImageView android:id="@+id/azj" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/azl" android:background="@drawable/u_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.p280ss.android.ugc.aweme.photomovie.edit.imageframe.ImageFrameView android:layout_gravity="bottom" android:id="@+id/azo" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginBottom="13dp"/>
+                <View android:layout_width="13dp" android:layout_height="wrap_content"/>
+                <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:layout_gravity="center_vertical" android:id="@+id/di0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ea0" style="@style/u6"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/al1"/>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

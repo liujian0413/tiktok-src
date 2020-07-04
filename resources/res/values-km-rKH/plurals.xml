@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">លុបសេចក្ដីព្រាងឬ?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">ទំនុកភ្លេង %d</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">តន្ត្រី %d</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d បទ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">ចម្រៀង %d បទ</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d សំឡេង</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">ភ្លេង %d</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%d វីដេអូ</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="other">បានបង្ហោះវីដេអូ %d</item>
+    </plurals>
+</resources>

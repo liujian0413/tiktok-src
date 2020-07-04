@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="名称" android:layout_weight="1"/>
+        <TextView android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="色块" android:layout_weight="1"/>
+        <FrameLayout android:id="@+id/dn8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textStyle="bold" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="色号" android:drawableRight="@drawable/a5h" android:drawablePadding="5dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <android.support.p029v7.widget.RecyclerView android:id="@+id/bn1" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+</LinearLayout>

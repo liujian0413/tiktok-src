@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.p280ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout android:id="@+id/bv9" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/aq1" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <LinearLayout android:id="@+id/dms" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="@dimen/x5">
+                <FrameLayout android:id="@+id/bl3" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/jr" android:padding="10dp" android:visibility="visible" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/cmw" android:layout_marginStart="6dp"/>
+                    <com.p280ss.android.ugc.aweme.discover.p1185ui.SearchScanView android:id="@+id/d1g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginEnd="2dp"/>
+                </FrameLayout>
+                <include android:layout_gravity="center_vertical" android:id="@+id/cu7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" layout="@layout/lj"/>
+                <FrameLayout android:id="@+id/ct8" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.bytedance.ies.dmt.p262ui.widget.AutoRTLImageView android:layout_gravity="center" android:id="@+id/jt" android:paddingLeft="4dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="match_parent" android:scaleType="centerInside" android:layout_alignParentRight="true" android:paddingStart="4dp" android:paddingEnd="16dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ahe"/>
+                    <com.p280ss.android.ugc.aweme.discover.p1185ui.SearchScanView android:id="@+id/d1h" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginEnd="2dp"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a79" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/e1h" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp" android:text="@string/djj" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/u6"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/aoy" android:background="@color/a3z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.p280ss.android.ugc.aweme.discover.p1185ui.SearchIntermediateView android:id="@+id/d11" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.p280ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout>
+</RelativeLayout>

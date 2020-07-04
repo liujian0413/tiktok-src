@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="9dp" android:layout_width="74dp" android:layout_height="74dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/b03" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/u8"/>
+    <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b05" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitXY" app:placeholderImage="@drawable/alu"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/b07" android:visibility="visible" android:layout_width="18dp" android:layout_height="18dp" android:layout_margin="3dp" android:src="@drawable/g7" android:scaleType="fitXY"/>
+</FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>စုစည်းခန်းမှ ရွေးချယ်ပါ</item>
+        <item>ဓာတ်ပုံရိုက်ပါ</item>
+        <item>ပယ်ဖျက်မည်</item>
+    </array>
+    <array name="an">
+        <item>စစ်ထုတ်မှု_01</item>
+        <item>စစ်ထုတ်မှု_02</item>
+        <item>စစ်ထုတ်မှု_03</item>
+        <item>စစ်ထုတ်မှု_04</item>
+        <item>စစ်ထုတ်မှု_05</item>
+    </array>
+    <array name="ao">
+        <item>တစ်ခုမျှမဟုတ်</item>
+        <item>ပန်း</item>
+        <item>ချိုမြိန်</item>
+        <item>လက်ဖက်ရည်</item>
+        <item>ထက်မြက်မှု</item>
+        <item>ပန်းနုရောင်</item>
+        <item>လေညင်း</item>
+        <item>သဘာဝ</item>
+        <item>နေရောင်ခြည်</item>
+        <item>ကလေးငယ်</item>
+        <item>အတိတ်အမှတ်တရ</item>
+        <item>တောက်ပသော</item>
+        <item>ချစ်စဖွယ်</item>
+        <item>မက်မွန်</item>
+        <item>နေဝင်ချိန်</item>
+    </array>
+    <array name="aq">
+        <item>ပွဲစဉ်</item>
+        <item>အပတ်စဉ်</item>
+        <item>အလုံးစုံ</item>
+        <item>Xigua အဆင့်သတ်မှတ်ချက်</item>
+    </array>
+    <array name="ar">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>ဩဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </array>
+    <array name="au">
+        <item>တစ်ခုမျှမဟုတ်</item>
+        <item>သဘာဝ</item>
+        <item>ရှင်းပစ်ပါ</item>
+        <item>ဂျပန်</item>
+        <item>အထင်ကြီးလောက်ဖွယ်</item>
+    </array>
+    <array name="av">
+        <item>တစ်ခုမျှမဟုတ်</item>
+        <item>သဘာဝ</item>
+        <item>တောက်ပသော</item>
+        <item>အချစ်ဦး</item>
+    </array>
+    <array name="aw">
+        <item>အစီရင်ခံပါ</item>
+        <item>ပယ်ဖျက်မည်</item>
+    </array>
+</resources>

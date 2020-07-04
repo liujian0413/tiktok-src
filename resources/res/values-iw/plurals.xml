@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">למחוק את הטיוטה?</item>
+        <item quantity="two">למחוק את הטיוטות?</item>
+        <item quantity="many">למחוק את הטיוטות?</item>
+        <item quantity="other">למחוק את הטיוטות?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">מנגינה %d</item>
+        <item quantity="two">%d מנגינות</item>
+        <item quantity="many">%d מנגינות</item>
+        <item quantity="other">%d מנגינות</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">מוזיקה d%</item>
+        <item quantity="two">d% קטעי מוזיקה</item>
+        <item quantity="many">d% קטעי מוזיקה</item>
+        <item quantity="other">%d מוזיקות</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">קטע %d</item>
+        <item quantity="two">%d קטעים</item>
+        <item quantity="many">%d קטעים</item>
+        <item quantity="other">%d קטעים</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">שיר %d</item>
+        <item quantity="two">%d שירים</item>
+        <item quantity="many">%d שירים</item>
+        <item quantity="other">%d שירים</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">סאונד %d</item>
+        <item quantity="two">%d סאונדים</item>
+        <item quantity="many">%d סאונדים</item>
+        <item quantity="other">%d סאונדים</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">לחן %d</item>
+        <item quantity="two">%d לחנים</item>
+        <item quantity="many">%d לחנים</item>
+        <item quantity="other">%d לחנים</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">פרסם סרטון %d</item>
+        <item quantity="two">פרסם %d סרטונים</item>
+        <item quantity="many">פרסם %d סרטונים</item>
+        <item quantity="other">פרסם %d סרטונים</item>
+    </plurals>
+</resources>

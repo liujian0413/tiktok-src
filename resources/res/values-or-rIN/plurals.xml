@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">ଡ୍ରାଫ୍ଟ ବିଲୋପ କରିବେ?</item>
+        <item quantity="other">ଡ୍ରାଫ୍ଟଗୁଡିକ ବିଲୋପ କରିବେ?</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">%dଟି ମେଲୋଡି</item>
+        <item quantity="other">%dଟି ମେଲୋଡି</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%dଟି ସଙ୍ଗୀତ</item>
+        <item quantity="other">%dଟି ସଙ୍ଗୀତ</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">%dଟି ଖଣ୍ଡ</item>
+        <item quantity="other">%dଟି ଖଣ୍ଡ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">%dଟି ସଙ୍ଗୀତ</item>
+        <item quantity="other">%dଟି ସଙ୍ଗୀତ</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">%dଟି ସାଉଣ୍ଡ</item>
+        <item quantity="other">%dଟି ସାଉଣ୍ଡ</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">%dଟି ଟ୍ୟୁନ୍‌</item>
+        <item quantity="other">%dଟି ଟ୍ୟୁନ୍‌</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">%d friend commented on your story.</item>
+        <item quantity="other">%d friends commented on your story.</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">%d user wants to add you as friend</item>
+        <item quantity="other">%d users want to add you as friend</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">%d friend liked your story.</item>
+        <item quantity="other">%d friends liked your story.</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">%d friend watched your story.</item>
+        <item quantity="other">%d friends watched your story.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">%dଟି ଭିଡିଓ</item>
+        <item quantity="other">%dଟି ଭିଡିଓ</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">%d ଦିନ ପୂର୍ବରୁ</item>
+        <item quantity="other">%d ଦିନ ପୂର୍ବରୁ</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">ଘଣ୍ଟା(ଗୁଡିକ)</item>
+        <item quantity="other">ଘଣ୍ଟା(ଗୁଡିକ)</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%1$d ଘଣ୍ଟା ପୂର୍ବରୁ</item>
+        <item quantity="other">%1$d ଘଣ୍ଟା ପୂର୍ବରୁ</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">ମିନିଟ୍</item>
+        <item quantity="other">ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%1$d ମିନିଟ୍ ପୂର୍ବେ</item>
+        <item quantity="other">%1$d ମିନିଟ୍ ପୂର୍ବେ</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">ଦିନଗୁଡିକ</item>
+        <item quantity="other">ଦିନଗୁଡିକ</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">ଘଣ୍ଟା(ଗୁଡିକ)</item>
+        <item quantity="other">ଘଣ୍ଟା(ଗୁଡିକ)</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">ମିନିଟ୍</item>
+        <item quantity="other">ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">ମାସଗୁଡିକ</item>
+        <item quantity="other">ମାସଗୁଡିକ</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">ସେକେଣ୍ତ</item>
+        <item quantity="other">ସେକେଣ୍ତ</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">ସପ୍ତାହ</item>
+        <item quantity="other">ସପ୍ତାହ</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">%1$d ବର୍ଷ ପୂର୍ବେ</item>
+        <item quantity="other">%1$d ବର୍ଷ ପୂର୍ବେ</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ଦିନରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+        <item quantity="other">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ଦିନରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ଘଣ୍ଟାରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+        <item quantity="other">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ଘଣ୍ଟାରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">ଦୁଃଖିତ, ଆପଣ ବର୍ତ୍ତମାନରେ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି। \10 ଆପଣ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି: %1$d ମିନିଟ୍</item>
+        <item quantity="other">ଦୁଃଖିତ, ଆପଣ ବର୍ତ୍ତମାନରେ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି। \10 ଆପଣ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି: %1$d ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ସେକେଣ୍ଡରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+        <item quantity="other">ଦୁଃଖିତ! ଆପଣ ପ୍ରତିବନ୍ଧିତ ହୋଇଛନ୍ତି\10 ଆପଣ %1$d ସେକେଣ୍ଡରେ ପୁନଃ ଲାଇଭ୍‌ ଷ୍ଟ୍ରିମ୍‌ କରିପାରନ୍ତି</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">%d ଜଣ ଉପଭୋକ୍ତା ଆପଣଙ୍କ ବ୍ରଡକାଷ୍ଟ ଦେଖୁଛନ୍ତି, କଣ ଆପଣ ଏହା ବନ୍ଦ କରିବାକୁ ଚାହାଁନ୍ତି?</item>
+        <item quantity="other">%d ଜଣ ଉପଭୋକ୍ତା ଆପଣଙ୍କ ବ୍ରଡକାଷ୍ଟ ଦେଖୁଛନ୍ତି, କଣ ଆପଣ ଏହା ବନ୍ଦ କରିବାକୁ ଚାହାଁନ୍ତି?</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">%1$d ମିନିଟ୍ ପାଇଁ ସଂଯୋଜିତ</item>
+        <item quantity="other">%1$d ମିନିଟ୍ ପାଇଁ ସଂଯୋଜିତ</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">%1$d ମିନିଟ୍ ପାଇଁ ଅପେକ୍ଷା କରିଛନ୍ତି</item>
+        <item quantity="other">%1$d ମିନିଟ୍ ପାଇଁ ଅପେକ୍ଷା କରିଛନ୍ତି</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">ପ୍ରଥମ ଥର ଅଧିକ %2$dଟି ପ୍ରାପ୍ତ କରିବାକୁ %1$dଟି ଡାଇମଣ୍ଡ ରିଚାର୍ଜ୍‌ କରନ୍ତୁ!</item>
+        <item quantity="other">ପ୍ରଥମ ଥର ଅଧିକ %2$dଟି ପ୍ରାପ୍ତ କରିବାକୁ %1$dଟି ଡାଇମଣ୍ଡ ରିଚାର୍ଜ୍‌ କରନ୍ତୁ!</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">ମିନିଟ୍</item>
+        <item quantity="other">ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">ପୋଷ୍ଟ ହୋଇଥିବା %dଟି ଭିଡିଓ</item>
+        <item quantity="other">ପୋଷ୍ଟ ହୋଇଥିବା %dଟି ଭିଡିଓ</item>
+    </plurals>
+</resources>

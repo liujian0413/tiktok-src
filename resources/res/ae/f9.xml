@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.comment.widget.CommentNestedLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cwn" android:layout_width="match_parent" android:layout_height="match_parent" android:translationY="500dp">
+    <View android:id="@+id/zj" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/am1" android:background="@drawable/j3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.commercialize.views.CommerceComtEggLayout android:id="@+id/a0y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.p280ss.android.ugc.aweme.commercialize.egg.CommerceEggLayout android:id="@+id/a0o" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/bt0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/a1i" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/lw" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" app:fontType="7" style="@style/u1"/>
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/ab4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/zn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@string/a9m" android:layout_marginStart="48dp" android:layout_marginEnd="48dp" style="@style/u1"/>
+            <FrameLayout android:id="@+id/am2" android:layout_width="match_parent" android:layout_height="@dimen/hj">
+                <com.p280ss.android.ugc.aweme.views.FpsRecyclerView android:id="@+id/cqd" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtStatusView android:id="@+id/dav" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/aog" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="49dp" android:layout_height="49dp" android:src="@drawable/b6v"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@string/dq"/>
+                </LinearLayout>
+                <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/z4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/a9l"/>
+            </FrameLayout>
+            <View android:background="@color/lh" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/z9" android:background="@drawable/j6" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/z5" android:layout_width="match_parent" android:layout_height="52dp" layout="@layout/il"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/a1_" android:background="@drawable/j6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="52dp"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/jo" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="4dp" android:src="@drawable/aqz" android:scaleType="center" android:layout_marginEnd="4dp"/>
+    </FrameLayout>
+</com.p280ss.android.ugc.aweme.comment.widget.CommentNestedLayout>

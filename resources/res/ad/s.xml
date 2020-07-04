@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p029v7.view.menu.ListMenuItemView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="196dp">
+    <ImageView android:id="@+id/asx" android:background="@drawable/ak" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:id="@+id/a1q" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?attr/jg" style="@style/id">
+        <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ie">
+            <TextView android:textAppearance="?attr/a5l" android:ellipsize="marquee" android:id="@+id/title" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/ih"/>
+            <TextView android:textAppearance="?attr/a5t" android:id="@+id/d6c" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/title" style="@style/ih"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/dd4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" style="@style/ig"/>
+    </LinearLayout>
+</android.support.p029v7.view.menu.ListMenuItemView>

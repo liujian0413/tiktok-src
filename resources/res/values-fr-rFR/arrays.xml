@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>Sélectionner dans l’album</item>
+        <item>Prendre des photos</item>
+        <item>Annuler</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>Aucun</item>
+        <item>Fleur</item>
+        <item>Doux</item>
+        <item>Thé</item>
+        <item>Intello</item>
+        <item>Idyllique</item>
+        <item>Brise</item>
+        <item>Nature</item>
+        <item>Lumière du jour</item>
+        <item>Bébé</item>
+        <item>Nostalgie</item>
+        <item>Lumineux</item>
+        <item>Mignon</item>
+        <item>Pêche</item>
+        <item>Coucher de soleil</item>
+    </array>
+    <array name="aq">
+        <item>Manche</item>
+        <item>Hebdo</item>
+        <item>Général</item>
+        <item>Classement Xigua</item>
+    </array>
+    <array name="ar">
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </array>
+    <array name="au">
+        <item>Aucun</item>
+        <item>Nature</item>
+        <item>Effacer</item>
+        <item>Japonais</item>
+        <item>Émouvant</item>
+    </array>
+    <array name="av">
+        <item>Aucun</item>
+        <item>Nature</item>
+        <item>Lumineux</item>
+        <item>Premier amour</item>
+    </array>
+    <array name="aw">
+        <item>Rapport</item>
+        <item>Annuler</item>
+    </array>
+</resources>

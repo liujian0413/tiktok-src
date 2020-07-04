@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>အွန်လိုင်း အသံ စုစည်းခန်း</item>
+        <item>ကျွန်ုပ်၏အသံ</item>
+    </array>
+    <array name="m">
+        <item>ဖျက်ပါ</item>
+        <item>ပယ်ဖျက်ပါ</item>
+    </array>
+    <array name="n">
+        <item>ခေတ်စားနေသော</item>
+        <item>နောက်ဆုံးပေါ်</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>တနင်္ဂနွေနေ့</item>
+        <item>တနင်္လာနေ့</item>
+        <item>အင်္ဂါနေ့</item>
+        <item>ဗုဒ္ဓဟူးနေ့</item>
+        <item>ကြာသပတေးနေ့</item>
+        <item>သောကြာနေ့</item>
+        <item>စနေနေ့</item>
+    </array>
+    <array name="y">
+        <item>ခေတ်သစ်တရုတ်ဘာသာ</item>
+        <item>ခေတ်ဟောင်း တရုတ်</item>
+        <item>အင်္ဂလိပ်ဘာသာ</item>
+        <item>ဂျပန်</item>
+        <item>ကိုရီးယား</item>
+        <item>ရုရှား</item>
+        <item>အင်ဒိုနီးရှား</item>
+        <item>မလေး</item>
+        <item>ပေါ်တူဂီ</item>
+        <item>ထိုင်း</item>
+        <item>ဗီယက်နမ်</item>
+        <item>ဟိန္ဒီ</item>
+    </array>
+    <array name="z">
+        <item>ပုံမှန်</item>
+        <item>အဖြူ/အမည်း</item>
+        <item>အနုပညာ</item>
+        <item>ရှေးခေတ်ဂန္တဝင်ပုံစံ</item>
+        <item>ခေတ်ဟောင်းပုံစံ</item>
+        <item>စိုလွင်တောက်ပ</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </array>
+    <array name="a4">
+        <item>ဒေတာချွေတာမှု ဦးစားပေး</item>
+        <item>ရီဆိုလူးရှင်းမြင့် ဦးစားပေး</item>
+    </array>
+    <array name="a5">
+        <item>လူတိုင်း</item>
+        <item>သူငယ်ချင်းများသာ</item>
+    </array>
+    <array name="az">
+        <item>တနင်္လာနေ့</item>
+        <item>အင်္ဂါနေ့</item>
+        <item>ဗုဒ္ဓဟူးနေ့</item>
+        <item>ကြာသပတေးနေ့</item>
+        <item>သောကြာနေ့</item>
+        <item>စနေနေ့</item>
+        <item>တနင်္ဂနွေနေ့</item>
+    </array>
+</resources>

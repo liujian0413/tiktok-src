@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.p262ui.titlebar.TextTitleBar android:id="@+id/djz" android:layout_width="match_parent" android:layout_height="wrap_content" app:endTextSize="15dp" app:titleText="@string/apx" app:titleTextColor="@color/lt" app:useBackIcon="true"/>
+        <FrameLayout android:id="@+id/a24" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/ase" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="h">
+        <item>ਔਨਲਾਈਨ ਧੁਨੀ ਲਾਇਬ੍ਰੇਰੀ</item>
+        <item>ਮੇਰੀ ਧੁਨ</item>
+    </array>
+    <array name="m">
+        <item>ਹਟਾਓ</item>
+        <item>ਰੱਦ ਕਰੋ</item>
+    </array>
+    <array name="n">
+        <item>ਪ੍ਰਚਲਿਤ</item>
+        <item>ਨਵੀਨਤਮ</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </array>
+    <array name="s">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </array>
+    <array name="x">
+        <item>ਐਤਵਾਰ</item>
+        <item>ਸੋਮਵਾਰ</item>
+        <item>ਮੰਗਲਵਾਰ</item>
+        <item>ਬੁੱਧਵਾਰ</item>
+        <item>ਵੀਰਵਾਰ</item>
+        <item>ਸ਼ੁੱਕਰਵਾਰ</item>
+        <item>ਸ਼ਨੀਵਾਰ</item>
+    </array>
+    <array name="y">
+        <item>ਸਰਲੀਕ੍ਰਿਤ ਚੀਨੀ</item>
+        <item>ਰਿਵਾਇਤੀ ਚੀਨੀ</item>
+        <item>ਅੰਗਰੇਜ਼ੀ</item>
+        <item>ਜਪਾਨੀ</item>
+        <item>ਕੋਰਿਆਈ</item>
+        <item>ਰੂਸੀ</item>
+        <item>ਇੰਡੋਨੇਸ਼ੀਆਈ</item>
+        <item>ਮਲਯ</item>
+        <item>ਪੁਰਤਗਾਲੀ</item>
+        <item>ਥਾਈ</item>
+        <item>ਵਿਅਤਨਾਮੀ</item>
+        <item>ਹਿੰਦੀ</item>
+    </array>
+    <array name="z">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਕਾਲਾ/ਚਿੱਟਾ</item>
+        <item>ਕਲਾ</item>
+        <item>ਵਿੰਟੇਜ</item>
+        <item>ਰੇਟ੍ਰੋਲਕਸ</item>
+        <item>ਸੈਚੂਰੇਟਿਡ</item>
+        <item>Chrome</item>
+    </array>
+    <array name="a1">
+        <item>ਜਨ</item>
+        <item>ਫਰ</item>
+        <item>ਮਾਰਚ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲ</item>
+        <item>ਅਗ</item>
+        <item>ਸਤੰ</item>
+        <item>ਅਕ</item>
+        <item>ਨਵੰ</item>
+        <item>ਦਸੰ</item>
+    </array>
+    <array name="a4">
+        <item>ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਡੇਟਾ ਸੁਰੱਖਿਅਤ ਕਰਨਾ</item>
+        <item>ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਉੱਚ-ਰੈਜ਼ੋਲੂਸ਼ਨ</item>
+    </array>
+    <array name="a5">
+        <item>ਸਾਰੇ</item>
+        <item>ਸਿਰਫ਼ ਦੋਸਤ</item>
+    </array>
+    <array name="af">
+        <item>ਲਾਇਬ੍ਰੇਰੀ ਤੋਂ ਚੁਣੋ</item>
+        <item>ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚੋ</item>
+        <item>ਰੱਦ ਕਰੋ</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਫੁੱਲ</item>
+        <item>ਬਹੁਤ ਪਿਆਰਾ</item>
+        <item>ਚਾਹ</item>
+        <item>ਸਿਆਣਾ</item>
+        <item>ਗੁਲਾਬੀ</item>
+        <item>ਮੱਠੀ ਹਵਾ</item>
+        <item>ਕੁਦਰਤ</item>
+        <item>ਸੂਰਜ ਦੀ ਰੋਸ਼ਨੀ</item>
+        <item>ਛੋਟਾ ਬੱਚਾ</item>
+        <item>ਉਦਾਸੀ</item>
+        <item>ਚਮਕੀਲਾ</item>
+        <item>ਪਿਆਰਾ</item>
+        <item>ਆੜੂ/ਬਹੁਤ ਸੋਹਣੀ ਕੁੜੀ</item>
+        <item>ਡੁੱਬਦਾ ਸੂਰਜ</item>
+    </array>
+    <array name="aq">
+        <item>ਗੋਲ</item>
+        <item>ਸਪਤਾਹਿਕ</item>
+        <item>ਸਮੁੱਚਾ</item>
+        <item>Xigua ਰੈਂਕਿੰਗ</item>
+    </array>
+    <array name="ar">
+        <item>ਜਨਵਰੀ</item>
+        <item>ਫਰਵਰੀ</item>
+        <item>ਮਾਰਚ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾਈ</item>
+        <item>ਅਗਸਤ</item>
+        <item>ਸਤੰਬਰ</item>
+        <item>ਅਕਤੂਬਰ</item>
+        <item>ਨਵੰਬਰ</item>
+        <item>ਦਸੰਬਰ</item>
+    </array>
+    <array name="au">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਕੁਦਰਤ</item>
+        <item>ਸਾਫ਼ ਕਰੋ</item>
+        <item>ਜਾਪਾਨੀ</item>
+        <item>ਦਿਲ ਨੂੰ ਛੂਹਣ ਵਾਲ</item>
+    </array>
+    <array name="av">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਕੁਦਰਤ</item>
+        <item>ਚਮਕੀਲਾ</item>
+        <item>ਪਹਿਲਾ ਪਿਆਰ</item>
+    </array>
+    <array name="aw">
+        <item>ਰੀਪੋਰਟ</item>
+        <item>ਰੱਦ ਕਰੋ</item>
+    </array>
+    <array name="az">
+        <item>ਸੋਮਵਾਰ</item>
+        <item>ਮੰਗਲਵਾਰ</item>
+        <item>ਬੁੱਧਵਾਰ</item>
+        <item>ਵੀਰਵਾਰ</item>
+        <item>ਸ਼ੁੱਕਰਵਾਰ</item>
+        <item>ਸ਼ਨੀਵਾਰ</item>
+        <item>ਐਤਵਾਰ</item>
+    </array>
+</resources>

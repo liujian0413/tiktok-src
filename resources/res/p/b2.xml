@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/a_6"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/akx" android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp"/>
+</layer-list>

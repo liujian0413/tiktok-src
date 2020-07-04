@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cwn" android:background="@color/fs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/o4"/>
+    <View android:background="@drawable/mp" android:layout_width="match_parent" android:layout_height="90dp"/>
+    <ViewStub android:id="@+id/dcn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <android.support.constraint.ConstraintLayout android:id="@+id/ap1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jo" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/a3o" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/a16"/>
+        <ImageView android:id="@+id/bbw" android:layout_width="44dp" android:layout_height="44dp" android:scaleType="center" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ImageView android:id="@+id/bb8" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:scaleType="center" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ViewStub android:id="@+id/ap2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ViewStub android:id="@+id/ap0" android:layout="@layout/a5n" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+    <ViewStub android:id="@+id/dc9" android:layout="@layout/md" android:inflatedId="@+id/ajb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/dcr" android:layout="@layout/mh" android:inflatedId="@+id/bbv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/a74"/>
+    <ViewStub android:id="@+id/dcg" android:layout="@layout/a9d" android:inflatedId="@+id/c3y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.p280ss.android.ugc.aweme.feed.p1238ui.DisLikeAwemeLayout android:id="@+id/a9j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

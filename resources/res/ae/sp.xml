@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ccp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <View android:id="@+id/ccr" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ccz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/ccr">
+        <com.p280ss.android.ugc.aweme.base.p308ui.CircleImageView android:id="@+id/cco" android:layout_width="18dp" android:layout_height="18dp" app:actualImageScaleType="5"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/az3" android:id="@+id/ccy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginStart="9dp"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/mf" android:ellipsize="end" android:id="@+id/cd0" android:layout_width="230.5dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxLines="2" android:layout_below="@+id/ccz"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/mc" android:ellipsize="end" android:id="@+id/ccs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="1" android:layout_below="@+id/cd0"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ccw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/ccs">
+        <TextView android:textSize="15sp" android:textColor="@color/a76" android:id="@+id/ccx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="13sp" android:textColor="@color/mc" android:id="@+id/ccv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/ai6" android:layout_marginStart="4dp"/>
+        <TextView android:textSize="13sp" android:textColor="@color/mc" android:id="@+id/ccu" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:textColor="@color/az3" android:ellipsize="end" android:gravity="center" android:id="@+id/ccq" android:background="@drawable/jw" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="72.5dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:maxLength="6" android:layout_below="@+id/ccz" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+    <View android:background="@color/g4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp" android:layout_below="@+id/ccw"/>
+</RelativeLayout>

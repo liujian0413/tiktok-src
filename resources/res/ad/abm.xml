@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_gravity="center_horizontal" android:id="@+id/clj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bu1"/>
+    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:layout_gravity="center_horizontal" android:id="@+id/afj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/t1" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <com.bytedance.ies.dmt.p262ui.widget.DmtEditText android:id="@+id/t4" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:inputType="text" android:textCursorDrawable="@drawable/ys"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtButton android:id="@+id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/zc"/>
+    </LinearLayout>
+</LinearLayout>

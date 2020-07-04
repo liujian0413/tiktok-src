@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textColor="#404040" android:gravity="center" android:id="@+id/cn0" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/f0r"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textColor="#404040" android:gravity="center" android:id="@+id/cn1" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/f0t"/>
+    <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <com.bytedance.android.live.core.widget.LiveTextView android:textSize="16sp" android:textColor="#404040" android:gravity="center" android:id="@+id/cmz" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="56dp" android:text="@string/f0q"/>
+</LinearLayout>

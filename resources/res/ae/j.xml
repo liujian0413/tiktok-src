@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.p280ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/jn" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="@dimen/x5" android:src="@drawable/cmp" android:scaleType="center"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a4z" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="42dp" android:layout_marginRight="42dp" android:text="@string/dqz" android:maxLines="1" android:layout_marginStart="42dp" android:layout_marginEnd="42dp" app:fontType="2" style="@style/u9"/>
+    </FrameLayout>
+    <View android:background="@color/a56" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <com.bytedance.ies.dmt.p262ui.common.views.CommonItemView android:id="@+id/d9" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="8dp" app:left_text="@string/dr0" app:left_text_color="@color/a4z" app:right_ui_mode="1"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/bc1" android:padding="4dp" android:layout_width="21dp" android:layout_height="21dp" android:src="@drawable/c5" android:layout_centerVertical="true" android:layout_marginStart="13dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="12sp" android:textColor="@color/a4t" android:id="@+id/d8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="0dp" android:layout_toEndOf="@+id/bc1"/>
+    </RelativeLayout>
+    <Button android:textSize="15sp" android:textColor="@color/a4x" android:id="@+id/pb" android:background="@drawable/ht" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="32dp" android:layout_marginTop="113dp" android:layout_marginRight="32dp" android:text="@string/dqy"/>
+</LinearLayout>

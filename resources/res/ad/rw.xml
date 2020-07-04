@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ci6" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/c9t" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p280ss.android.ugc.aweme.commercialize.views.popupwebpage.AdPopUpWebBottomSheetContainer android:id="@+id/ci3" android:background="@color/ac4" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p280ss.android.ugc.aweme.views.RoundedFrameLayout android:id="@+id/ci8" android:background="@color/az3" android:layout_width="match_parent" android:layout_height="match_parent" app:rounded_radius="8dp">
+                <com.p280ss.android.ugc.aweme.commercialize.views.popupwebpage.AdPopUpWebTitleBar android:id="@+id/cib" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.p280ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/ci9" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="44.5dp"/>
+                <FrameLayout android:layout_gravity="bottom" android:id="@+id/cz" android:background="@color/az3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="58dp">
+                    <View android:layout_gravity="top" android:background="#26ffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/np" android:gravity="center" android:layout_gravity="center" android:id="@+id/cy" android:background="@drawable/z_" android:layout_width="335dp" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/aoi" style="@style/u6"/>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/ci7" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="44.5dp">
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/a6r" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="194dp" android:text="@string/eb" android:lineSpacingExtra="3sp" app:fontFamily="PingFangSC-Medium"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/a6u" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="230dp" android:text="@string/e1" android:lineSpacingExtra="3sp" app:fontFamily="PingFangSC-Regular"/>
+                    <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/a6r" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/r6" android:background="@drawable/nz" android:paddingLeft="100dp" android:paddingTop="12dp" android:paddingRight="100dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="153dp" android:text="@string/dgu" app:fontFamily="PingFangSC-Semibold"/>
+                </FrameLayout>
+            </com.p280ss.android.ugc.aweme.views.RoundedFrameLayout>
+        </com.p280ss.android.ugc.aweme.commercialize.views.popupwebpage.AdPopUpWebBottomSheetContainer>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/gx" android:padding="10dp" android:layout_width="match_parent" android:layout_height="64dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/gw" android:background="@drawable/ci" android:duplicateParentState="false" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="18dp" android:scaleType="center"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:ellipsize="end" android:id="@+id/go" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/rp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/gs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/go">
+            <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/gt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:singleLine="true" style="@style/ro"/>
+            <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/gu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ro"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/gv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/go">
+            <TextView android:textSize="10sp" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/gq" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="3" style="@style/ro"/>
+            <TextView android:textSize="10sp" android:ellipsize="end" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/gr" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2" style="@style/ro"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/gp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:max="100" android:layout_below="@+id/gv" style="@style/rq"/>
+    </RelativeLayout>
+    <TextView android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/gn" android:background="@drawable/ci" android:layout_width="55dp" android:layout_height="30dp" android:layout_marginLeft="18dp" android:layout_weight="0" style="@style/rp"/>
+</LinearLayout>

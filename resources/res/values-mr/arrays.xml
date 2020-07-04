@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="af">
+        <item>अल्बममधून निवडा</item>
+        <item>एक फोटो घ्या</item>
+        <item>रद्द करा</item>
+    </array>
+    <array name="an">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ao">
+        <item>काही नाही</item>
+        <item>फूल</item>
+        <item>मधुर</item>
+        <item>चहा</item>
+        <item>हुशार</item>
+        <item>गुलाबी</item>
+        <item>ब्रीझ</item>
+        <item>प्रकृति</item>
+        <item>सूर्यप्रकाश</item>
+        <item>बेबी</item>
+        <item>नॉस्टॅल्जिया</item>
+        <item>उजळ</item>
+        <item>सुंदर</item>
+        <item>पीच</item>
+        <item>सूर्यास्त</item>
+    </array>
+    <array name="aq">
+        <item>राउंड</item>
+        <item>साप्ताहिक</item>
+        <item>एकूणच</item>
+        <item>Xigua रँकिंग</item>
+    </array>
+    <array name="ar">
+        <item>जानेवारी</item>
+        <item>फेब्रुवारी</item>
+        <item>मार्च</item>
+        <item>एप्रिल</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑगस्ट</item>
+        <item>सप्टेंबर</item>
+        <item>ऑक्टोबर</item>
+        <item>नोव्हेंबर</item>
+        <item>डिसेंबर</item>
+    </array>
+    <array name="au">
+        <item>काही नाही</item>
+        <item>प्रकृति</item>
+        <item>साफ करा</item>
+        <item>जपानी</item>
+        <item>हद्यस्पर्शी</item>
+    </array>
+    <array name="av">
+        <item>काही नाही</item>
+        <item>प्रकृति</item>
+        <item>उजळ</item>
+        <item>पहिले प्रेम</item>
+    </array>
+    <array name="aw">
+        <item>रिपोर्ट करा</item>
+        <item>रद्द करा</item>
+    </array>
+</resources>

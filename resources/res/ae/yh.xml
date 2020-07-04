@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" app:fsPanel="true" app:secondPanel="true">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="52dp">
+        <ImageView android:id="@+id/sp" android:padding="6dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:src="@drawable/apy" android:layout_alignParentLeft="true" android:layout_marginStart="10dp" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/ddl" android:padding="6dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="10dp" android:src="@drawable/apz" android:layout_alignParentRight="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true"/>
+        <com.p280ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ms" android:shadowColor="#26000000" android:shadowRadius="2" android:layout_centerHorizontal="true" android:lineSpacingExtra="1dp" app:fontType="7"/>
+    </RelativeLayout>
+    <com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/acg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.p280ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

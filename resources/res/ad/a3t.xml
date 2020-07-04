@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/d5n" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/d5m" android:background="@drawable/kp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/d5r" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/d5k" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/lw" android:gravity="center" android:id="@+id/d5q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:fontType="7" style="@style/u2"/>
+            <com.p280ss.android.ugc.aweme.sharer.p338ui.bar.ShareChannelBar android:id="@+id/d5o" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/d5c" android:background="@color/lh" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="18dp" android:layout_marginRight="18dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/d5l" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/d5g" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.p280ss.android.ugc.aweme.sharer.p338ui.bar.ShareActionBar android:id="@+id/d5f" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <View android:id="@+id/d5j" android:background="@color/lh" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:id="@+id/d5i" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/a89" android:gravity="center" android:id="@+id/d5h" android:background="@drawable/bj0" android:layout_width="match_parent" android:layout_height="52dp" android:text="@string/w_" style="@style/u6"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

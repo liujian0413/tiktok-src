@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="272dp" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:id="@+id/wf" android:layout_width="match_parent" android:layout_height="96dp">
+        <ImageView android:id="@+id/b6b" android:layout_width="0dp" android:layout_height="0dp" android:src="#803a3a3a" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b_a" android:layout_width="80dp" android:layout_height="80dp" app:actualImageScaleType="6" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:placeholderImage="@color/az3" app:placeholderImageScaleType="6"/>
+        <ImageView android:id="@+id/b7g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/a3z" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textColor="@color/lt" android:ellipsize="end" android:id="@+id/e3f" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="1" app:layout_constraintEnd_toStartOf="@+id/b7g" app:layout_constraintStart_toEndOf="@+id/b_a" app:layout_constraintTop_toTopOf="0" style="@style/u6"/>
+        <TextView android:textColor="@color/lt" android:ellipsize="end" android:id="@+id/dt5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/b_a" app:layout_constraintTop_toBottomOf="@+id/e3f" style="@style/u2"/>
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout android:id="@+id/pn" android:layout_width="match_parent" android:layout_height="34dp">
+        <com.p280ss.android.ugc.aweme.base.p308ui.RemoteImageView android:id="@+id/b6t" android:layout_width="match_parent" android:layout_height="match_parent" app:actualImageScaleType="6" app:placeholderImage="@drawable/uv" app:placeholderImageScaleType="6" app:roundTopLeft="false" app:roundTopRight="false" app:roundedCornerRadius="2dp"/>
+        <com.bytedance.ies.dmt.p262ui.widget.DmtTextView android:textColor="@color/aye" android:layout_gravity="center" android:id="@+id/dr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableEnd="@drawable/zj" style="@style/u2"/>
+    </FrameLayout>
+</merge>

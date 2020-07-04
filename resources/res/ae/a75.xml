@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cun" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_weight="1" android:layout_marginStart="6dp">
+    <android.support.p029v7.widget.AppCompatImageView android:id="@+id/b7a" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/acz" android:layout_centerInParent="true" android:importantForAccessibility="no"/>
+    <com.p280ss.android.ugc.aweme.views.AlwaysMarqueeTextView android:ellipsize="marquee" android:id="@+id/drt" android:focusable="true" android:focusableInTouchMode="true" android:layout_marginTop="2dp" android:text="@string/a3q" android:singleLine="true" android:layout_below="@+id/b7a" android:marqueeRepeatLimit="marquee_forever" style="@style/w_"/>
+</RelativeLayout>
